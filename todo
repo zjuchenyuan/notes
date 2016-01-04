@@ -1,0 +1,312 @@
+=============== P =======
++ AutoTracker
++ BooksDB (scrappy)
++ booksmarts
++ bUNITED
++ HoyLLueve / Precog
++ Juggler
++ keto.com.ar
++ LifeTrack / Loggit
++ Metajobs
++ NoBS Suite
++ Pokehunt
++ Restaurateur
++ secretary:bot
++ Suppl.us
++ Traffic Lights Sim
++ ufc-elo
++ vQuery / shugga
++ WeChat / ChatRooms
++ Meetr
+
+=============== W =======
++ Lark: http://www.web.lark.com/#top
++ Vango: https://www.vangoart.co/
+
+
+===================
+Old Channels
+===================
+. Responsive G charts
+. Big UI/UX Refactor
+. cambio de colors en bootstrap paper #3db049
+. restructure table
+. Filters: is certified
+. Filters: is promoted
+. Rename etermax filter to Exclude Etermax
+. Color for partner icon
+. promoted list order
+. numeral.js home
+. numeral.js e internas
+. paddings en graphs
+. graphs a d3
+. activity
+. colores default para cada row
+. activity: DP/F + remove from home
+. search en domain tb
+. channel details: add modifier, compare 1 week
+. group permissions
+. Agregar HINDI
+. crown + crown bars
+. ChannelDetails: export to csv
+. fixes gulp
+
++ unificar front-end JS'
++ deploy procedure !!
+
++ collapse mobile: searchbox
++ collapse mobile: table
+
++ Check copy/export
+
+
+===================
+Gamestats
+===================
++ sudo apt-get install php-pear
++ sudo apt-get install php5-dev
++ sudo apt-get install libcurl3-openssl-dev
++ sudo pecl install pecl_http
+sudo apt-get install libpcre3-dev
+sudo pecl install apcu-4.0.10
+extension=apcu.so
+
+===================
+New Channels
+===================
++ express
++ helmet
++ passport
++ passport-atlassian-crowd
++ moment
++ pg
++ knex
++ gulp
++ mocha
++ browser-sync
+
++ Permissions !
+
+===================
+Trends
+===================
++ express
++ helmet
++ passport
++ passport-atlassian-crowd
++ moment
++ node-cache
+
+===================
+Ling
+===================
++ BACK
+  + Node + Express
+  + Node + Hapi
+  + Node + Restify
+  + Node + Falcor
+  + Go
+  + Flux / Relay / Redux / GraphQL ????
++ FRONT
+  + Angular
+  + Backbone
+  + React
+  + Rivets
+  + Vanilla
+  + Vue
+
+===================
+rand()
+===================
+Marcelo Murase
+pueyrredon 1770 2a
+4982 4682
+
+Tech Company
+15.3360.2554
+
+===================
+U-ELO
+===================
+1. getRoster
+2. getLinkSherdog
+3. getLinkUFC
+  + Bilyal Makhov
+  + Cristiane Justino
+  + Dong Hyun Kim !!
+4. getFighterData
+5. extractAllFights -> parseDate
+6. runELO
+7. runGlicko
+
+===================
+keto.com.ar
+===================
++ Why? / Who? / How?
++ Diabetes / Epilepsy / Cancer / Inflammation / Lyme Dis
++ Studies
++ Atkins / Modified Atkins
++ Fasting / Intermitent
+  + George Cahill
+  + Dom Dagostino
++ Cook in Coconut oil
++ Lots of Olive oil
++ Precision Xtra - Glucose + Ketones
+  http://www.amazon.com/Precision-Glucose-Ketone-Monitoring-System/dp/B008UZVLM8/ref=sr_1_1_a_it?ie=UTF8&qid=1450786920&sr=8-1&keywords=precision+xtra
++ KetoCaNa
+  http://www.amazon.com/KetoSports-KetoCaNa/dp/B00U7R7194
++ MCT Oil
+  http://www.amazon.com/Premium-derived-only-Organic-Coconuts/dp/B00XM0Y9SE/ref=pd_sim_121_4?ie=UTF8&dpID=51FwtZdFRtL&dpSrc=sims&preST=_AC_UL160_SR160%2C160_&refRID=1VHFY35268J7W6JCA6W1
++ MCT Oil (powder)
+  http://www.amazon.com/Quest-Nutrition-MCT-Powder-Servings/dp/B016APVE5S/ref=pd_bxgy_121_img_2?ie=UTF8&refRID=0VNVN9PG3CMYM0G99KT3
++ Keytone strips (urine)
+  http://www.amazon.com/Advanced-Ketone-Test-Strips-count/dp/B00TW15GNY/ref=pd_bxgy_121_img_3?ie=UTF8&refRID=0VNVN9PG3CMYM0G99KT3
++ BCAA
+  http://www.amazon.com/Scivation-Xtend-Supplement-Orange-Dream/dp/B00KHEQQN4/ref=sr_1_9?s=hpc&ie=UTF8&qid=1450787416&sr=1-9&keywords=scivation+bcaa
++ Resources
+  + http://www.ketogenic-diet-resource.com/
+  + http://ketonutrition.org
+
+
+
+===================
+TF Show
+===================
++ Dom Dagostino
+  + Summary: fasting, keto, cancer,
+  + Cancer combo:
+    Ketogenic diet,
+    Intermitent fasting,
+    Keton esters
+    Metformin,
+    DCA start at 10mg/kg dont go higher than 50,
+    MCT,
+    hyperbaric
+
+  + Books
+    + Personal Power - Anthony Robbins
+    + Screwtape letters - CS Lewis
+    + Cancer as a metabolic disease - Thomas Seyfried
+    + Tripping over the truth - Travis Christofferson
++ Derek Sivers
+  + Michael Pollan - Food Rules
+  + "distilling knowledge into super condensed directives"
+  + "this isn't about me, give the audience what they want"
+  + "hell yes or no"
+  + Weird or just different (TED)
+  + Directives (https://springismylove.wordpress.com/2015/09/03/derek-sivers-purge-the-vampires/):
+    + HOW to be useful to others
+      + Get Famous.
+          Do everything in public and for the public.
+          The more people you reach, the more useful you are.
+          The opposite is hiding, which is of no use to anyone.
+      + Get rich.
+          Money is neutral proof that you are adding value to people's life.
+          By getting rich, you are being useful as a side effect.
+          Once rich, spend the money in ways that are even more useful to others.
+          Then, getting rich is double useful.
+      + Share strong opinions.
+          Strong opinions are very useful to others.
+          Those who are undecided or ambivalent can just adopt your stance.
+          Those who disagree can solidify their stance by arguing against yours.
+          Even if you invent an opinion for the sole sake of argument boldlly sharing a strong opinion is very useful to others.
+      + Be Expensive.
+          People given a placebo pill, are twice as likely to have their pain disappeared when told the pill is expensive.
+          People who pay more for a ticket, are more likely to attend  performance.
+          People who pay more for a value or service, value it more and get more use out of it.
+    + How to thrive in an unknowable future 1:35
+      + Prepare for the worst.
+      + Expect disaster.
+      + Own as little as possible.
+      + Choose opportunity, not loyalty.
+      + Choose the plan with the most options.
+      + Avoid planning.
+    + How to stop being rich and happy
+      + Prioritize lifestyle design.
+      + C
+  + Books:
+    + Geek in Japan
++ Naval Rakisant
++ Directives:
+  + Go First !, Allways go first and proactive.. Gaby Reece
++ Books:
+  + A Guide to the Good Life - William Braxton
+  + Meditations - Marcus Aurelius
+  + Unleash the Power Within - Tony Robbins
+  + Radical Acceptance - Tara Brach
+
+===================
+Future Stacks
+===================
++ Falcor / Riot
++ Falcor / CellX
++ Falcor / React
++ Falcor / FRZR
+
++ Redux / React
++ Redux / Riot
++ Redux / CellX
++ Redux / FRZR
+
++ Redux / Immutable
+
+
+===================
+Starters
+===================
+{ name: 'app-skeleton',
+  desc: 'Our starting point for front end app builds. https://zesty.io',
+  url: 'https://github.com/zesty-io/app-skeleton',
+  keywords: ['riotjs', 'redux', 'grapnel'] }
+{ name: 'riot-isomorphic',
+  desc: 'An attempt for an isomorphic appliction using RiotJS 2.',
+  url: 'https://github.com/ListnPlay/riot-isomorphic',
+  keywords: ['riot', 'isomorphic', 'universal'] }
+{ name: '3REE',
+  desc: 'An example universal JS application written with the 3REE stack, React + Redux + RethinkDB + Express. A stack for building apps, front and back end, with just Javascript.',
+  url: 'https://github.com/GordyD/3reegit ',
+  keywords: ['react', 'redux', 'universal', 'isomorphic', 'rethinkdb', 'express'] }
+{ name: 'boilerplate-koa-redux-react',
+  desc: 'A boilerplate for a Koa Redux React application with Webpack, Mocha and SASS',
+  url: 'https://github.com/mezod/boilerplate-koa-redux-react',
+  keywords: ['koa', 'redux', 'react', 'webpack', 'sass', 'immutable'] }
+{ name: 'hapi-universal-redux',
+  desc: 'Create an universal React and Redux app in less than 5 minutes! Isomorphic starterkit with server-side React rendering.',
+  url: 'https://github.com/luandro/hapi-universal-redux',
+  keywords: ['piping', 'webpack', 'react', 'hapi', 'redux', 'radium'] }
+{ name: 'react-redux-universal-hot-example',
+  desc: 'A starter boilerplate for a universal webapp using express, react, redux, webpack, and react-transform',
+  url: 'https://github.com/erikras/react-redux-universal-hot-example',
+  keywords: ['react', 'express', 'redux', 'redux-devtools', 'webpack', 'universal', 'hot'] }
+{ name: 'react-redux-starter-kit',
+  desc: 'Get started with React, Redux, and React-Router!',
+  url: 'https://github.com/davezuko/react-redux-starter-kit',
+  keywords: ['react', 'redux', 'redux-devtools', 'webpack', 'express'] }
+{ name: 'redux-easy-boilerplate',
+  desc: 'react redux easy boilerplate',
+  url: 'https://github.com/anorudes/redux-easy-boilerplate',
+  keywords: ['react', 'redux', 'sass', 'webpack'] }
+{ name: 'err',
+  desc: '(E)lectron, (R)eact, (R)edux-devtools boilerplate',
+  url: 'https://github.com/tuommii/err',
+  keywords: ['electron', 'react', 'redux', 'redux-devtools', 'webpack', ] }
+{ name: 'react-boilerplate',
+  desc: 'Quick setup for performance orientated, offline-first React.js applications featuring Redux, hot-reloading, PostCSS, react-router, ServiceWorker, AppCache, FontFaceObserver and Mocha.',
+  url: 'https://github.com/mxstbr/react-boilerplate',
+  keywords: ['react', 'hot', 'postCSS', 'serviceWorker', 'appCache', 'redux', 'webpack'] }
+{ name: 'react-slingshot',
+  desc: 'React + Redux starter kit with hot reloading, testing, linting and more, all built in',
+  url: 'https://github.com/coryhouse/react-slingshot.git',
+  keywords: ['react', 'redux', 'babel', 'webpack', 'sass'] }
+{ name: '',
+  desc: '',
+  url: '',
+  keywords: ['', '', '', '', '', ''] }
+{ name: '',
+  desc: '',
+  url: '',
+  keywords: ['', '', '', '', '', ''] }
+{ name: '',
+  desc: '',
+  url: '',
+  keywords: ['', '', '', '', '', ''] }

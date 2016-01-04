@@ -1,0 +1,155 @@
+===================
+NPMWatch
+===================
++ API
+  + gcloud
++ APP / Architecture
+  + express
+    + express-session
+  + hapi
+  + koa
+  + reflux
+  + redux
++ DB
+  + mongojs / mongoose (Mongo)
+  + knex (SQL)
+  + nedb (text)
+  + LokiJS (mem)
+  + redis
++ TEMPLATE
+  + ejs / handlebars
++ FRONT
+  + frzr
+  + less
+  + postcss
+  + react
+  + spin
+  + stylus
++ SEC
+  + bcrypt
+  + helmet
+  + passport
+    + passport-local
++ ROUTERS
+  + page.js
+  + grapnel
++ UTIL
+  + async
+  + bluebird (promises)
+  + clone
+  + crypto
+  + del
+  + fs-extra
+  + immutable
+  + lingo
+  + lodash
+  + merge
+  + ms (millisec converter)
+  + once
+  + q
+  + request
+  + saffy
+  + touch
+  + validator
++ TOOLS
+  + cheerio
+  + compression
+  + geoip-lite
+  + jsdom
+  + moment
+  + nodemailer
+  + npm-check (dep checker)
+  + orchestrator
+  + phantomjs
+  + tar
+  + vinyl
+  + vinyl-buffer
+  + vinyl-paths
+  + vinyl-transform
+  + vinyl-source-stream
++ MESSAGING / SOCKETS
+  + punt
+  + socket.io
+  + ws
+
++ NLP / SCRAPE
+  + extract-relationships
+  + lexrank
+  + natural
+  + node-summary
+  + node-tldr
+  + readability
+  + readability-api
+  + read-art
+  + summarize
+  + unfluff
+  + wce
+  + wce-api
++ LOGGING
+  + bunyan
+
++ DEBUG
+  + benchmark
+  + dumbugger
+  + debug
+  + debug-http
+
++ DEV PIPELINE
+  + babel
+  + browserify
+    + browserify-shim
+  + chokidar (watch fs.watch replacement)
+  + gulp
+    + gulp-autoprefixer
+    + gulp-concat
+    + gulp-jshint
+    + gulp-livereload
+    + gulp-less
+    + gulp-minify-css
+    + gulp-mocha-phantomjs
+    + gulp-nodemon
+    + gulp-notify
+    + gulp-plumber
+    + gulp-rename
+    + gulp-strip-debug
+    + gulp-sourcemaps
+    + gulp-uglify
+    + gulp-util
+    + gulp-webpack !!
+  + browser-sync
+    + connect-livereload
+  + tiny-lr
+  + uglify-js
+  + webpack
++ TESTING
+  + jshint
+    + jshint-stylish
+  + karma
+  + mocha
+  + chai
+  + sinon
+  + istanbul
+  + travis
++ PROD
+  + pm2
+  + forever
+  + statsd
+  + node-ratelimiter
+  + http-proxy
++ BENCHMARK
+  + wrk
++ CONSOLE
+  + colors
+  + commander
+  + inquirer
+  + minimist
+  + prompt
+  + progress (bar)
+  + shelljs
++ OTHER
+  + entity-component-system
+  + make-entity
++ FUNCTIONAL
+  + Ramda
++ OS
+  + tldr
