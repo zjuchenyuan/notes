@@ -234,6 +234,22 @@ TF Show
   + Meditations - Marcus Aurelius
   + Unleash the Power Within - Tony Robbins
   + Radical Acceptance - Tara Brach
+  + Happy Money: The Science of Happier Spending - Elizabeth Dunn
+  + The Good Gut
++ Supplements
+  + VSL3
+  + KetoCana
+  + MCT Oil Powder
+  + Ketone tester strips
++ Quotes
+  + Everything you want is outside of your comfort zone
+  + Ray Bradbury - Don't worry, don't push. Just focus.
+  + Stay close to the edge as possible. From the edge
+
+===================
+Future Stacks
+===================
++ Pete Hunt: https://github.com/petehunt/webpack-howto <--- TRANSLATE
 
 ===================
 Future Stacks
@@ -298,10 +314,10 @@ Starters
   desc: 'React + Redux starter kit with hot reloading, testing, linting and more, all built in',
   url: 'https://github.com/coryhouse/react-slingshot.git',
   keywords: ['react', 'redux', 'babel', 'webpack', 'sass'] }
-{ name: '',
-  desc: '',
-  url: '',
-  keywords: ['', '', '', '', '', ''] }
+{ name: 'react-webpack-template',
+  desc: 'This is a simple template for building React apps by Pete Hunt',
+  url: 'https://github.com/petehunt/react-webpack-template',
+  keywords: ['react', 'webpack'] }
 { name: '',
   desc: '',
   url: '',

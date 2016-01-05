@@ -149,6 +149,7 @@ NPMWatch
 + OTHER
   + entity-component-system
   + make-entity
+  + maildev
 + FUNCTIONAL
   + Ramda
 + OS
