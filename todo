@@ -1,4 +1,4 @@
-=============== P =======
+=============== P ==
 + AutoTracker
 + BooksDB (scrappy)
 + booksmarts
@@ -19,7 +19,7 @@
 + WeChat / ChatRooms
 + Meetr
 
-=============== W =======
+=============== Watch ==
 + Lark: http://www.web.lark.com/#top
 + Vango: https://www.vangoart.co/
 
@@ -182,7 +182,6 @@ TF Show
     DCA start at 10mg/kg dont go higher than 50,
     MCT,
     hyperbaric
-
   + Books
     + Personal Power - Anthony Robbins
     + Screwtape letters - CS Lewis
@@ -247,9 +246,17 @@ TF Show
   + Stay close to the edge as possible. From the edge
 
 ===================
-Future Stacks
+Links
 ===================
 + Pete Hunt: https://github.com/petehunt/webpack-howto <--- TRANSLATE
+
+===================
+Videos
+===================
++ Dan Abramov's inspired list
+  + Turning the database inside out - https://www.youtube.com/watch?v=fU9hR3kiOK0
+  + Inventing on Principle - https://vimeo.com/36579366
+  + Developing ClojureScript with FigWheel - https://www.youtube.com/watch?v=j-kj2qwJa_E
 
 ===================
 Future Stacks
@@ -265,6 +272,65 @@ Future Stacks
 + Redux / FRZR
 
 + Redux / Immutable
+
+===================
+VangoArt
+===================
++ Style
+  + Abstract
+  + Realism
+  + Nature
+  + Portraits & Figures
+  + Modern
+  + Places & Spaces
+  + Surrealism
++ Medium
+  + Painting
+  + Drawing
+  + Mixed Media
+  + Handmade Print
++ Prices
+  + 100
+  + 250
+  + 500
+  + 750
+  + 1000
+  + 1500
+  + 2000
++ Sizes
+  + Small
+  + Medium
+  + Large
+  + Extra Large
++ Collections
+  + Featured
+  + New
+  + Vango Picks
+  + Recommended
++ Gift Guides
+  + $100 Gifts
+  + City Slicker
+  + Dad
+  + Her
+  + Him
+  + Hipster
+  + Host
+  + Mom
+  + Young Couple
+  + Gift Cards
++ Commision:
+  1. Fill out the form
+    + We will review your commission request and suggest a few artists.
+  2. Select an artist you like
+    + We will coordinate an introductory call with you and the artist to discuss the details
+  3. Pay half up front
+    + You pay the second half upon completion. Commissions typically take 4 to 6 weeks to complete.
++ For Artists
+  + Why sell with Vango?
+    + You Earn More: Our artists come first – you keep 70% of the sale price while we'll cover the cost of shipping and bringing you the buyers. We want you to focus on creating and growing your passion.
+    + No Contracts: We believe the more exposure you have the better it is for you, so you don't have to sign an exclusivity contract to sell with Vango.
+    + Easy Shipping: As soon as you sell a piece, we will email you a pre-paid shipping label. You can drop it off at the post office or have it picked up at your door.
++ Free Shipping & Returns
 
 
 ===================
@@ -297,7 +363,7 @@ Starters
 { name: 'react-redux-starter-kit',
   desc: 'Get started with React, Redux, and React-Router!',
   url: 'https://github.com/davezuko/react-redux-starter-kit',
-  keywords: ['react', 'redux', 'redux-devtools', 'webpack', 'express'] }
+  keywords: ['react', 'redux', 'redux-devtools', 'webpack', 'koa'] }
 { name: 'redux-easy-boilerplate',
   desc: 'react redux easy boilerplate',
   url: 'https://github.com/anorudes/redux-easy-boilerplate',
@@ -318,6 +384,14 @@ Starters
   desc: 'This is a simple template for building React apps by Pete Hunt',
   url: 'https://github.com/petehunt/react-webpack-template',
   keywords: ['react', 'webpack'] }
+{ name: 'react-starter-kit',
+  desc: 'React Starter Kit — a skeleton of an "isomorphic" web application / SPA built with React.js, Express, Flux, ES6+, JSX, Babel, PostCSS, Webpack, BrowserSync... http://www.reactstarterkit.com',
+  url: 'https://github.com/kriasoft/react-starter-kit',
+  keywords: ['React', 'Flux', 'ES6', 'Babel', 'Webpack', 'PostCSS'] }
+{ name: 'simple-react-redux-starter-kit',
+  desc: 'react+router+redux+hot-reload+surge',
+  url: 'https://github.com/luisrudge/simple-react-redux-starter-kit',
+  keywords: ['React', 'Redux', 'hot', 'Surge', '', ''] }
 { name: '',
   desc: '',
   url: '',
@@ -326,3 +400,5 @@ Starters
   desc: '',
   url: '',
   keywords: ['', '', '', '', '', ''] }
+
+
