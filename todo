@@ -18,6 +18,10 @@
 + vQuery / shugga
 + WeChat / ChatRooms
 + Meetr
++ TranslateUS
++ CorpSpy
++ La Real
+
 
 =============== Watch ==
 + Lark: http://www.web.lark.com/#top
@@ -235,6 +239,8 @@ TF Show
   + Radical Acceptance - Tara Brach
   + Happy Money: The Science of Happier Spending - Elizabeth Dunn
   + The Good Gut
+  + The Magic of Thinking Big
+  + 1000 True Frans - Kevin Kelly
 + Supplements
   + VSL3
   + KetoCana
@@ -272,6 +278,9 @@ Future Stacks
 + Redux / FRZR
 
 + Redux / Immutable
+
++ Supercharged Dialogue pattern: cellx(input) => redux => cellx(output: FRZR.render())
+
 
 ===================
 VangoArt
@@ -392,10 +401,10 @@ Starters
   desc: 'react+router+redux+hot-reload+surge',
   url: 'https://github.com/luisrudge/simple-react-redux-starter-kit',
   keywords: ['React', 'Redux', 'hot', 'Surge', '', ''] }
-{ name: '',
-  desc: '',
-  url: '',
-  keywords: ['', '', '', '', '', ''] }
+{ name: 'universal-redux',
+  desc: 'An npm package that lets you jump right into coding React and Redux with universal (isomorphic) rendering. Only manage Express setups or Webpack configurations if you want to.',
+  url: 'https://github.com/bdefore/universal-redux',
+  keywords: ["react", "isomorphic", "universal", "webpack", "express", "hot reloading", "react-hot-reloader", "redux",   "babel"] }
 { name: '',
   desc: '',
   url: '',

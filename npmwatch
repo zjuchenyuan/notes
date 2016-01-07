@@ -19,13 +19,16 @@ NPMWatch
   + redis
 + TEMPLATE
   + ejs / handlebars
-+ FRONT
-  + frzr
++ CSS
+  + shorti
   + less
   + postcss
+  + radium
+  + stylus
++ FRONT
+  + frzr
   + react
   + spin
-  + stylus
 + SEC
   + bcrypt
   + helmet
@@ -43,6 +46,7 @@ NPMWatch
   + fs-extra
   + immutable
   + lingo
+  + little-loader
   + lodash
   + merge
   + ms (millisec converter)
@@ -79,6 +83,8 @@ NPMWatch
   + natural
   + node-summary
   + node-tldr
+  + noodle
+  + osmosis
   + readability
   + readability-api
   + read-art
@@ -86,6 +92,8 @@ NPMWatch
   + unfluff
   + wce
   + wce-api
+  + x-ray
+  + yakuza
 + LOGGING
   + bunyan
 
@@ -155,3 +163,32 @@ NPMWatch
   + Ramda
 + OS
   + tldr
+
+
+    series([
+      function(done) {
+        console.log('first thing')
+        done()
+      },
+      function(done) {
+        console.log('second thing')
+        done(new Error('another thing'))
+      },
+      function(done) {
+        // never happens, because "second thing"
+        // passed an error to the done() callback
+      }
+    ], function(err) {
+      console.log(err.message) // "another thing"
+    })
+
+    var fuctions = [];
+    for (var i = 1; i < 5; i++) {
+      functions[i] = function (done) {
+        $("#el_"+i).fadeOut(1000);
+        done();
+      }
+    }
+    series( functions, function(err) {
+      console.log(err.message) // "another thing"
+    })
