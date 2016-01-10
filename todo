@@ -268,16 +268,20 @@ Videos
 Future Stacks
 ===================
 + Falcor / Riot
-+ Falcor / CellX
 + Falcor / React
 + Falcor / FRZR
 
 + Redux / React
 + Redux / Riot
-+ Redux / CellX
 + Redux / FRZR
 
-+ Redux / Immutable
++ Cerebral / React
++ Cerebral / Angular2
+
++ cellX / FRZR
+
++ Cycle / React
++ Cycle / FRZR
 
 + Supercharged Dialogue pattern: cellx(input) => redux => cellx(output: FRZR.render())
 
