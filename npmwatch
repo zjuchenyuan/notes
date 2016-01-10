@@ -54,6 +54,7 @@ NPMWatch
   + q
   + request
   + saffy
+  + superagent
   + touch
   + validator
 + TOOLS
