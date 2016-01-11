@@ -63,6 +63,9 @@ Old Channels
 
 + Check copy/export
 
++ Reported: filter, sort
++ Filtros: excluded
+
 
 ===================
 Gamestats
@@ -118,6 +121,62 @@ Ling
   + Rivets
   + Vanilla
   + Vue
+
+
+===================
+Faltas
+===================
+
+Minutos pasada la hora de ingreso:
+
+02:38
+(04/12/2015) Problema de lectura / no fichaje
+10:48
+31:31
+01:24
+05:23
+08:46
+10:53
+
+Total:
+-1:10:25
+
+Minutos pasada la hora de egreso:
+
+04:38
+07:57
+04:32
+04:30
+04:59
+18:11
+13:26
+08:58
+09:07
+09:58
+04:59
+00:03
+18:59
+06:51
+10:34
+05:38
+05:11
+07:05
+
+2:25:30
+
+Total diferencial esperado/realidad:
+-1:10:25
++2:25:30
+--------
++1:15:05
+
+Como se expreso en el sueldo:
+-1311.69 Pesos, como si nada, sin el mas minimo aviso
+
+
+
+
+
 
 ===================
 rand()
@@ -230,6 +289,22 @@ TF Show
   + Books:
     + Geek in Japan
 + Naval Rakisant
++ Arnold
+  + Books:
+    + Free to Choose - Milton Friedman
+    + The Churchill Factor: How One Man Made History - Boris Johnson
++ Chris Sacca
+  + Succesful: Brad Feld
+  + Books:
+    + Not Fade Away: A Short Life Well Lived - Laurence Shames and Peter Barton
+    + How to Get Filthy Rich in Rising Asia - Mohsin Hamid
+
++ Doug Leone - Sequoia Capital
+  + Books:
+    + Anti Fragile: Things That Gain From Disorder - Nassim Nicholas Taleb
++ Danny Rimer - Index Ventures
+  + Books:
+    + Predictably Irrational: The Hidden Forces That Shape Our Decisions - Dan Ariely
 + Directives:
   + Go First !, Allways go first and proactive.. Gaby Reece
 + Books:
@@ -263,6 +338,7 @@ Videos
   + Turning the database inside out - https://www.youtube.com/watch?v=fU9hR3kiOK0
   + Inventing on Principle - https://vimeo.com/36579366
   + Developing ClojureScript with FigWheel - https://www.youtube.com/watch?v=j-kj2qwJa_E
++ Sleep - Dragonaut - https://www.youtube.com/watch?v=2-FjO3E8K-E
 
 ===================
 Future Stacks
@@ -413,5 +489,49 @@ Starters
   desc: '',
   url: '',
   keywords: ['', '', '', '', '', ''] }
+{ name: '',
+  desc: '',
+  url: '',
+  keywords: ['', '', '', '', '', ''] }
+{ name: '',
+  desc: '',
+  url: '',
+  keywords: ['', '', '', '', '', ''] }
+{ name: '',
+  desc: '',
+  url: '',
+  keywords: ['', '', '', '', '', ''] }
 
 
+
+
+{
+  "caret_style": "phase",
+  // "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+  // "theme": "Spacegray Eighties.sublime-theme",
+  "color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
+  "theme": "Oceanic Next.sublime-theme"
+
+  "fade_fold_buttons": false,
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS",
+    "node_modules"
+  ],
+  "font_size": 9,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "match_selection": true,
+  "scroll_past_end": true,
+  "shift_tab_unindent": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true
+}
