@@ -21,7 +21,7 @@
 + TranslateUS
 + CorpSpy
 + La Real
-
++ PAMPA
 
 =============== Watch ==
 + Lark: http://www.web.lark.com/#top
@@ -56,15 +56,25 @@ Old Channels
 . fixes gulp
 
 + unificar front-end JS'
-+ deploy procedure !!
++ deploy procedure: pm2 start
 
 + collapse mobile: searchbox
 + collapse mobile: table
 
 + Check copy/export
 
-+ Reported: filter, sort
 + Filtros: excluded
+
+
+
+
+
+===================
+QSim
+===================
+TR
+KO
+FI
 
 
 ===================
@@ -105,7 +115,7 @@ Trends
 + node-cache
 
 ===================
-Ling
+Lingooista
 ===================
 + BACK
   + Node + Express
@@ -122,6 +132,16 @@ Ling
   + Vanilla
   + Vue
 
+
+===================
+PAMPA
+===================
++ Procesar Media Res
+  + El Virrey
+    + 4762-6929
+    + Luis (dueno)
+    + cvirrey@gmail.com
+  +
 
 ===================
 Faltas
@@ -305,6 +325,25 @@ TF Show
 + Danny Rimer - Index Ventures
   + Books:
     + Predictably Irrational: The Hidden Forces That Shape Our Decisions - Dan Ariely
++ Noah Kagan
+  + Books:
+    + Essentialism - Greg McKeown
+    + Who: The A Method for Hiring - Geoff Smart and Randy Street
+    + The Ultimate Sell Machine - Chet Holmes
+    + Million Dollar Consulting - Alan Weiss
+    + The Sales Acceleration Formula - Mark Roberge
+    + Smartcuts - Shane Snow
+    + The Boron Letters - Gary C. Halbert
+    + SPIN Selling - Neil Rackham
+    + Small Giants - Bo Burlingham
+    + Surely You're Joking, Mr. Feynman! - Richard Feynman
+    + The Pleasure of Finding Things Out - Richard Feynman
+  + Get an email list
+    + Photo + email me if you want... to all social
+    + Change email signature
+    + SumoMe k1000 ~
+  + Get a mentor
+    + I think you're the best person I know. Can I meet with you on a regular basis? If not, who would you recommend?
 + Directives:
   + Go First !, Allways go first and proactive.. Gaby Reece
 + Books:
@@ -313,9 +352,10 @@ TF Show
   + Unleash the Power Within - Tony Robbins
   + Radical Acceptance - Tara Brach
   + Happy Money: The Science of Happier Spending - Elizabeth Dunn
-  + The Good Gut
-  + The Magic of Thinking Big
+  + The Good Gut - Justin Sonnenburg and Erica Sonnenburg
+  + The Magic of Thinking Big - David J. Schwartz
   + 1000 True Frans - Kevin Kelly
+  + The 22 Immutable Laws of Marketing - Al Ries and Jack Trout
 + Supplements
   + VSL3
   + KetoCana
@@ -345,22 +385,28 @@ Future Stacks
 ===================
 + Falcor / Riot
 + Falcor / React
++ Falcor / Vue
 + Falcor / FRZR
 
 + Redux / React
 + Redux / Riot
 + Redux / FRZR
++ Redux / Vue
 
 + Cerebral / React
 + Cerebral / Angular2
++ Cerebral / Vue
 
 + cellX / FRZR
 
-+ Cycle / React
-+ Cycle / FRZR
++ Cycle/Motorcycle / React
++ Cycle/Motorcycle / FRZR
+
++ Yolk
 
 + Supercharged Dialogue pattern: cellx(input) => redux => cellx(output: FRZR.render())
 
+!! flux-challenge
 
 ===================
 VangoArt
