@@ -22,6 +22,7 @@
 + CorpSpy
 + La Real
 + PAMPA
++ Msg server w/MDom
 
 =============== Watch ==
 + Lark: http://www.web.lark.com/#top
@@ -54,17 +55,14 @@ Old Channels
 . crown + crown bars
 . ChannelDetails: export to csv
 . fixes gulp
+. Check copy/export
 
-+ unificar front-end JS'
-+ deploy procedure: pm2 start
 
++ document deploy & ops procedure: pm2 start
 + collapse mobile: searchbox
 + collapse mobile: table
-
-+ Check copy/export
-
 + Filtros: excluded
-
++ unificar front-end JS' (not worth ??)
 
 
 
@@ -344,6 +342,15 @@ TF Show
     + SumoMe k1000 ~
   + Get a mentor
     + I think you're the best person I know. Can I meet with you on a regular basis? If not, who would you recommend?
++ Matt Mullenwegg - Automattic
+  + Apps
+    + P2
+    + SimpleNotes
+    + Wunderlist
+    + 7 Minute Workout app
+    + Calm.com
+
+
 + Directives:
   + Go First !, Allways go first and proactive.. Gaby Reece
 + Books:
@@ -365,6 +372,7 @@ TF Show
   + Everything you want is outside of your comfort zone
   + Ray Bradbury - Don't worry, don't push. Just focus.
   + Stay close to the edge as possible. From the edge
+
 
 ===================
 Links
