@@ -22,6 +22,10 @@
 + CorpSpy
 + La Real
 + PAMPA
++ onDemand Crowd
+
+
+
 + Msg server w/MDom
 
 =============== Watch ==
@@ -557,35 +561,3 @@ Starters
   keywords: ['', '', '', '', '', ''] }
 
 
-
-
-{
-  "caret_style": "phase",
-  // "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
-  // "theme": "Spacegray Eighties.sublime-theme",
-  "color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
-  "theme": "Oceanic Next.sublime-theme"
-
-  "fade_fold_buttons": false,
-  "folder_exclude_patterns":
-  [
-    ".svn",
-    ".git",
-    ".hg",
-    "CVS",
-    "node_modules"
-  ],
-  "font_size": 9,
-  "highlight_line": true,
-  "highlight_modified_tabs": true,
-  "ignored_packages":
-  [
-    "Vintage"
-  ],
-  "match_selection": true,
-  "scroll_past_end": true,
-  "shift_tab_unindent": true,
-  "tab_size": 2,
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true
-}
