@@ -23,7 +23,9 @@
 + La Real
 + PAMPA
 + onDemand Crowd
++ Nagger
 
++ org
 
 
 + Msg server w/MDom
@@ -395,6 +397,8 @@ Videos
 ===================
 Future Stacks
 ===================
+Koa !
+
 + Falcor / Riot
 + Falcor / React
 + Falcor / Vue
@@ -543,10 +547,10 @@ Starters
   desc: 'An npm package that lets you jump right into coding React and Redux with universal (isomorphic) rendering. Only manage Express setups or Webpack configurations if you want to.',
   url: 'https://github.com/bdefore/universal-redux',
   keywords: ["react", "isomorphic", "universal", "webpack", "express", "hot reloading", "react-hot-reloader", "redux",   "babel"] }
-{ name: '',
-  desc: '',
-  url: '',
-  keywords: ['', '', '', '', '', ''] }
+{ name: 'koaboiler',
+  desc: 'Koa 2.0 Boilerplate for a production-ready app',
+  url: 'https://github.com/llambda/koaboiler',
+  keywords: ['koa', 'socket.io', 'socketio', '', '', ''] }
 { name: '',
   desc: '',
   url: '',

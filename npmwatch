@@ -50,6 +50,7 @@ NPMWatch
   + lodash
   + merge
   + ms (millisec converter)
+  + object-hash
   + once
   + q
   + request
