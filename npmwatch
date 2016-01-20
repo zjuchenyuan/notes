@@ -133,6 +133,8 @@ NPMWatch
   + uglify-js
   + webpack
 + TESTING
+  + eslint
+    + eslint-airbnb
   + jshint
     + jshint-stylish
   + karma
