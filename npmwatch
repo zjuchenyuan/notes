@@ -50,6 +50,7 @@ NPMWatch
   + lodash
   + merge
   + ms (millisec converter)
+  + object-hash
   + once
   + q
   + request
@@ -164,32 +165,3 @@ NPMWatch
   + Ramda
 + OS
   + tldr
-
-
-    series([
-      function(done) {
-        console.log('first thing')
-        done()
-      },
-      function(done) {
-        console.log('second thing')
-        done(new Error('another thing'))
-      },
-      function(done) {
-        // never happens, because "second thing"
-        // passed an error to the done() callback
-      }
-    ], function(err) {
-      console.log(err.message) // "another thing"
-    })
-
-    var fuctions = [];
-    for (var i = 1; i < 5; i++) {
-      functions[i] = function (done) {
-        $("#el_"+i).fadeOut(1000);
-        done();
-      }
-    }
-    series( functions, function(err) {
-      console.log(err.message) // "another thing"
-    })
