@@ -24,6 +24,7 @@
 + PAMPA
 + onDemand Crowd
 + Nagger
++ LFG
 
 + org
 
@@ -266,14 +267,14 @@ http://web.mit.edu/18.06/www/
 https://news.ycombinator.com/item?id=2645671
 + https://www.coursera.org/course/ml
 
-+ Books: 
++ Books:
 . Programming Collective Intelligence
 . Machine Learning, Tom Mitchell, McGraw Hill, 1997.
 . Reinforcement Learning: An Introduction - Richard S. Sutton and Andrew G. Barto, MIT Press, Cambridge, MA, 1998
 . Machine Learning for Hackers
 . Machine Learning in Action
 . Programming Collective Intelligence: Building Smart Web 2.0 Applications
-. Machine Learning: An Algorithmic Perspective - Stephen Marsland  (Chapman & Hall/Crc Machine Learning & Pattern Recognition) 1st Edition	
+. Machine Learning: An Algorithmic Perspective - Stephen Marsland  (Chapman & Hall/Crc Machine Learning & Pattern Recognition) 1st Edition
 
 . Data Science from Scratch: First Principles with Python 1st Edition
 by Joel Grus (Author) OReilly
@@ -446,7 +447,13 @@ Koa !
 + Cycle/Motorcycle / React
 + Cycle/Motorcycle / FRZR
 
++ Vue / Vuex
+
++ Elm
++ InfernoJS
 + Yolk
++ RiotJS
++ CycleJS
 
 + Supercharged Dialogue pattern: cellx(input) => redux => cellx(output: FRZR.render())
 
@@ -579,10 +586,10 @@ Starters
   desc: 'Koa 2.0 Boilerplate for a production-ready app',
   url: 'https://github.com/llambda/koaboiler',
   keywords: ['koa', 'socket.io', 'socketio', '', '', ''] }
-{ name: '',
-  desc: '',
-  url: '',
-  keywords: ['', '', '', '', '', ''] }
+{ name: 'frontend-boilerplate',
+  desc: 'webpack-react-redux-babel-autoprefixer-hmr-postcss-css-modules-rucksack-boilerplate',
+  url: 'https://github.com/tj/frontend-boilerplate',
+  keywords: ['tj', 'webpack', 'react', 'redux', 'babel', 'postcss', 'rucksack'] }
 { name: '',
   desc: '',
   url: '',
