@@ -24,7 +24,7 @@
 + PAMPA
 + onDemand Crowd
 + Nagger
-+ LFG
++ BigLFG
 
 + org
 
@@ -592,6 +592,18 @@ Starters
   desc: 'webpack-react-redux-babel-autoprefixer-hmr-postcss-css-modules-rucksack-boilerplate',
   url: 'https://github.com/tj/frontend-boilerplate',
   keywords: ['tj', 'webpack', 'react', 'redux', 'babel', 'postcss', 'rucksack'] }
+{ name: 'este',
+  desc: 'Dev stack and starter kit for functional and universal (browser, server, mobile) React web apps',
+  url: 'https://github.com/este/este.git',
+  keywords: ['estejs', 'react', 'redux', 'webpack', 'immutable', ''] }
+{ name: 'go-starter-kit',
+  desc: 'Golang Isomorphic React/Hot Reloadable/Redux/Css-Modules Starter Kit',
+  url: 'https://github.com/olebedev/go-starter-kit.git',
+  keywords: ['go', 'golang', 'react', 'redux'] }
+{ name: 'redux-isomorphic-boilerplate',
+  desc: 'Server-side JavaScript rendering with React/Flux can be confusing. This repo is a Hello, World example of isomorphic/universal/server-side rendering/I don't care what you call it JavaScript.',
+  url: 'https://github.com/jarsbe/redux-isomorphic-boilerplate.git',
+  keywords: ['react', 'redux', 'express', 'webpack', 'universal'] }
 { name: '',
   desc: '',
   url: '',
