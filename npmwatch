@@ -59,6 +59,7 @@ NPMWatch
   + touch
   + validator
 + TOOLS
+  + hyperscript-helpers
   + cheerio
   + compression
   + geoip-lite
@@ -96,6 +97,9 @@ NPMWatch
   + wce-api
   + x-ray
   + yakuza
++ AI / BOTS / BOT Building
+  + superscript
+
 + LOGGING
   + bunyan
 
@@ -133,6 +137,8 @@ NPMWatch
   + uglify-js
   + webpack
 + TESTING
+  + eslint
+    + eslint-airbnb
   + jshint
     + jshint-stylish
   + karma
