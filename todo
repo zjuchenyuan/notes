@@ -20,14 +20,20 @@
 + Meetr
 + TranslateUS
 + CorpSpy
-+ La Real
 + PAMPA
 + onDemand Crowd
 + Nagger
-+ BigLFG
 + HumanCannon
++ JSON Lists
 
-+ org
+
++ BigLFG
+  - Meteor ?
+  - Redux + FRZR ?
++ Lingooista
+  - Redux + React
++ La Real
+  - API + React?
 
 
 + Msg server w/MDom
@@ -352,7 +358,6 @@ TF Show
   + Books:
     + Not Fade Away: A Short Life Well Lived - Laurence Shames and Peter Barton
     + How to Get Filthy Rich in Rising Asia - Mohsin Hamid
-
 + Doug Leone - Sequoia Capital
   + Books:
     + Anti Fragile: Things That Gain From Disorder - Nassim Nicholas Taleb
@@ -391,6 +396,64 @@ TF Show
   + USBdriveBy
   + Books
     + Influence - Robert Cialdini
++ Edward Norton
+  + Books
+    + Buddhism Without Beliefs - Stephen Batchelor
+    + The Black Swan - Nassim Nicholas Taleb
+    + Wind, Sand and Stars - Antoine de Saint-Exupéry
+  + Essays
+    + Second Wind (Bill Rusell?)
+    + The Catastrophe of Success - Tennessee Williams
+  + Documentaries
+    + The Cruise - Bennett Miller
+    + The Century of the Self - Adam Curtis
+    + The Power of Nightmares - Adam Curtis
+  + Film
+    + A prophet - Jacques Audiard
+    + Rust and Bone - Jacques Audiard
+    + The Beta My Heart Skipped - Jacques Audiard
++ Amelia Boone - Tough Mudder Champ
+  + House of Leaves - Mark Z. Danielewski (anti-kindle)
++ Sofia Amoruso - Nasty Gal CEO
+  + The Richest Man in Babylon - George Samuel Clason
+  + Letters To A Young Poet - R. M. Rilke
+  + Venture Deals - Brad Feld and Jason Mendelson
+  + No Man's Land - Doug Tatum
++ Peter Diamandias - X-Prize, Human Longevics
+  + Books
+    + The Spirit of St. Louis - Charles Lindbergh
+    + Atlas Shrugged - Ayn Rand
+    + The Man Sold the Moon - Robert A. Heinlein
+    + The Singularity is Near - Ray Kurzweil
+    + Stranger in a Strange Land - Robert A. Heinlein
++ Ryan Holiday - Director of Marketing for American Apparel
+  + Books
+    + The Obstacle is the Way - Ryan Holiday
+    + As a Man Thinketh - James Allen
+    + Man's Search for Meaning - Viktor Frankl
+    + The Fourth Turning - William Strauss
+    + Slow Sex - Nicole Daedone
+    + Mindset - Carol Dweck
+    + Brain Rules - John Medina
++ Adam Gazzeley - Neuroscientist, games for neuroenhancing
+  + Books
+    + The Reality Dysfunction - Peter F. Hamilton
+    + Thinking, Fast and Slow - Daniel Kahneman
+    + Man's Search for Meaning - Viktor Frankl
+    + Endurance: Shackleton's Incredible Voyage - Alfred Lansing
++ Maria Popova - Brain Pickings
+  + Books
+    + Plato's Republic
+    + On the Move: A Life (Oliver Sacks bio) - Oliver Sacks
++ Brad Feld - VC
+  + Books
+    + Not Fade Away: A Short Life Well Lived - Laurence Shames
+    + How to Get Filthy Rich in Rising Asia - Mohsin Hamid
++ Arnold Sch
+  + Books
+    + Free to Choose - Milton Friedman and Rose Friedman
+    + The Churchill Factor: How One Man Made History - Boris Johnson
++
 
 + Directives:
   + Go First !, Allways go first and proactive.. Gaby Reece
@@ -406,6 +469,8 @@ TF Show
   + The 22 Immutable Laws of Marketing - Al Ries and Jack Trout
   + The graveyard book (audiobook)
   + Vagabonding (audiobook)
+  + Zero to One - Peter Thiel
+  + Your Memory: How it Works and how to Improve it - Kenneth Higbee
 + Supplements
   + VSL3
   + KetoCana
@@ -618,5 +683,18 @@ Starters
   desc: '',
   url: '',
   keywords: ['', '', '', '', '', ''] }
+{ name: '',
+  desc: '',
+  url: '',
+  keywords: ['', '', '', '', '', ''] }
 
 
+
+
+
+
+
+{ name: 'es6-library-minimal',
+  desc: 'A minimal starter for an ES6 library',
+  url: 'https://github.com/liady/es6-library-minimal',
+  keywords: ['ES6', 'webpack', 'library', 'starter', 'universal'] }
