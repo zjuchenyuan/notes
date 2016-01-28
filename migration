@@ -8,27 +8,50 @@ tormentamental.com.ar
 walal.com.ar
 
 
-//// Move
+//// OK
 + bsll.com.ar
+  + Setup email
+  + Setup personal page
+
+
+//// Move
 + francoboselli.com.ar
+  + Delegate
+  + Copy site
 + delaniebla.com.ar
-  delaniebla.com.ar has address 67.222.8.86
-  delaniebla.com.ar name server ns2.greenping.net.
-  delaniebla.com.ar name server ns1.greenping.net.
+  + Copy site
+  + Delegate
+  + Data:
+    delaniebla.com.ar has address 67.222.8.86
+    delaniebla.com.ar name server ns2.greenping.net.
+    delaniebla.com.ar name server ns1.greenping.net.
 + eduardoboselli.com.ar
-  eduardoboselli.com.ar has address 67.222.8.86
-  eduardoboselli.com.ar has SOA record ns1.greenping.net. san.bsll.com.ar. 2015073000 86400 7200 3600000 86400
-  eduardoboselli.com.ar mail is handled by 0 eduardoboselli.com.ar.
-  eduardoboselli.com.ar name server ns1.greenping.net.
-  eduardoboselli.com.ar name server ns2.greenping.net.
+  + Copy site
+  + Delegate
+  + data:
+    eduardoboselli.com.ar has address 67.222.8.86
+    eduardoboselli.com.ar has SOA record ns1.greenping.net. san.bsll.com.ar. 2015073000 86400 7200 3600000 86400
+    eduardoboselli.com.ar mail is handled by 0 eduardoboselli.com.ar.
+    eduardoboselli.com.ar name server ns1.greenping.net.
+    eduardoboselli.com.ar name server ns2.greenping.net.
 + endoftheworlds.com
-  endoftheworlds.com has address 67.222.8.86
-  endoftheworlds.com name server ns2.greenping.net.
-  endoftheworlds.com name server ns1.greenping.net.
+  + Create nginx block
+  + Migrate sql
+  + Copy site
+  + Delegate
+  + Data:
+    endoftheworlds.com has address 67.222.8.86
+    endoftheworlds.com name server ns2.greenping.net.
+    endoftheworlds.com name server ns1.greenping.net.
 + lingooista.org
-  lingooista.org has address 67.222.8.86
-  lingooista.org name server ns1.greenping.net.
-  lingooista.org name server ns2.greenping.net.
+  + Create nginx block
+  + Migrate sql
+  + Copy site
+  + Delegate
+  + Data:
+    lingooista.org has address 67.222.8.86
+    lingooista.org name server ns1.greenping.net.
+    lingooista.org name server ns2.greenping.net.
 
 //// Lose
 + contenidoselarbol.com

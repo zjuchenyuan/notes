@@ -70,16 +70,12 @@ Old Channels
 . ChannelDetails: export to csv
 . fixes gulp
 . Check copy/export
-
+. Filtros: excluded
 
 + document deploy & ops procedure: pm2 start
 + collapse mobile: searchbox
 + collapse mobile: table
-+ Filtros: excluded
 + unificar front-end JS' (not worth ??)
-
-
-
 
 ===================
 QSim
@@ -99,6 +95,9 @@ Gamestats
 sudo apt-get install libpcre3-dev
 sudo pecl install apcu-4.0.10
 extension=apcu.so
+
++ Contenidos
+  + bds.tck_content_daily
 
 ===================
 New Channels
@@ -508,8 +507,15 @@ Koa !
 
 + Redux / React
 + Redux / Riot
-+ Redux / FRZR
 + Redux / Vue
+
++ Redux / FRZR
++ Redux / Deku
++ Redux / Vidom
++ Redux / Preact
++ Redux / Maquette
++ Redux / Kivi
++ Redux / Morphdom
 
 + Cerebral / React
 + Cerebral / Angular2
@@ -523,6 +529,7 @@ Koa !
 + Vue / Vuex
 
 + Elm
++ Mithril
 + InfernoJS
 + Yolk
 + RiotJS
@@ -531,6 +538,12 @@ Koa !
 + Supercharged Dialogue pattern: cellx(input) => redux => cellx(output: FRZR.render())
 
 !! flux-challenge
+
+---------
+https://medium.com/@roman01la/understanding-transducers-in-javascript-3500d3bd9624#.481rnn1nu
+transducers-js clone with https://github.com/glathoud/transfun
+
+
 
 ===================
 VangoArt
@@ -675,10 +688,10 @@ Starters
   desc: 'Server-side JavaScript rendering with React/Flux can be confusing. This repo is a Hello, World example of isomorphic/universal/server-side rendering/I don't care what you call it JavaScript.',
   url: 'https://github.com/jarsbe/redux-isomorphic-boilerplate.git',
   keywords: ['react', 'redux', 'express', 'webpack', 'universal'] }
-{ name: '',
-  desc: '',
-  url: '',
-  keywords: ['', '', '', '', '', ''] }
+{ name: 'express-api-kickstarter',
+  desc: 'A kickstarter project to get an Express API up and running.',
+  url: 'https://github.com/jonathanchrisp/express-api-kickstarter',
+  keywords: ['express', 'eslint'] }
 { name: '',
   desc: '',
   url: '',
