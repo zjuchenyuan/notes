@@ -10,14 +10,23 @@ walal.com.ar
 
 //// OK
 + bsll.com.ar
-  + Setup email
-  + Setup personal page
+  + email
+  + bio/pf page
++ francoboselli.com.ar
+  + email
+  + update
++ eduardoboselli.com.ar
+  + email
+  + data:
+    eduardoboselli.com.ar has address 67.222.8.86
+    eduardoboselli.com.ar has SOA record ns1.greenping.net. san.bsll.com.ar. 2015073000 86400 7200 3600000 86400
+    eduardoboselli.com.ar mail is handled by 0 eduardoboselli.com.ar.
+    eduardoboselli.com.ar name server ns1.greenping.net.
+    eduardoboselli.com.ar name server ns2.greenping.net.
+
 
 
 //// Move
-+ francoboselli.com.ar
-  + Delegate
-  + Copy site
 + delaniebla.com.ar
   + Copy site
   + Delegate
@@ -25,15 +34,6 @@ walal.com.ar
     delaniebla.com.ar has address 67.222.8.86
     delaniebla.com.ar name server ns2.greenping.net.
     delaniebla.com.ar name server ns1.greenping.net.
-+ eduardoboselli.com.ar
-  + Copy site
-  + Delegate
-  + data:
-    eduardoboselli.com.ar has address 67.222.8.86
-    eduardoboselli.com.ar has SOA record ns1.greenping.net. san.bsll.com.ar. 2015073000 86400 7200 3600000 86400
-    eduardoboselli.com.ar mail is handled by 0 eduardoboselli.com.ar.
-    eduardoboselli.com.ar name server ns1.greenping.net.
-    eduardoboselli.com.ar name server ns2.greenping.net.
 + endoftheworlds.com
   + Create nginx block
   + Migrate sql

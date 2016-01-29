@@ -464,7 +464,7 @@ TF Show
 + Podcasts
   + Hardcore History (watch Wrath of the Kahns)
   + The Startup Podcast
-  + Cereal first season 
+  + Cereal first season
 + Directives:
   + Go First !, Allways go first and proactive.. Gaby Reece
 + Books:
@@ -479,8 +479,8 @@ TF Show
   + The 22 Immutable Laws of Marketing - Al Ries and Jack Trout
   + The graveyard book (audiobook)
   + Vagabonding (audiobook)
-  + Zero to One - Peter Thiel 
-  + Zero to One Blake Master's full class notes 
+  + Zero to One - Peter Thiel
+  + Zero to One Blake Master's full class notes
   + Your Memory: How it Works and how to Improve it - Kenneth Higbee
   + Genghis Khan and the Making of the Modern World - Jack Weatherford
 + Supplements
@@ -705,6 +705,14 @@ Starters
   desc: 'A kickstarter project to get an Express API up and running.',
   url: 'https://github.com/jonathanchrisp/express-api-kickstarter',
   keywords: ['express', 'eslint'] }
+{ name: 'simple-redux-boilerplate',
+  desc: 'A simple, yet comprehensive React + Redux application, complete with DevTools.',
+  url: 'https://github.com/tsaiDavid/simple-redux-boilerplate',
+  keywords: ['react', 'redux', 'webpack', 'express'] }
+{ name: 'react-redux-starter',
+  desc: 'A universal starter kit built with react, react-router and redux, and Cordova support.',
+  url: 'https://github.com/combine/react-redux-starter',
+  keywords: ['react', 'redux', 'webpack', 'nodemon', 'cordova', 'react-router'] }
 { name: '',
   desc: '',
   url: '',
@@ -713,7 +721,14 @@ Starters
   desc: '',
   url: '',
   keywords: ['', '', '', '', '', ''] }
-
+{ name: '',
+  desc: '',
+  url: '',
+  keywords: ['', '', '', '', '', ''] }
+{ name: '',
+  desc: '',
+  url: '',
+  keywords: ['', '', '', '', '', ''] }
 
 
 
