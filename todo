@@ -29,15 +29,53 @@
 
 + BigLFG
   - Meteor + React
-+ Lingooista
-  - Redux + React
-  + Features
-    + Duolingo companion cards
-    + Multiple choice
-  + R & D
-    + Gwoyeu Romatzyh
 + La Real
   - API + React?
+
+
+===================
+Lingooista
+===================
++ To do:
+  + Back
+  + Front
+    + Actions:
+      + REGISTER
+      + LOGIN
+      + START_MODE: memo / blind / mc
+      + NEXT_PAIR
+      + PREV_PAIR
+      + MODE_MEMO_NEXT_PAIR
+      + MODE_MEMO_PREV_PAIR
+      + MODE_BLIND_SUBMIT_ANSWER
+      + MODE_BLIND_NEXT_PAIR
+      + MODE_BLIND_PREV_PAIR
+      + MODE_MC_NEXT_PAIR
+      + MODE_MC_PREV_PAIR
+      + MODE_MC_SUBMIT_ANSWER
+  + DB
++ Lingooista
+  + License:
+    + MIT OSS
+  + Stack
+    + Node + Express/Koa
+    + Redux + React
+  + Features
+    + Words
+      + Vocab subsets:
+        + Basic (First 1000-5000)
+        + Travel
+        + Cooking
+        + Finance
+        + Body & Health
+      + Modes:
+        + Memo
+        + Blind
+        + Multiple choice
+    + Grammar
+    + Duolingo companion cards
+  + R & D
+    + Gwoyeu Romatzyh
 
 
 + Msg server w/MDom
@@ -713,29 +751,29 @@ Starters
   desc: 'A universal starter kit built with react, react-router and redux, and Cordova support.',
   url: 'https://github.com/combine/react-redux-starter',
   keywords: ['react', 'redux', 'webpack', 'nodemon', 'cordova', 'react-router'] }
-{ name: '',
-  desc: '',
-  url: '',
-  keywords: ['', '', '', '', '', ''] }
-{ name: '',
-  desc: '',
-  url: '',
-  keywords: ['', '', '', '', '', ''] }
-{ name: '',
-  desc: '',
-  url: '',
-  keywords: ['', '', '', '', '', ''] }
-{ name: '',
-  desc: '',
-  url: '',
-  keywords: ['', '', '', '', '', ''] }
-
-
-
-
-
-
+{ name: 'hackathon-starter',
+  desc: 'A boilerplate for Node.js web applications',
+  url: 'https://github.com/sahat/hackathon-starter',
+  keywords: ['express', 'node', 'passport'] }
 { name: 'es6-library-minimal',
   desc: 'A minimal starter for an ES6 library',
   url: 'https://github.com/liady/es6-library-minimal',
   keywords: ['ES6', 'webpack', 'library', 'starter', 'universal'] }
+{ name: '',
+  desc: '',
+  url: '',
+  keywords: ['', '', '', '', '', ''] }
+{ name: '',
+  desc: '',
+  url: '',
+  keywords: ['', '', '', '', '', ''] }
+{ name: '',
+  desc: '',
+  url: '',
+  keywords: ['', '', '', '', '', ''] }
+
+
+
+
+
+
