@@ -125,13 +125,18 @@ Old Channels
 . fixes gulp
 . Check copy/export
 . Filtros: excluded
+. Eze: agregar idiomas full list
 
 + document deploy & ops procedure: pm2 start
+  + pm2 list
+  + pm2 start bin/www --watch --ignore-watch="db node_modules"
+  + pm2 start 0
+  + pm2 stop 0
+  + pm2 delete 0
 + collapse mobile: searchbox
 + collapse mobile: table
 + unificar front-end JS' (not worth ??)
 
-+ Eze: agregar idiomas full list
 
 ===================
 Channels
