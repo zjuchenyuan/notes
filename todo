@@ -139,9 +139,22 @@ Old Channels
 
 
 ===================
-Channels
+BI-Tools: Content
 ===================
-
++ Activity
+  + Channel
+    + questions_created_today
+    + questions_enabled_today
+    + questions_disabled_today
+  + Users
+    +
++ Health
+  + Quality ( 100 * L / (L + D) )
+  + Difficulty ( 100 * C / (C + I) )
+  + Engagement
+    + Games Created per channel (games_created_today / followers)
+    + Games Created per user (games_created_today / games_created_unq_today)
+    + Follower participation (100*games_created_unq_today / followers)
 
 
 ===================
@@ -564,6 +577,7 @@ TF Show
   + Zero to One Blake Master's full class notes
   + Your Memory: How it Works and how to Improve it - Kenneth Higbee
   + Genghis Khan and the Making of the Modern World - Jack Weatherford
+  + Deep Work: Rules for Focused Success in a Distracted World
 + Supplements
   + VSL3
   + KetoCana
