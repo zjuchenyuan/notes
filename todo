@@ -157,6 +157,22 @@ BI-Tools: Content
     + Follower participation (100*games_created_unq_today / followers)
 
 
+
++ Channel Activity
+  + Top by Volume
+    + ID Leaders        => Content characteristics: Generic / Safe
+    + ID Growers ABS
+    + ID Shrinkers ABS
+    + ID Active ABS
+  + Top by Growth
+    + ID Growers REL    => Content characteristics: Most Viral
+    + ID Shrinkers REL  => Content characteristics: Seasonal / Fads / Old / Dying
+    + ID Active REL     => Content characteristics: Most passionate / fun / current
+  + Top by Moderation
+    + questions_created_today + questions_enabled_today + questions_disabled_today
+    + questions_suggested_today + questions_rated_today + questions_translated_today
+
+
 ===================
 Gamestats
 ===================
@@ -554,6 +570,12 @@ TF Show
     + Drama in Life - Casey Neistat
   + Documentary
     + Little Dieter Needs to Fly (also Christian Bale rework)
++ Walter O'Brien - "Scorpion"
+  + IQ vs EQ
+  + Brain transplant
+  + Books:
+    + Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets - Nassim Taleb
+
 
 + Podcasts
   + Hardcore History (watch Wrath of the Kahns)
@@ -562,10 +584,12 @@ TF Show
 + Directives:
   + Go First !, Allways go first and proactive.. Gaby Reece
 + Books:
+  + Bad Science: Quacks, Hacks, and Big Pharma Flacks - Ben Goldacre
   + A Guide to the Good Life - William Braxton
   + Meditations - Marcus Aurelius
   + Unleash the Power Within - Tony Robbins
   + Radical Acceptance - Tara Brach
+  + The Diamond Age - Neal Stephenson
   + Happy Money: The Science of Happier Spending - Elizabeth Dunn
   + The Good Gut - Justin Sonnenburg and Erica Sonnenburg
   + The Magic of Thinking Big - David J. Schwartz
