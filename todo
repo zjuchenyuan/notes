@@ -840,10 +840,10 @@ Starters
   desc: 'A minimal starter for an ES6 library',
   url: 'https://github.com/liady/es6-library-minimal',
   keywords: ['ES6', 'webpack', 'library', 'starter', 'universal'] }
-{ name: '',
-  desc: '',
-  url: '',
-  keywords: ['', '', '', '', '', ''] }
+{ name: 'react-webpack-babel',
+  desc: 'Simple React Webpack Babel Starter Kit',
+  url: 'https://github.com/alicoding/react-webpack-babel',
+  keywords: ['webpack', 'react', 'babel'] }
 { name: '',
   desc: '',
   url: '',
