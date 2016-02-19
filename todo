@@ -65,6 +65,9 @@ Lingooista
       + MODE_MC_NEXT_PAIR
       + MODE_MC_PREV_PAIR
       + MODE_MC_SUBMIT_ANSWER
+      + MODE_TR_NEXT_PAIR
+      + MODE_TR_PREV_PAIR
+      + MODE_TR_SUBMIT_ANSWER
   + DB
 + Lingooista
   + License:
@@ -84,6 +87,7 @@ Lingooista
         + Memo
         + Blind
         + Multiple choice
+        + Time Race
     + Grammar
     + Duolingo companion cards
   + R & D
@@ -844,15 +848,37 @@ Starters
   desc: 'Simple React Webpack Babel Starter Kit',
   url: 'https://github.com/alicoding/react-webpack-babel',
   keywords: ['webpack', 'react', 'babel'] }
-{ name: '',
-  desc: '',
-  url: '',
-  keywords: ['', '', '', '', '', ''] }
+{ name: 'isomorphic-react-example',
+  desc: 'ReactJS + NodeJS ( express ) demo tutorial with video. Universal/Isomorphic JS',
+  url: 'https://github.com/DavidWells/isomorphic-react-example',
+  keywords: ['express', 'universal', 'react'] }
 { name: '',
   desc: '',
   url: '',
   keywords: ['', '', '', '', '', ''] }
 
+BA
+-34.508276, -58.506674
+-34.592691, -58.457407
+
+Rio
+-22.903386, -43.249864
+-22.898974, -43.181853
+
+SF
+37.461015, -122.173686
+37.379208, -122.086952
+37.420160, -122.085110
+
+NY
+40.724774, -74.000888
+40.731861, -73.989342
+40.756504, -73.983809
+
+Uk
+51.516168, -0.112135
+51.505214, -0.101317
+50.932156, -1.363506
 
 
 
