@@ -165,11 +165,11 @@ BI-Tools: Content
 + Channel Activity
   + Top by Volume
     + ID Leaders        => Content characteristics: Generic / Safe
-    + ID Growers ABS
+    + ID Growers ABS <<== x Promoted !!
     + ID Shrinkers ABS
     + ID Active ABS
   + Top by Growth
-    + ID Growers REL    => Content characteristics: Most Viral
+    + ID Growers REL    => Content characteristics: Most Viral <<== x Promoted !!
     + ID Shrinkers REL  => Content characteristics: Seasonal / Fads / Old / Dying
     + ID Active REL     => Content characteristics: Most passionate / fun / current
   + Top by Moderation
