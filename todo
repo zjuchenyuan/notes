@@ -856,11 +856,19 @@ Starters
   desc: '',
   url: '',
   keywords: ['', '', '', '', '', ''] }
-
+{ name: '',
+  desc: '',
+  url: '',
+  keywords: ['', '', '', '', '', ''] }
+{ name: '',
+  desc: '',
+  url: '',
+  keywords: ['', '', '', '', '', ''] }
 
 
 Github Tuts
 https://github.com/reactjs/react-router-tutorial
+https://github.com/DavidWells/isomorphic-react-example
 
 
 
