@@ -92,6 +92,36 @@ Lingooista
     + Duolingo companion cards
   + R & D
     + Gwoyeu Romatzyh
++ Components
+  + Header
+    + Logo
+    + Nav Left
+      + Modes
+      + Grammar
+      + About
+    + Nav Right
+      + Tweet
+      + Donate
+      + Help
+  + Home
+    + Screen
+      + Left
+        + Item
+        + Action Btns
+          + Lang
+          + Speech
+      + Right
+        + Item
+        + Action Btns
+          + Lang
+          + Speech
+
+
++ BrainTrain
+  + Memrise
+  + Peak
+  + Elevate
+  + Lumosity
 
 
 + Msg server w/MDom
