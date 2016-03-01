@@ -1,12 +1,10 @@
 =============== P ==
 + AutoTracker
 + BooksDB (scrappy)
-+ booksmarts
 + bUNITED
 + HoyLLueve / Precog
 + Juggler
 + keto.com.ar
-+ LifeTrack / Loggit
 + Metajobs
 + NoBS Suite
 + Pokehunt
@@ -29,21 +27,25 @@
   + Venture Capitalist
 
 
+
++ LifeTrack / Loggit
+  + React
++ booksmarts
+  + unfluff
 + Zopaas
-  + cache
-  + cache cleaner task
-  + tests
-  + test coverage
-  + service workers?
-  + Swagger => Mashape
+  + Back
+    + cache
+    + cache cleaner task
+    + tests
+    + test coverage
+    + service workers?
+    + Swagger => Mashape
+  + Front
   + Publish !
-
-
 + BigLFG
   - Meteor + React
 + La Real
   - API + React?
-
 
 ===================
 Lingooista
@@ -125,6 +127,16 @@ Lingooista
 
 
 + Msg server w/MDom
+
+
+=============== Study ==
++ Python
++ Go
++ Haskell
++ Elm
++ C/C++
++ Lisp
+
 
 =============== Watch ==
 + Lark: http://www.web.lark.com/#top
@@ -816,7 +828,7 @@ Starters
   keywords: ['react', 'hot', 'postCSS', 'serviceWorker', 'appCache', 'redux', 'webpack'] }
 { name: 'react-slingshot',
   desc: 'React + Redux starter kit with hot reloading, testing, linting and more, all built in',
-  url: 'https://github.com/coryhouse/react-slingshot.git',
+  url: 'https://github.com/coryhouse/react-slingshot',
   keywords: ['react', 'redux', 'babel', 'webpack', 'sass'] }
 { name: 'react-webpack-template',
   desc: 'This is a simple template for building React apps by Pete Hunt',
@@ -882,10 +894,10 @@ Starters
   desc: 'ReactJS + NodeJS ( express ) demo tutorial with video. Universal/Isomorphic JS',
   url: 'https://github.com/DavidWells/isomorphic-react-example',
   keywords: ['express', 'universal', 'react'] }
-{ name: '',
-  desc: '',
-  url: '',
-  keywords: ['', '', '', '', '', ''] }
+{ name: 'react-simple',
+  desc: 'Just like the good old jQuery days. Get up and running in a flash with React. No build tools, no config, no bullshit.',
+  url: 'https://github.com/jarsbe/react-simple',
+  keywords: ['react'] }
 { name: '',
   desc: '',
   url: '',
@@ -1044,3 +1056,80 @@ ATTENTION! YOUR APPLICATION WILL BE REJECTED IF IT:
 
 
 Good luck!
+
+
+prev = null
+
+
+{
+  prev: null,
+  top: null,
+  store: []
+}
+
+.push('a')
+{
+  prev: null,
+  top: 'a',
+  store: []
+}
+
+.push('b')
+{
+  prev: a,
+  top: 'b',
+  store: [a]
+}
+
+.push('c')
+last = {
+  prev: b,
+  top: 'c',
+  store: [a,b]
+}
+
+{
+  prev: last.store[length-1]
+  store: [...last.store, new]
+}
+
+
+
+
+
+
+
+https://plnkr.co/edit/imcMEoJ4JVQoMy2osgi5?p=preview
+
+
+stack = {
+  values: [],
+  pop: function() {
+    throw new Error(this.STACK_EMPTY_DESCRIPTION);
+  },
+  top: function(){
+    throw new Error(this.STACK_EMPTY_DESCRIPTION);
+  },
+  isEmpty: function() {
+    return true;
+  },
+  push: function(item) {
+    self.pushToStack(item, this.values);
+  }
+};
+
+newStack = {
+  values: ,
+  pop: function() {
+    return this.values.pop();
+  },
+  top: function(){
+    return this.last;
+  },
+  isEmpty: function() {
+    return false;
+  },
+  push: function(item) {
+    self.pushToStack(item, oldItems);
+  }
+};
