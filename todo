@@ -1,38 +1,117 @@
-=============== P ==
-+ AutoTracker
-+ BooksDB (scrappy)
-+ bUNITED
-+ HoyLLueve / Precog
-+ Juggler
-+ keto.com.ar
-+ Metajobs
-+ NoBS Suite
-+ Pokehunt
-+ Restaurateur
-+ secretary:bot
-+ Suppl.us
-+ Traffic Lights Sim
-+ ufc-elo
-+ vQuery / shugga
-+ WeChat / ChatRooms
-+ Meetr
-+ TranslateUS
-+ CorpSpy
-+ PAMPA
-+ onDemand Crowd
-+ Nagger
-+ JSON Lists
-+ Games
-  + HumanCannon
-  + Venture Capitalist
++ == Daily ===============
+  + CC
+  +
++ == Foundry =============
+  + AutoTracker
+  + BooksDB (scrappy)
+  + bUNITED
+  + HoyLLueve / Precog
+  + Juggler
+  + keto.com.ar
+  + Metajobs
+  + NoBS Suite
+  + Pokehunt
+  + Restaurateur
+  + secretary:bot
+  + Suppl.us
+  + Traffic Lights Sim
+  + ufc-elo
+  + vQuery / shugga
+  + WeChat / ChatRooms
+  + Meetr
+  + TranslateUS
+  + CorpSpy
+  + PAMPA
+  + onDemand Crowd
+  + Nagger
+  + JSON Lists
+  + Games
+    + HumanCannon
+    + Venture Capitalist
 
++ == rand() ==============
+  + Marcelo Murase
+    + pueyrredon 1770 2a
+    + 4982 4682
+  + Tech Company
 
-
-+ LifeTrack / Loggit
-  + React
-+ booksmarts
-  + unfluff
-+ Zopaas
++ == Lingooista ==========
+  + To do:
+    + Back
+    + Front
+      + Actions:
+        + REGISTER
+        + LOGIN
+        + START_MODE: memo / blind / mc
+        + NEXT_PAIR
+        + PREV_PAIR
+        + MODE_MEMO_NEXT_PAIR
+        + MODE_MEMO_PREV_PAIR
+        + MODE_BLIND_SUBMIT_ANSWER
+        + MODE_BLIND_NEXT_PAIR
+        + MODE_BLIND_PREV_PAIR
+        + MODE_MC_NEXT_PAIR
+        + MODE_MC_PREV_PAIR
+        + MODE_MC_SUBMIT_ANSWER
+        + MODE_TR_NEXT_PAIR
+        + MODE_TR_PREV_PAIR
+        + MODE_TR_SUBMIT_ANSWER
+    + DB
+  + Lingooista Features
+    + License:
+      + MIT OSS
+    + Stack
+      + Node + Express/Koa
+      + Redux + React
+    + Features
+      + Words
+        + Vocab subsets:
+          + Basic (First 1000-5000)
+          + Travel
+          + Cooking
+          + Finance
+          + Body & Health
+        + Modes:
+          + Memo
+          + Blind
+          + Multiple choice
+          + Time Race
+      + Grammar
+      + Duolingo companion cards
+  + Components
+    + Header
+      + Logo
+      + Nav Left
+        + Modes
+        + Grammar
+        + About
+      + Nav Right
+        + Tweet
+        + Donate
+        + Help
+    + Home
+      + Screen
+        + Left
+          + Item
+          + Action Btns
+            + Lang
+            + Speech
+        + Right
+          + Item
+          + Action Btns
+            + Lang
+            + Speech
+  + R & D
+    + Gwoyeu Romatzyh
+    + BrainTrain apps
+      + Memrise
+      + Peak
+      + Elevate
+      + Lumosity
++ == BigLFG ==============
+  + Meteor + React
+  +
++ == Zopaas ==============
   + Back
     + cache
     + cache cleaner task
@@ -42,103 +121,130 @@
     + Swagger => Mashape
   + Front
   + Publish !
-+ BigLFG
-  - Meteor + React
-+ La Real
-  - API + React?
++ == U-ELO ===============
+  1. getRoster
+  2. getLinkSherdog
+  3. getLinkUFC
+    + Bilyal Makhov
+    + Cristiane Justino
+    + Dong Hyun Kim !!
+  4. getFighterData
+  5. extractAllFights -> parseDate
+  6. runELO
+  7. runGlicko
++ == LifeTrack / Loggit ==
+  + React
+  + Github contrib view
++ == booksmarts ==========
+  + Packages
+    + unfluff
+    + gramophone
+    + natural
+    + alchemy-api
+    + stanford-simple-nlp
+    + speakeasy-nlp
+    + lacona
+    + pos
+    + http://www.nltk.org/book/
++ == La Real =============
+  + API + React?
+  + DO IT
++ == PAMPA ===============
+  + Procesar Media Res
+    + El Virrey
+      + 4762-6929
+      + Luis (dueno)
+      + cvirrey@gmail.com
+    + 15.3360.2554
++ == keto.com.ar =========
+  + Why? / Who? / How?
+  + Diabetes / Epilepsy / Cancer / Inflammation / Lyme Dis
+  + Studies
+  + Atkins / Modified Atkins
+  + Fasting / Intermitent
+    + George Cahill
+    + Dom Dagostino
+  + Cook in Coconut oil
+  + Lots of Olive oil
+  + Precision Xtra - Glucose + Ketones
+    http://www.amazon.com/Precision-Glucose-Ketone-Monitoring-System/dp/B008UZVLM8/ref=sr_1_1_a_it?ie=UTF8&qid=1450786920&sr=8-1&keywords=precision+xtra
+  + KetoCaNa
+    http://www.amazon.com/KetoSports-KetoCaNa/dp/B00U7R7194
+  + MCT Oil
+    http://www.amazon.com/Premium-derived-only-Organic-Coconuts/dp/B00XM0Y9SE/ref=pd_sim_121_4?ie=UTF8&dpID=51FwtZdFRtL&dpSrc=sims&preST=_AC_UL160_SR160%2C160_&refRID=1VHFY35268J7W6JCA6W1
+  + MCT Oil (powder)
+    http://www.amazon.com/Quest-Nutrition-MCT-Powder-Servings/dp/B016APVE5S/ref=pd_bxgy_121_img_2?ie=UTF8&refRID=0VNVN9PG3CMYM0G99KT3
+  + Keytone strips (urine)
+    http://www.amazon.com/Advanced-Ketone-Test-Strips-count/dp/B00TW15GNY/ref=pd_bxgy_121_img_3?ie=UTF8&refRID=0VNVN9PG3CMYM0G99KT3
+  + BCAA
+    http://www.amazon.com/Scivation-Xtend-Supplement-Orange-Dream/dp/B00KHEQQN4/ref=sr_1_9?s=hpc&ie=UTF8&qid=1450787416&sr=1-9&keywords=scivation+bcaa
+  + Resources
+    + http://www.ketogenic-diet-resource.com/
+    + http://ketonutrition.org
+
++ == STUDY ===============
+  var study = {
+    langs: [
+      "Python",
+      "Go",
+      "Haskell",
+      "Elm",
+      "C",
+      "C++",
+      "Lisp",
+      "R"
+    ],
+    codeReading: [
+      { name: "", author: ""},
+      { name: "Coffeescript", author: "Jeremy Ashkenas"},
+      { name: "Underscore", author: "Jeremy Ashkenas"},
+      { name: "Backbone", author: "Jeremy Ashkenas"},
+      { name: "Redux", author: "Dan Abramov"}
+    ],
+    courses: [
+      { name: "", url: "" },
+      { name: "ReactJS Fundamentals",
+        url: "http://courses.reactjsprogram.com/" },
+      { name: "Go by Example",
+        url: "https://gobyexample.com/" },
+      { name: "Learning Advanced JavaScript",
+        url: "http://ejohn.org/apps/learn/" },
+      { name: "Learn Python",
+        url": "http://www.learnpython.org/" }
+    ],
+    githubTuts: [
+      { title: "React Router Tutorial",
+        url: "https://github.com/reactjs/react-router-tutorial" }
+      { title: "ReactJS + NodeJS ( express ) demo tutorial with video",
+        url: "https://github.com/DavidWells/isomorphic-react-example" }
+    ],
+    onlineBooks: [
+      { title: "", url: ""},
+      { title: "Eloquent Javascript",
+        url: "http://eloquentjavascript.net/"},
+      { title: "Learn Python the Hard Way",
+        url: "http://learnpythonthehardway.org/book/"}
+    ],
+    videos: [
+      { title: "Turning the database inside out",
+        notes: "Dan Abramov's inspired list",
+        url: "https://www.youtube.com/watch?v=fU9hR3kiOK0" },
+      { title: "Inventing on Principle",
+        notes: "Dan Abramov's inspired list",
+        url: "https://vimeo.com/36579366" },
+      { title: "Developing ClojureScript with FigWheel",
+        notes: "Dan Abramov's inspired list",
+        url: "https://www.youtube.com/watch?v=j-kj2qwJa_E" },
+      { title: "",
+        notes: "",
+        url: "" },
+    ]
+  }
+
 
 ===================
-Lingooista
+Startup Watch
 ===================
-+ To do:
-  + Back
-  + Front
-    + Actions:
-      + REGISTER
-      + LOGIN
-      + START_MODE: memo / blind / mc
-      + NEXT_PAIR
-      + PREV_PAIR
-      + MODE_MEMO_NEXT_PAIR
-      + MODE_MEMO_PREV_PAIR
-      + MODE_BLIND_SUBMIT_ANSWER
-      + MODE_BLIND_NEXT_PAIR
-      + MODE_BLIND_PREV_PAIR
-      + MODE_MC_NEXT_PAIR
-      + MODE_MC_PREV_PAIR
-      + MODE_MC_SUBMIT_ANSWER
-      + MODE_TR_NEXT_PAIR
-      + MODE_TR_PREV_PAIR
-      + MODE_TR_SUBMIT_ANSWER
-  + DB
-+ Lingooista
-  + License:
-    + MIT OSS
-  + Stack
-    + Node + Express/Koa
-    + Redux + React
-  + Features
-    + Words
-      + Vocab subsets:
-        + Basic (First 1000-5000)
-        + Travel
-        + Cooking
-        + Finance
-        + Body & Health
-      + Modes:
-        + Memo
-        + Blind
-        + Multiple choice
-        + Time Race
-    + Grammar
-    + Duolingo companion cards
-  + R & D
-    + Gwoyeu Romatzyh
-+ Components
-  + Header
-    + Logo
-    + Nav Left
-      + Modes
-      + Grammar
-      + About
-    + Nav Right
-      + Tweet
-      + Donate
-      + Help
-  + Home
-    + Screen
-      + Left
-        + Item
-        + Action Btns
-          + Lang
-          + Speech
-      + Right
-        + Item
-        + Action Btns
-          + Lang
-          + Speech
-
-
-+ BrainTrain
-  + Memrise
-  + Peak
-  + Elevate
-  + Lumosity
-
-
-+ Msg server w/MDom
-
-
-=============== Study ==
-+ Python
-+ Go
-+ Haskell
-+ Elm
-+ C/C++
-+ Lisp
-
-
-=============== Watch ==
 + Lark: http://www.web.lark.com/#top
 + Vango: https://www.vangoart.co/
 
@@ -202,8 +308,6 @@ BI-Tools: Content
     + Games Created per user (games_created_today / games_created_unq_today)
     + Follower participation (100*games_created_unq_today / followers)
 
-
-
 + Channel Activity
   + Top by Volume
     + ID Leaders        => Content characteristics: Generic / Safe
@@ -217,7 +321,6 @@ BI-Tools: Content
   + Top by Moderation
     + questions_created_today + questions_enabled_today + questions_disabled_today
     + questions_suggested_today + questions_rated_today + questions_translated_today
-
 
 ===================
 Gamestats
@@ -260,143 +363,6 @@ Trends
 + node-cache
 
 ===================
-Lingooista
-===================
-+ BACK
-  + Node + Express
-  + Node + Hapi
-  + Node + Restify
-  + Node + Falcor
-  + Go
-  + Flux / Relay / Redux / GraphQL ????
-+ FRONT
-  + Angular
-  + Backbone
-  + React
-  + Rivets
-  + Vanilla
-  + Vue
-
-
-===================
-PAMPA
-===================
-+ Procesar Media Res
-  + El Virrey
-    + 4762-6929
-    + Luis (dueno)
-    + cvirrey@gmail.com
-  +
-
-===================
-Faltas
-===================
-
-Minutos pasada la hora de ingreso:
-
-02:38
-(04/12/2015) Problema de lectura / no fichaje
-10:48
-31:31
-01:24
-05:23
-08:46
-10:53
-
-Total:
--1:10:25
-
-Minutos pasada la hora de egreso:
-
-04:38
-07:57
-04:32
-04:30
-04:59
-18:11
-13:26
-08:58
-09:07
-09:58
-04:59
-00:03
-18:59
-06:51
-10:34
-05:38
-05:11
-07:05
-
-2:25:30
-
-Total diferencial esperado/realidad:
--1:10:25
-+2:25:30
---------
-+1:15:05
-
-Como se expreso en el sueldo:
--1311.69 Pesos, como si nada, sin el mas minimo aviso
-
-
-
-
-
-
-===================
-rand()
-===================
-Marcelo Murase
-pueyrredon 1770 2a
-4982 4682
-
-Tech Company
-15.3360.2554
-
-===================
-U-ELO
-===================
-1. getRoster
-2. getLinkSherdog
-3. getLinkUFC
-  + Bilyal Makhov
-  + Cristiane Justino
-  + Dong Hyun Kim !!
-4. getFighterData
-5. extractAllFights -> parseDate
-6. runELO
-7. runGlicko
-
-===================
-keto.com.ar
-===================
-+ Why? / Who? / How?
-+ Diabetes / Epilepsy / Cancer / Inflammation / Lyme Dis
-+ Studies
-+ Atkins / Modified Atkins
-+ Fasting / Intermitent
-  + George Cahill
-  + Dom Dagostino
-+ Cook in Coconut oil
-+ Lots of Olive oil
-+ Precision Xtra - Glucose + Ketones
-  http://www.amazon.com/Precision-Glucose-Ketone-Monitoring-System/dp/B008UZVLM8/ref=sr_1_1_a_it?ie=UTF8&qid=1450786920&sr=8-1&keywords=precision+xtra
-+ KetoCaNa
-  http://www.amazon.com/KetoSports-KetoCaNa/dp/B00U7R7194
-+ MCT Oil
-  http://www.amazon.com/Premium-derived-only-Organic-Coconuts/dp/B00XM0Y9SE/ref=pd_sim_121_4?ie=UTF8&dpID=51FwtZdFRtL&dpSrc=sims&preST=_AC_UL160_SR160%2C160_&refRID=1VHFY35268J7W6JCA6W1
-+ MCT Oil (powder)
-  http://www.amazon.com/Quest-Nutrition-MCT-Powder-Servings/dp/B016APVE5S/ref=pd_bxgy_121_img_2?ie=UTF8&refRID=0VNVN9PG3CMYM0G99KT3
-+ Keytone strips (urine)
-  http://www.amazon.com/Advanced-Ketone-Test-Strips-count/dp/B00TW15GNY/ref=pd_bxgy_121_img_3?ie=UTF8&refRID=0VNVN9PG3CMYM0G99KT3
-+ BCAA
-  http://www.amazon.com/Scivation-Xtend-Supplement-Orange-Dream/dp/B00KHEQQN4/ref=sr_1_9?s=hpc&ie=UTF8&qid=1450787416&sr=1-9&keywords=scivation+bcaa
-+ Resources
-  + http://www.ketogenic-diet-resource.com/
-  + http://ketonutrition.org
-
-
-===================
 Starting MLearning:
 ===================
 + Machine Learning video lectures by Professor Andrew Ng (Stanford)
@@ -428,250 +394,237 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
 ===================
 TF Show
 ===================
-+ Dom Dagostino
-  + Summary: fasting, keto, cancer,
-  + Cancer combo:
-    Ketogenic diet,
-    Intermitent fasting,
-    Keton esters
-    Metformin,
-    DCA start at 10mg/kg dont go higher than 50,
-    MCT,
-    hyperbaric
-  + Books
-    + Personal Power - Anthony Robbins
-    + Screwtape letters - CS Lewis
-    + Cancer as a metabolic disease - Thomas Seyfried
-    + Tripping over the truth - Travis Christofferson
-+ Derek Sivers
-  + Michael Pollan - Food Rules
-  + "distilling knowledge into super condensed directives"
-  + "this isn't about me, give the audience what they want"
-  + "hell yes or no"
-  + Weird or just different (TED)
-  + Directives (https://springismylove.wordpress.com/2015/09/03/derek-sivers-purge-the-vampires/):
-    + HOW to be useful to others
-      + Get Famous.
-          Do everything in public and for the public.
-          The more people you reach, the more useful you are.
-          The opposite is hiding, which is of no use to anyone.
-      + Get rich.
-          Money is neutral proof that you are adding value to people's life.
-          By getting rich, you are being useful as a side effect.
-          Once rich, spend the money in ways that are even more useful to others.
-          Then, getting rich is double useful.
-      + Share strong opinions.
-          Strong opinions are very useful to others.
-          Those who are undecided or ambivalent can just adopt your stance.
-          Those who disagree can solidify their stance by arguing against yours.
-          Even if you invent an opinion for the sole sake of argument boldlly sharing a strong opinion is very useful to others.
-      + Be Expensive.
-          People given a placebo pill, are twice as likely to have their pain disappeared when told the pill is expensive.
-          People who pay more for a ticket, are more likely to attend  performance.
-          People who pay more for a value or service, value it more and get more use out of it.
-    + How to thrive in an unknowable future 1:35
-      + Prepare for the worst.
-      + Expect disaster.
-      + Own as little as possible.
-      + Choose opportunity, not loyalty.
-      + Choose the plan with the most options.
-      + Avoid planning.
-    + How to stop being rich and happy
-      + Prioritize lifestyle design.
-      + C
-  + Books:
-    + Geek in Japan
-+ Naval Rakisant
-  + Greg Egan - Sci-fi Books
-  + How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life - Scott Adams (Dilbert creator)
-+ Arnold
-  + Books:
-    + Free to Choose - Milton Friedman
-    + The Churchill Factor: How One Man Made History - Boris Johnson
-+ Chris Sacca
-  + Succesful: Brad Feld
-  + Books:
-    + Not Fade Away: A Short Life Well Lived - Laurence Shames and Peter Barton
-    + How to Get Filthy Rich in Rising Asia - Mohsin Hamid
-+ Doug Leone - Sequoia Capital
-  + Books:
-    + Anti Fragile: Things That Gain From Disorder - Nassim Nicholas Taleb
-+ Danny Rimer - Index Ventures
-  + Books:
-    + Predictably Irrational: The Hidden Forces That Shape Our Decisions - Dan Ariely
-+ Noah Kagan
-  + Books:
-    + Essentialism - Greg McKeown
-    + Who: The A Method for Hiring - Geoff Smart and Randy Street
-    + The Ultimate Sell Machine - Chet Holmes
-    + Million Dollar Consulting - Alan Weiss
-    + The Sales Acceleration Formula - Mark Roberge
-    + Smartcuts - Shane Snow
-    + The Boron Letters - Gary C. Halbert
-    + SPIN Selling - Neil Rackham
-    + Small Giants - Bo Burlingham
-    + Surely You're Joking, Mr. Feynman! - Richard Feynman
-    + The Pleasure of Finding Things Out - Richard Feynman
-  + Get an email list
-    + Photo + email me if you want... to all social
-    + Change email signature
-    + SumoMe k1000 ~
-  + Get a mentor
-    + I think you're the best person I know. Can I meet with you on a regular basis? If not, who would you recommend?
-+ Matt Mullenwegg - Automattic
-  + Apps
-    + P2
-    + SimpleNotes
-    + Wunderlist
-    + 7 Minute Workout app
-    + Calm.com
-+ Samy Kamkar
-  + http://samy.pl/
-  + http://samy.pl/tools
-  + USBdriveBy
-  + Books
-    + Influence - Robert Cialdini
-+ Edward Norton
-  + Books
-    + Buddhism Without Beliefs - Stephen Batchelor
-    + The Black Swan - Nassim Nicholas Taleb
-    + Wind, Sand and Stars - Antoine de Saint-Exupéry
-  + Essays
-    + Second Wind (Bill Rusell?)
-    + The Catastrophe of Success - Tennessee Williams
-  + Documentaries
-    + The Cruise - Bennett Miller
-    + The Century of the Self - Adam Curtis
-    + The Power of Nightmares - Adam Curtis
-  + Film
-    + A prophet - Jacques Audiard
-    + Rust and Bone - Jacques Audiard
-    + The Beta My Heart Skipped - Jacques Audiard
-+ Amelia Boone - Tough Mudder Champ
-  + House of Leaves - Mark Z. Danielewski (anti-kindle)
-+ Sofia Amoruso - Nasty Gal CEO
-  + The Richest Man in Babylon - George Samuel Clason
-  + Letters To A Young Poet - R. M. Rilke
-  + Venture Deals - Brad Feld and Jason Mendelson
-  + No Man's Land - Doug Tatum
-+ Peter Diamandias - X-Prize, Human Longevics
-  + Books
-    + The Spirit of St. Louis - Charles Lindbergh
-    + Atlas Shrugged - Ayn Rand
-    + The Man Sold the Moon - Robert A. Heinlein
-    + The Singularity is Near - Ray Kurzweil
-    + Stranger in a Strange Land - Robert A. Heinlein
-+ Ryan Holiday - Director of Marketing for American Apparel
-  + Books
-    + The Obstacle is the Way - Ryan Holiday
-    + As a Man Thinketh - James Allen
-    + Man's Search for Meaning - Viktor Frankl
-    + The Fourth Turning - William Strauss
-    + Slow Sex - Nicole Daedone
-    + Mindset - Carol Dweck
-    + Brain Rules - John Medina
-+ Adam Gazzeley - Neuroscientist, games for neuroenhancing
-  + Books
-    + The Reality Dysfunction - Peter F. Hamilton
-    + Thinking, Fast and Slow - Daniel Kahneman
-    + Man's Search for Meaning - Viktor Frankl
-    + Endurance: Shackleton's Incredible Voyage - Alfred Lansing
-+ Maria Popova - Brain Pickings
-  + Books
-    + Plato's Republic
-    + On the Move: A Life (Oliver Sacks bio) - Oliver Sacks
-+ Brad Feld - VC
-  + Books
-    + Not Fade Away: A Short Life Well Lived - Laurence Shames
-    + How to Get Filthy Rich in Rising Asia - Mohsin Hamid
-+ Arnold Sch
-  + Books
-    + Free to Choose - Milton Friedman and Rose Friedman
-    + The Churchill Factor: How One Man Made History - Boris Johnson
-+ Louis Von Ahn
-  + Books
-    + The Hard Thing about Hard Things - Ben Horowitz
-  + The Startup podcast
-+ Rainn Wilson (Dwight Shrute)
-  + Books
-    + The Bassoon King - Rainn Wilson
-    + The Family Virtues Guide - Linda Kavelin Popov
-  + Documentaries
-    + The Act of Killing
-  + Movies
-    + Apocalypse Now
-+ Will McAskill
-  +YComb: focus on product & distribution
-  + Books
-    + Mindfulness: A practical guide to finding peace in a frantic world - Danny Penman and J. Mark G. Williams
-    + Superintelligence: Paths, Dangers, Strategies - Nick Bostrom
-    + The Power of Persuasion: How We're Bought and Sold - Robert Levine ( !!! not cialdini)
-+ Casey Neistat
-  + Books
-    + The Second World War - John Keegan
-    + Malcolm X Autobiogrpahy
-    + It's Not How Good You Are, It's How Good You Want to Be - Paul Arden
-  + Movies
-    + The Life and Death of Colonel Blimp
-    + Drama in Life - Casey Neistat
-  + Documentary
-    + Little Dieter Needs to Fly (also Christian Bale rework)
-+ Walter O'Brien - "Scorpion"
-  + IQ vs EQ
-  + Brain transplant
-  + Books:
-    + Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets - Nassim Taleb
++ TIM FERRIS PODCAST
+  + General
+    + Podcasts
+      + Hardcore History (watch Wrath of the Kahns)
+      + The Startup Podcast
+      + Cereal first season
+    + Directives:
+      + Go First !, Allways go first and proactive.. Gaby Reece
+    + Books:
+      + Smart and Gets Things Done: Joel Spolsky's Concise Guide to Finding the Best Technical Talent - Joel Spolsky (StackExchange cofounder)
+      + Bad Science: Quacks, Hacks, and Big Pharma Flacks - Ben Goldacre
+      + A Guide to the Good Life - William Braxton
+      + Meditations - Marcus Aurelius
+      + Unleash the Power Within - Tony Robbins
+      + Radical Acceptance - Tara Brach
+      + The Diamond Age - Neal Stephenson
+      + Happy Money: The Science of Happier Spending - Elizabeth Dunn
+      + The Good Gut - Justin Sonnenburg and Erica Sonnenburg
+      + The Magic of Thinking Big - David J. Schwartz
+      + 1000 True Frans - Kevin Kelly
+      + The 22 Immutable Laws of Marketing - Al Ries and Jack Trout
+      + The graveyard book (audiobook)
+      + Vagabonding (audiobook)
+      + Zero to One - Peter Thiel
+      + Zero to One Blake Master's full class notes
+      + Your Memory: How it Works and how to Improve it - Kenneth Higbee
+      + Genghis Khan and the Making of the Modern World - Jack Weatherford
+      + Deep Work: Rules for Focused Success in a Distracted World
+    + Supplements
+      + VSL3
+      + KetoCana
+      + MCT Oil Powder
+      + Ketone tester strips
+    + Quotes
+      + Everything you want is outside of your comfort zone
+      + Ray Bradbury - Don't worry, don't push. Just focus.
+      + Stay close to the edge as possible. From the edge
+  + Dom Dagostino
+    + Summary: fasting, keto, cancer,
+    + Cancer combo:
+      Ketogenic diet,
+      Intermitent fasting,
+      Keton esters
+      Metformin,
+      DCA start at 10mg/kg dont go higher than 50,
+      MCT,
+      hyperbaric
+    + Books
+      + Personal Power - Anthony Robbins
+      + Screwtape letters - CS Lewis
+      + Cancer as a metabolic disease - Thomas Seyfried
+      + Tripping over the truth - Travis Christofferson
+  + Derek Sivers
+    + Michael Pollan - Food Rules
+    + "distilling knowledge into super condensed directives"
+    + "this isn't about me, give the audience what they want"
+    + "hell yes or no"
+    + Weird or just different (TED)
+    + Directives (https://springismylove.wordpress.com/2015/09/03/derek-sivers-purge-the-vampires/):
+      + HOW to be useful to others
+        + Get Famous.
+            Do everything in public and for the public.
+            The more people you reach, the more useful you are.
+            The opposite is hiding, which is of no use to anyone.
+        + Get rich.
+            Money is neutral proof that you are adding value to people's life.
+            By getting rich, you are being useful as a side effect.
+            Once rich, spend the money in ways that are even more useful to others.
+            Then, getting rich is double useful.
+        + Share strong opinions.
+            Strong opinions are very useful to others.
+            Those who are undecided or ambivalent can just adopt your stance.
+            Those who disagree can solidify their stance by arguing against yours.
+            Even if you invent an opinion for the sole sake of argument boldlly sharing a strong opinion is very useful to others.
+        + Be Expensive.
+            People given a placebo pill, are twice as likely to have their pain disappeared when told the pill is expensive.
+            People who pay more for a ticket, are more likely to attend  performance.
+            People who pay more for a value or service, value it more and get more use out of it.
+      + How to thrive in an unknowable future 1:35
+        + Prepare for the worst.
+        + Expect disaster.
+        + Own as little as possible.
+        + Choose opportunity, not loyalty.
+        + Choose the plan with the most options.
+        + Avoid planning.
+      + How to stop being rich and happy
+        + Prioritize lifestyle design.
+        + C
+    + Books:
+      + Geek in Japan
+  + Naval Rakisant
+    + Greg Egan - Sci-fi Books
+    + How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life - Scott Adams (Dilbert creator)
+  + Arnold
+    + Books:
+      + Free to Choose - Milton Friedman
+      + The Churchill Factor: How One Man Made History - Boris Johnson
+  + Chris Sacca
+    + Succesful: Brad Feld
+    + Books:
+      + Not Fade Away: A Short Life Well Lived - Laurence Shames and Peter Barton
+      + How to Get Filthy Rich in Rising Asia - Mohsin Hamid
+  + Doug Leone - Sequoia Capital
+    + Books:
+      + Anti Fragile: Things That Gain From Disorder - Nassim Nicholas Taleb
+  + Danny Rimer - Index Ventures
+    + Books:
+      + Predictably Irrational: The Hidden Forces That Shape Our Decisions - Dan Ariely
+  + Noah Kagan
+    + Books:
+      + Essentialism - Greg McKeown
+      + Who: The A Method for Hiring - Geoff Smart and Randy Street
+      + The Ultimate Sell Machine - Chet Holmes
+      + Million Dollar Consulting - Alan Weiss
+      + The Sales Acceleration Formula - Mark Roberge
+      + Smartcuts - Shane Snow
+      + The Boron Letters - Gary C. Halbert
+      + SPIN Selling - Neil Rackham
+      + Small Giants - Bo Burlingham
+      + Surely You're Joking, Mr. Feynman! - Richard Feynman
+      + The Pleasure of Finding Things Out - Richard Feynman
+    + Get an email list
+      + Photo + email me if you want... to all social
+      + Change email signature
+      + SumoMe k1000 ~
+    + Get a mentor
+      + I think you're the best person I know. Can I meet with you on a regular basis? If not, who would you recommend?
+  + Matt Mullenwegg - Automattic
+    + Apps
+      + P2
+      + SimpleNotes
+      + Wunderlist
+      + 7 Minute Workout app
+      + Calm.com
+  + Samy Kamkar
+    + http://samy.pl/
+    + http://samy.pl/tools
+    + USBdriveBy
+    + Books
+      + Influence - Robert Cialdini
+  + Edward Norton
+    + Books
+      + Buddhism Without Beliefs - Stephen Batchelor
+      + The Black Swan - Nassim Nicholas Taleb
+      + Wind, Sand and Stars - Antoine de Saint-Exupéry
+    + Essays
+      + Second Wind (Bill Rusell?)
+      + The Catastrophe of Success - Tennessee Williams
+    + Documentaries
+      + The Cruise - Bennett Miller
+      + The Century of the Self - Adam Curtis
+      + The Power of Nightmares - Adam Curtis
+    + Film
+      + A prophet - Jacques Audiard
+      + Rust and Bone - Jacques Audiard
+      + The Beta My Heart Skipped - Jacques Audiard
+  + Amelia Boone - Tough Mudder Champ
+    + House of Leaves - Mark Z. Danielewski (anti-kindle)
+  + Sofia Amoruso - Nasty Gal CEO
+    + The Richest Man in Babylon - George Samuel Clason
+    + Letters To A Young Poet - R. M. Rilke
+    + Venture Deals - Brad Feld and Jason Mendelson
+    + No Man's Land - Doug Tatum
+  + Peter Diamandias - X-Prize, Human Longevics
+    + Books
+      + The Spirit of St. Louis - Charles Lindbergh
+      + Atlas Shrugged - Ayn Rand
+      + The Man Sold the Moon - Robert A. Heinlein
+      + The Singularity is Near - Ray Kurzweil
+      + Stranger in a Strange Land - Robert A. Heinlein
+  + Ryan Holiday - Director of Marketing for American Apparel
+    + Books
+      + The Obstacle is the Way - Ryan Holiday
+      + As a Man Thinketh - James Allen
+      + Man's Search for Meaning - Viktor Frankl
+      + The Fourth Turning - William Strauss
+      + Slow Sex - Nicole Daedone
+      + Mindset - Carol Dweck
+      + Brain Rules - John Medina
+  + Adam Gazzeley - Neuroscientist, games for neuroenhancing
+    + Books
+      + The Reality Dysfunction - Peter F. Hamilton
+      + Thinking, Fast and Slow - Daniel Kahneman
+      + Man's Search for Meaning - Viktor Frankl
+      + Endurance: Shackleton's Incredible Voyage - Alfred Lansing
+  + Maria Popova - Brain Pickings
+    + Books
+      + Plato's Republic
+      + On the Move: A Life (Oliver Sacks bio) - Oliver Sacks
+  + Brad Feld - VC
+    + Books
+      + Not Fade Away: A Short Life Well Lived - Laurence Shames
+      + How to Get Filthy Rich in Rising Asia - Mohsin Hamid
+  + Arnold Sch
+    + Books
+      + Free to Choose - Milton Friedman and Rose Friedman
+      + The Churchill Factor: How One Man Made History - Boris Johnson
+  + Louis Von Ahn
+    + Books
+      + The Hard Thing about Hard Things - Ben Horowitz
+    + The Startup podcast
+  + Rainn Wilson (Dwight Shrute)
+    + Books
+      + The Bassoon King - Rainn Wilson
+      + The Family Virtues Guide - Linda Kavelin Popov
+    + Documentaries
+      + The Act of Killing
+    + Movies
+      + Apocalypse Now
+  + Will McAskill
+    +YComb: focus on product & distribution
+    + Books
+      + Mindfulness: A practical guide to finding peace in a frantic world - Danny Penman and J. Mark G. Williams
+      + Superintelligence: Paths, Dangers, Strategies - Nick Bostrom
+      + The Power of Persuasion: How We're Bought and Sold - Robert Levine ( !!! not cialdini)
+  + Casey Neistat
+    + Books
+      + The Second World War - John Keegan
+      + Malcolm X Autobiogrpahy
+      + It's Not How Good You Are, It's How Good You Want to Be - Paul Arden
+    + Movies
+      + The Life and Death of Colonel Blimp
+      + Drama in Life - Casey Neistat
+    + Documentary
+      + Little Dieter Needs to Fly (also Christian Bale rework)
+  + Walter O'Brien - "Scorpion"
+    + IQ vs EQ
+    + Brain transplant
+    + Books:
+      + Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets - Nassim Taleb
 
-
-+ Podcasts
-  + Hardcore History (watch Wrath of the Kahns)
-  + The Startup Podcast
-  + Cereal first season
-+ Directives:
-  + Go First !, Allways go first and proactive.. Gaby Reece
-+ Books:
-  + Bad Science: Quacks, Hacks, and Big Pharma Flacks - Ben Goldacre
-  + A Guide to the Good Life - William Braxton
-  + Meditations - Marcus Aurelius
-  + Unleash the Power Within - Tony Robbins
-  + Radical Acceptance - Tara Brach
-  + The Diamond Age - Neal Stephenson
-  + Happy Money: The Science of Happier Spending - Elizabeth Dunn
-  + The Good Gut - Justin Sonnenburg and Erica Sonnenburg
-  + The Magic of Thinking Big - David J. Schwartz
-  + 1000 True Frans - Kevin Kelly
-  + The 22 Immutable Laws of Marketing - Al Ries and Jack Trout
-  + The graveyard book (audiobook)
-  + Vagabonding (audiobook)
-  + Zero to One - Peter Thiel
-  + Zero to One Blake Master's full class notes
-  + Your Memory: How it Works and how to Improve it - Kenneth Higbee
-  + Genghis Khan and the Making of the Modern World - Jack Weatherford
-  + Deep Work: Rules for Focused Success in a Distracted World
-+ Supplements
-  + VSL3
-  + KetoCana
-  + MCT Oil Powder
-  + Ketone tester strips
-+ Quotes
-  + Everything you want is outside of your comfort zone
-  + Ray Bradbury - Don't worry, don't push. Just focus.
-  + Stay close to the edge as possible. From the edge
-
-
-===================
-Links
-===================
-+ Pete Hunt: https://github.com/petehunt/webpack-howto <--- TRANSLATE
-
-===================
-Videos
-===================
-+ Dan Abramov's inspired list
-  + Turning the database inside out - https://www.youtube.com/watch?v=fU9hR3kiOK0
-  + Inventing on Principle - https://vimeo.com/36579366
-  + Developing ClojureScript with FigWheel - https://www.youtube.com/watch?v=j-kj2qwJa_E
-+ Sleep - Dragonaut - https://www.youtube.com/watch?v=2-FjO3E8K-E
 
 ===================
 Future Stacks
@@ -713,6 +666,14 @@ Koa !
 + RiotJS
 + CycleJS
 
++ BackEnd
+  + Sails
+  + Trails
+  + Nodal
+  + Adonis (Laravel like)
+  + Strapi
+
+
 + Supercharged Dialogue pattern: cellx(input) => redux => cellx(output: FRZR.render())
 
 !! flux-challenge
@@ -726,218 +687,189 @@ transducers-js clone with https://github.com/glathoud/transfun
 ===================
 VangoArt
 ===================
-+ Style
-  + Abstract
-  + Realism
-  + Nature
-  + Portraits & Figures
-  + Modern
-  + Places & Spaces
-  + Surrealism
-+ Medium
-  + Painting
-  + Drawing
-  + Mixed Media
-  + Handmade Print
-+ Prices
-  + 100
-  + 250
-  + 500
-  + 750
-  + 1000
-  + 1500
-  + 2000
-+ Sizes
-  + Small
++ VangoArt
+  + Style
+    + Abstract
+    + Realism
+    + Nature
+    + Portraits & Figures
+    + Modern
+    + Places & Spaces
+    + Surrealism
   + Medium
-  + Large
-  + Extra Large
-+ Collections
-  + Featured
-  + New
-  + Vango Picks
-  + Recommended
-+ Gift Guides
-  + $100 Gifts
-  + City Slicker
-  + Dad
-  + Her
-  + Him
-  + Hipster
-  + Host
-  + Mom
-  + Young Couple
-  + Gift Cards
-+ Commision:
-  1. Fill out the form
-    + We will review your commission request and suggest a few artists.
-  2. Select an artist you like
-    + We will coordinate an introductory call with you and the artist to discuss the details
-  3. Pay half up front
-    + You pay the second half upon completion. Commissions typically take 4 to 6 weeks to complete.
-+ For Artists
-  + Why sell with Vango?
-    + You Earn More: Our artists come first – you keep 70% of the sale price while we'll cover the cost of shipping and bringing you the buyers. We want you to focus on creating and growing your passion.
-    + No Contracts: We believe the more exposure you have the better it is for you, so you don't have to sign an exclusivity contract to sell with Vango.
-    + Easy Shipping: As soon as you sell a piece, we will email you a pre-paid shipping label. You can drop it off at the post office or have it picked up at your door.
-+ Free Shipping & Returns
+    + Painting
+    + Drawing
+    + Mixed Media
+    + Handmade Print
+  + Prices
+    + 100
+    + 250
+    + 500
+    + 750
+    + 1000
+    + 1500
+    + 2000
+  + Sizes
+    + Small
+    + Medium
+    + Large
+    + Extra Large
+  + Collections
+    + Featured
+    + New
+    + Vango Picks
+    + Recommended
+  + Gift Guides
+    + $100 Gifts
+    + City Slicker
+    + Dad
+    + Her
+    + Him
+    + Hipster
+    + Host
+    + Mom
+    + Young Couple
+    + Gift Cards
+  + Commision:
+    1. Fill out the form
+      + We will review your commission request and suggest a few artists.
+    2. Select an artist you like
+      + We will coordinate an introductory call with you and the artist to discuss the details
+    3. Pay half up front
+      + You pay the second half upon completion. Commissions typically take 4 to 6 weeks to complete.
+  + For Artists
+    + Why sell with Vango?
+      + You Earn More: Our artists come first – you keep 70% of the sale price while we'll cover the cost of shipping and bringing you the buyers. We want you to focus on creating and growing your passion.
+      + No Contracts: We believe the more exposure you have the better it is for you, so you don't have to sign an exclusivity contract to sell with Vango.
+      + Easy Shipping: As soon as you sell a piece, we will email you a pre-paid shipping label. You can drop it off at the post office or have it picked up at your door.
+  + Free Shipping & Returns
 
 
 ===================
 Starters
 ===================
-{ name: 'app-skeleton',
-  desc: 'Our starting point for front end app builds. https://zesty.io',
-  url: 'https://github.com/zesty-io/app-skeleton',
-  keywords: ['riotjs', 'redux', 'grapnel'] }
-{ name: 'riot-isomorphic',
-  desc: 'An attempt for an isomorphic appliction using RiotJS 2.',
-  url: 'https://github.com/ListnPlay/riot-isomorphic',
-  keywords: ['riot', 'isomorphic', 'universal'] }
-{ name: '3REE',
-  desc: 'An example universal JS application written with the 3REE stack, React + Redux + RethinkDB + Express. A stack for building apps, front and back end, with just Javascript.',
-  url: 'https://github.com/GordyD/3reegit ',
-  keywords: ['react', 'redux', 'universal', 'isomorphic', 'rethinkdb', 'express'] }
-{ name: 'boilerplate-koa-redux-react',
-  desc: 'A boilerplate for a Koa Redux React application with Webpack, Mocha and SASS',
-  url: 'https://github.com/mezod/boilerplate-koa-redux-react',
-  keywords: ['koa', 'redux', 'react', 'webpack', 'sass', 'immutable'] }
-{ name: 'hapi-universal-redux',
-  desc: 'Create an universal React and Redux app in less than 5 minutes! Isomorphic starterkit with server-side React rendering.',
-  url: 'https://github.com/luandro/hapi-universal-redux',
-  keywords: ['piping', 'webpack', 'react', 'hapi', 'redux', 'radium'] }
-{ name: 'react-redux-universal-hot-example',
-  desc: 'A starter boilerplate for a universal webapp using express, react, redux, webpack, and react-transform',
-  url: 'https://github.com/erikras/react-redux-universal-hot-example',
-  keywords: ['react', 'express', 'redux', 'redux-devtools', 'webpack', 'universal', 'hot'] }
-{ name: 'react-redux-starter-kit',
-  desc: 'Get started with React, Redux, and React-Router!',
-  url: 'https://github.com/davezuko/react-redux-starter-kit',
-  keywords: ['react', 'redux', 'redux-devtools', 'webpack', 'koa'] }
-{ name: 'redux-easy-boilerplate',
-  desc: 'react redux easy boilerplate',
-  url: 'https://github.com/anorudes/redux-easy-boilerplate',
-  keywords: ['react', 'redux', 'sass', 'webpack'] }
-{ name: 'err',
-  desc: '(E)lectron, (R)eact, (R)edux-devtools boilerplate',
-  url: 'https://github.com/tuommii/err',
-  keywords: ['electron', 'react', 'redux', 'redux-devtools', 'webpack', ] }
-{ name: 'react-boilerplate',
-  desc: 'Quick setup for performance orientated, offline-first React.js applications featuring Redux, hot-reloading, PostCSS, react-router, ServiceWorker, AppCache, FontFaceObserver and Mocha.',
-  url: 'https://github.com/mxstbr/react-boilerplate',
-  keywords: ['react', 'hot', 'postCSS', 'serviceWorker', 'appCache', 'redux', 'webpack'] }
-{ name: 'react-slingshot',
-  desc: 'React + Redux starter kit with hot reloading, testing, linting and more, all built in',
-  url: 'https://github.com/coryhouse/react-slingshot',
-  keywords: ['react', 'redux', 'babel', 'webpack', 'sass'] }
-{ name: 'react-webpack-template',
-  desc: 'This is a simple template for building React apps by Pete Hunt',
-  url: 'https://github.com/petehunt/react-webpack-template',
-  keywords: ['react', 'webpack'] }
-{ name: 'react-starter-kit',
-  desc: 'React Starter Kit — a skeleton of an "isomorphic" web application / SPA built with React.js, Express, Flux, ES6+, JSX, Babel, PostCSS, Webpack, BrowserSync... http://www.reactstarterkit.com',
-  url: 'https://github.com/kriasoft/react-starter-kit',
-  keywords: ['React', 'Flux', 'ES6', 'Babel', 'Webpack', 'PostCSS'] }
-{ name: 'simple-react-redux-starter-kit',
-  desc: 'react+router+redux+hot-reload+surge',
-  url: 'https://github.com/luisrudge/simple-react-redux-starter-kit',
-  keywords: ['React', 'Redux', 'hot', 'Surge', '', ''] }
-{ name: 'universal-redux',
-  desc: 'An npm package that lets you jump right into coding React and Redux with universal (isomorphic) rendering. Only manage Express setups or Webpack configurations if you want to.',
-  url: 'https://github.com/bdefore/universal-redux',
-  keywords: ["react", "isomorphic", "universal", "webpack", "express", "hot reloading", "react-hot-reloader", "redux",   "babel"] }
-{ name: 'koaboiler',
-  desc: 'Koa 2.0 Boilerplate for a production-ready app',
-  url: 'https://github.com/llambda/koaboiler',
-  keywords: ['koa', 'socket.io', 'socketio', '', '', ''] }
-{ name: 'frontend-boilerplate',
-  desc: 'webpack-react-redux-babel-autoprefixer-hmr-postcss-css-modules-rucksack-boilerplate',
-  url: 'https://github.com/tj/frontend-boilerplate',
-  keywords: ['tj', 'webpack', 'react', 'redux', 'babel', 'postcss', 'rucksack'] }
-{ name: 'este',
-  desc: 'Dev stack and starter kit for functional and universal (browser, server, mobile) React web apps',
-  url: 'https://github.com/este/este.git',
-  keywords: ['estejs', 'react', 'redux', 'webpack', 'immutable', ''] }
-{ name: 'go-starter-kit',
-  desc: 'Golang Isomorphic React/Hot Reloadable/Redux/Css-Modules Starter Kit',
-  url: 'https://github.com/olebedev/go-starter-kit.git',
-  keywords: ['go', 'golang', 'react', 'redux'] }
-{ name: 'redux-isomorphic-boilerplate',
-  desc: 'Server-side JavaScript rendering with React/Flux can be confusing. This repo is a Hello, World example of isomorphic/universal/server-side rendering/I don't care what you call it JavaScript.',
-  url: 'https://github.com/jarsbe/redux-isomorphic-boilerplate.git',
-  keywords: ['react', 'redux', 'express', 'webpack', 'universal'] }
-{ name: 'express-api-kickstarter',
-  desc: 'A kickstarter project to get an Express API up and running.',
-  url: 'https://github.com/jonathanchrisp/express-api-kickstarter',
-  keywords: ['express', 'eslint'] }
-{ name: 'simple-redux-boilerplate',
-  desc: 'A simple, yet comprehensive React + Redux application, complete with DevTools.',
-  url: 'https://github.com/tsaiDavid/simple-redux-boilerplate',
-  keywords: ['react', 'redux', 'webpack', 'express'] }
-{ name: 'react-redux-starter',
-  desc: 'A universal starter kit built with react, react-router and redux, and Cordova support.',
-  url: 'https://github.com/combine/react-redux-starter',
-  keywords: ['react', 'redux', 'webpack', 'nodemon', 'cordova', 'react-router'] }
-{ name: 'hackathon-starter',
-  desc: 'A boilerplate for Node.js web applications',
-  url: 'https://github.com/sahat/hackathon-starter',
-  keywords: ['express', 'node', 'passport'] }
-{ name: 'es6-library-minimal',
-  desc: 'A minimal starter for an ES6 library',
-  url: 'https://github.com/liady/es6-library-minimal',
-  keywords: ['ES6', 'webpack', 'library', 'starter', 'universal'] }
-{ name: 'react-webpack-babel',
-  desc: 'Simple React Webpack Babel Starter Kit',
-  url: 'https://github.com/alicoding/react-webpack-babel',
-  keywords: ['webpack', 'react', 'babel'] }
-{ name: 'isomorphic-react-example',
-  desc: 'ReactJS + NodeJS ( express ) demo tutorial with video. Universal/Isomorphic JS',
-  url: 'https://github.com/DavidWells/isomorphic-react-example',
-  keywords: ['express', 'universal', 'react'] }
-{ name: 'react-simple',
-  desc: 'Just like the good old jQuery days. Get up and running in a flash with React. No build tools, no config, no bullshit.',
-  url: 'https://github.com/jarsbe/react-simple',
-  keywords: ['react'] }
-{ name: '',
-  desc: '',
-  url: '',
-  keywords: ['', '', '', '', '', ''] }
-{ name: '',
-  desc: '',
-  url: '',
-  keywords: ['', '', '', '', '', ''] }
-
-
-Github Tuts
-https://github.com/reactjs/react-router-tutorial
-https://github.com/DavidWells/isomorphic-react-example
-
-
-
-BA
--34.508276, -58.506674
--34.592691, -58.457407
-
-Rio
--22.903386, -43.249864
--22.898974, -43.181853
-
-SF
-37.461015, -122.173686
-37.379208, -122.086952
-37.420160, -122.085110
-
-NY
-40.724774, -74.000888
-40.731861, -73.989342
-40.756504, -73.983809
-
-Uk
-51.516168, -0.112135
-51.505214, -0.101317
-50.932156, -1.363506
-
-
+var starters = [
+  { name: 'app-skeleton',
+    desc: 'Our starting point for front end app builds. https://zesty.io',
+    url: 'https://github.com/zesty-io/app-skeleton',
+    keywords: ['riotjs', 'redux', 'grapnel'] }
+  { name: 'riot-isomorphic',
+    desc: 'An attempt for an isomorphic appliction using RiotJS 2.',
+    url: 'https://github.com/ListnPlay/riot-isomorphic',
+    keywords: ['riot', 'isomorphic', 'universal'] }
+  { name: '3REE',
+    desc: 'An example universal JS application written with the 3REE stack, React + Redux + RethinkDB + Express. A stack for building apps, front and back end, with just Javascript.',
+    url: 'https://github.com/GordyD/3reegit ',
+    keywords: ['react', 'redux', 'universal', 'isomorphic', 'rethinkdb', 'express'] }
+  { name: 'boilerplate-koa-redux-react',
+    desc: 'A boilerplate for a Koa Redux React application with Webpack, Mocha and SASS',
+    url: 'https://github.com/mezod/boilerplate-koa-redux-react',
+    keywords: ['koa', 'redux', 'react', 'webpack', 'sass', 'immutable'] }
+  { name: 'hapi-universal-redux',
+    desc: 'Create an universal React and Redux app in less than 5 minutes! Isomorphic starterkit with server-side React rendering.',
+    url: 'https://github.com/luandro/hapi-universal-redux',
+    keywords: ['piping', 'webpack', 'react', 'hapi', 'redux', 'radium'] }
+  { name: 'react-redux-universal-hot-example',
+    desc: 'A starter boilerplate for a universal webapp using express, react, redux, webpack, and react-transform',
+    url: 'https://github.com/erikras/react-redux-universal-hot-example',
+    keywords: ['react', 'express', 'redux', 'redux-devtools', 'webpack', 'universal', 'hot'] }
+  { name: 'react-redux-starter-kit',
+    desc: 'Get started with React, Redux, and React-Router!',
+    url: 'https://github.com/davezuko/react-redux-starter-kit',
+    keywords: ['react', 'redux', 'redux-devtools', 'webpack', 'koa'] }
+  { name: 'redux-easy-boilerplate',
+    desc: 'react redux easy boilerplate',
+    url: 'https://github.com/anorudes/redux-easy-boilerplate',
+    keywords: ['react', 'redux', 'sass', 'webpack'] }
+  { name: 'err',
+    desc: '(E)lectron, (R)eact, (R)edux-devtools boilerplate',
+    url: 'https://github.com/tuommii/err',
+    keywords: ['electron', 'react', 'redux', 'redux-devtools', 'webpack', ] }
+  { name: 'react-boilerplate',
+    desc: 'Quick setup for performance orientated, offline-first React.js applications featuring Redux, hot-reloading, PostCSS, react-router, ServiceWorker, AppCache, FontFaceObserver and Mocha.',
+    url: 'https://github.com/mxstbr/react-boilerplate',
+    keywords: ['react', 'hot', 'postCSS', 'serviceWorker', 'appCache', 'redux', 'webpack'] }
+  { name: 'react-slingshot',
+    desc: 'React + Redux starter kit with hot reloading, testing, linting and more, all built in',
+    url: 'https://github.com/coryhouse/react-slingshot',
+    keywords: ['react', 'redux', 'babel', 'webpack', 'sass'] }
+  { name: 'react-webpack-template',
+    desc: 'This is a simple template for building React apps by Pete Hunt',
+    url: 'https://github.com/petehunt/react-webpack-template',
+    keywords: ['react', 'webpack'] }
+  { name: 'react-starter-kit',
+    desc: 'React Starter Kit — a skeleton of an "isomorphic" web application / SPA built with React.js, Express, Flux, ES6+, JSX, Babel, PostCSS, Webpack, BrowserSync... http://www.reactstarterkit.com',
+    url: 'https://github.com/kriasoft/react-starter-kit',
+    keywords: ['React', 'Flux', 'ES6', 'Babel', 'Webpack', 'PostCSS'] }
+  { name: 'simple-react-redux-starter-kit',
+    desc: 'react+router+redux+hot-reload+surge',
+    url: 'https://github.com/luisrudge/simple-react-redux-starter-kit',
+    keywords: ['React', 'Redux', 'hot', 'Surge', '', ''] }
+  { name: 'universal-redux',
+    desc: 'An npm package that lets you jump right into coding React and Redux with universal (isomorphic) rendering. Only manage Express setups or Webpack configurations if you want to.',
+    url: 'https://github.com/bdefore/universal-redux',
+    keywords: ["react", "isomorphic", "universal", "webpack", "express", "hot reloading", "react-hot-reloader", "redux",   "babel"] }
+  { name: 'koaboiler',
+    desc: 'Koa 2.0 Boilerplate for a production-ready app',
+    url: 'https://github.com/llambda/koaboiler',
+    keywords: ['koa', 'socket.io', 'socketio', '', '', ''] }
+  { name: 'frontend-boilerplate',
+    desc: 'webpack-react-redux-babel-autoprefixer-hmr-postcss-css-modules-rucksack-boilerplate',
+    url: 'https://github.com/tj/frontend-boilerplate',
+    keywords: ['tj', 'webpack', 'react', 'redux', 'babel', 'postcss', 'rucksack'] }
+  { name: 'este',
+    desc: 'Dev stack and starter kit for functional and universal (browser, server, mobile) React web apps',
+    url: 'https://github.com/este/este.git',
+    keywords: ['estejs', 'react', 'redux', 'webpack', 'immutable', ''] }
+  { name: 'go-starter-kit',
+    desc: 'Golang Isomorphic React/Hot Reloadable/Redux/Css-Modules Starter Kit',
+    url: 'https://github.com/olebedev/go-starter-kit.git',
+    keywords: ['go', 'golang', 'react', 'redux'] }
+  { name: 'redux-isomorphic-boilerplate',
+    desc: 'Server-side JavaScript rendering with React/Flux can be confusing. This repo is a Hello, World example of isomorphic/universal/server-side rendering/I don't care what you call it JavaScript.',
+    url: 'https://github.com/jarsbe/redux-isomorphic-boilerplate.git',
+    keywords: ['react', 'redux', 'express', 'webpack', 'universal'] }
+  { name: 'express-api-kickstarter',
+    desc: 'A kickstarter project to get an Express API up and running.',
+    url: 'https://github.com/jonathanchrisp/express-api-kickstarter',
+    keywords: ['express', 'eslint'] }
+  { name: 'simple-redux-boilerplate',
+    desc: 'A simple, yet comprehensive React + Redux application, complete with DevTools.',
+    url: 'https://github.com/tsaiDavid/simple-redux-boilerplate',
+    keywords: ['react', 'redux', 'webpack', 'express'] }
+  { name: 'react-redux-starter',
+    desc: 'A universal starter kit built with react, react-router and redux, and Cordova support.',
+    url: 'https://github.com/combine/react-redux-starter',
+    keywords: ['react', 'redux', 'webpack', 'nodemon', 'cordova', 'react-router'] }
+  { name: 'hackathon-starter',
+    desc: 'A boilerplate for Node.js web applications',
+    url: 'https://github.com/sahat/hackathon-starter',
+    keywords: ['express', 'node', 'passport'] }
+  { name: 'es6-library-minimal',
+    desc: 'A minimal starter for an ES6 library',
+    url: 'https://github.com/liady/es6-library-minimal',
+    keywords: ['ES6', 'webpack', 'library', 'starter', 'universal'] }
+  { name: 'react-webpack-babel',
+    desc: 'Simple React Webpack Babel Starter Kit',
+    url: 'https://github.com/alicoding/react-webpack-babel',
+    keywords: ['webpack', 'react', 'babel'] }
+  { name: 'isomorphic-react-example',
+    desc: 'ReactJS + NodeJS ( express ) demo tutorial with video. Universal/Isomorphic JS',
+    url: 'https://github.com/DavidWells/isomorphic-react-example',
+    keywords: ['express', 'universal', 'react'] }
+  { name: 'react-simple',
+    desc: 'Just like the good old jQuery days. Get up and running in a flash with React. No build tools, no config, no bullshit.',
+    url: 'https://github.com/jarsbe/react-simple',
+    keywords: ['react'] }
+  { name: 'scaffold-web',
+    desc: 'Scaffolding for a basic web project using webpack/babel',
+    url: 'https://github.com/Lokeh/scaffold-web',
+    keywords: ['babel', 'webpack', 'mocha'] }
+  { name: '',
+    desc: '',
+    url: '',
+    keywords: ['', '', '', '', '', ''] }
+];
 
 
 
@@ -1056,80 +988,3 @@ ATTENTION! YOUR APPLICATION WILL BE REJECTED IF IT:
 
 
 Good luck!
-
-
-prev = null
-
-
-{
-  prev: null,
-  top: null,
-  store: []
-}
-
-.push('a')
-{
-  prev: null,
-  top: 'a',
-  store: []
-}
-
-.push('b')
-{
-  prev: a,
-  top: 'b',
-  store: [a]
-}
-
-.push('c')
-last = {
-  prev: b,
-  top: 'c',
-  store: [a,b]
-}
-
-{
-  prev: last.store[length-1]
-  store: [...last.store, new]
-}
-
-
-
-
-
-
-
-https://plnkr.co/edit/imcMEoJ4JVQoMy2osgi5?p=preview
-
-
-stack = {
-  values: [],
-  pop: function() {
-    throw new Error(this.STACK_EMPTY_DESCRIPTION);
-  },
-  top: function(){
-    throw new Error(this.STACK_EMPTY_DESCRIPTION);
-  },
-  isEmpty: function() {
-    return true;
-  },
-  push: function(item) {
-    self.pushToStack(item, this.values);
-  }
-};
-
-newStack = {
-  values: ,
-  pop: function() {
-    return this.values.pop();
-  },
-  top: function(){
-    return this.last;
-  },
-  isEmpty: function() {
-    return false;
-  },
-  push: function(item) {
-    self.pushToStack(item, oldItems);
-  }
-};
