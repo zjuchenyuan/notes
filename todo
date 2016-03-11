@@ -25,6 +25,7 @@
   + onDemand Crowd
   + Nagger
   + JSON Lists
+  + cllct.io
   + Games
     + HumanCannon
     + Venture Capitalist
@@ -149,6 +150,10 @@
 + == La Real =============
   + API + React?
   + DO IT
++ == cllct.io ============
+  + Stack
+    +
+
 + == PAMPA ===============
   + Procesar Media Res
     + El Virrey
@@ -192,7 +197,8 @@
       "C",
       "C++",
       "Lisp",
-      "R"
+      "R",
+      "Rust?"
     ],
     codeReading: [
       { name: "", author: ""},
@@ -210,20 +216,32 @@
       { name: "Learning Advanced JavaScript",
         url: "http://ejohn.org/apps/learn/" },
       { name: "Learn Python",
-        url": "http://www.learnpython.org/" }
+        url": "http://www.learnpython.org/" },
+      { name: "Thinkster - Angular, React, MEAN, Ionic, Rails, Swift",
+        url: "https://thinkster.io/"}
     ],
     githubTuts: [
       { title: "React Router Tutorial",
         url: "https://github.com/reactjs/react-router-tutorial" }
       { title: "ReactJS + NodeJS ( express ) demo tutorial with video",
-        url: "https://github.com/DavidWells/isomorphic-react-example" }
+        url: "https://github.com/DavidWells/isomorphic-react-example" },
+      { title: "JS Bits - JavaScript concepts explained with code!",
+        url: "https://github.com/vasanthk/js-bits"},
+      { title:"",
+        url: 'https://github.com/ssloy/tinyrenderer/wiki'}
     ],
     onlineBooks: [
       { title: "", url: ""},
       { title: "Eloquent Javascript",
         url: "http://eloquentjavascript.net/"},
+      { title: "Learning JavaScript Design Patterns"
+        url: "https://addyosmani.com/resources/essentialjsdesignpatterns/book/"},
       { title: "Learn Python the Hard Way",
-        url: "http://learnpythonthehardway.org/book/"}
+        url: "http://learnpythonthehardway.org/book/"},
+      { title: "Learn You a Haskell for Great Good!",
+        url: "http://learnyouahaskell.com/chapters"},
+      { title: "Neural Networks and Deep Learning",
+        url: "http://neuralnetworksanddeeplearning.com/index.html"}
     ],
     videos: [
       { title: "Turning the database inside out",
@@ -242,11 +260,22 @@
   }
 
 
-===================
-Startup Watch
-===================
++ == Watch: Startups ==============
 + Lark: http://www.web.lark.com/#top
 + Vango: https://www.vangoart.co/
+
++ == Watch: Apps ==============
++ Anchor (no android)
++ Chalk (US only?)
++ Meerkat
++ Periscope
++ kik
++ Peach
++ Roger
++ Beme (no android)
++ Ignite (no android)
++ IF + DO Btn + DO Camera + DO Note
++ Tasker (paid)
 
 
 ===================
@@ -403,6 +432,9 @@ TF Show
     + Directives:
       + Go First !, Allways go first and proactive.. Gaby Reece
     + Books:
+      + Originals - Adam Grant
+      + Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days - Jake Knapp
+      + Hooked: How to Build Habit-Forming Products - Nir Eyal
       + Smart and Gets Things Done: Joel Spolsky's Concise Guide to Finding the Best Technical Talent - Joel Spolsky (StackExchange cofounder)
       + Bad Science: Quacks, Hacks, and Big Pharma Flacks - Ben Goldacre
       + A Guide to the Good Life - William Braxton
