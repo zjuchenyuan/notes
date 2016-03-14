@@ -218,7 +218,9 @@
       { name: "Learn Python",
         url": "http://www.learnpython.org/" },
       { name: "Thinkster - Angular, React, MEAN, Ionic, Rails, Swift",
-        url: "https://thinkster.io/"}
+        url: "https://thinkster.io/"},
+      { name: "Neural Networks Demystified",
+        url: "http://lumiverse.io/series/neural-networks-demystified"}
     ],
     githubTuts: [
       { title: "React Router Tutorial",
@@ -253,11 +255,28 @@
       { title: "Developing ClojureScript with FigWheel",
         notes: "Dan Abramov's inspired list",
         url: "https://www.youtube.com/watch?v=j-kj2qwJa_E" },
+      { title: "In-depth introduction to machine learning in 15 hours of expert videos",
+        notes: "Ordered Youtube links",
+        url: "http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/"},
       { title: "",
         notes: "",
         url: "" },
     ]
   }
+ssh -i ~/keys/etermax.key etermax@bi-tools.etermax.com
+
+install.packages("randomForest", repos="http://cran.cnr.berkeley.edu")
+
+1: In install.packages("plotly", repos = "http://cran.cnr.berkeley.edu") :
+  installation of package ‘curl’ had non-zero exit status
+2: In install.packages("plotly", repos = "http://cran.cnr.berkeley.edu") :
+  installation of package ‘openssl’ had non-zero exit status
+3: In install.packages("plotly", repos = "http://cran.cnr.berkeley.edu") :
+  installation of package ‘httr’ had non-zero exit status
+4: In install.packages("plotly", repos = "http://cran.cnr.berkeley.edu") :
+  installation of package ‘plotly’ had non-zero exit status
+> install.packages("curl", repos="http://cran.cnr.berkeley.edu")
+
 
 
 + == Watch: Startups ==============
