@@ -137,6 +137,8 @@
   + React
   + Github contrib view
 + == booksmarts ==========
+  + R & D
+    + https://bookmarkos.com/
   + Packages
     + unfluff
     + gramophone
@@ -153,6 +155,11 @@
 + == cllct.io ============
   + Stack
     +
+
++ == bulletin ============
+  + R & D
+    + Adepra
+    + Xhendra
 
 + == PAMPA ===============
   + Procesar Media Res
@@ -198,7 +205,7 @@
       "C++",
       "Lisp",
       "R",
-      "Rust?"
+      "Rust"
     ],
     codeReading: [
       { name: "", author: ""},
@@ -258,6 +265,9 @@
       { title: "In-depth introduction to machine learning in 15 hours of expert videos",
         notes: "Ordered Youtube links",
         url: "http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/"},
+      { title: "Why Code in Node.js often gets Rejected by SoundCloud • Phil Calcado",
+        notes: "https://www.youtube.com/watch?v=kA4-b7hvWhg"
+        url: ""}
       { title: "",
         notes: "",
         url: "" },
@@ -451,6 +461,7 @@ TF Show
     + Directives:
       + Go First !, Allways go first and proactive.. Gaby Reece
     + Books:
+      + 7 dias en el mundo del Arte - Sarah Horton
       + Originals - Adam Grant
       + Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days - Jake Knapp
       + Hooked: How to Build Habit-Forming Products - Nir Eyal
