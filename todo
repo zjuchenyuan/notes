@@ -29,6 +29,7 @@
   + Games
     + HumanCannon
     + Venture Capitalist
+    + BoatRow (http://imgur.com/a/w1ihL#YyCSZBD), rythmic rowing
 
 + == rand() ==============
   + Marcelo Murase
@@ -155,7 +156,10 @@
 + == cllct.io ============
   + Stack
     +
-
++ == AutoParts ===========
+  + Sources
+    + http://www.mundorepuesto.com/
+    + http://usaautopartsexport.com/
 + == bulletin ============
   + R & D
     + Adepra
@@ -237,7 +241,9 @@
       { title: "JS Bits - JavaScript concepts explained with code!",
         url: "https://github.com/vasanthk/js-bits"},
       { title:"",
-        url: 'https://github.com/ssloy/tinyrenderer/wiki'}
+        url: 'https://github.com/ssloy/tinyrenderer/wiki'},
+      { title: "Collection of classic computer science paradigms, algorithms, and approaches written in JavaScript.",
+        url: "https://github.com/nzakas/computer-science-in-javascript"}
     ],
     onlineBooks: [
       { title: "", url: ""},
@@ -250,7 +256,9 @@
       { title: "Learn You a Haskell for Great Good!",
         url: "http://learnyouahaskell.com/chapters"},
       { title: "Neural Networks and Deep Learning",
-        url: "http://neuralnetworksanddeeplearning.com/index.html"}
+        url: "http://neuralnetworksanddeeplearning.com/index.html"},
+      { title: "Exploring ES6",
+        url: "http://exploringjs.com/es6/"}
     ],
     videos: [
       { title: "Turning the database inside out",
@@ -268,26 +276,11 @@
       { title: "Why Code in Node.js often gets Rejected by SoundCloud • Phil Calcado",
         notes: "https://www.youtube.com/watch?v=kA4-b7hvWhg"
         url: ""}
-      { title: "",
-        notes: "",
-        url: "" },
+      { title: "Awesome JS Conferences",
+        notes: "Awesome list",
+        url: "https://github.com/a0viedo/awesome-js-conferences" },
     ]
   }
-ssh -i ~/keys/etermax.key etermax@bi-tools.etermax.com
-
-install.packages("randomForest", repos="http://cran.cnr.berkeley.edu")
-
-1: In install.packages("plotly", repos = "http://cran.cnr.berkeley.edu") :
-  installation of package ‘curl’ had non-zero exit status
-2: In install.packages("plotly", repos = "http://cran.cnr.berkeley.edu") :
-  installation of package ‘openssl’ had non-zero exit status
-3: In install.packages("plotly", repos = "http://cran.cnr.berkeley.edu") :
-  installation of package ‘httr’ had non-zero exit status
-4: In install.packages("plotly", repos = "http://cran.cnr.berkeley.edu") :
-  installation of package ‘plotly’ had non-zero exit status
-> install.packages("curl", repos="http://cran.cnr.berkeley.edu")
-
-
 
 + == Watch: Startups ==============
 + Lark: http://www.web.lark.com/#top
