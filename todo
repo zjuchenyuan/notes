@@ -164,6 +164,7 @@
   + R & D
     + Adepra
     + Xhendra
+    + Edmodo
 
 + == PAMPA ===============
   + Procesar Media Res
@@ -197,6 +198,24 @@
   + Resources
     + http://www.ketogenic-diet-resource.com/
     + http://ketonutrition.org
++ == Trendy ==============
+  + Sources
+    + HackerNews
+    + reddit
+    + fb trending
+    + G+ What's Hot (https://plus.google.com/explore/_)
+    + ProductHunt
+    + Twitter trending
+    + Quora
+    + SimilarWeb ??
+    + Medium
+    + Snapchat
+    + Vine
+    + Instagram
+    + Youtube
+
+At. >Sr. Osvaldo
+info@o-duch.com.ar
 
 + == STUDY ===============
   var study = {
@@ -279,6 +298,9 @@
       { title: "Awesome JS Conferences",
         notes: "Awesome list",
         url: "https://github.com/a0viedo/awesome-js-conferences" },
+      { title: "Netflix JavaScript Talks - RxJS Version 5",
+        notes: "Ben Lesh explains what RxJS is, and why we use and love it at Netflix.",
+        url: "https://www.youtube.com/watch?v=COviCoUtwx4"}
     ]
   }
 
@@ -695,6 +717,7 @@ Koa !
 + Redux / Riot
 + Redux / Vue
 
++ Redux / Marko
 + Redux / FRZR
 + Redux / Deku
 + Redux / Vidom
@@ -727,6 +750,17 @@ Koa !
   + Nodal
   + Adonis (Laravel like)
   + Strapi
+
++ Reactive shit:
+  + Fworks
+    + CycleJS
+    + TSERS
+  + Libs
+    + RxJS
+    + Flyd
+    + most
+    + cellX
+    + kefir
 
 
 + Supercharged Dialogue pattern: cellx(input) => redux => cellx(output: FRZR.render())
