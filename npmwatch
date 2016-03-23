@@ -81,10 +81,15 @@ NPMWatch
   + socket.io
   + ws
 
+
++ ML
+  + limdu
+  + brain.js
 + NLP / SCRAPE
   + extract-relationships
   + lexrank
   + natural
+  + dclassify
   + node-summary
   + node-tldr
   + noodle

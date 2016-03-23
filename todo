@@ -26,10 +26,12 @@
   + Nagger
   + JSON Lists
   + cllct.io
+  + FridgeOptimizer
   + Games
     + HumanCannon
     + Venture Capitalist
     + BoatRow (http://imgur.com/a/w1ihL#YyCSZBD), rythmic rowing
+
 
 + == rand() ==============
   + Marcelo Murase
@@ -161,6 +163,7 @@
     + http://www.mundorepuesto.com/
     + http://usaautopartsexport.com/
 + == bulletin ============
+  +
   + R & D
     + Adepra
     + Xhendra
@@ -213,9 +216,6 @@
     + Vine
     + Instagram
     + Youtube
-
-At. >Sr. Osvaldo
-info@o-duch.com.ar
 
 + == STUDY ===============
   var study = {
@@ -307,6 +307,7 @@ info@o-duch.com.ar
 + == Watch: Startups ==============
 + Lark: http://www.web.lark.com/#top
 + Vango: https://www.vangoart.co/
++ http://queuehop.com/
 
 + == Watch: Apps ==============
 + Anchor (no android)
@@ -321,6 +322,21 @@ info@o-duch.com.ar
 + IF + DO Btn + DO Camera + DO Note
 + Tasker (paid)
 
+
+=== Ontology =================
++ Tools
+  + SPARQL
+  + OWL
+  + re-ontology (npm)
++ DBs
+  + http://ontotext.com/products/graphdb/
+  + Neo4j
+  + LevelGraph
++ Data
+  + http://babelnet.org/
+  + http://dbpedia.org/
+  + http://www.freebase.com/
+  + http://lod.openlinksw.com/ (yago)
 
 ===================
 Old Channels
