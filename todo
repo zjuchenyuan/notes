@@ -277,7 +277,9 @@
       { title: "Neural Networks and Deep Learning",
         url: "http://neuralnetworksanddeeplearning.com/index.html"},
       { title: "Exploring ES6",
-        url: "http://exploringjs.com/es6/"}
+        url: "http://exploringjs.com/es6/"},
+      { title: "Build web application with Golang",
+        url: "https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/index.html"}
     ],
     videos: [
       { title: "Turning the database inside out",
@@ -337,6 +339,19 @@
   + http://dbpedia.org/
   + http://www.freebase.com/
   + http://lod.openlinksw.com/ (yago)
+
+
+{
+  lang: 'ES',
+  lastUpdated: '2015-03-22',
+  questions:
+  ngrams: {
+    one: [],
+    two: [],
+    three: []
+  }
+}
+
 
 ===================
 Old Channels
