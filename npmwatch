@@ -50,6 +50,7 @@ NPMWatch
   + little-loader
   + lodash
   + merge
+  + mindex
   + ms (millisec converter)
   + object-hash
   + once

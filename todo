@@ -222,23 +222,24 @@
     langs: [
       "Python",
       "Go",
+        Gopher
       "Haskell",
       "Elm",
       "C",
       "C++",
       "Lisp",
       "R",
-      "Rust"
+      "Rust",
+      "Smalltalk"
+        Amber
     ],
     codeReading: [
-      { name: "", author: ""},
       { name: "Coffeescript", author: "Jeremy Ashkenas"},
       { name: "Underscore", author: "Jeremy Ashkenas"},
       { name: "Backbone", author: "Jeremy Ashkenas"},
       { name: "Redux", author: "Dan Abramov"}
     ],
     courses: [
-      { name: "", url: "" },
       { name: "ReactJS Fundamentals",
         url: "http://courses.reactjsprogram.com/" },
       { name: "Go by Example",
@@ -250,7 +251,11 @@
       { name: "Thinkster - Angular, React, MEAN, Ionic, Rails, Swift",
         url: "https://thinkster.io/"},
       { name: "Neural Networks Demystified",
-        url: "http://lumiverse.io/series/neural-networks-demystified"}
+        url: "http://lumiverse.io/series/neural-networks-demystified"},
+      { name: "A Primer on Bézier Curves",
+        url: "http://pomax.github.io/bezierinfo/" },
+      { name: "DAT8 - General Assembly's Data Science course in Washington, DC",
+        url: "https://github.com/justmarkham/DAT8" }
     ],
     githubTuts: [
       { title: "React Router Tutorial",
@@ -259,13 +264,24 @@
         url: "https://github.com/DavidWells/isomorphic-react-example" },
       { title: "JS Bits - JavaScript concepts explained with code!",
         url: "https://github.com/vasanthk/js-bits"},
-      { title:"",
+      { title:"How OpenGL works: software renderer in 500 lines of code",
         url: 'https://github.com/ssloy/tinyrenderer/wiki'},
       { title: "Collection of classic computer science paradigms, algorithms, and approaches written in JavaScript.",
-        url: "https://github.com/nzakas/computer-science-in-javascript"}
+        url: "https://github.com/nzakas/computer-science-in-javascript"},
+      { title: "The Super Tiny Compiler" ,
+        url: "https://github.com/thejameskyle/the-super-tiny-compiler" },
+      { title: "The Super Tiny Interpreter",
+        url: "https://github.com/NicholasAntonov/super-tiny-interpreter" },
+      { title: "Functional Javascript Workshop",
+        url: "https://github.com/timoxley/functional-javascript-workshop" },
+      { title: "BreakTheNet - Tools and Techniques",
+        url: "https://github.com/breakthenet/tools-and-techniques" },
+      { title: "BreakTheNet - SQL Injection Exercises",
+        url: "https://github.com/breakthenet/sql-injection-exercises" },
+      { title: "BreakTheNet - File Upload Exercises",
+        url: "https://github.com/breakthenet/file-upload-exercises" }
     ],
     onlineBooks: [
-      { title: "", url: ""},
       { title: "Eloquent Javascript",
         url: "http://eloquentjavascript.net/"},
       { title: "Learning JavaScript Design Patterns"
@@ -279,7 +295,11 @@
       { title: "Exploring ES6",
         url: "http://exploringjs.com/es6/"},
       { title: "Build web application with Golang",
-        url: "https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/index.html"}
+        url: "https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/index.html"},
+      { title: "Learning to Launch",
+        url: "https://learningtolaunch.co" },
+      { title: "The Little Go Book",
+        url: "http://openmymind.net/assets/go/go.pdf" }
     ],
     videos: [
       { title: "Turning the database inside out",
@@ -295,14 +315,14 @@
         notes: "Ordered Youtube links",
         url: "http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/"},
       { title: "Why Code in Node.js often gets Rejected by SoundCloud • Phil Calcado",
-        notes: "https://www.youtube.com/watch?v=kA4-b7hvWhg"
-        url: ""}
+        notes: ""
+        url: "https://www.youtube.com/watch?v=kA4-b7hvWhg"}
       { title: "Awesome JS Conferences",
         notes: "Awesome list",
         url: "https://github.com/a0viedo/awesome-js-conferences" },
       { title: "Netflix JavaScript Talks - RxJS Version 5",
         notes: "Ben Lesh explains what RxJS is, and why we use and love it at Netflix.",
-        url: "https://www.youtube.com/watch?v=COviCoUtwx4"}
+        url: "https://www.youtube.com/watch?v=COviCoUtwx4" }
     ]
   }
 
@@ -323,6 +343,7 @@
 + Ignite (no android)
 + IF + DO Btn + DO Camera + DO Note
 + Tasker (paid)
++ summize
 
 
 === Ontology =================
@@ -439,6 +460,28 @@ extension=apcu.so
 
 + Contenidos
   + bds.tck_content_daily
+
++ Bugs
+gamestats - metrica dim val
+gamestats - multimetrica con disitnta cantidad de elementos (sales,adrevenue)
+
+
+gamestats - el last da valores incorrectos
+!! Gamestats - allrevenue last
+
+Gamestats - funcionalidad candado
+Gamestats - multimetrica con dimension (dau,new country)
+Gamestats - multimetrica
+
+
+Gamestatas - dashboards de muchos graficos (Ver gridster limitaciones
+Gamestats - impressions/dau US no anda cuando le agregas un valor o dim
+Gamestats - Ejemplo bug label: approved country auto table
+Gamestats - retention1 country EMEA
+Gamestats - conservar la app seleccionada al recargar la pagina o poner new dashboard
+Gamestats - por default hacer los ultimos N dias
+
+Re-enable CACHE !!!!!!!!!!!!!!!!!!!!!!!
 
 ===================
 New Channels
