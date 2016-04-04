@@ -142,6 +142,12 @@
 + == booksmarts ==========
   + R & D
     + https://bookmarkos.com/
+    + http://booky.io/
+    + https://openoox.com/
+    + http://getstache.com/
+    + https://www.linkpack.io/
+    + https://refind.com/
+    + Summize
   + Packages
     + unfluff
     + gramophone
@@ -255,7 +261,9 @@
       { name: "A Primer on Bézier Curves",
         url: "http://pomax.github.io/bezierinfo/" },
       { name: "DAT8 - General Assembly's Data Science course in Washington, DC",
-        url: "https://github.com/justmarkham/DAT8" }
+        url: "https://github.com/justmarkham/DAT8" },
+      { name: "Learn You Some Erlang"
+        url: "http://learnyousomeerlang.com/"}
     ],
     githubTuts: [
       { title: "React Router Tutorial",
@@ -272,6 +280,8 @@
         url: "https://github.com/thejameskyle/the-super-tiny-compiler" },
       { title: "The Super Tiny Interpreter",
         url: "https://github.com/NicholasAntonov/super-tiny-interpreter" },
+      { title: "Ultra Tiny Compiler",
+        url: "https://github.com/elfet/ultra-tiny-compiler" },
       { title: "Functional Javascript Workshop",
         url: "https://github.com/timoxley/functional-javascript-workshop" },
       { title: "BreakTheNet - Tools and Techniques",
@@ -299,7 +309,9 @@
       { title: "Learning to Launch",
         url: "https://learningtolaunch.co" },
       { title: "The Little Go Book",
-        url: "http://openmymind.net/assets/go/go.pdf" }
+        url: "http://openmymind.net/assets/go/go.pdf" },
+      { title: "The Startup Manual",
+        url: "http://startupmanual.co/"}
     ],
     videos: [
       { title: "Turning the database inside out",
@@ -344,6 +356,35 @@
 + IF + DO Btn + DO Camera + DO Note
 + Tasker (paid)
 + summize
+
+=== Scraping / Crawling ===============
+http://scrapinghub.com
+http://www.outwit.com/products/hub/
+http://webroots.io
+http://kimonolabs.com
+http://grabby.io
+http://fullcontact.com
+http://emailhunter.co
+http://clearbit.com
+http://toofr.com
+http://import.io
+http://kimonolabs.com
+http://apifier.com (my number one favorite)
+http://elink.club
+http://www.eliteproxyswitcher.com/ - ;)
+http://www.uipath.com/
+http://diffbot.com
+http://cloudscrape.com
+http://community.screen-scraper....
+https://commoncrawl.org/
+http://www.fminer.com/
+https://scraperwiki.com/
+http://nutch.apache.org/
+http://www.ubotstudio.com/index7
+http://mozenda.com
+http://fivefilters.org/
+http://crawly.diffbot.com/
+
 
 
 === Ontology =================

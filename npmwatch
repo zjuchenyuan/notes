@@ -17,6 +17,7 @@ NPMWatch
   + lo-jsondb (json)
   + LokiJS (mem)
   + redis
+  + GunJS
 + TEMPLATE
   + ejs / handlebars
 + CSS
