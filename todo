@@ -30,8 +30,10 @@
   + Games
     + HumanCannon
     + Venture Capitalist
-    + BoatRow (http://imgur.com/a/w1ihL#YyCSZBD), rythmic rowing
+    + BoatRow (http://imgur.com/a/w1ihL#YyCSZBD), rythmic rowing, http://z-petal.com/sailboat/
 
+
+ lebac Banco Central 32
 
 + == rand() ==============
   + Marcelo Murase
@@ -263,7 +265,9 @@
       { name: "DAT8 - General Assembly's Data Science course in Washington, DC",
         url: "https://github.com/justmarkham/DAT8" },
       { name: "Learn You Some Erlang"
-        url: "http://learnyousomeerlang.com/"}
+        url: "http://learnyousomeerlang.com/"},
+      { name: "Bayes Rules",
+        url: "https://arbital.com/p/bayes_rule/?l=1zq" }
     ],
     githubTuts: [
       { title: "React Router Tutorial",
@@ -384,6 +388,7 @@ http://www.ubotstudio.com/index7
 http://mozenda.com
 http://fivefilters.org/
 http://crawly.diffbot.com/
+https://wrapapi.com/
 
 
 
@@ -503,24 +508,28 @@ extension=apcu.so
   + bds.tck_content_daily
 
 + Bugs
-gamestats - metrica dim val
-gamestats - multimetrica con disitnta cantidad de elementos (sales,adrevenue)
+- Gamestats - allrevenue last
+- gamestats - el last da valores incorrectos
+- Gamestats - conservar la app seleccionada al recargar la pagina o poner new dashboard
+- Gamestats - Conservar la app seleccionada en New Dashboard
+- Gamestats - Ejemplo bug label: approved country auto table (extra column with header "2") (fix en line 738 ojo conditions >= 2)
+- Gamestats - 5 min interval
 
+Gamestats - por default hacer los ultimos N dias
+gamestats - metrica dim val (en autocomplete)
 
-gamestats - el last da valores incorrectos
-!! Gamestats - allrevenue last
-
-Gamestats - funcionalidad candado
-Gamestats - multimetrica con dimension (dau,new country)
 Gamestats - multimetrica
+gamestats - multimetrica con disitnta cantidad de elementos (sales,adrevenue) (igualar cant de rows) (adrev llega primero)
+Gamestats - multimetrica con dimension (dau,new country)
+Gamestats - "impressions/dau US TR" no anda cuando le agregas un valor o dim (con dos distintos)
 
+Gamestats - funcionalidad candado ?? (whitelist para filtros)
+
+Gamestats - retention1 country EMEA
 
 Gamestatas - dashboards de muchos graficos (Ver gridster limitaciones
-Gamestats - impressions/dau US no anda cuando le agregas un valor o dim
-Gamestats - Ejemplo bug label: approved country auto table
-Gamestats - retention1 country EMEA
-Gamestats - conservar la app seleccionada al recargar la pagina o poner new dashboard
-Gamestats - por default hacer los ultimos N dias
+
++ Gamestats - Cancel active req on new reqs
 
 Re-enable CACHE !!!!!!!!!!!!!!!!!!!!!!!
 
@@ -878,6 +887,10 @@ Koa !
     + kefir
 
 
++ GO
+  + Echo
+
+
 + Supercharged Dialogue pattern: cellx(input) => redux => cellx(output: FRZR.render())
 
 !! flux-challenge
@@ -1068,7 +1081,11 @@ var starters = [
   { name: 'scaffold-web',
     desc: 'Scaffolding for a basic web project using webpack/babel',
     url: 'https://github.com/Lokeh/scaffold-web',
-    keywords: ['babel', 'webpack', 'mocha'] }
+    keywords: ['babel', 'webpack', 'mocha'] },
+  { name: 'Koa v2 Skeleton',
+    desc: 'A simple boilerplate for creating a web-app with Koa 2.',
+    url: 'https://github.com/saadq/koa2-skeleton',
+    keywords: ['koa', 'babel'] }
   { name: '',
     desc: '',
     url: '',
