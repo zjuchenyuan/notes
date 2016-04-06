@@ -293,7 +293,9 @@
       { title: "BreakTheNet - SQL Injection Exercises",
         url: "https://github.com/breakthenet/sql-injection-exercises" },
       { title: "BreakTheNet - File Upload Exercises",
-        url: "https://github.com/breakthenet/file-upload-exercises" }
+        url: "https://github.com/breakthenet/file-upload-exercises" },
+      { title: "JS Design Patterns"
+        url: "https://github.com/nnupoor/js_desginpatterns"}
     ],
     onlineBooks: [
       { title: "Eloquent Javascript",
@@ -389,7 +391,7 @@ http://mozenda.com
 http://fivefilters.org/
 http://crawly.diffbot.com/
 https://wrapapi.com/
-
+https://www.instaparser.com/
 
 
 === Ontology =================
@@ -513,6 +515,8 @@ extension=apcu.so
 - Gamestats - conservar la app seleccionada al recargar la pagina o poner new dashboard
 - Gamestats - Conservar la app seleccionada en New Dashboard
 - Gamestats - Ejemplo bug label: approved country auto table (extra column with header "2") (fix en line 738 ojo conditions >= 2)
+
+
 - Gamestats - 5 min interval
 
 Gamestats - por default hacer los ultimos N dias
