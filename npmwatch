@@ -116,6 +116,7 @@ NPMWatch
   + dumbugger
   + debug
   + debug-http
+  + minty
 
 + DEV PIPELINE
   + babel

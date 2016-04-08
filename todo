@@ -238,8 +238,9 @@
       "Lisp",
       "R",
       "Rust",
-      "Smalltalk"
-        Amber
+      "Smalltalk",
+      "Amber (Smalltalk)",
+      "Erlang/Elixir"
     ],
     codeReading: [
       { name: "Coffeescript", author: "Jeremy Ashkenas"},
@@ -267,7 +268,9 @@
       { name: "Learn You Some Erlang"
         url: "http://learnyousomeerlang.com/"},
       { name: "Bayes Rules",
-        url: "https://arbital.com/p/bayes_rule/?l=1zq" }
+        url: "https://arbital.com/p/bayes_rule/?l=1zq" },
+      { name: "Hacksplaining",
+        url: "https://www.hacksplaining.com"}
     ],
     githubTuts: [
       { title: "React Router Tutorial",
@@ -317,7 +320,9 @@
       { title: "The Little Go Book",
         url: "http://openmymind.net/assets/go/go.pdf" },
       { title: "The Startup Manual",
-        url: "http://startupmanual.co/"}
+        url: "http://startupmanual.co/"},
+      { title: "Deep Learning",
+        url: "http://www.deeplearningbook.org/" }
     ],
     videos: [
       { title: "Turning the database inside out",
@@ -510,32 +515,31 @@ extension=apcu.so
   + bds.tck_content_daily
 
 + Bugs
-- Gamestats - allrevenue last
-- gamestats - el last da valores incorrectos
-- Gamestats - conservar la app seleccionada al recargar la pagina o poner new dashboard
-- Gamestats - Conservar la app seleccionada en New Dashboard
-- Gamestats - Ejemplo bug label: approved country auto table (extra column with header "2") (fix en line 738 ojo conditions >= 2)
+  + FIXED
+    + Gamestats - "allrevenue last" ahora funciona.
+    + gamestats - "last" da valores incorrectos.
+    + Gamestats - conservar la app seleccionada al recargar la pagina.
+    + Gamestats - Conservar la app seleccionada en New Dashboard.
+    + Gamestats - "approved country auto table" ya no agrega un columna extra que rompe los labels (fix en line 738 ojo conditions >= 2).
+    + Gamestats - Division Multimetrica (/) ya funciona correctamente.
+    + Gamestats - "dau,new country" multimetrica con dimension ahora funciona ok.
+
+  + PENDING
+    - Gamestats - (dau,new AR US) Se swapean los valores
+    - Gamestats - "impressions/dau US TR" no anda cuando le agregas un valor o dim (con dos distintos) -> ESTANDARIZAR
+    - Gamestats - por default hacer los ultimos N dias, o sacar endDate
+    - Gamestats - metrica dim val (en autocomplete)
+    - Gamestats - multimetrica con disitnta cantidad de elementos (sales,adrevenue) (igualar cant de rows) (adrev llega primero)
+    - Gamestats - funcionalidad candado ?? (whitelist para filtros)
+    - Gamestats - retention1 country EMEA
+    - Gamestats - dashboards de muchos graficos (Ver gridster limitaciones
+    - Gamestats - Cancel active req on new reqs
+
+  + Re-enable CACHE !!!!!!!!!!!!!!!!!!!!!!!
 
 
-- Gamestats - 5 min interval
 
-Gamestats - por default hacer los ultimos N dias
-gamestats - metrica dim val (en autocomplete)
-
-Gamestats - multimetrica
-gamestats - multimetrica con disitnta cantidad de elementos (sales,adrevenue) (igualar cant de rows) (adrev llega primero)
-Gamestats - multimetrica con dimension (dau,new country)
-Gamestats - "impressions/dau US TR" no anda cuando le agregas un valor o dim (con dos distintos)
-
-Gamestats - funcionalidad candado ?? (whitelist para filtros)
-
-Gamestats - retention1 country EMEA
-
-Gamestatas - dashboards de muchos graficos (Ver gridster limitaciones
-
-+ Gamestats - Cancel active req on new reqs
-
-Re-enable CACHE !!!!!!!!!!!!!!!!!!!!!!!
+  + http://research.microsoft.com/en-us/projects/sanddance/
 
 ===================
 New Channels
@@ -1090,6 +1094,14 @@ var starters = [
     desc: 'A simple boilerplate for creating a web-app with Koa 2.',
     url: 'https://github.com/saadq/koa2-skeleton',
     keywords: ['koa', 'babel'] }
+  { name: 'webpack-boilerplate',
+    desc: 'A webpack boilerplate in order to quickly build up a production-ready marketing website.',
+    url: 'https://github.com/geniuscarrier/webpack-boilerplate',
+    keywords: ['webpack', 'bootstrap', 'jquery', 'font-awesome'] }
+  { name: '',
+    desc: '',
+    url: '',
+    keywords: ['', '', '', '', '', ''] }
   { name: '',
     desc: '',
     url: '',
