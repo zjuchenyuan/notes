@@ -150,6 +150,7 @@
     + https://www.linkpack.io/
     + https://refind.com/
     + Summize
+    + http://coligo.io/bookmarking-app-electron-vuejs-firebase/
   + Packages
     + unfluff
     + gramophone
@@ -862,6 +863,8 @@ Koa !
 + Cerebral / Angular2
 + Cerebral / Vue
 
++ mobx / react
+
 + cellX / FRZR
 
 + Cycle/Motorcycle / React
@@ -1098,10 +1101,10 @@ var starters = [
     desc: 'A webpack boilerplate in order to quickly build up a production-ready marketing website.',
     url: 'https://github.com/geniuscarrier/webpack-boilerplate',
     keywords: ['webpack', 'bootstrap', 'jquery', 'font-awesome'] }
-  { name: '',
-    desc: '',
-    url: '',
-    keywords: ['', '', '', '', '', ''] }
+  { name: 'blur-admin',
+    desc: 'Free Angular Bootstrap Admin Dashboard',
+    url: 'https://github.com/akveo/blur-admin',
+    keywords: ['gulp', 'karma', 'phantomjs', 'bootstrap', 'angular', 'jquery'] }
   { name: '',
     desc: '',
     url: '',
