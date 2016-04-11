@@ -271,7 +271,9 @@
       { name: "Bayes Rules",
         url: "https://arbital.com/p/bayes_rule/?l=1zq" },
       { name: "Hacksplaining",
-        url: "https://www.hacksplaining.com"}
+        url: "https://www.hacksplaining.com" },
+      { name: "Paul's Online Math Notes",
+        url: "http://tutorial.math.lamar.edu/" }
     ],
     githubTuts: [
       { title: "React Router Tutorial",
@@ -323,7 +325,11 @@
       { title: "The Startup Manual",
         url: "http://startupmanual.co/"},
       { title: "Deep Learning",
-        url: "http://www.deeplearningbook.org/" }
+        url: "http://www.deeplearningbook.org/" },
+      { title: "Learning Go",
+        url: "https://miek.nl/go/#" },
+      { title: "Network programming with Go by Jan Newmarch",
+        url: "https://jan.newmarch.name/go/" }
     ],
     videos: [
       { title: "Turning the database inside out",
@@ -524,21 +530,23 @@ extension=apcu.so
     + Gamestats - "approved country auto table" ya no agrega un columna extra que rompe los labels (fix en line 738 ojo conditions >= 2).
     + Gamestats - Division Multimetrica (/) ya funciona correctamente.
     + Gamestats - "dau,new country" multimetrica con dimension ahora funciona ok.
+    + Gamestats - "dau,new AR US" Se swapean los valores (Fix: MysqlStatsClient.php:309 '$query = $query->orderBy($prefix.$dimension);')
+    + Gamestats - "impressions banner native TR" roto - OK: Ahora countries es siempre upper: TR
+    + Gamestats - "impressions/dau US TR" no anda cuando le agregas un valor o dim (con dos distintos) -> ESTANDARIZAR
 
   + PENDING
-    - Gamestats - (dau,new AR US) Se swapean los valores
-    - Gamestats - "impressions/dau US TR" no anda cuando le agregas un valor o dim (con dos distintos) -> ESTANDARIZAR
+    - Gamestats - "dau,new country" invierte headers de las columnas (IT con TR)
     - Gamestats - por default hacer los ultimos N dias, o sacar endDate
     - Gamestats - metrica dim val (en autocomplete)
     - Gamestats - multimetrica con disitnta cantidad de elementos (sales,adrevenue) (igualar cant de rows) (adrev llega primero)
-    - Gamestats - funcionalidad candado ?? (whitelist para filtros)
     - Gamestats - retention1 country EMEA
     - Gamestats - dashboards de muchos graficos (Ver gridster limitaciones
+    - Gamestats - funcionalidad candado ?? (whitelist para filtros)
     - Gamestats - Cancel active req on new reqs
 
   + Re-enable CACHE !!!!!!!!!!!!!!!!!!!!!!!
 
-
++ chequear countries en p2_qf_daily_diff_stats
 
   + http://research.microsoft.com/en-us/projects/sanddance/
 
@@ -596,6 +604,8 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
 + TCSchool
 + 1-10 Numbers
 + Cursiva / imprenta
+
++ Deep Learning Books - http://machinelearningmastery.com/deep-learning-books/
 
 ===================
 TF Show
@@ -863,7 +873,7 @@ Koa !
 + Cerebral / Angular2
 + Cerebral / Vue
 
-+ mobx / react
++ Mobx / React
 
 + cellX / FRZR
 
