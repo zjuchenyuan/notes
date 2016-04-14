@@ -273,7 +273,11 @@
       { name: "Hacksplaining",
         url: "https://www.hacksplaining.com" },
       { name: "Paul's Online Math Notes",
-        url: "http://tutorial.math.lamar.edu/" }
+        url: "http://tutorial.math.lamar.edu/" },
+      { name: "Want to learn React Native? Start here",
+        url: "https://www.viget.com/articles/learn-you-a-react-native" },
+      { name: "Calculus Learning Guide",
+        url: "http://betterexplained.com/guides/calculus/" }
     ],
     githubTuts: [
       { title: "React Router Tutorial",
@@ -301,7 +305,9 @@
       { title: "BreakTheNet - File Upload Exercises",
         url: "https://github.com/breakthenet/file-upload-exercises" },
       { title: "JS Design Patterns"
-        url: "https://github.com/nnupoor/js_desginpatterns"}
+        url: "https://github.com/nnupoor/js_desginpatterns"},
+      { title: "Go Wiki",
+        url: "https://github.com/golang/go/wiki" }
     ],
     onlineBooks: [
       { title: "Eloquent Javascript",
@@ -324,6 +330,8 @@
         url: "http://openmymind.net/assets/go/go.pdf" },
       { title: "The Startup Manual",
         url: "http://startupmanual.co/"},
+      { title: "Neural Networks and Deep Learning",
+        url: "http://neuralnetworksanddeeplearning.com/index.html" },
       { title: "Deep Learning",
         url: "http://www.deeplearningbook.org/" },
       { title: "Learning Go",
@@ -352,7 +360,20 @@
         url: "https://github.com/a0viedo/awesome-js-conferences" },
       { title: "Netflix JavaScript Talks - RxJS Version 5",
         notes: "Ben Lesh explains what RxJS is, and why we use and love it at Netflix.",
-        url: "https://www.youtube.com/watch?v=COviCoUtwx4" }
+        url: "https://www.youtube.com/watch?v=COviCoUtwx4" },
+      { title: "Structure and Implementation of Computer Programs",
+        url: "http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/" }
+    ],
+    podcasts: [
+      { title: "Supreme Clientele by: Roger Chen",
+        notable: [ "SC5. Kathleen Breitman - R3, Blockchain, Digital Currencies" ] },
+      { title: "a16z Podcast" }
+      { title: "Angel Insights from Jim Goetz @ Sequoia",
+        notable: [ "Chris Mairs, Chief Scientist @ Metaswitch" ] },
+      { title: "The Pitch" },
+      { title: "The James Altucher Show",
+        notable: [ "Ep. 162 – 7 Secrets of Mastery - Dr. K Anders Ericsson, who discovered the 10,000 hour rule" ]}
+
     ]
   }
 
@@ -360,6 +381,7 @@
 + Lark: http://www.web.lark.com/#top
 + Vango: https://www.vangoart.co/
 + http://queuehop.com/
++ http://deathandtax.com/
 
 + == Watch: Apps ==============
 + Anchor (no android)
