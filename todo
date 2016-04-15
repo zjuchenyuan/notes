@@ -372,7 +372,10 @@
         notable: [ "Chris Mairs, Chief Scientist @ Metaswitch" ] },
       { title: "The Pitch" },
       { title: "The James Altucher Show",
-        notable: [ "Ep. 162 – 7 Secrets of Mastery - Dr. K Anders Ericsson, who discovered the 10,000 hour rule" ]}
+        notable: [ "Ep. 162 – 7 Secrets of Mastery - Dr. K Anders Ericsson, who discovered the 10,000 hour rule" ]},
+      { title: "Excelence Expected" },
+      { title: "The Foundr Podcast" },
+      { title: "The 20 Minute VC" }
 
     ]
   }
@@ -558,6 +561,7 @@ extension=apcu.so
 
   + PENDING
     - Gamestats - "dau,new country" invierte headers de las columnas (IT con TR)
+    - Gamestats - VER CON SEBA: "sales type" no funciona, busca en summary_daily; querems type como en dbsales type
     - Gamestats - por default hacer los ultimos N dias, o sacar endDate
     - Gamestats - metrica dim val (en autocomplete)
     - Gamestats - multimetrica con disitnta cantidad de elementos (sales,adrevenue) (igualar cant de rows) (adrev llega primero)
