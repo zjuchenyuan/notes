@@ -142,6 +142,9 @@
   + React
   + Github contrib view
 + == booksmarts ==========
+  + Tuts
+    + https://robots.thoughtbot.com/how-to-make-a-chrome-extension
+    + http://coligo.io/bookmarking-app-electron-vuejs-firebase/
   + R & D
     + https://bookmarkos.com/
     + http://booky.io/
@@ -229,234 +232,250 @@
 + == STUDY ===============
   var study = {
     langs: [
-      "Python",
-      "Go",
-        Gopher
-      "Haskell",
-      "Elm",
-      "C",
-      "C++",
-      "Lisp",
-      "R",
-      "Rust",
-      "Smalltalk",
-      "Amber (Smalltalk)",
-      "Erlang/Elixir"
+      { name: 'Python' },
+      { name: 'Go',
+        roadmap:
+          [{ name: "Go Tutorial",
+            url: "http://golang.org/doc/go_tutorial.html" },
+          { name: "Effective Go",
+            url: "http://golang.org/doc/effective_go.html" },
+          { name: "Go Language Patterns",
+            url: "http://www.golangpatterns.info/" }],
+        frameworks: [
+          'Gopher'
+        ]},
+      { name: 'Haskell' },
+      { name: 'Elm' },
+      { name: 'C' },
+      { name: 'C++' },
+      { name: 'Lisp' },
+      { name: 'R' },
+      { name: 'Rust' },
+      { name: 'SmallTalk',
+        frameworks: [
+          'Amber'
+        ]},
+      { name: 'Erlang',
+        frameworks: [
+          'Elixir'
+        ]}
     ],
     codeReading: [
-      { name: "Coffeescript", author: "Jeremy Ashkenas"},
-      { name: "Underscore", author: "Jeremy Ashkenas"},
-      { name: "Backbone", author: "Jeremy Ashkenas"},
-      { name: "Redux", author: "Dan Abramov"}
+      { name: 'Coffeescript', author: 'Jeremy Ashkenas'},
+      { name: 'Underscore', author: 'Jeremy Ashkenas'},
+      { name: 'Backbone', author: 'Jeremy Ashkenas'},
+      { name: 'Redux', author: 'Dan Abramov'}
     ],
     courses: [
-      { name: "ReactJS Fundamentals",
-        url: "http://courses.reactjsprogram.com/" },
-      { name: "Go by Example",
-        url: "https://gobyexample.com/" },
-      { name: "Learning Advanced JavaScript",
-        url: "http://ejohn.org/apps/learn/" },
-      { name: "Learn Python",
-        url": "http://www.learnpython.org/" },
-      { name: "Thinkster - Angular, React, MEAN, Ionic, Rails, Swift",
-        url: "https://thinkster.io/"},
-      { name: "Neural Networks Demystified",
-        url: "http://lumiverse.io/series/neural-networks-demystified"},
-      { name: "A Primer on Bézier Curves",
-        url: "http://pomax.github.io/bezierinfo/" },
-      { name: "DAT8 - General Assembly's Data Science course in Washington, DC",
-        url: "https://github.com/justmarkham/DAT8" },
-      { name: "Learn You Some Erlang"
-        url: "http://learnyousomeerlang.com/"},
-      { name: "Bayes Rules",
-        url: "https://arbital.com/p/bayes_rule/?l=1zq" },
-      { name: "Hacksplaining",
-        url: "https://www.hacksplaining.com" },
-      { name: "Paul's Online Math Notes",
-        url: "http://tutorial.math.lamar.edu/" },
-      { name: "Want to learn React Native? Start here",
-        url: "https://www.viget.com/articles/learn-you-a-react-native" },
-      { name: "Calculus Learning Guide",
-        url: "http://betterexplained.com/guides/calculus/" }
+      { name: 'ReactJS Fundamentals',
+        url: 'http://courses.reactjsprogram.com/' },
+      { name: 'Go by Example',
+        url: 'https://gobyexample.com/' },
+      { name: 'Learning Advanced JavaScript',
+        url: 'http://ejohn.org/apps/learn/' },
+      { name: 'Learn Python',
+        url': 'http://www.learnpython.org/' },
+      { name: 'Thinkster - Angular, React, MEAN, Ionic, Rails, Swift',
+        url: 'https://thinkster.io/'},
+      { name: 'Neural Networks Demystified',
+        url: 'http://lumiverse.io/series/neural-networks-demystified'},
+      { name: 'A Primer on Bézier Curves',
+        url: 'http://pomax.github.io/bezierinfo/' },
+      { name: 'DAT8 - General Assembly's Data Science course in Washington, DC',
+        url: 'https://github.com/justmarkham/DAT8' },
+      { name: 'Learn You Some Erlang'
+        url: 'http://learnyousomeerlang.com/'},
+      { name: 'Bayes Rules',
+        url: 'https://arbital.com/p/bayes_rule/?l=1zq' },
+      { name: 'Hacksplaining',
+        url: 'https://www.hacksplaining.com' },
+      { name: 'Paul's Online Math Notes',
+        url: 'http://tutorial.math.lamar.edu/' },
+      { name: 'Want to learn React Native? Start here',
+        url: 'https://www.viget.com/articles/learn-you-a-react-native' },
+      { name: 'Calculus Learning Guide',
+        url: 'http://betterexplained.com/guides/calculus/' },
+      { name: 'Introduction to the Python Interpreter',
+        url: 'http://akaptur.com/blog/2013/11/15/introduction-to-the-python-interpreter/' },
+      { name: "Flexbox Patterns",
+        url: "http://www.flexboxpatterns.com/" }
     ],
     githubTuts: [
-      { title: "React Router Tutorial",
-        url: "https://github.com/reactjs/react-router-tutorial" }
-      { title: "ReactJS + NodeJS ( express ) demo tutorial with video",
-        url: "https://github.com/DavidWells/isomorphic-react-example" },
-      { title: "JS Bits - JavaScript concepts explained with code!",
-        url: "https://github.com/vasanthk/js-bits"},
-      { title:"How OpenGL works: software renderer in 500 lines of code",
+      { title: 'React Router Tutorial',
+        url: 'https://github.com/reactjs/react-router-tutorial' }
+      { title: 'ReactJS + NodeJS ( express ) demo tutorial with video',
+        url: 'https://github.com/DavidWells/isomorphic-react-example' },
+      { title: 'JS Bits - JavaScript concepts explained with code!',
+        url: 'https://github.com/vasanthk/js-bits'},
+      { title:'How OpenGL works: software renderer in 500 lines of code',
         url: 'https://github.com/ssloy/tinyrenderer/wiki'},
-      { title: "Collection of classic computer science paradigms, algorithms, and approaches written in JavaScript.",
-        url: "https://github.com/nzakas/computer-science-in-javascript"},
-      { title: "The Super Tiny Compiler" ,
-        url: "https://github.com/thejameskyle/the-super-tiny-compiler" },
-      { title: "The Super Tiny Interpreter",
-        url: "https://github.com/NicholasAntonov/super-tiny-interpreter" },
-      { title: "Ultra Tiny Compiler",
-        url: "https://github.com/elfet/ultra-tiny-compiler" },
-      { title: "Functional Javascript Workshop",
-        url: "https://github.com/timoxley/functional-javascript-workshop" },
-      { title: "BreakTheNet - Tools and Techniques",
-        url: "https://github.com/breakthenet/tools-and-techniques" },
-      { title: "BreakTheNet - SQL Injection Exercises",
-        url: "https://github.com/breakthenet/sql-injection-exercises" },
-      { title: "BreakTheNet - File Upload Exercises",
-        url: "https://github.com/breakthenet/file-upload-exercises" },
-      { title: "JS Design Patterns"
-        url: "https://github.com/nnupoor/js_desginpatterns"},
-      { title: "Go Wiki",
-        url: "https://github.com/golang/go/wiki" }
+      { title: 'Collection of classic computer science paradigms, algorithms, and approaches written in JavaScript.',
+        url: 'https://github.com/nzakas/computer-science-in-javascript'},
+      { title: 'The Super Tiny Compiler' ,
+        url: 'https://github.com/thejameskyle/the-super-tiny-compiler' },
+      { title: 'The Super Tiny Interpreter',
+        url: 'https://github.com/NicholasAntonov/super-tiny-interpreter' },
+      { title: 'Ultra Tiny Compiler',
+        url: 'https://github.com/elfet/ultra-tiny-compiler' },
+      { title: 'Functional Javascript Workshop',
+        url: 'https://github.com/timoxley/functional-javascript-workshop' },
+      { title: 'BreakTheNet - Tools and Techniques',
+        url: 'https://github.com/breakthenet/tools-and-techniques' },
+      { title: 'BreakTheNet - SQL Injection Exercises',
+        url: 'https://github.com/breakthenet/sql-injection-exercises' },
+      { title: 'BreakTheNet - File Upload Exercises',
+        url: 'https://github.com/breakthenet/file-upload-exercises' },
+      { title: 'JS Design Patterns'
+        url: 'https://github.com/nnupoor/js_desginpatterns'},
+      { title: 'Go Wiki',
+        url: 'https://github.com/golang/go/wiki' },
+      { title: 'The introduction to Reactive Programming you've been missing',
+        url: "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754" }
     ],
     onlineBooks: [
-      { title: "Eloquent Javascript",
-        url: "http://eloquentjavascript.net/"},
-      { title: "Learning JavaScript Design Patterns"
-        url: "https://addyosmani.com/resources/essentialjsdesignpatterns/book/"},
-      { title: "Learn Python the Hard Way",
-        url: "http://learnpythonthehardway.org/book/"},
-      { title: "Learn You a Haskell for Great Good!",
-        url: "http://learnyouahaskell.com/chapters"},
-      { title: "Neural Networks and Deep Learning",
-        url: "http://neuralnetworksanddeeplearning.com/index.html"},
-      { title: "Exploring ES6",
-        url: "http://exploringjs.com/es6/"},
-      { title: "Build web application with Golang",
-        url: "https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/index.html"},
-      { title: "Learning to Launch",
-        url: "https://learningtolaunch.co" },
-      { title: "The Little Go Book",
-        url: "http://openmymind.net/assets/go/go.pdf" },
-      { title: "The Startup Manual",
-        url: "http://startupmanual.co/"},
-      { title: "Neural Networks and Deep Learning",
-        url: "http://neuralnetworksanddeeplearning.com/index.html" },
-      { title: "Deep Learning",
-        url: "http://www.deeplearningbook.org/" },
-      { title: "Learning Go",
-        url: "https://miek.nl/go/#" },
-      { title: "Network programming with Go by Jan Newmarch",
-        url: "https://jan.newmarch.name/go/" }
+      { title: 'Eloquent Javascript',
+        url: 'http://eloquentjavascript.net/'},
+      { title: 'Learning JavaScript Design Patterns'
+        url: 'https://addyosmani.com/resources/essentialjsdesignpatterns/book/'},
+      { title: 'Learn Python the Hard Way',
+        url: 'http://learnpythonthehardway.org/book/'},
+      { title: 'Learn You a Haskell for Great Good!',
+        url: 'http://learnyouahaskell.com/chapters'},
+      { title: 'Exploring ES6',
+        url: 'http://exploringjs.com/es6/'},
+      { title: 'Build web application with Golang',
+        url: 'https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/index.html'},
+      { title: 'Learning to Launch',
+        url: 'https://learningtolaunch.co' },
+      { title: 'The Little Go Book',
+        url: 'http://openmymind.net/assets/go/go.pdf' },
+      { title: 'The Startup Manual',
+        url: 'http://startupmanual.co/'},
+      { title: 'Neural Networks and Deep Learning',
+        url: 'http://neuralnetworksanddeeplearning.com/index.html' },
+      { title: 'Deep Learning',
+        url: 'http://www.deeplearningbook.org/' },
+      { title: 'Learning Go',
+        url: 'https://miek.nl/go/#' },
+      { title: 'Network programming with Go by Jan Newmarch',
+        url: 'https://jan.newmarch.name/go/' },
+      { title: 'Professional Web Typography',
+        url: 'https://prowebtype.com/' },
+      { title: "Professor Frisby’s Mostly Adequate Guide to Functional Programming",
+        url: "https://www.gitbook.com/book/drboolean/mostly-adequate-guide/details"}
     ],
+    paths: [
+      { title: "A path to enlightenment in Programming Language Theory",
+        url: "https://github.com/steshaw/plt" }
+    ]
     videos: [
-      { title: "Turning the database inside out",
-        notes: "Dan Abramov's inspired list",
-        url: "https://www.youtube.com/watch?v=fU9hR3kiOK0" },
-      { title: "Inventing on Principle",
-        notes: "Dan Abramov's inspired list",
-        url: "https://vimeo.com/36579366" },
-      { title: "Developing ClojureScript with FigWheel",
-        notes: "Dan Abramov's inspired list",
-        url: "https://www.youtube.com/watch?v=j-kj2qwJa_E" },
-      { title: "In-depth introduction to machine learning in 15 hours of expert videos",
-        notes: "Ordered Youtube links",
-        url: "http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/"},
-      { title: "Why Code in Node.js often gets Rejected by SoundCloud • Phil Calcado",
-        notes: ""
-        url: "https://www.youtube.com/watch?v=kA4-b7hvWhg"}
-      { title: "Awesome JS Conferences",
-        notes: "Awesome list",
-        url: "https://github.com/a0viedo/awesome-js-conferences" },
-      { title: "Netflix JavaScript Talks - RxJS Version 5",
-        notes: "Ben Lesh explains what RxJS is, and why we use and love it at Netflix.",
-        url: "https://www.youtube.com/watch?v=COviCoUtwx4" },
-      { title: "Structure and Implementation of Computer Programs",
-        url: "http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/" }
+      { title: 'Turning the database inside out',
+        notes: 'Dan Abramov's inspired list',
+        url: 'https://www.youtube.com/watch?v=fU9hR3kiOK0' },
+      { title: 'Inventing on Principle',
+        notes: 'Dan Abramov's inspired list',
+        url: 'https://vimeo.com/36579366' },
+      { title: 'Developing ClojureScript with FigWheel',
+        notes: 'Dan Abramov's inspired list',
+        url: 'https://www.youtube.com/watch?v=j-kj2qwJa_E' },
+      { title: 'In-depth introduction to machine learning in 15 hours of expert videos',
+        notes: 'Ordered Youtube links',
+        url: 'http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/'},
+      { title: 'Why Code in Node.js often gets Rejected by SoundCloud • Phil Calcado',
+        notes: ''
+        url: 'https://www.youtube.com/watch?v=kA4-b7hvWhg'}
+      { title: 'Awesome JS Conferences',
+        notes: 'Awesome list',
+        url: 'https://github.com/a0viedo/awesome-js-conferences' },
+      { title: 'Netflix JavaScript Talks - RxJS Version 5',
+        notes: 'Ben Lesh explains what RxJS is, and why we use and love it at Netflix.',
+        url: 'https://www.youtube.com/watch?v=COviCoUtwx4' },
+      { title: 'Structure and Implementation of Computer Programs',
+        url: 'http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/' }
     ],
     podcasts: [
-      { title: "Supreme Clientele by: Roger Chen",
-        notable: [ "SC5. Kathleen Breitman - R3, Blockchain, Digital Currencies" ] },
-      { title: "a16z Podcast" }
-      { title: "Angel Insights from Jim Goetz @ Sequoia",
-        notable: [ "Chris Mairs, Chief Scientist @ Metaswitch" ] },
-      { title: "The Pitch" },
-      { title: "The James Altucher Show",
-        notable: [ "Ep. 162 – 7 Secrets of Mastery - Dr. K Anders Ericsson, who discovered the 10,000 hour rule" ]},
-      { title: "Excelence Expected" },
-      { title: "The Foundr Podcast" },
-      { title: "The 20 Minute VC" }
+      { title: 'Supreme Clientele by: Roger Chen',
+        notable: [ 'SC5. Kathleen Breitman - R3, Blockchain, Digital Currencies' ] },
+      { title: 'a16z Podcast' }
+      { title: 'Angel Insights from Jim Goetz @ Sequoia',
+        notable: [ 'Chris Mairs, Chief Scientist @ Metaswitch' ] },
+      { title: 'The Pitch' },
+      { title: 'The James Altucher Show',
+        notable: [ 'Ep. 162 – 7 Secrets of Mastery - Dr. K Anders Ericsson, who discovered the 10,000 hour rule' ]},
+      { title: 'Excelence Expected' },
+      { title: 'The Foundr Podcast' },
+      { title: 'The 20 Minute VC' }
 
     ]
   }
 
+4326-4384
+
 + == Watch: Startups ==============
-+ Lark: http://www.web.lark.com/#top
-+ Vango: https://www.vangoart.co/
-+ http://queuehop.com/
-+ http://deathandtax.com/
+  + Lark: http://www.web.lark.com/#top
+  + Vango: https://www.vangoart.co/
+  + http://queuehop.com/
+  + http://deathandtax.com/
 
 + == Watch: Apps ==============
-+ Anchor (no android)
-+ Chalk (US only?)
-+ Meerkat
-+ Periscope
-+ kik
-+ Peach
-+ Roger
-+ Beme (no android)
-+ Ignite (no android)
-+ IF + DO Btn + DO Camera + DO Note
-+ Tasker (paid)
-+ summize
+  + Anchor (no android)
+  + Chalk (US only?)
+  + Meerkat
+  + Periscope
+  + kik
+  + Peach
+  + Roger
+  + Beme (no android)
+  + Ignite (no android)
+  + IF + DO Btn + DO Camera + DO Note
+  + Tasker (paid)
+  + summize
 
 === Scraping / Crawling ===============
-http://scrapinghub.com
-http://www.outwit.com/products/hub/
-http://webroots.io
-http://kimonolabs.com
-http://grabby.io
-http://fullcontact.com
-http://emailhunter.co
-http://clearbit.com
-http://toofr.com
-http://import.io
-http://kimonolabs.com
-http://apifier.com (my number one favorite)
-http://elink.club
-http://www.eliteproxyswitcher.com/ - ;)
-http://www.uipath.com/
-http://diffbot.com
-http://cloudscrape.com
-http://community.screen-scraper....
-https://commoncrawl.org/
-http://www.fminer.com/
-https://scraperwiki.com/
-http://nutch.apache.org/
-http://www.ubotstudio.com/index7
-http://mozenda.com
-http://fivefilters.org/
-http://crawly.diffbot.com/
-https://wrapapi.com/
-https://www.instaparser.com/
+  http://scrapinghub.com
+  http://www.outwit.com/products/hub/
+  http://webroots.io
+  http://kimonolabs.com
+  http://grabby.io
+  http://fullcontact.com
+  http://emailhunter.co
+  http://clearbit.com
+  http://toofr.com
+  http://import.io
+  http://kimonolabs.com
+  http://apifier.com (my number one favorite)
+  http://elink.club
+  http://www.eliteproxyswitcher.com/ - ;)
+  http://www.uipath.com/
+  http://diffbot.com
+  http://cloudscrape.com
+  http://community.screen-scraper....
+  https://commoncrawl.org/
+  http://www.fminer.com/
+  https://scraperwiki.com/
+  http://nutch.apache.org/
+  http://www.ubotstudio.com/index7
+  http://mozenda.com
+  http://fivefilters.org/
+  http://crawly.diffbot.com/
+  https://wrapapi.com/
+  https://www.instaparser.com/
 
 
 === Ontology =================
-+ Tools
-  + SPARQL
-  + OWL
-  + re-ontology (npm)
-+ DBs
-  + http://ontotext.com/products/graphdb/
-  + Neo4j
-  + LevelGraph
-+ Data
-  + http://babelnet.org/
-  + http://dbpedia.org/
-  + http://www.freebase.com/
-  + http://lod.openlinksw.com/ (yago)
-
-
-{
-  lang: 'ES',
-  lastUpdated: '2015-03-22',
-  questions:
-  ngrams: {
-    one: [],
-    two: [],
-    three: []
-  }
-}
+  + Tools
+    + SPARQL
+    + OWL
+    + re-ontology (npm)
+  + DBs
+    + http://ontotext.com/products/graphdb/
+    + Neo4j
+    + LevelGraph
+  + Data
+    + http://babelnet.org/
+    + http://dbpedia.org/
+    + http://www.freebase.com/
+    + http://lod.openlinksw.com/ (yago)
 
 
 ===================
@@ -491,7 +510,7 @@ Old Channels
 
 + document deploy & ops procedure: pm2 start
   + pm2 list
-  + pm2 start bin/www --watch --ignore-watch="db node_modules"
+  + pm2 start bin/www --watch --ignore-watch='db node_modules'
   + pm2 start 0
   + pm2 stop 0
   + pm2 delete 0
@@ -500,37 +519,45 @@ Old Channels
 + unificar front-end JS' (not worth ??)
 
 
-===================
-BI-Tools: Content
-===================
-+ Activity
-  + Channel
-    + questions_created_today
-    + questions_enabled_today
-    + questions_disabled_today
-  + Users
-    +
-+ Health
-  + Quality ( 100 * L / (L + D) )
-  + Difficulty ( 100 * C / (C + I) )
-  + Engagement
-    + Games Created per channel (games_created_today / followers)
-    + Games Created per user (games_created_today / games_created_unq_today)
-    + Follower participation (100*games_created_unq_today / followers)
 
-+ Channel Activity
-  + Top by Volume
-    + ID Leaders        => Content characteristics: Generic / Safe
-    + ID Growers ABS <<== x Promoted !!
-    + ID Shrinkers ABS
-    + ID Active ABS
-  + Top by Growth
-    + ID Growers REL    => Content characteristics: Most Viral <<== x Promoted !!
-    + ID Shrinkers REL  => Content characteristics: Seasonal / Fads / Old / Dying
-    + ID Active REL     => Content characteristics: Most passionate / fun / current
-  + Top by Moderation
-    + questions_created_today + questions_enabled_today + questions_disabled_today
-    + questions_suggested_today + questions_rated_today + questions_translated_today
+===== BI-Tools: Content ======
+  + Channels
+  + Map
+    + http://blog.char95.com/demos/daylight-on-google-maps/
+    + http://blog.scottlogic.com/2015/08/06/an-adventure-in-svg-filter-land.html
+    + https://github.com/mapbox/supercluster
+    + http://zhxnlai.github.io/react-webgl-globe-basic-example/
+    + https://www.pubnub.com/developers/eon/map/flight/
+    + https://www.pubnub.com/developers/realtime-data-streams/pubnub-global-traffic/
+  + Content
+    + Activity
+      + Channel
+        + questions_created_today
+        + questions_enabled_today
+        + questions_disabled_today
+      + Users
+        +
+    + Health
+      + Quality ( 100 * L / (L + D) )
+      + Difficulty ( 100 * C / (C + I) )
+      + Engagement
+        + Games Created per channel (games_created_today / followers)
+        + Games Created per user (games_created_today / games_created_unq_today)
+        + Follower participation (100*games_created_unq_today / followers)
+
+    + Channel Activity
+      + Top by Volume
+        + ID Leaders        => Content characteristics: Generic / Safe
+        + ID Growers ABS <<== x Promoted !!
+        + ID Shrinkers ABS
+        + ID Active ABS
+      + Top by Growth
+        + ID Growers REL    => Content characteristics: Most Viral <<== x Promoted !!
+        + ID Shrinkers REL  => Content characteristics: Seasonal / Fads / Old / Dying
+        + ID Active REL     => Content characteristics: Most passionate / fun / current
+      + Top by Moderation
+        + questions_created_today + questions_enabled_today + questions_disabled_today
+        + questions_suggested_today + questions_rated_today + questions_translated_today
 
 ===================
 Gamestats
@@ -546,29 +573,34 @@ extension=apcu.so
 + Contenidos
   + bds.tck_content_daily
 
++ Users
+  + Armar lista !
+
 + Bugs
   + FIXED
-    + Gamestats - "allrevenue last" ahora funciona.
-    + gamestats - "last" da valores incorrectos.
+    + Gamestats - 'allrevenue last' ahora funciona.
+    + gamestats - 'last' da valores incorrectos.
     + Gamestats - conservar la app seleccionada al recargar la pagina.
     + Gamestats - Conservar la app seleccionada en New Dashboard.
-    + Gamestats - "approved country auto table" ya no agrega un columna extra que rompe los labels (fix en line 738 ojo conditions >= 2).
+    + Gamestats - 'approved country auto table' ya no agrega un columna extra que rompe los labels (fix en line 738 ojo conditions >= 2).
     + Gamestats - Division Multimetrica (/) ya funciona correctamente.
-    + Gamestats - "dau,new country" multimetrica con dimension ahora funciona ok.
-    + Gamestats - "dau,new AR US" Se swapean los valores (Fix: MysqlStatsClient.php:309 '$query = $query->orderBy($prefix.$dimension);')
-    + Gamestats - "impressions banner native TR" roto - OK: Ahora countries es siempre upper: TR
-    + Gamestats - "impressions/dau US TR" no anda cuando le agregas un valor o dim (con dos distintos) -> ESTANDARIZAR
+    + Gamestats - 'dau,new country' multimetrica con dimension ahora funciona ok.
+    + Gamestats - 'dau,new AR US' Se swapean los valores (Fix: MysqlStatsClient.php:309 '$query = $query->orderBy($prefix.$dimension);')
+    + Gamestats - 'impressions banner native TR' roto - OK: Ahora countries es siempre upper: TR
+    + Gamestats - 'impressions/dau US TR' no anda cuando le agregas un valor o dim (con dos distintos) -> ESTANDARIZAR
 
   + PENDING
-    - Gamestats - "dau,new country" invierte headers de las columnas (IT con TR)
-    - Gamestats - VER CON SEBA: "sales type" no funciona, busca en summary_daily; querems type como en dbsales type
+    - Gamestats - 'dau,new country' invierte headers de las columnas (IT con TR)
     - Gamestats - por default hacer los ultimos N dias, o sacar endDate
-    - Gamestats - metrica dim val (en autocomplete)
+
     - Gamestats - multimetrica con disitnta cantidad de elementos (sales,adrevenue) (igualar cant de rows) (adrev llega primero)
     - Gamestats - retention1 country EMEA
     - Gamestats - dashboards de muchos graficos (Ver gridster limitaciones
     - Gamestats - funcionalidad candado ?? (whitelist para filtros)
     - Gamestats - Cancel active req on new reqs
+
+    - Gamestats - VER CON SEBA: 'sales type' no funciona, busca en summary_daily; querems type como en dbsales type
+    - Gamestats - metrica dim val (en autocomplete)
 
   + Re-enable CACHE !!!!!!!!!!!!!!!!!!!!!!!
 
@@ -694,9 +726,9 @@ TF Show
       + Tripping over the truth - Travis Christofferson
   + Derek Sivers
     + Michael Pollan - Food Rules
-    + "distilling knowledge into super condensed directives"
-    + "this isn't about me, give the audience what they want"
-    + "hell yes or no"
+    + 'distilling knowledge into super condensed directives'
+    + 'this isn't about me, give the audience what they want'
+    + 'hell yes or no'
     + Weird or just different (TED)
     + Directives (https://springismylove.wordpress.com/2015/09/03/derek-sivers-purge-the-vampires/):
       + HOW to be useful to others
@@ -865,7 +897,7 @@ TF Show
       + Drama in Life - Casey Neistat
     + Documentary
       + Little Dieter Needs to Fly (also Christian Bale rework)
-  + Walter O'Brien - "Scorpion"
+  + Walter O'Brien - 'Scorpion'
     + IQ vs EQ
     + Brain transplant
     + Books:
@@ -946,6 +978,28 @@ Koa !
 https://medium.com/@roman01la/understanding-transducers-in-javascript-3500d3bd9624#.481rnn1nu
 transducers-js clone with https://github.com/glathoud/transfun
 
+===================
+Nice console tools
+===================
+[
+  { name: 'micro',
+    desc: 'A modern and intuitive terminal-based text editor'
+    url: 'https://github.com/zyedidia/micro' },
+  { name: 'haxor-news',
+    desc: 'Browse Hacker News like a haxor'
+    url: 'https://github.com/donnemartin/haxor-news'},
+  { name: 'tldr',
+    desc: 'A collection of simplified and community-driven man pages'
+    url: 'https://www.npmjs.com/package/tldr' },
+  { name: 'wego',
+    desc: 'weather app for the terminal'
+    url: 'https://github.com/schachmat/wego' },
+  { name: 'ansiweather',
+    desc: 'Weather in your terminal, with ANSI colors and Unicode symbols'
+    url: 'https://github.com/fcambus/ansiweather' },
+]
+
+
 
 
 ===================
@@ -1016,115 +1070,115 @@ var starters = [
   { name: 'app-skeleton',
     desc: 'Our starting point for front end app builds. https://zesty.io',
     url: 'https://github.com/zesty-io/app-skeleton',
-    keywords: ['riotjs', 'redux', 'grapnel'] }
+    keywords: ['riotjs', 'redux', 'grapnel'] },
   { name: 'riot-isomorphic',
     desc: 'An attempt for an isomorphic appliction using RiotJS 2.',
     url: 'https://github.com/ListnPlay/riot-isomorphic',
-    keywords: ['riot', 'isomorphic', 'universal'] }
+    keywords: ['riot', 'isomorphic', 'universal'] },
   { name: '3REE',
     desc: 'An example universal JS application written with the 3REE stack, React + Redux + RethinkDB + Express. A stack for building apps, front and back end, with just Javascript.',
     url: 'https://github.com/GordyD/3reegit ',
-    keywords: ['react', 'redux', 'universal', 'isomorphic', 'rethinkdb', 'express'] }
+    keywords: ['react', 'redux', 'universal', 'isomorphic', 'rethinkdb', 'express'] },
   { name: 'boilerplate-koa-redux-react',
     desc: 'A boilerplate for a Koa Redux React application with Webpack, Mocha and SASS',
     url: 'https://github.com/mezod/boilerplate-koa-redux-react',
-    keywords: ['koa', 'redux', 'react', 'webpack', 'sass', 'immutable'] }
+    keywords: ['koa', 'redux', 'react', 'webpack', 'sass', 'immutable'] },
   { name: 'hapi-universal-redux',
     desc: 'Create an universal React and Redux app in less than 5 minutes! Isomorphic starterkit with server-side React rendering.',
     url: 'https://github.com/luandro/hapi-universal-redux',
-    keywords: ['piping', 'webpack', 'react', 'hapi', 'redux', 'radium'] }
+    keywords: ['piping', 'webpack', 'react', 'hapi', 'redux', 'radium'] },
   { name: 'react-redux-universal-hot-example',
     desc: 'A starter boilerplate for a universal webapp using express, react, redux, webpack, and react-transform',
     url: 'https://github.com/erikras/react-redux-universal-hot-example',
-    keywords: ['react', 'express', 'redux', 'redux-devtools', 'webpack', 'universal', 'hot'] }
+    keywords: ['react', 'express', 'redux', 'redux-devtools', 'webpack', 'universal', 'hot'] },
   { name: 'react-redux-starter-kit',
     desc: 'Get started with React, Redux, and React-Router!',
     url: 'https://github.com/davezuko/react-redux-starter-kit',
-    keywords: ['react', 'redux', 'redux-devtools', 'webpack', 'koa'] }
+    keywords: ['react', 'redux', 'redux-devtools', 'webpack', 'koa'] },
   { name: 'redux-easy-boilerplate',
     desc: 'react redux easy boilerplate',
     url: 'https://github.com/anorudes/redux-easy-boilerplate',
-    keywords: ['react', 'redux', 'sass', 'webpack'] }
+    keywords: ['react', 'redux', 'sass', 'webpack'] },
   { name: 'err',
     desc: '(E)lectron, (R)eact, (R)edux-devtools boilerplate',
     url: 'https://github.com/tuommii/err',
-    keywords: ['electron', 'react', 'redux', 'redux-devtools', 'webpack', ] }
+    keywords: ['electron', 'react', 'redux', 'redux-devtools', 'webpack', ] },
   { name: 'react-boilerplate',
     desc: 'Quick setup for performance orientated, offline-first React.js applications featuring Redux, hot-reloading, PostCSS, react-router, ServiceWorker, AppCache, FontFaceObserver and Mocha.',
     url: 'https://github.com/mxstbr/react-boilerplate',
-    keywords: ['react', 'hot', 'postCSS', 'serviceWorker', 'appCache', 'redux', 'webpack'] }
+    keywords: ['react', 'hot', 'postCSS', 'serviceWorker', 'appCache', 'redux', 'webpack'] },
   { name: 'react-slingshot',
     desc: 'React + Redux starter kit with hot reloading, testing, linting and more, all built in',
     url: 'https://github.com/coryhouse/react-slingshot',
-    keywords: ['react', 'redux', 'babel', 'webpack', 'sass'] }
+    keywords: ['react', 'redux', 'babel', 'webpack', 'sass'] },
   { name: 'react-webpack-template',
     desc: 'This is a simple template for building React apps by Pete Hunt',
     url: 'https://github.com/petehunt/react-webpack-template',
-    keywords: ['react', 'webpack'] }
+    keywords: ['react', 'webpack'] },
   { name: 'react-starter-kit',
-    desc: 'React Starter Kit — a skeleton of an "isomorphic" web application / SPA built with React.js, Express, Flux, ES6+, JSX, Babel, PostCSS, Webpack, BrowserSync... http://www.reactstarterkit.com',
+    desc: 'React Starter Kit — a skeleton of an 'isomorphic' web application / SPA built with React.js, Express, Flux, ES6+, JSX, Babel, PostCSS, Webpack, BrowserSync... http://www.reactstarterkit.com',
     url: 'https://github.com/kriasoft/react-starter-kit',
-    keywords: ['React', 'Flux', 'ES6', 'Babel', 'Webpack', 'PostCSS'] }
+    keywords: ['React', 'Flux', 'ES6', 'Babel', 'Webpack', 'PostCSS'] },
   { name: 'simple-react-redux-starter-kit',
     desc: 'react+router+redux+hot-reload+surge',
     url: 'https://github.com/luisrudge/simple-react-redux-starter-kit',
-    keywords: ['React', 'Redux', 'hot', 'Surge', '', ''] }
+    keywords: ['React', 'Redux', 'hot', 'Surge', '', ''] },
   { name: 'universal-redux',
     desc: 'An npm package that lets you jump right into coding React and Redux with universal (isomorphic) rendering. Only manage Express setups or Webpack configurations if you want to.',
     url: 'https://github.com/bdefore/universal-redux',
-    keywords: ["react", "isomorphic", "universal", "webpack", "express", "hot reloading", "react-hot-reloader", "redux",   "babel"] }
+    keywords: ['react', 'isomorphic', 'universal', 'webpack', 'express', 'hot reloading', 'react-hot-reloader', 'redux',   'babel'] },
   { name: 'koaboiler',
     desc: 'Koa 2.0 Boilerplate for a production-ready app',
     url: 'https://github.com/llambda/koaboiler',
-    keywords: ['koa', 'socket.io', 'socketio', '', '', ''] }
+    keywords: ['koa', 'socket.io', 'socketio', '', '', ''] },
   { name: 'frontend-boilerplate',
     desc: 'webpack-react-redux-babel-autoprefixer-hmr-postcss-css-modules-rucksack-boilerplate',
     url: 'https://github.com/tj/frontend-boilerplate',
-    keywords: ['tj', 'webpack', 'react', 'redux', 'babel', 'postcss', 'rucksack'] }
+    keywords: ['tj', 'webpack', 'react', 'redux', 'babel', 'postcss', 'rucksack'] },
   { name: 'este',
     desc: 'Dev stack and starter kit for functional and universal (browser, server, mobile) React web apps',
     url: 'https://github.com/este/este.git',
-    keywords: ['estejs', 'react', 'redux', 'webpack', 'immutable', ''] }
+    keywords: ['estejs', 'react', 'redux', 'webpack', 'immutable', ''] },
   { name: 'go-starter-kit',
     desc: 'Golang Isomorphic React/Hot Reloadable/Redux/Css-Modules Starter Kit',
     url: 'https://github.com/olebedev/go-starter-kit.git',
-    keywords: ['go', 'golang', 'react', 'redux'] }
+    keywords: ['go', 'golang', 'react', 'redux'] },
   { name: 'redux-isomorphic-boilerplate',
     desc: 'Server-side JavaScript rendering with React/Flux can be confusing. This repo is a Hello, World example of isomorphic/universal/server-side rendering/I don't care what you call it JavaScript.',
     url: 'https://github.com/jarsbe/redux-isomorphic-boilerplate.git',
-    keywords: ['react', 'redux', 'express', 'webpack', 'universal'] }
+    keywords: ['react', 'redux', 'express', 'webpack', 'universal'] },
   { name: 'express-api-kickstarter',
     desc: 'A kickstarter project to get an Express API up and running.',
     url: 'https://github.com/jonathanchrisp/express-api-kickstarter',
-    keywords: ['express', 'eslint'] }
+    keywords: ['express', 'eslint'] },
   { name: 'simple-redux-boilerplate',
     desc: 'A simple, yet comprehensive React + Redux application, complete with DevTools.',
     url: 'https://github.com/tsaiDavid/simple-redux-boilerplate',
-    keywords: ['react', 'redux', 'webpack', 'express'] }
+    keywords: ['react', 'redux', 'webpack', 'express'] },
   { name: 'react-redux-starter',
     desc: 'A universal starter kit built with react, react-router and redux, and Cordova support.',
     url: 'https://github.com/combine/react-redux-starter',
-    keywords: ['react', 'redux', 'webpack', 'nodemon', 'cordova', 'react-router'] }
+    keywords: ['react', 'redux', 'webpack', 'nodemon', 'cordova', 'react-router'] },
   { name: 'hackathon-starter',
     desc: 'A boilerplate for Node.js web applications',
     url: 'https://github.com/sahat/hackathon-starter',
-    keywords: ['express', 'node', 'passport'] }
+    keywords: ['express', 'node', 'passport'] },
   { name: 'es6-library-minimal',
     desc: 'A minimal starter for an ES6 library',
     url: 'https://github.com/liady/es6-library-minimal',
-    keywords: ['ES6', 'webpack', 'library', 'starter', 'universal'] }
+    keywords: ['ES6', 'webpack', 'library', 'starter', 'universal'] },
   { name: 'react-webpack-babel',
     desc: 'Simple React Webpack Babel Starter Kit',
     url: 'https://github.com/alicoding/react-webpack-babel',
-    keywords: ['webpack', 'react', 'babel'] }
+    keywords: ['webpack', 'react', 'babel'] },
   { name: 'isomorphic-react-example',
     desc: 'ReactJS + NodeJS ( express ) demo tutorial with video. Universal/Isomorphic JS',
     url: 'https://github.com/DavidWells/isomorphic-react-example',
-    keywords: ['express', 'universal', 'react'] }
+    keywords: ['express', 'universal', 'react'] },
   { name: 'react-simple',
     desc: 'Just like the good old jQuery days. Get up and running in a flash with React. No build tools, no config, no bullshit.',
     url: 'https://github.com/jarsbe/react-simple',
-    keywords: ['react'] }
+    keywords: ['react'] },
   { name: 'scaffold-web',
     desc: 'Scaffolding for a basic web project using webpack/babel',
     url: 'https://github.com/Lokeh/scaffold-web',
@@ -1132,15 +1186,35 @@ var starters = [
   { name: 'Koa v2 Skeleton',
     desc: 'A simple boilerplate for creating a web-app with Koa 2.',
     url: 'https://github.com/saadq/koa2-skeleton',
-    keywords: ['koa', 'babel'] }
+    keywords: ['koa', 'babel'] },
   { name: 'webpack-boilerplate',
     desc: 'A webpack boilerplate in order to quickly build up a production-ready marketing website.',
     url: 'https://github.com/geniuscarrier/webpack-boilerplate',
-    keywords: ['webpack', 'bootstrap', 'jquery', 'font-awesome'] }
+    keywords: ['webpack', 'bootstrap', 'jquery', 'font-awesome'] },
   { name: 'blur-admin',
     desc: 'Free Angular Bootstrap Admin Dashboard',
     url: 'https://github.com/akveo/blur-admin',
-    keywords: ['gulp', 'karma', 'phantomjs', 'bootstrap', 'angular', 'jquery'] }
+    keywords: ['gulp', 'karma', 'phantomjs', 'bootstrap', 'angular', 'jquery'] },
+  { name: 'universal-expressjs-webpack-boilerplate',
+    desc: 'A bare minimum boilerplate for a universal webapp using express and webpack',
+    url: 'https://github.com/inderps/universal-expressjs-webpack-boilerplate',
+    keywords: ['express', 'webpack', 'babel', 'universal'] },
+  { name: 'wrne-boilerplate',
+    desc: 'Boilerplate for using a React front end, Node/Express on the backend, and Webpack with Babel for bundling.',
+    url: 'https://github.com/theavish/wrne-boilerplate',
+    keywords: ['react', 'express', 'webpack', 'babel'] },
+  { name: '',
+    desc: '',
+    url: '',
+    keywords: ['', '', '', '', '', ''] },
+  { name: '',
+    desc: '',
+    url: '',
+    keywords: ['', '', '', '', '', ''] },
+  { name: '',
+    desc: '',
+    url: '',
+    keywords: ['', '', '', '', '', ''] },
   { name: '',
     desc: '',
     url: '',
