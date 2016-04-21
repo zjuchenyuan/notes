@@ -31,7 +31,10 @@
     + HumanCannon
     + Venture Capitalist
     + BoatRow (http://imgur.com/a/w1ihL#YyCSZBD), rythmic rowing, http://z-petal.com/sailboat/
-
+    + https://en.wikipedia.org/wiki/List_of_games_in_game_theory
+  + Jarvis
+    + https://iceddev.com/blog/jarvis-an-amazon-echo-clone-in-your-browser/
+    + https://wit.ai/
 
  lebac Banco Central 32
 
@@ -391,7 +394,9 @@
         notes: 'Ben Lesh explains what RxJS is, and why we use and love it at Netflix.',
         url: 'https://www.youtube.com/watch?v=COviCoUtwx4' },
       { title: 'Structure and Implementation of Computer Programs',
-        url: 'http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/' }
+        url: 'http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/' },
+      { title: "A Million Ways to Fold in JS",
+        url: "https://www.youtube.com/watch?v=JZSoPZUoR58" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
