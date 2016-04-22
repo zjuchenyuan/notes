@@ -148,6 +148,7 @@
   + Tuts
     + https://robots.thoughtbot.com/how-to-make-a-chrome-extension
     + http://coligo.io/bookmarking-app-electron-vuejs-firebase/
+    + http://alan.norbauer.com/articles/bookcision/
   + R & D
     + https://bookmarkos.com/
     + http://booky.io/
@@ -253,7 +254,11 @@
       { name: 'C++' },
       { name: 'Lisp' },
       { name: 'R' },
-      { name: 'Rust' },
+      { name: 'Rust',
+        roadmap: [
+          { title: "Rust's Getting Started",
+            url: "https://doc.rust-lang.org/book/getting-started.html" }
+        ]},
       { name: 'SmallTalk',
         frameworks: [
           'Amber'
@@ -302,6 +307,7 @@
         url: 'http://akaptur.com/blog/2013/11/15/introduction-to-the-python-interpreter/' },
       { name: "Flexbox Patterns",
         url: "http://www.flexboxpatterns.com/" }
+
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -334,6 +340,8 @@
         url: 'https://github.com/golang/go/wiki' },
       { title: 'The introduction to Reactive Programming you've been missing',
         url: "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754" }
+      { title: "Stanford CS231n: Convolutional Neural Networks for Visual Recognition.",
+        url: "http://cs231n.github.io/" }
     ],
     onlineBooks: [
       { title: 'Eloquent Javascript',
@@ -354,8 +362,6 @@
         url: 'http://openmymind.net/assets/go/go.pdf' },
       { title: 'The Startup Manual',
         url: 'http://startupmanual.co/'},
-      { title: 'Neural Networks and Deep Learning',
-        url: 'http://neuralnetworksanddeeplearning.com/index.html' },
       { title: 'Deep Learning',
         url: 'http://www.deeplearningbook.org/' },
       { title: 'Learning Go',
@@ -366,10 +372,25 @@
         url: 'https://prowebtype.com/' },
       { title: "Professor Frisby’s Mostly Adequate Guide to Functional Programming",
         url: "https://www.gitbook.com/book/drboolean/mostly-adequate-guide/details"}
+      { title: "Leaf - Machine Learning for Hackers",
+        url: "http://autumnai.com/leaf/book/" },
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
         url: "https://github.com/steshaw/plt" }
+      { title: "Machine Learning",
+        path: [
+          { title: "Single Layer Neurons",
+            url: "http://sebastianraschka.com/Articles/2015_singlelayer_neurons.html" },
+          { title: "Stanford CS231n: Convolutional Neural Networks for Visual Recognition.",
+            url: "http://cs231n.github.io/" },
+          { title: 'Neural Networks and Deep Learning',
+            url: 'http://neuralnetworksanddeeplearning.com/index.html' },
+          { title: "A 'Brief' History of Neural Nets and Deep Learning"
+            url: "http://www.andreykurenkov.com/writing/a-brief-history-of-neural-nets-and-deep-learning/"},
+          { title: "Leaf - Machine Learning for Hackers",
+            url: "http://autumnai.com/leaf/book/" },
+        ]}
     ]
     videos: [
       { title: 'Turning the database inside out',
@@ -396,7 +417,13 @@
       { title: 'Structure and Implementation of Computer Programs',
         url: 'http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/' },
       { title: "A Million Ways to Fold in JS",
-        url: "https://www.youtube.com/watch?v=JZSoPZUoR58" }
+        url: "https://www.youtube.com/watch?v=JZSoPZUoR58" },
+      { title: "Agile is dead by Pragmatic Dave Thomas",
+        url: "https://www.youtube.com/watch?v=a-BOSpxYJ9M" },
+      { title: "Functional programming design patterns by Scott Wlaschin",
+        url: "https://www.youtube.com/watch?v=E8I19uA-wGY&feature=youtu.be" },
+      { title: "Stanford CS 224D Lecture 1 Video: Deep Learning for Natural Language Processing",
+        url: "https://www.youtube.com/watch?v=kZteabVD8sU&list=PLmImxx8Char9Ig0ZHSyTqGsdhb9weEGam" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -933,6 +960,7 @@ Koa !
 + Redux / Morphdom
 
 + Cerebral / React
+  + http://nervosax.com/2016/04/22/use-cerebral-as-the-brains-for-your-react-app/
 + Cerebral / Angular2
 + Cerebral / Vue
 

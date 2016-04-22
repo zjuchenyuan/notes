@@ -100,6 +100,7 @@ NPMWatch
   + readability-api
   + read-art
   + summarize
+  + talisman
   + unfluff
   + wce
   + wce-api
