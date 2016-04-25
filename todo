@@ -272,7 +272,9 @@
       { name: 'Coffeescript', author: 'Jeremy Ashkenas'},
       { name: 'Underscore', author: 'Jeremy Ashkenas'},
       { name: 'Backbone', author: 'Jeremy Ashkenas'},
-      { name: 'Redux', author: 'Dan Abramov'}
+      { name: 'Redux', author: 'Dan Abramov'},
+      { name: 'Pokemon in the browser',
+        url: '2d Pokémon Game Engine with Realtime Editor' }
     ],
     courses: [
       { name: 'ReactJS Fundamentals',
@@ -285,20 +287,12 @@
         url': 'http://www.learnpython.org/' },
       { name: 'Thinkster - Angular, React, MEAN, Ionic, Rails, Swift',
         url: 'https://thinkster.io/'},
-      { name: 'Neural Networks Demystified',
-        url: 'http://lumiverse.io/series/neural-networks-demystified'},
-      { name: 'A Primer on Bézier Curves',
-        url: 'http://pomax.github.io/bezierinfo/' },
       { name: 'DAT8 - General Assembly's Data Science course in Washington, DC',
         url: 'https://github.com/justmarkham/DAT8' },
       { name: 'Learn You Some Erlang'
         url: 'http://learnyousomeerlang.com/'},
-      { name: 'Bayes Rules',
-        url: 'https://arbital.com/p/bayes_rule/?l=1zq' },
       { name: 'Hacksplaining',
         url: 'https://www.hacksplaining.com' },
-      { name: 'Paul's Online Math Notes',
-        url: 'http://tutorial.math.lamar.edu/' },
       { name: 'Want to learn React Native? Start here',
         url: 'https://www.viget.com/articles/learn-you-a-react-native' },
       { name: 'Calculus Learning Guide',
@@ -308,6 +302,18 @@
       { name: "Flexbox Patterns",
         url: "http://www.flexboxpatterns.com/" }
 
+    ],
+    explanations: [
+      { name: 'Neural Networks Demystified',
+        url: 'http://lumiverse.io/series/neural-networks-demystified'},
+      { name: 'A Primer on Bézier Curves',
+        url: 'http://pomax.github.io/bezierinfo/' },
+      { name: 'Bayes Rules',
+        url: 'https://arbital.com/p/bayes_rule/?l=1zq' },
+      { name: 'Paul's Online Math Notes',
+        url: 'http://tutorial.math.lamar.edu/' },
+      { title: 'How Kalman Filters Work',
+        url: 'http://www.anuncommonlab.com/articles/how-kalman-filters-work/' }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -423,7 +429,22 @@
       { title: "Functional programming design patterns by Scott Wlaschin",
         url: "https://www.youtube.com/watch?v=E8I19uA-wGY&feature=youtu.be" },
       { title: "Stanford CS 224D Lecture 1 Video: Deep Learning for Natural Language Processing",
-        url: "https://www.youtube.com/watch?v=kZteabVD8sU&list=PLmImxx8Char9Ig0ZHSyTqGsdhb9weEGam" }
+        url: "https://www.youtube.com/watch?v=kZteabVD8sU&list=PLmImxx8Char9Ig0ZHSyTqGsdhb9weEGam" },
+      { topic: 'BigData',
+        links: [
+          { title: 'Apache Storm Deployment and Use Cases by Spotify Developers',
+            keywords: ['storm', 'kafka', 'social', 'recommendations', 'dataviz'],
+            url: 'https://www.youtube.com/watch?v=5F0eQ7mkpTU' },
+          { title: 'Design patterns for real time data analytics',
+            keywords: ['hadoop', 'storm']
+            url: 'https://www.youtube.com/watch?v=hiBc6bHoe3o' },
+          { title: 'Andrew Montalenti - streamparse: real-time streams with Python and Apache Storm - PyCon 2015',
+            keywords: ['python', 'storm'],
+            url: 'https://www.youtube.com/watch?v=ja4Qj9-l6WQ' },
+          { title: 'Infrastructure at Scale: Apache Kafka, Twitter Storm & Elastic Search | AWS re:Invent 2013',
+            keywords: ['aws', 'kafka', 'storm'],
+            url: 'https://www.youtube.com/watch?v=LpNbjXFPyZ0' }
+        ]}
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -438,9 +459,14 @@
       { title: 'The Foundr Podcast' },
       { title: 'The 20 Minute VC' }
 
+    ],
+    books: [
+      { title: 'The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future',
+        author: 'Kevin Kelly' }
     ]
   }
 
+Skate 40%
 4326-4384
 
 + == Watch: Startups ==============
@@ -462,6 +488,7 @@
   + IF + DO Btn + DO Camera + DO Note
   + Tasker (paid)
   + summize
+  + HEAR: http://hearapp.io/
 
 === Scraping / Crawling ===============
   http://scrapinghub.com
@@ -1254,7 +1281,10 @@ var starters = [
     keywords: ['', '', '', '', '', ''] }
 ];
 
-
+Head First C
+Head First JavaScript
+Professional JavaScript for Web Developers, 3rd Edition
+Theory of Fun for Game Design, 2nd Edition - http://it-ebooks.info/book/3310/
 
 Develop a single page blood donation management system to facilitate the patients from all around the world, find blood donors near them.
 
