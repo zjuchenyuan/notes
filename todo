@@ -376,10 +376,18 @@
         url: 'https://jan.newmarch.name/go/' },
       { title: 'Professional Web Typography',
         url: 'https://prowebtype.com/' },
-      { title: "Professor Frisby’s Mostly Adequate Guide to Functional Programming",
-        url: "https://www.gitbook.com/book/drboolean/mostly-adequate-guide/details"}
-      { title: "Leaf - Machine Learning for Hackers",
-        url: "http://autumnai.com/leaf/book/" },
+      { title: 'Professor Frisby’s Mostly Adequate Guide to Functional Programming',
+        url: 'https://www.gitbook.com/book/drboolean/mostly-adequate-guide/details' }
+      { title: 'Leaf - Machine Learning for Hackers',
+        url: 'http://autumnai.com/leaf/book/' },
+      { title: 'Practical Common Lisp',
+        url: 'http://www.gigamonkeys.com/book/' },
+      { title: 'Lisp Primer',
+        url: 'http://mypage.iu.edu/~colallen/lp/' },
+      { title: 'Let Over Lambda - 50 years of Lisp',
+        url: 'http://letoverlambda.com/index.cl/toc' }
+      { title: 'Common Lisp the Language, 2nd Edition',
+        url: 'http://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html' }
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
@@ -465,6 +473,125 @@
         author: 'Kevin Kelly' }
     ]
   }
+
++ LISP
+  Successful Lisp
+  http://psg.com/~dlamkins/sl/contents.html
+
+  Tutorial on Good Lisp Programming Style
+  http://www.cs.umd.edu/~nau/cmsc421/norvig-lisp-style.pdf
+
+  Practical Common Lisp
+  http://www.gigamonkeys.com/book/
+
+  On Lisp
+  http://www.paulgraham.com/onlisp.html
+
+  Basic Lisp Techniques
+  http://www.franz.com/resources/educational_resources/cooper.book.pdf
+
+  The Common Lisp CookBook
+  http://cl-cookbook.sourceforge.net/
+
+  Loving Lisp - the savy programmer's secret weapon
+  http://www.markwatson.com/opencontent/lisp_lic.htm
+
+  Natural Language processing in Lisp
+  http://www.informatics.sussex.ac.uk/research/groups/nlp/gazdar/nlp-in-lisp/index.html
+
+  Common Lisp - An interactive approach
+  http://www.cse.buffalo.edu/pub/WWW/faculty/shapiro/Commonlisp/
+
+  Common Lisp the Language 2nd edition
+  http://elib.cs.sfu.ca/Collections/CMPT/cs-books/cltl/clm/node1.html
+
+  Common Lisp: A Gentle Introduction to Symbolic Computation
+  http://www.cs.cmu.edu/~dst/LispBook/
+
+  An Introduction to Programming in Emacs Lisp
+  http://www.gnu.org/software/emacs/emacs-lisp-intro/html_node/index.html
+
+  A Surfer's Guide to Lisp -Stat
+  http://samizdat.mines.edu/surfers/
+
+  Lisp works ORB Developing Component Software with Corba
+  http://www.lispworks.com/documentation/lwl42/CORBA-U/html/corba.htm
+
+  The unknowable
+  http://www.umcs.maine.edu/~chaitin/unknowable/index.html
+
+  Exploring Randomness
+  http://www.umcs.maine.edu/~chaitin/ait/index.html
+
+  A Course on Information Theory and the Limits of Formal Reasoning
+  http://www.umcs.maine.edu/~chaitin/lm.html
+
++ Peteris Kramins - http://www.catonmat.net/blog/top-100-books-part-one/
+  [
+    { title: 'The New Turing Omnibus'
+      author: 'Alexander K. Dewdney' },
+    { title: 'The Little Book of Semaphores (G)',
+      author: 'Allen B. Downey' },
+    { title: 'Programming Pearls',
+      author: 'Jon Bentley' },
+    { title: 'More Programming Pearls',
+      author: 'Jon Bentley' },
+    { title: 'The Little Schemer (G)',
+      author: 'Daniel P. Friedman and Matthias Felleisen' },
+    { title: 'The Elements of Style',
+      author: 'William Strunk Jr. and E. B. White' },
+    { title: 'The Elements of Programming Style',
+      author: 'Brian W. Kernighan and Phillip J. Plauger' },
+    { title: 'Selected Papers on Computer Science',
+      author: Donald E. Knuth'' },
+    { title: 'To Mock a Mockingbird',
+      author: 'Raymond Smullyan' },
+    { title: 'The Seasoned Schemer',
+      author: 'Daniel P. Friedman and Matthias Felleisen' },
+    { title: 'Expert C Programming',
+      author: 'Peter van der Linden' },
+    { title: 'Combinatorial Problems and Exercises',
+      author: 'Laszlo Lovasz' },
+    { title: 'The Unix Haters Handbook (G)',
+      author: 'Simson Garfinkel, Daniel Weise, and Steven Strassmann' },
+    { title: 'Unix and Linux System Administration Handbook',
+      author: 'Evi Nemeth, Garth Snyder, Trent R. Hein, and Ben Whaley' },
+    { title: 'The Reasoned Schemer',
+      author: 'Daniel P. Friedman, William E. Byrd, and Oleg Kiselyov' },
+    { title: 'Thermodynamics',
+      author: 'Enrico Fermi' },
+    { title: 'Concrete Mathematics: A Foundation for Computer Science',
+      author: 'Ronald L. Graham, Donald E. Knuth, and Oren Patashnik' },
+    { title: 'Feynman Lectures on Computation',
+      author: 'Richard P. Feynman' },
+    { title: 'A Course in Number Theory and Cryptography',
+      author: 'Neal I. Koblitz' },
+    { title: 'The Little MLer',
+      author: 'Matthias Felleisen and Daniel P. Friedman' },
+    { title: 'Hacker's Delight',
+      author: 'Henry S. Warren, Jr' },
+    { title: 'Proofs Without Words: Exercises in Visual Thinking',
+      author: 'Roger B. Nelsen' },
+    { title: 'Proofs Without Words 2',
+      author: 'Roger B. Nelsen' },
+    { title: 'Programming from the Ground Up (G)',
+      author: 'Jonathan Bartlett' },
+    { title: 'Quantum Paradoxes: Quantum Theory for the Perplexed',
+      author: 'Yakir Aharonov and Daniel Rohrlich' },
+    { title: 'Feynman and Computation: Exploring Limits of Computers',
+      author: 'Anthony J.G. Hey' },
+    { title: 'The Little Prover',
+      author: 'Daniel P. Friedman and Carl Eastlund. Illustrations by Duane Bibby' },
+    { title: 'Advanced Programming in the UNIX Environment (APUE) (3rd Ed)',
+      author: 'Sir William R. Stevens (W. Richard Stevens)' },
+    { title: 'The Linux Programming Interface',
+      author: 'Michael Kerrisk' },
+    { title: '',
+      author: '' },
+    { title: '',
+      author: '' },
+  ]
+
 
 Skate 40%
 4326-4384
@@ -595,14 +722,16 @@ Old Channels
         + questions_enabled_today
         + questions_disabled_today
       + Users
-        +
+        + TOP answers
+        + TOP reviewer
     + Health
       + Quality ( 100 * L / (L + D) )
       + Difficulty ( 100 * C / (C + I) )
       + Engagement
-        + Games Created per channel (games_created_today / followers)
-        + Games Created per user (games_created_today / games_created_unq_today)
-        + Follower participation (100*games_created_unq_today / followers)
+        + Games Created per channel (games_created_today)
+        + Games Created per user (games_created_today / dau)
+
+
 
     + Channel Activity
       + Top by Volume
