@@ -233,6 +233,8 @@
     + Instagram
     + Youtube
 
+ La importancia del Marketing en las distintas actividades ha llevado a la Escuela de Negocios de la UCES a desarrollar diferentes Programas para la formación del Marketing en sus multiples disciplinas. La UCES te acerca las nuevas fechas de sus Programas de Marketing, dirigidos a las areas de Salud, Moda, Online y No Especialistas. Ver nota completa para fechas e información.
+
 + == STUDY ===============
   var study = {
     langs: [
@@ -256,8 +258,10 @@
       { name: 'R' },
       { name: 'Rust',
         roadmap: [
-          { title: "Rust's Getting Started",
-            url: "https://doc.rust-lang.org/book/getting-started.html" }
+          { name: "Rust's Getting Started",
+            url: "https://doc.rust-lang.org/book/getting-started.html" },
+          { name: 'Rust by Example',
+            url: 'http://rustbyexample.com/'}
         ]},
       { name: 'SmallTalk',
         frameworks: [
@@ -266,7 +270,8 @@
       { name: 'Erlang',
         frameworks: [
           'Elixir'
-        ]}
+        ]},
+      { name: 'F#' }
     ],
     codeReading: [
       { name: 'Coffeescript', author: 'Jeremy Ashkenas'},
@@ -300,7 +305,9 @@
       { name: 'Introduction to the Python Interpreter',
         url: 'http://akaptur.com/blog/2013/11/15/introduction-to-the-python-interpreter/' },
       { name: "Flexbox Patterns",
-        url: "http://www.flexboxpatterns.com/" }
+        url: "http://www.flexboxpatterns.com/" },
+      { name: 'Rust by Example',
+        url: 'http://rustbyexample.com/'}
 
     ],
     explanations: [
@@ -388,6 +395,10 @@
         url: 'http://letoverlambda.com/index.cl/toc' }
       { title: 'Common Lisp the Language, 2nd Edition',
         url: 'http://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html' }
+      { title: 'The Common Lisp Cookbook',
+        url: 'http://cl-cookbook.sourceforge.net/index.html'}
+      { title: 'Common LISP Hints',
+        url: 'http://www.n-a-n-o.com/lisp/cmucl-tutorials/LISP-tutorial.html' }
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
@@ -434,8 +445,6 @@
         url: "https://www.youtube.com/watch?v=JZSoPZUoR58" },
       { title: "Agile is dead by Pragmatic Dave Thomas",
         url: "https://www.youtube.com/watch?v=a-BOSpxYJ9M" },
-      { title: "Functional programming design patterns by Scott Wlaschin",
-        url: "https://www.youtube.com/watch?v=E8I19uA-wGY&feature=youtu.be" },
       { title: "Stanford CS 224D Lecture 1 Video: Deep Learning for Natural Language Processing",
         url: "https://www.youtube.com/watch?v=kZteabVD8sU&list=PLmImxx8Char9Ig0ZHSyTqGsdhb9weEGam" },
       { topic: 'BigData',
@@ -452,7 +461,18 @@
           { title: 'Infrastructure at Scale: Apache Kafka, Twitter Storm & Elastic Search | AWS re:Invent 2013',
             keywords: ['aws', 'kafka', 'storm'],
             url: 'https://www.youtube.com/watch?v=LpNbjXFPyZ0' }
-        ]}
+        ]},
+      { topic: 'Functional Programming',
+        links: [
+          { title: "Functional programming design patterns by Scott Wlaschin",
+            url: "https://www.youtube.com/watch?v=E8I19uA-wGY&feature=youtu.be" },
+          { title: 'Functional Programming from First Principles',
+            url: 'https://www.youtube.com/watch?v=a-RAltgH8tw' },
+          { title: 'Haskell is Not For Production and Other Tales',
+            url: 'https://www.youtube.com/watch?v=mlTO510zO78' },
+          { title: 'How to Learn Haskell in Less Than 5 Years',
+            url: 'https://www.youtube.com/watch?v=mlTO510zO78' }
+      ]}
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -468,6 +488,12 @@
       { title: 'The 20 Minute VC' }
 
     ],
+    styleGuide: [
+      { title: 'Angular styleguide by @todmotto',
+        url: 'https://github.com/toddmotto/angular-styleguide'},
+      { title: 'Angular Style Guide by John Papa',
+        url: 'https://github.com/johnpapa/angular-styleguide' }
+    ]
     books: [
       { title: 'The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future',
         author: 'Kevin Kelly' }
@@ -747,6 +773,12 @@ Old Channels
         + questions_created_today + questions_enabled_today + questions_disabled_today
         + questions_suggested_today + questions_rated_today + questions_translated_today
 
+
++ Nuevos Sorts de Busqueda
++ activity
++ country
++ dau
+
 ===================
 Gamestats
 ===================
@@ -789,6 +821,10 @@ extension=apcu.so
 
     - Gamestats - VER CON SEBA: 'sales type' no funciona, busca en summary_daily; querems type como en dbsales type
     - Gamestats - metrica dim val (en autocomplete)
+
+  + NUEVOS
+    - adrevenue/dau AR ios
+
 
   + Re-enable CACHE !!!!!!!!!!!!!!!!!!!!!!!
 
