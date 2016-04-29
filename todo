@@ -238,6 +238,8 @@
 + == STUDY ===============
   var study = {
     langs: [
+      { name: 'Hyperpolyglot Cheat Sheets',
+        url: 'http://hyperpolyglot.org/' },
       { name: 'Python' },
       { name: 'Go',
         roadmap:
