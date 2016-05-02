@@ -233,7 +233,16 @@
     + Instagram
     + Youtube
 
- La importancia del Marketing en las distintas actividades ha llevado a la Escuela de Negocios de la UCES a desarrollar diferentes Programas para la formación del Marketing en sus multiples disciplinas. La UCES te acerca las nuevas fechas de sus Programas de Marketing, dirigidos a las areas de Salud, Moda, Online y No Especialistas. Ver nota completa para fechas e información.
+
++ 30 Days
+  + PHP
+  + Lisp
+  + Go
+  + C
+  + Java
+  + Python
+  + Javascript
+
 
 + == STUDY ===============
   var study = {
@@ -394,13 +403,15 @@
       { title: 'Lisp Primer',
         url: 'http://mypage.iu.edu/~colallen/lp/' },
       { title: 'Let Over Lambda - 50 years of Lisp',
-        url: 'http://letoverlambda.com/index.cl/toc' }
+        url: 'http://letoverlambda.com/index.cl/toc' },
       { title: 'Common Lisp the Language, 2nd Edition',
-        url: 'http://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html' }
+        url: 'http://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html' },
       { title: 'The Common Lisp Cookbook',
-        url: 'http://cl-cookbook.sourceforge.net/index.html'}
+        url: 'http://cl-cookbook.sourceforge.net/index.html'},
       { title: 'Common LISP Hints',
-        url: 'http://www.n-a-n-o.com/lisp/cmucl-tutorials/LISP-tutorial.html' }
+        url: 'http://www.n-a-n-o.com/lisp/cmucl-tutorials/LISP-tutorial.html' },
+      { title: 'Happy Learn Haskell',
+        url: 'http://www.happylearnhaskelltutorial.com/' }
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
@@ -644,6 +655,7 @@ Skate 40%
   + Tasker (paid)
   + summize
   + HEAR: http://hearapp.io/
+  + http://www.cassette.design/
 
 === Scraping / Crawling ===============
   http://scrapinghub.com
@@ -674,6 +686,7 @@ Skate 40%
   http://crawly.diffbot.com/
   https://wrapapi.com/
   https://www.instaparser.com/
+  https://github.com/IonicaBizau/scrape-it
 
 
 === Ontology =================
