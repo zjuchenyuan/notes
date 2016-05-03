@@ -157,6 +157,7 @@
     + https://www.linkpack.io/
     + https://refind.com/
     + Summize
+    + https://larder.io/
     + http://coligo.io/bookmarking-app-electron-vuejs-firebase/
   + Packages
     + unfluff
@@ -318,8 +319,11 @@
       { name: "Flexbox Patterns",
         url: "http://www.flexboxpatterns.com/" },
       { name: 'Rust by Example',
-        url: 'http://rustbyexample.com/'}
-
+        url: 'http://rustbyexample.com/'},
+      { name: 'Let's Build a Compiler',
+        url: 'http://compilers.iecc.com/crenshaw/'},
+      { name: 'Writing a Compiler in Go',
+        url: 'http://squanch.org/writing-a-compiler-in-go/' }
     ],
     explanations: [
       { name: 'Neural Networks Demystified',
@@ -331,7 +335,11 @@
       { name: 'Paul's Online Math Notes',
         url: 'http://tutorial.math.lamar.edu/' },
       { title: 'How Kalman Filters Work',
-        url: 'http://www.anuncommonlab.com/articles/how-kalman-filters-work/' }
+        url: 'http://www.anuncommonlab.com/articles/how-kalman-filters-work/' },
+      { name: 'A Guide to Bayesian Statistics',
+        url: 'https://www.countbayesie.com/blog/2016/5/1/a-guide-to-bayesian-statistics' },
+      { name: 'Go Actor Model',
+        url: 'https://github.com/rogeralsing/gam' }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -485,7 +493,9 @@
             url: 'https://www.youtube.com/watch?v=mlTO510zO78' },
           { title: 'How to Learn Haskell in Less Than 5 Years',
             url: 'https://www.youtube.com/watch?v=mlTO510zO78' }
-      ]}
+      ]},
+      { title: 'Growing a Language by Guy Steele',
+        url: 'https://www.youtube.com/watch?v=_ahvzDzKdB0' }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
