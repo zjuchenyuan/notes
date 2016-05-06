@@ -520,6 +520,13 @@
     books: [
       { title: 'The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future',
         author: 'Kevin Kelly' }
+    ],
+    onlineCoding: [
+      { title: 'HackerRank',
+        url: 'http://hackerrank.com'
+      { title: 'The AI Games',
+        url: 'http://theaigames.com/'}
+      }
     ]
   }
 
