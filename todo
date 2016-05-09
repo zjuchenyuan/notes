@@ -150,6 +150,7 @@
     + http://coligo.io/bookmarking-app-electron-vuejs-firebase/
     + http://alan.norbauer.com/articles/bookcision/
   + R & D
+    + https://pinboard.in/ (https://news.ycombinator.com/item?id=11633270)
     + https://bookmarkos.com/
     + http://booky.io/
     + https://openoox.com/
@@ -250,15 +251,24 @@
     langs: [
       { name: 'Hyperpolyglot Cheat Sheets',
         url: 'http://hyperpolyglot.org/' },
-      { name: 'Python' },
+      { name: 'Python':
+        resources:
+          [{ name: 'Learn Python',
+            url': 'http://www.learnpython.org/' },
+          { name: 'Introduction to the Python Interpreter',
+            url: 'http://akaptur.com/blog/2013/11/15/introduction-to-the-python-interpreter/' }
+        ]},
       { name: 'Go',
-        roadmap:
+        resources:
           [{ name: "Go Tutorial",
             url: "http://golang.org/doc/go_tutorial.html" },
           { name: "Effective Go",
             url: "http://golang.org/doc/effective_go.html" },
           { name: "Go Language Patterns",
             url: "http://www.golangpatterns.info/" }],
+          { name: 'Go by Example',
+            url: 'https://gobyexample.com/' }
+        ],
         frameworks: [
           'Gopher'
         ]},
@@ -280,6 +290,10 @@
           'Amber'
         ]},
       { name: 'Erlang',
+        resources:
+          [{ name: 'Learn You Some Erlang'
+            url: 'http://learnyousomeerlang.com/'},
+        ],
         frameworks: [
           'Elixir'
         ]},
@@ -296,30 +310,20 @@
     courses: [
       { name: 'ReactJS Fundamentals',
         url: 'http://courses.reactjsprogram.com/' },
-      { name: 'Go by Example',
-        url: 'https://gobyexample.com/' },
       { name: 'Learning Advanced JavaScript',
         url: 'http://ejohn.org/apps/learn/' },
-      { name: 'Learn Python',
-        url': 'http://www.learnpython.org/' },
       { name: 'Thinkster - Angular, React, MEAN, Ionic, Rails, Swift',
         url: 'https://thinkster.io/'},
       { name: 'DAT8 - General Assembly's Data Science course in Washington, DC',
         url: 'https://github.com/justmarkham/DAT8' },
-      { name: 'Learn You Some Erlang'
-        url: 'http://learnyousomeerlang.com/'},
       { name: 'Hacksplaining',
         url: 'https://www.hacksplaining.com' },
       { name: 'Want to learn React Native? Start here',
         url: 'https://www.viget.com/articles/learn-you-a-react-native' },
       { name: 'Calculus Learning Guide',
         url: 'http://betterexplained.com/guides/calculus/' },
-      { name: 'Introduction to the Python Interpreter',
-        url: 'http://akaptur.com/blog/2013/11/15/introduction-to-the-python-interpreter/' },
       { name: "Flexbox Patterns",
         url: "http://www.flexboxpatterns.com/" },
-      { name: 'Rust by Example',
-        url: 'http://rustbyexample.com/'},
       { name: 'Let's Build a Compiler',
         url: 'http://compilers.iecc.com/crenshaw/'},
       { name: 'Writing a Compiler in Go',
@@ -525,7 +529,9 @@
       { title: 'HackerRank',
         url: 'http://hackerrank.com'
       { title: 'The AI Games',
-        url: 'http://theaigames.com/'}
+        url: 'http://theaigames.com/'},
+      { title: 'Hackchain',
+        url: 'http://hackcha.in/'}
       }
     ]
   }
@@ -840,22 +846,22 @@ extension=apcu.so
     + Gamestats - 'dau,new AR US' Se swapean los valores (Fix: MysqlStatsClient.php:309 '$query = $query->orderBy($prefix.$dimension);')
     + Gamestats - 'impressions banner native TR' roto - OK: Ahora countries es siempre upper: TR
     + Gamestats - 'impressions/dau US TR' no anda cuando le agregas un valor o dim (con dos distintos) -> ESTANDARIZAR
-
-  + PENDING
     - Gamestats - 'dau,new country' invierte headers de las columnas (IT con TR)
     - Gamestats - por default hacer los ultimos N dias, o sacar endDate
+    - Gamestats - retention1 country EMEA
+    - Gamestats - VER CON SEBA: 'sales type' no funciona, busca en summary_daily; querems type como en dbsales type
+
+  + PENDING
 
     - Gamestats - multimetrica con disitnta cantidad de elementos (sales,adrevenue) (igualar cant de rows) (adrev llega primero)
-    - Gamestats - retention1 country EMEA
     - Gamestats - dashboards de muchos graficos (Ver gridster limitaciones
     - Gamestats - funcionalidad candado ?? (whitelist para filtros)
     - Gamestats - Cancel active req on new reqs
+    - adrevenue/dau AR ios
 
-    - Gamestats - VER CON SEBA: 'sales type' no funciona, busca en summary_daily; querems type como en dbsales type
     - Gamestats - metrica dim val (en autocomplete)
 
   + NUEVOS
-    - adrevenue/dau AR ios
 
 
   + Re-enable CACHE !!!!!!!!!!!!!!!!!!!!!!!
@@ -918,6 +924,11 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
 + TCSchool
 + 1-10 Numbers
 + Cursiva / imprenta
+
++ ConvNetJS
++ Mind.js
++ Brain.js
++ Synaptic.js
 
 + Deep Learning Books - http://machinelearningmastery.com/deep-learning-books/
 
