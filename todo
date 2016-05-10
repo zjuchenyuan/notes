@@ -35,6 +35,22 @@
   + Jarvis
     + https://iceddev.com/blog/jarvis-an-amazon-echo-clone-in-your-browser/
     + https://wit.ai/
+  + Youtube
+    + Argentina for EXPORT
+      + wine
+      + yerba mate
+      + alpargatas
+      + meat
+      + soccer
+      + tango
+      + soy
+      + dulce de leche
+      + women
+      + alfajores
+      + fernet
+      + comidas/tejidos regionales ??
+  + Public Registry of Competing Interests for Science
+    + http://www.nature.com/news/set-up-a-public-registry-of-competing-interests-1.19851
 
  lebac Banco Central 32
 
@@ -499,7 +515,9 @@
             url: 'https://www.youtube.com/watch?v=mlTO510zO78' }
       ]},
       { title: 'Growing a Language by Guy Steele',
-        url: 'https://www.youtube.com/watch?v=_ahvzDzKdB0' }
+        url: 'https://www.youtube.com/watch?v=_ahvzDzKdB0' },
+      { title: 'Data Science in Node',
+        url: 'http://nodesummit.com/media/data-science-in-node/' }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -858,6 +876,7 @@ extension=apcu.so
     - Gamestats - funcionalidad candado ?? (whitelist para filtros)
     - Gamestats - Cancel active req on new reqs
     - adrevenue/dau AR ios
+    - questions_old online disabled sebastian total
 
     - Gamestats - metrica dim val (en autocomplete)
 
@@ -929,6 +948,8 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
 + Mind.js
 + Brain.js
 + Synaptic.js
++ percipio
++ bloom.js ??
 
 + Deep Learning Books - http://machinelearningmastery.com/deep-learning-books/
 
