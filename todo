@@ -12,7 +12,6 @@
   + NoBS Suite
   + Pokehunt
   + Restaurateur
-  + secretary:bot
   + Suppl.us
   + Traffic Lights Sim
   + ufc-elo
@@ -27,11 +26,13 @@
   + JSON Lists
   + cllct.io
   + FridgeOptimizer
+
   + Games
     + HumanCannon
     + Venture Capitalist
     + BoatRow (http://imgur.com/a/w1ihL#YyCSZBD), rythmic rowing, http://z-petal.com/sailboat/
     + https://en.wikipedia.org/wiki/List_of_games_in_game_theory
+    + Street Vendor
   + Jarvis
     + https://iceddev.com/blog/jarvis-an-amazon-echo-clone-in-your-browser/
     + https://wit.ai/
@@ -439,7 +440,11 @@
       { title: 'Common LISP Hints',
         url: 'http://www.n-a-n-o.com/lisp/cmucl-tutorials/LISP-tutorial.html' },
       { title: 'Happy Learn Haskell',
-        url: 'http://www.happylearnhaskelltutorial.com/' }
+        url: 'http://www.happylearnhaskelltutorial.com/' },
+      { title: 'HTML CANVAS DEEP DIVE',
+        url: 'http://joshondesign.com/p/books/canvasdeepdive/toc.html' },
+      { title: 'Clever Algorithms: Nature-Inspired Programming Recipes',
+        url: 'http://cleveralgorithms.com/nature-inspired/index.html' }
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
@@ -681,6 +686,8 @@ Skate 40%
   + Vango: https://www.vangoart.co/
   + http://queuehop.com/
   + http://deathandtax.com/
+  + https://www.revlo.co/
+  + https://www.affirm.com/
 
 + == Watch: Apps ==============
   + Anchor (no android)
@@ -950,6 +957,11 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
 + Synaptic.js
 + percipio
 + bloom.js ??
++ sean byrnes
+  + likely.js
+  + classify.js
+  + lyric
+  + logistical.js
 
 + Deep Learning Books - http://machinelearningmastery.com/deep-learning-books/
 
