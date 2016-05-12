@@ -26,6 +26,7 @@
   + JSON Lists
   + cllct.io
   + FridgeOptimizer
+  + Are we there yet?
 
   + Games
     + HumanCannon
@@ -360,7 +361,11 @@
       { name: 'A Guide to Bayesian Statistics',
         url: 'https://www.countbayesie.com/blog/2016/5/1/a-guide-to-bayesian-statistics' },
       { name: 'Go Actor Model',
-        url: 'https://github.com/rogeralsing/gam' }
+        url: 'https://github.com/rogeralsing/gam' },
+      { name: 'Entaglement Made Simple',
+        url: 'https://www.quantamagazine.org/20160428-entanglement-made-simple/' },
+      { name: 'The Definitive Guide to the Javascript Generators',
+        url: 'http://gajus.com/blog/2/the-definitive-guide-to-the-javascript-generators' }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -522,7 +527,11 @@
       { title: 'Growing a Language by Guy Steele',
         url: 'https://www.youtube.com/watch?v=_ahvzDzKdB0' },
       { title: 'Data Science in Node',
-        url: 'http://nodesummit.com/media/data-science-in-node/' }
+        url: 'http://nodesummit.com/media/data-science-in-node/' },
+      { title: 'JS 2016 Talks',
+        url: 'https://www.youtube.com/channel/UCEyh2YafDPCbJlzEgS8KY2A' },
+      { title: 'Scientific Computing in Javascript',
+        url: 'https://www.youtube.com/watch?v=DP00xId6k-Q'}
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -736,6 +745,10 @@ Skate 40%
   https://wrapapi.com/
   https://www.instaparser.com/
   https://github.com/IonicaBizau/scrape-it
+  https://github.com/jmcarp/robobrowser
+
+=== Design Refs ==============
++ https://zeit.co/
 
 
 === Ontology =================
