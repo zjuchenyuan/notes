@@ -856,6 +856,34 @@ Old Channels
 + country
 + dau
 
+
+
++ Channel
+  + Followers
+  + New Followers
+  + questions
+  + questions_daily
+  + answers
+  + answers_daily
+
+  + dau => new? o (answers_correct + answers_incorrect) unq
+  + new_users => reeplaza el viejo new_followers
+  + games_created => new
+  + games_created_unq => nro de users que crearon partida en ese dia
+  + answers_unq => nro de users que contestaron en ese dia
+  + votes_unq => nro de users que votaron en ese dia
+  + question_reports_unq => nro de users que reportaron en ese dia
+
+
++ dims (filtros)
+platform
+country
+join_range
+is_social
+is_buyer
+gender
+
+
 ===================
 Gamestats
 ===================
@@ -889,6 +917,7 @@ extension=apcu.so
     - Gamestats - por default hacer los ultimos N dias, o sacar endDate
     - Gamestats - retention1 country EMEA
     - Gamestats - VER CON SEBA: 'sales type' no funciona, busca en summary_daily; querems type como en dbsales type
+    - questions_old online disabled sebastian total
 
   + PENDING
 
@@ -897,7 +926,6 @@ extension=apcu.so
     - Gamestats - funcionalidad candado ?? (whitelist para filtros)
     - Gamestats - Cancel active req on new reqs
     - adrevenue/dau AR ios
-    - questions_old online disabled sebastian total
 
     - Gamestats - metrica dim val (en autocomplete)
 
@@ -906,7 +934,6 @@ extension=apcu.so
 
   + Re-enable CACHE !!!!!!!!!!!!!!!!!!!!!!!
 
-+ chequear countries en p2_qf_daily_diff_stats
 
   + http://research.microsoft.com/en-us/projects/sanddance/
 
