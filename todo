@@ -253,6 +253,12 @@
     + Instagram
     + Youtube
 
++ Essential Shell Tools
+  + silversearcher-ag
+  + cal
+  + tldr
+  + tree
+
 
 + 30 Days
   + PHP
@@ -449,7 +455,9 @@
       { title: 'HTML CANVAS DEEP DIVE',
         url: 'http://joshondesign.com/p/books/canvasdeepdive/toc.html' },
       { title: 'Clever Algorithms: Nature-Inspired Programming Recipes',
-        url: 'http://cleveralgorithms.com/nature-inspired/index.html' }
+        url: 'http://cleveralgorithms.com/nature-inspired/index.html' },
+      { title: 'The Freelance Web Designers Guide by Webflow',
+        url: 'http://ebooks.webflow.com/ebook/the-freelance-web-designers-guide'}
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
@@ -714,6 +722,9 @@ Skate 40%
   + summize
   + HEAR: http://hearapp.io/
   + http://www.cassette.design/
+  + http://www.jasonclient.org/ No Droid
+  + Snips (on waiting list)
+  + FindFace
 
 === Scraping / Crawling ===============
   http://scrapinghub.com
@@ -883,6 +894,9 @@ is_social
 is_buyer
 gender
 
+
++ BUGS
+  + Disney Movies id 51050
 
 ===================
 Gamestats
@@ -1296,6 +1310,10 @@ Koa !
   + Adonis (Laravel like)
   + Strapi
 
+
++ Horizon
+
+
 + Reactive shit:
   + Fworks
     + CycleJS
@@ -1306,6 +1324,8 @@ Koa !
     + most
     + cellX
     + kefir
+
+
 
 
 + GO
