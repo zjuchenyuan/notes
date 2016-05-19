@@ -404,8 +404,10 @@
         url: 'https://github.com/golang/go/wiki' },
       { title: 'The introduction to Reactive Programming you've been missing',
         url: "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754" }
-      { title: "Stanford CS231n: Convolutional Neural Networks for Visual Recognition.",
-        url: "http://cs231n.github.io/" }
+      { title: 'Stanford CS231n: Convolutional Neural Networks for Visual Recognition.',
+        url: 'http://cs231n.github.io/' },
+      { title: 'The beginners guide to React Native and Firebase',
+        url: 'https://firebase.googleblog.com/2016/01/the-beginners-guide-to-react-native-and_84.html' }
     ],
     onlineBooks: [
       { title: 'Eloquent Javascript',
@@ -878,7 +880,7 @@ Old Channels
   + answers_daily
 
   + dau => new? o (answers_correct + answers_incorrect) unq
-  + new_users => reeplaza el viejo new_followers
+  + new_users => join_range = 0
   + games_created => new
   + games_created_unq => nro de users que crearon partida en ese dia
   + answers_unq => nro de users que contestaron en ese dia
@@ -893,6 +895,9 @@ join_range
 is_social
 is_buyer
 gender
+
++ En TABLAS
+  + tck_cha_summary_daily: language -> lang
 
 
 + BUGS
@@ -1466,7 +1471,7 @@ var starters = [
     url: 'https://github.com/tuommii/err',
     keywords: ['electron', 'react', 'redux', 'redux-devtools', 'webpack', ] },
   { name: 'react-boilerplate',
-    desc: 'Quick setup for performance orientated, offline-first React.js applications featuring Redux, hot-reloading, PostCSS, react-router, ServiceWorker, AppCache, FontFaceObserver and Mocha.',
+    desc: 'A highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices.',
     url: 'https://github.com/mxstbr/react-boilerplate',
     keywords: ['react', 'hot', 'postCSS', 'serviceWorker', 'appCache', 'redux', 'webpack'] },
   { name: 'react-slingshot',
