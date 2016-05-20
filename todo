@@ -416,6 +416,8 @@
         url: 'https://addyosmani.com/resources/essentialjsdesignpatterns/book/'},
       { title: 'Learn Python the Hard Way',
         url: 'http://learnpythonthehardway.org/book/'},
+      { title: 'Learn Ruby the Hard Way',
+        url: 'http://learnrubythehardway.org/book/' },
       { title: 'Learn You a Haskell for Great Good!',
         url: 'http://learnyouahaskell.com/chapters'},
       { title: 'Exploring ES6',
@@ -708,6 +710,7 @@ Skate 40%
   + https://www.revlo.co/
   + https://www.affirm.com/
   + http://www.glowing.com/
+  + http://www.somebody.io/
 
 + == Watch: Apps ==============
   + Anchor (no android)
