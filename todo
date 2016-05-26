@@ -20,6 +20,7 @@
   + Meetr
   + TranslateUS
   + CorpSpy
+    + http://fortay.co/
   + PAMPA
   + onDemand Crowd
   + Nagger
@@ -28,12 +29,6 @@
   + FridgeOptimizer
   + Are we there yet?
 
-  + Games
-    + HumanCannon
-    + Venture Capitalist
-    + BoatRow (http://imgur.com/a/w1ihL#YyCSZBD), rythmic rowing, http://z-petal.com/sailboat/
-    + https://en.wikipedia.org/wiki/List_of_games_in_game_theory
-    + Street Vendor
   + Jarvis
     + https://iceddev.com/blog/jarvis-an-amazon-echo-clone-in-your-browser/
     + https://wit.ai/
@@ -53,6 +48,17 @@
       + comidas/tejidos regionales ??
   + Public Registry of Competing Interests for Science
     + http://www.nature.com/news/set-up-a-public-registry-of-competing-interests-1.19851
+  + Games
+    + Ideas
+      + HumanCannon
+      + Venture Capitalist
+      + BoatRow (http://imgur.com/a/w1ihL#YyCSZBD), rythmic rowing, http://z-petal.com/sailboat/
+      + https://en.wikipedia.org/wiki/List_of_games_in_game_theory
+      + Street Vendor
+    + Tools
+      + Phaser
+        + http://www.joshmorony.com/how-to-add-weather-effects-in-phaser-games/
+      + Godot
 
  lebac Banco Central 32
 
@@ -276,11 +282,19 @@
       { name: 'Hyperpolyglot Cheat Sheets',
         url: 'http://hyperpolyglot.org/' },
       { name: 'Python':
-        resources:
-          [{ name: 'Learn Python',
+        resources: [
+          { name: 'Learn Python',
             url': 'http://www.learnpython.org/' },
           { name: 'Introduction to the Python Interpreter',
             url: 'http://akaptur.com/blog/2013/11/15/introduction-to-the-python-interpreter/' }
+        ],
+        frameworks: [
+          { name: 'Cherry Pie',
+            url: 'http://www.cherrypy.org/' },
+          { name: 'Bottle',
+            url: 'http://bottlepy.org' },
+          { name: 'gunicorn',
+            url: 'http://gunicorn.org/' }
         ]},
       { name: 'Go',
         resources:
@@ -298,16 +312,22 @@
         ]},
       { name: 'Haskell' },
       { name: 'Elm' },
-      { name: 'C' },
+      { name: 'C',
+        frameworks: [
+          { name: 'Balde',
+            url: 'https://balde.rgm.io/' }
+        ]},
       { name: 'C++' },
       { name: 'Lisp' },
       { name: 'R' },
       { name: 'Rust',
         roadmap: [
-          { name: "Rust's Getting Started",
-            url: "https://doc.rust-lang.org/book/getting-started.html" },
+          { name: "Rust Book",
+            url: "https://doc.rust-lang.org/book/" },
           { name: 'Rust by Example',
-            url: 'http://rustbyexample.com/'}
+            url: 'http://rustbyexample.com/'},
+          { name: 'The Path to Rust',
+            url: 'https://thesquareplanet.com/blog/the-path-to-rust/' }
         ]},
       { name: 'SmallTalk',
         frameworks: [
@@ -321,7 +341,38 @@
         frameworks: [
           'Elixir'
         ]},
-      { name: 'F#' }
+      { name: 'F#' },
+      { name: 'Clojure',
+        frameworks: [
+          { name: 'om',
+            url: 'https://github.com/omcljs/om' },
+          { name: 'Reagent',
+            url: 'https://github.com/reagent-project/reagent' }
+        ]},
+      { name: 'Ruby',
+        frameworks: [
+          { name: 'Rails',
+            url: 'http://rubyonrails.org/' },
+          { name: 'Hanami',
+            url: 'http://hanamirb.org/'},
+          { name: 'Trailblazer',
+            url: 'http://trailblazer.to/' }
+        ]},
+      { name: 'Javascript',
+        roadmap: [
+          { name: 'Quora - What is the best way of learning Node.js?'
+            url: 'https://www.quora.com/What-is-the-best-way-of-learning-Node-js' },
+          { name: 'Nodeschool',
+            url: 'http://nodeschool.io/'},
+          { name: 'The Stream Handbook',
+            url: 'https://github.com/substack/stream-handbook' },
+          { name: 'Designing APIs for Asynchrony (Isaac Z. Schlueter, Node Core Leader)',
+            url: 'http://blog.izs.me/post/59142742143/designing-apis-for-asynchrony' },
+          { name: 'Understanding node.js (Felix Geisendörfer, former node core)',
+            url: "http://debuggable.com/posts/understanding-node-js:4bd98440-45e4-4a9a-8ef7-0f7ecbdd56cb" },
+          { name: "The JavaScript Event Loop: Explained",
+            url: "http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/" }
+        ]}
     ],
     codeReading: [
       { name: 'Coffeescript', author: 'Jeremy Ashkenas'},
@@ -351,7 +402,9 @@
       { name: 'Let's Build a Compiler',
         url: 'http://compilers.iecc.com/crenshaw/'},
       { name: 'Writing a Compiler in Go',
-        url: 'http://squanch.org/writing-a-compiler-in-go/' }
+        url: 'http://squanch.org/writing-a-compiler-in-go/' },
+      { name: 'Learn X in Y Minutes',
+        url: 'https://learnxinyminutes.com/' }
     ],
     explanations: [
       { name: 'Neural Networks Demystified',
@@ -371,7 +424,15 @@
       { name: 'Entaglement Made Simple',
         url: 'https://www.quantamagazine.org/20160428-entanglement-made-simple/' },
       { name: 'The Definitive Guide to the Javascript Generators',
-        url: 'http://gajus.com/blog/2/the-definitive-guide-to-the-javascript-generators' }
+        url: 'http://gajus.com/blog/2/the-definitive-guide-to-the-javascript-generators' },
+      { name: 'Functional Programmer's Toolbox (JS, Ruby, Elixir)',
+        url: 'http://markonis.github.io/functional/programming/2016/05/03/functional-programmers-toolbox.html' },
+      { name: 'JS implem. of algos (and vis) from Russell And Norvigs Artificial Intelligence - A Modern Approach',
+        url: 'https://github.com/aimacode/aima-javascript' },
+      { name: 'The Mandelbrot set in JavaScript: Fractals in JS',
+        url: 'http://slicker.me/fractals/fractals.htm' },
+      { name: 'So You Want to Be a (Compiler) Wizard',
+        url: "http://belkadan.com/blog/2016/05/So-You-Want-To-Be-A-Compiler-Wizard/" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -407,7 +468,13 @@
       { title: 'Stanford CS231n: Convolutional Neural Networks for Visual Recognition.',
         url: 'http://cs231n.github.io/' },
       { title: 'The beginners guide to React Native and Firebase',
-        url: 'https://firebase.googleblog.com/2016/01/the-beginners-guide-to-react-native-and_84.html' }
+        url: 'https://firebase.googleblog.com/2016/01/the-beginners-guide-to-react-native-and_84.html' },
+      { title: 'Ninety-Nine Problems in Java 8, Scala, and Haskell',
+        url: 'https://github.com/shekhargulati/99-problems' },
+      { title: "React tutorial: Cloning Yelp",
+        url: "https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/" },
+      { title: "Implementing a Stepping Debbuger in Javascript",
+        url: "http://jlongster.com/Implementing-Stepping-Debugger-JavaScript" }
     ],
     onlineBooks: [
       { title: 'Eloquent Javascript',
@@ -461,7 +528,11 @@
       { title: 'Clever Algorithms: Nature-Inspired Programming Recipes',
         url: 'http://cleveralgorithms.com/nature-inspired/index.html' },
       { title: 'The Freelance Web Designers Guide by Webflow',
-        url: 'http://ebooks.webflow.com/ebook/the-freelance-web-designers-guide'}
+        url: 'http://ebooks.webflow.com/ebook/the-freelance-web-designers-guide'},
+      { title: 'Clojure for the Brave and True',
+        url: 'http://www.braveclojure.com/clojure-for-the-brave-and-true/' },
+      { title: 'Free Programming books (LIST !)',
+        url: 'https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md' }
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
@@ -543,7 +614,13 @@
       { title: 'JS 2016 Talks',
         url: 'https://www.youtube.com/channel/UCEyh2YafDPCbJlzEgS8KY2A' },
       { title: 'Scientific Computing in Javascript',
-        url: 'https://www.youtube.com/watch?v=DP00xId6k-Q'}
+        url: 'https://www.youtube.com/watch?v=DP00xId6k-Q'},
+      { title: 'Peter Thiel on the Global Economy, the State of Our Technology, and Artificial Intelligence',
+        url: 'https://www.youtube.com/watch?v=Q_3r49XXRw4' },
+      { title: 'DevTools in 2016: Accelerate your workflow - Google I/O 2016',
+        url: 'https://www.youtube.com/watch?v=x8u0n4dT-WI' },
+      { title: "What the... Javascript?",
+        url: "https://www.youtube.com/watch?v=2pL28CcEijU" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -882,7 +959,7 @@ Old Channels
   + answers
   + answers_daily
 
-  + dau => new? o (answers_correct + answers_incorrect) unq
+  + dau => users o (answers_correct + answers_incorrect) unq
   + new_users => join_range = 0
   + games_created => new
   + games_created_unq => nro de users que crearon partida en ese dia
@@ -901,6 +978,7 @@ gender
 
 + En TABLAS
   + tck_cha_summary_daily: language -> lang
+  + bds.cha_raw: reports_copyright_infrigement => reports_copyright_infringement
 
 
 + BUGS
@@ -1573,10 +1651,10 @@ var starters = [
     desc: 'Boilerplate for using a React front end, Node/Express on the backend, and Webpack with Babel for bundling.',
     url: 'https://github.com/theavish/wrne-boilerplate',
     keywords: ['react', 'express', 'webpack', 'babel'] },
-  { name: '',
-    desc: '',
-    url: '',
-    keywords: ['', '', '', '', '', ''] },
+  { name: 'pepperoni-app-kit',
+    desc: 'Pepperoni - React Native App Starter Kit for Android and iOS',
+    url: 'https://github.com/futurice/pepperoni-app-kit',
+    keywords: ['mobile', 'react', 'redux', 'immutable', 'mocha'] },
   { name: '',
     desc: '',
     url: '',
