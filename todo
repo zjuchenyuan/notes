@@ -55,6 +55,7 @@
       + BoatRow (http://imgur.com/a/w1ihL#YyCSZBD), rythmic rowing, http://z-petal.com/sailboat/
       + https://en.wikipedia.org/wiki/List_of_games_in_game_theory
       + Street Vendor
+      + http://inventwithpython.com/blog/2012/02/20/i-need-practice-programming-49-ideas-for-game-clones-to-code/
     + Tools
       + Phaser
         + http://www.joshmorony.com/how-to-add-weather-effects-in-phaser-games/
@@ -200,6 +201,8 @@
 + == cllct.io ============
   + Stack
     +
+  + Refs:
+    + https://getcollectie.com
 + == AutoParts ===========
   + Sources
     + http://www.mundorepuesto.com/
@@ -289,6 +292,8 @@
             url: 'http://akaptur.com/blog/2013/11/15/introduction-to-the-python-interpreter/' }
         ],
         frameworks: [
+          { name: "Flask",
+            url: "http://flask.pocoo.org/" },
           { name: 'Cherry Pie',
             url: 'http://www.cherrypy.org/' },
           { name: 'Bottle',
@@ -341,7 +346,11 @@
         frameworks: [
           'Elixir'
         ]},
-      { name: 'F#' },
+      { name: 'F#',
+        tools: [
+          { name: "Fable",
+            url: "http://fsprojects.github.io/Fable/" },
+        ]},
       { name: 'Clojure',
         frameworks: [
           { name: 'om',
@@ -404,7 +413,9 @@
       { name: 'Writing a Compiler in Go',
         url: 'http://squanch.org/writing-a-compiler-in-go/' },
       { name: 'Learn X in Y Minutes',
-        url: 'https://learnxinyminutes.com/' }
+        url: 'https://learnxinyminutes.com/' },
+      { name: "Modern SQL",
+        url: "http://modern-sql.com/"}
     ],
     explanations: [
       { name: 'Neural Networks Demystified',
@@ -432,7 +443,19 @@
       { name: 'The Mandelbrot set in JavaScript: Fractals in JS',
         url: 'http://slicker.me/fractals/fractals.htm' },
       { name: 'So You Want to Be a (Compiler) Wizard',
-        url: "http://belkadan.com/blog/2016/05/So-You-Want-To-Be-A-Compiler-Wizard/" }
+        url: "http://belkadan.com/blog/2016/05/So-You-Want-To-Be-A-Compiler-Wizard/" },
+      { name: "The Key Differences Between Python 2.7.x and Python 3.x with examples",
+        url: "http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html" },
+      { name: "500 Lines or Less",
+        url: "https://github.com/aosabook/500lines" },
+      { name: "Linear Algebra for Game Developers",
+        url: "http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/" },
+      { name: "Perlin Noise",
+        url: "https://eev.ee/blog/2016/05/29/perlin-noise/" },
+      { name: "Recursion Explained with the Flood Fill Algorithm",
+        url: "http://inventwithpython.com/blog/2011/08/11/recursion-explained-with-the-flood-fill-algorithm-and-zombies-and-cats/" },
+      { name: "Common Lisp: The Untold Story",
+        url: "http://www.nhplace.com/kent/Papers/cl-untold-story.html"}
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -474,7 +497,25 @@
       { title: "React tutorial: Cloning Yelp",
         url: "https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/" },
       { title: "Implementing a Stepping Debbuger in Javascript",
-        url: "http://jlongster.com/Implementing-Stepping-Debugger-JavaScript" }
+        url: "http://jlongster.com/Implementing-Stepping-Debugger-JavaScript" },
+      { title: "Automating the Deployment of Node.js Applications",
+        url: "http://withouttheloop.com/articles/2016-05-26-automating-deployment-of-nodejs-applications/" },
+      { title: "The Internet of the Future ? SEO Friendly Single Page Web Apps with Angular 2 Universal",
+        url: "http://blog.angular-academy.io/angular-2-universal-meet-the-internet-of-the-future-seo-friendly-single-page-web-apps/" },
+      { title: "React & Redux Example App Tutorials – Instagram clone",
+        url: "http://blog.getstream.io/react-redux-example-app-tutorials-preview/?fthr=cabin_pre_rd_re" },
+      { title: "Hacker News Reader in Elm",
+        url: "https://github.com/massung/elm-hn" },
+      { title: "Building Rock Paper Scissors with Botkit",
+        url: "https://blog.neondaylight.com/building-rock-paper-scissors-with-botkit-f08c9f48ba42#.5zligtkg8" },
+      { title: "Apache Spark as a Compiler: Joining a Billion Rows per Second on a Laptop",
+        url: "https://databricks.com/blog/2016/05/23/apache-spark-as-a-compiler-joining-a-billion-rows-per-second-on-a-laptop.html" },
+      { title: "CSS Coding Techniques",
+        url: "https://hacks.mozilla.org/2016/05/css-coding-techniques/" },
+      { title: "Making an RPG in Closure",
+        url: "http://briancarper.net/blog/520.html" },
+      { title: "Functional Programming Jargon",
+        url: "https://github.com/hemanth/functional-programming-jargon" }
     ],
     onlineBooks: [
       { title: 'Eloquent Javascript',
@@ -532,7 +573,13 @@
       { title: 'Clojure for the Brave and True',
         url: 'http://www.braveclojure.com/clojure-for-the-brave-and-true/' },
       { title: 'Free Programming books (LIST !)',
-        url: 'https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md' }
+        url: 'https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md' },
+      { title: "Dive Into Python 3",
+        url: "http://getpython3.com/diveintopython3/"},
+      { title: "(the eff-bot guide to) The Standard Python Library",
+        url: "http://effbot.org/zone/librarybook-index.htm" },
+      { title: "Building Skills in Python",
+        url: "http://www.itmaybeahack.com/book/python-2.6/html/index.html#building-skills-in-python" }
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
@@ -620,7 +667,15 @@
       { title: 'DevTools in 2016: Accelerate your workflow - Google I/O 2016',
         url: 'https://www.youtube.com/watch?v=x8u0n4dT-WI' },
       { title: "What the... Javascript?",
-        url: "https://www.youtube.com/watch?v=2pL28CcEijU" }
+        url: "https://www.youtube.com/watch?v=2pL28CcEijU" },
+      { title: "Repurposing Old Smartphones for Home Automation",
+        url: "https://www.linux.com/news/repurposing-old-smartphones-home-automation"},
+      { title: "European Lisp Symposium",
+        url: "https://www.youtube.com/playlist?list=PLA66mD-6yK8xqd5XKxzwVBIqf1d3QQXpv" },
+      { title: "Avi Bryant - Bad Hackers Copy, Great Hackers Steal",
+        url: "https://vimeo.com/4763707" },
+      { title: "Escape from the Heap: Low-Level Programming in Common Lisp",
+        url: "https://www.youtube.com/watch?v=S7nEZ3TuFpA" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -652,8 +707,18 @@
       { title: 'The AI Games',
         url: 'http://theaigames.com/'},
       { title: 'Hackchain',
-        url: 'http://hackcha.in/'}
+        url: 'http://hackcha.in/'},
+      { title: "MicroCorruption",
+        url: "https://microcorruption.com/about" },
+      { title: "How to Think Like a Computer Scientist",
+        url: "http://interactivepython.org/runestone/static/thinkcspy/index.html" }
       }
+    ],
+    recommendations: [
+      { title: "Startup Reading List",
+        url: "http://www.nicolabortignon.com/startup-reading-list/" },
+      { title: "Highly Reco",
+        url: "https://www.highlyreco.com" }
     ]
   }
 
@@ -775,6 +840,22 @@
       author: '' },
   ]
 
++ 15 Ebooks Every OSS programmer should read:
+1. Data Journalism Handbook (http://datajournalismhandbook.org/)
+2. Free Software, Free Society (http://shop.fsf.org/product/free-software-free-society-2/)
+3. Free as in Freedom (http://static.fsf.org/nosvn/faif-2.0.pdf)
+4. Getting started with Open source development (http://public.dhe.ibm.com/software/dw/db2/express-c/wiki/Getting_started_with_open_source_development_p2.pd f)
+5. Innovation Happens Elsewhere (http://dreamsongs.com/IHE/IHE.html)
+6. Open Advice: FOSS: What We Wish We Had Known When We Started (http://open-advice.org/)
+7. Producing Open Source Software (http://producingoss.com/)
+8. The Art of Community: Building the New Age of Participation: First edition (http://www.artofcommunityonline.org/downloads/jonobacon-theartofcommunity-1ed.pdf)
+9. The Art of Community: Building the New Age of Participation: Second edition (http://ubuntuone.com/0n352YwUjlcFR8PjIELH67)
+10. The Architecture of Open Source Applications: Vol. 1: Elegance, Evolution, and a Few Fearless Hacks; Vol. 2: Structure, Scale, and a Few More Feerless Hacks (http://www.aosabook.org/en/index.html)
+11. The Cathedral and the Bazaar (http://www.catb.org/esr/writings/cathedral-bazaar/)
+12. The Future of Ideas (http://the-future-of-ideas.com/download/lessig_FOI.pdf)
+13. The Future of the Internet (http://futureoftheinternet.org/)
+14. The Performance of Open Source Applications (http://aosabook.org/en/)
+15. The Wealth of Networks: How Social Production Transforms Markets and Freedom (http://cyber.law.harvard.edu/wealth_of_networks/Main_Page)
 
 Skate 40%
 4326-4384
@@ -1344,6 +1425,50 @@ TF Show
     + Books:
       + Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets - Nassim Taleb
 
+
+++++  42 by Douglas Adams
+1. “A learning experience is one of those things that says, 'You know that thing you just did? Don't do that.’”
+2. “I may not have gone where I intended to go, but I think I have ended up where I needed to be.”
+3. “Let's think the unthinkable, let's do the undoable. Let us prepare to grapple with the ineffable itself, and see if we may not eff it after all.”
+4. “The quality of any advice anybody has to offer has to be judged against the quality of life they actually lead.”
+5 “I refuse to answer that question on the grounds that I don't know the answer.”
+6. “It is a mistake to think you can solve any major problems just with potatoes.”
+7. “All opinions are not equal. Some are a very great deal more robust, sophisticated and well supported in logic and argument than others.”
+8. “I love deadlines. I love the whooshing noise they make as they go by.”
+9. “The idea was fantastically, wildly improbable. But like most fantastically, wildly improbable ideas it was at least as worthy of consideration as a more mundane one to which the facts had been strenuously bent to fit.”
+10. “I'd far rather be happy than right any day.”
+11. “Only a child sees things with perfect clarity, because it hasn't developed all those filters which prevent us from seeing things that we don't expect to see.”
+12. “Reality is frequently inaccurate.”
+13. “What I need... is a strong drink and a peer group.”
+14. “It is folly to say you know what is happening to other people. Only they know, if they exist. They have their own Universes of their own eyes and ears.”
+15. “There is no point in using the word 'impossible' to describe something that has clearly happened.”
+16. “One is never alone with a rubber duck.”
+17. “Beethoven tells you what it's like to be Beethoven and Mozart tells you what it's like to be human. Bach tells you what it's like to be the universe.”
+18. “Anything that thinks logically can be fooled by something else that thinks at least as logically as it does.”
+19. “Let the past hold on to itself and let the present move forward into the future.”
+20. “I don't accept the currently fashionable assertion that any view is automatically as worthy of respect as any equal and opposite view.”
+21. “Time is an illusion. Lunchtime doubly so.”
+22. “The impossible often has a kind of integrity to it which the merely improbable lacks.”
+23. “Life is wasted on the living.”
+24. “There are some people you like immediately, some whom you think you might learn to like in the fullness of time, and some that you simply want to push away from you with a sharp stick.”
+25. “I'd take the awe of understanding over the awe of ignorance any day.”
+26. “All you really need to know for the moment is that the universe is a lot more complicated than you might think, even if you start from a position of thinking it's pretty damn complicated in the first place.”
+27. “Anything invented after you're thirty-five is against the natural order of things.”
+28. “A life that is burdened with expectations is a heavy life. Its fruit is sorrow and disappointment.”
+29. “If you try and take a cat apart to see how it works, the first thing you have on your hands is a non-working cat.”
+30. “People who need to bully you are the easiest to push around.”
+31. “We have normality. I repeat, we have normality. Anything you still can't cope with is therefore your own problem.”
+32. “Beauty doesn't have to be about anything. What's a vase about? What's a sunset or a flower about? What, for that matter, is Mozart's Twenty-third Piano Concerto about?”
+33. “Anyone who is capable of getting themselves made President should on no account be allowed to do the job.”
+34. “Even a manically depressed robot is better to talk to than nobody.”
+35. “My universe is my eyes and my ears. Anything else is hearsay.”
+36. “If it looks like a duck, and quacks like a duck, we have at least to consider the possibility that we have a small aquatic bird of the family anatidae on our hands.”
+37. “A cup of tea would restore my normality.”
+38. “Human beings, who are almost unique in having the ability to learn from the experience of others, are also remarkable for their apparent disinclination to do so.”
+39. “It can be very dangerous to see things from somebody else's point of view without the proper training.”
+40. “You live and learn. At any rate, you live.”
+41. “Don't believe anything you read on the net. Except this. Well, including this, I suppose.”
+42. “Don't Panic.”
 
 ===================
 Future Stacks
