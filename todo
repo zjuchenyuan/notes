@@ -1,6 +1,9 @@
 + == Daily ===============
-  + CC
-  +
+  + New data bds
+  + Crowd Rest
+  + statsd
+  + bugs GS
+  + diff entre answers_correct+answer_incorrect entre cha_raw y tck_cha_summary_daily
 + == Foundry =============
   + AutoTracker
   + BooksDB (scrappy)
@@ -718,7 +721,9 @@
       { title: "Startup Reading List",
         url: "http://www.nicolabortignon.com/startup-reading-list/" },
       { title: "Highly Reco",
-        url: "https://www.highlyreco.com" }
+        url: "https://www.highlyreco.com" },
+      { title: "Alan Kay's Reading List",
+        url: "http://www.squeakland.org/resources/books/readingList.jsp" }
     ]
   }
 
@@ -1186,6 +1191,10 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
   + logistical.js
 
 + Deep Learning Books - http://machinelearningmastery.com/deep-learning-books/
++ Tensor flow beginner examples
+  + https://github.com/aymericdamien/TensorFlow-Examples
++ Deep training with Open Street Maps
+  + https://github.com/trailbehind/DeepOSM
 
 ===================
 TF Show
