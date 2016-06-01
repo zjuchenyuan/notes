@@ -1,36 +1,42 @@
 + == Daily ===============
   + New data bds
   + Crowd Rest
-  + statsd
   + bugs GS
+    + retention1 avg
   + diff entre answers_correct+answer_incorrect entre cha_raw y tck_cha_summary_daily
+  + Uli
+    + Users nuevos
+    + Tutorial para save dashboard
+    + Follow Up: Lentitud en Uru. Ver con tincho tema bandwidth
+  + Alluvial Diagram
+  + Issue: answers_correct en Channels
+  + Analytics BackOffice Channels
+  + statsd
 + == Foundry =============
-  + AutoTracker
+  + iMetrics / AutoTracker
   + BooksDB (scrappy)
   + bUNITED
   + HoyLLueve / Precog
-  + Juggler
   + keto.com.ar
   + Metajobs
   + NoBS Suite
-  + Pokehunt
-  + Restaurateur
   + Suppl.us
-  + Traffic Lights Sim
   + ufc-elo
   + vQuery / shugga
   + WeChat / ChatRooms
-  + Meetr
+  + Meetr (meet me at..)
   + TranslateUS
   + CorpSpy
     + http://fortay.co/
-  + PAMPA
+  + PAMPA carnes
   + onDemand Crowd
   + Nagger
   + JSON Lists
   + cllct.io
   + FridgeOptimizer
   + Are we there yet?
+  + Copy presskithero.com
+  + MediumReader
 
   + Jarvis
     + https://iceddev.com/blog/jarvis-an-amazon-echo-clone-in-your-browser/
@@ -53,12 +59,21 @@
     + http://www.nature.com/news/set-up-a-public-registry-of-competing-interests-1.19851
   + Games
     + Ideas
+      + Restaurateur
+      + Pokehunt
       + HumanCannon
+      + Traffic Lights Sim
       + Venture Capitalist
       + BoatRow (http://imgur.com/a/w1ihL#YyCSZBD), rythmic rowing, http://z-petal.com/sailboat/
       + https://en.wikipedia.org/wiki/List_of_games_in_game_theory
       + Street Vendor
       + http://inventwithpython.com/blog/2012/02/20/i-need-practice-programming-49-ideas-for-game-clones-to-code/
+    + Mechanics
+      + Juggler
+      + Swarm (http://unu.ai/)
+      + Genetic Evolution
+        + https://github.com/penguinpress/watchmaker.js
+        + http://www.mountimprobable.com/
     + Tools
       + Phaser
         + http://www.joshmorony.com/how-to-add-weather-effects-in-phaser-games/
@@ -384,6 +399,11 @@
             url: "http://debuggable.com/posts/understanding-node-js:4bd98440-45e4-4a9a-8ef7-0f7ecbdd56cb" },
           { name: "The JavaScript Event Loop: Explained",
             url: "http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/" }
+        ]},
+      { name: "Maths",
+        roadmap: [
+          { name: "The Immutability of Math and How Almost Everything Else Will Pass",
+            url: "http://blog.hackerrank.com/the-immutability-of-math-and-how-almost-everything-else-will-pass/" }
         ]}
     ],
     codeReading: [
@@ -458,7 +478,9 @@
       { name: "Recursion Explained with the Flood Fill Algorithm",
         url: "http://inventwithpython.com/blog/2011/08/11/recursion-explained-with-the-flood-fill-algorithm-and-zombies-and-cats/" },
       { name: "Common Lisp: The Untold Story",
-        url: "http://www.nhplace.com/kent/Papers/cl-untold-story.html"}
+        url: "http://www.nhplace.com/kent/Papers/cl-untold-story.html"},
+      { name: "",
+        url: ""}
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -518,7 +540,7 @@
       { title: "Making an RPG in Closure",
         url: "http://briancarper.net/blog/520.html" },
       { title: "Functional Programming Jargon",
-        url: "https://github.com/hemanth/functional-programming-jargon" }
+        url: "https://github.com/hemanth/functional-programming-jargon" },
     ],
     onlineBooks: [
       { title: 'Eloquent Javascript',
@@ -714,7 +736,9 @@
       { title: "MicroCorruption",
         url: "https://microcorruption.com/about" },
       { title: "How to Think Like a Computer Scientist",
-        url: "http://interactivepython.org/runestone/static/thinkcspy/index.html" }
+        url: "http://interactivepython.org/runestone/static/thinkcspy/index.html" },
+      { title: "JavaScript tools to build Blind Watchmaker style apps using Richard Dawkins' algorithms"
+        url: "https://github.com/penguinpress/watchmaker.js" }
       }
     ],
     recommendations: [
@@ -874,6 +898,8 @@ Skate 40%
   + https://www.affirm.com/
   + http://www.glowing.com/
   + http://www.somebody.io/
+  + https://presskithero.com
+  + http://unu.ai/
 
 + == Watch: Apps ==============
   + Anchor (no android)
@@ -1116,6 +1142,10 @@ extension=apcu.so
     - Gamestats - metrica dim val (en autocomplete)
 
   + NUEVOS
+    + Uli:
+      + Users nuevos
+      + Tutorial para save dashboard
+      + Ver con tincho tema bandwidth uru
 
 
   + Re-enable CACHE !!!!!!!!!!!!!!!!!!!!!!!
@@ -1789,10 +1819,10 @@ var starters = [
     desc: 'Pepperoni - React Native App Starter Kit for Android and iOS',
     url: 'https://github.com/futurice/pepperoni-app-kit',
     keywords: ['mobile', 'react', 'redux', 'immutable', 'mocha'] },
-  { name: '',
-    desc: '',
-    url: '',
-    keywords: ['', '', '', '', '', ''] },
+  { name: 'flaskapp',
+    desc: 'Flask Seed App',
+    url: 'https://github.com/muicss/flaskapp',
+    keywords: ['flask', 'python', 'sqlite', 'gulp'] },
   { name: '',
     desc: '',
     url: '',
