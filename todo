@@ -1,17 +1,21 @@
 + == Daily ===============
-  + New data bds
-  + Crowd Rest
-  + bugs GS
-    + retention1 avg
-  + diff entre answers_correct+answer_incorrect entre cha_raw y tck_cha_summary_daily
-  + Uli
-    + Users nuevos
-    + Tutorial para save dashboard
-    + Follow Up: Lentitud en Uru. Ver con tincho tema bandwidth
-  + Alluvial Diagram
-  + Issue: answers_correct en Channels
-  + Analytics BackOffice Channels
-  + statsd
+  + WERK
+    + New data bds
+    + Crowd Rest
+    + bugs GS
+      + arpdau
+      + retention1 avg
+    + diff entre answers_correct+answer_incorrect entre cha_raw y tck_cha_summary_daily
+    + Uli
+      + Users nuevos
+      + Tutorial para save dashboard
+      + Follow Up: Lentitud en Uru. Ver con tincho tema bandwidth
+    + Alluvial Diagram
+    + Issue: answers_correct en Channels
+    + Analytics BackOffice Channels
+    + statsd
+  + IO
+    + Lose Knownhost
 + == Foundry =============
   + iMetrics / AutoTracker
   + BooksDB (scrappy)
@@ -438,7 +442,13 @@
       { name: 'Learn X in Y Minutes',
         url: 'https://learnxinyminutes.com/' },
       { name: "Modern SQL",
-        url: "http://modern-sql.com/"}
+        url: "http://modern-sql.com/"},
+      { name: "Getting Started with Redux - Dan Abramov",
+        url: "https://egghead.io/series/getting-started-with-redux" },
+      { name: "Building React Applications with Idiomatic Redux - Dan Abramov",
+        url: "https://egghead.io/series/building-react-applications-with-idiomatic-redux" },
+      { name: "Linux Journey",
+        url: "https://linuxjourney.com/" }
     ],
     explanations: [
       { name: 'Neural Networks Demystified',
@@ -541,6 +551,8 @@
         url: "http://briancarper.net/blog/520.html" },
       { title: "Functional Programming Jargon",
         url: "https://github.com/hemanth/functional-programming-jargon" },
+      { title: "Scalable Live Video Streaming with NGINX Plus and BITMOVIN",
+        url: "https://www.nginx.com/blog/scalable-live-video-streaming-nginx-plus-bitmovin/" }
     ],
     onlineBooks: [
       { title: 'Eloquent Javascript',
@@ -604,7 +616,9 @@
       { title: "(the eff-bot guide to) The Standard Python Library",
         url: "http://effbot.org/zone/librarybook-index.htm" },
       { title: "Building Skills in Python",
-        url: "http://www.itmaybeahack.com/book/python-2.6/html/index.html#building-skills-in-python" }
+        url: "http://www.itmaybeahack.com/book/python-2.6/html/index.html#building-skills-in-python" },
+      { title: "Full Stack Lisp",
+        url: "http://fullstacklisp.com/" }
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
@@ -700,7 +714,15 @@
       { title: "Avi Bryant - Bad Hackers Copy, Great Hackers Steal",
         url: "https://vimeo.com/4763707" },
       { title: "Escape from the Heap: Low-Level Programming in Common Lisp",
-        url: "https://www.youtube.com/watch?v=S7nEZ3TuFpA" }
+        url: "https://www.youtube.com/watch?v=S7nEZ3TuFpA" },
+      { title: "Pragmatic Haskell for Beginners, Lecture 1",
+        url: "https://begriffs.com/posts/2016-05-14-pragmatic-haskell-1.html" },
+      { title: "Pragmatic Haskell for Beginners, Lecture 2",
+        url: "https://begriffs.com/posts/2016-06-01-pragmatic-haskell-2.html" },
+      { title: "ReactJS Conf 2016, all videos",
+        url: "https://www.youtube.com/playlist?list=PLb0IAmt7-GS0M8Q95RIc2lOM6nc77q1IY"},
+      { title: "JS Must Watch Playlist",
+        url: "https://www.youtube.com/playlist?list=PLuoyIZT5fPlH0qCoFz_jEMkmyzZRmvwWw" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -748,6 +770,23 @@
         url: "https://www.highlyreco.com" },
       { title: "Alan Kay's Reading List",
         url: "http://www.squeakland.org/resources/books/readingList.jsp" }
+    ],
+    rd: [
+      { name: "Speech Recognition",
+        links: [
+          { name: "Open Source Speech Recognition",
+            url: "http://chrislord.net/index.php/2016/06/01/open-source-speech-recognition/" },
+          { name: "Kaldi",
+            url: "http://kaldi-asr.org/"},
+          { name: "Ferris",
+            url: "https://gitlab.com/Cwiiis/ferris" }
+        ]},
+      { name: "Video",
+        links: [
+          { name: "Diffcam",
+            url: "http://diffcam.com/"}
+        ]}
+
     ]
   }
 
