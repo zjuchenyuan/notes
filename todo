@@ -366,7 +366,8 @@
             url: 'http://learnyousomeerlang.com/'},
         ],
         frameworks: [
-          'Elixir'
+          'Elixir',
+          'http://nerves-project.org/'
         ]},
       { name: 'F#',
         tools: [
@@ -722,7 +723,9 @@
       { title: "ReactJS Conf 2016, all videos",
         url: "https://www.youtube.com/playlist?list=PLb0IAmt7-GS0M8Q95RIc2lOM6nc77q1IY"},
       { title: "JS Must Watch Playlist",
-        url: "https://www.youtube.com/playlist?list=PLuoyIZT5fPlH0qCoFz_jEMkmyzZRmvwWw" }
+        url: "https://www.youtube.com/playlist?list=PLuoyIZT5fPlH0qCoFz_jEMkmyzZRmvwWw" },
+      { title: "PyCon 2016",
+        url: "https://www.youtube.com/channel/UCwTD5zJbsQGJN75MwbykYNw" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -760,7 +763,9 @@
       { title: "How to Think Like a Computer Scientist",
         url: "http://interactivepython.org/runestone/static/thinkcspy/index.html" },
       { title: "JavaScript tools to build Blind Watchmaker style apps using Richard Dawkins' algorithms"
-        url: "https://github.com/penguinpress/watchmaker.js" }
+        url: "https://github.com/penguinpress/watchmaker.js" },
+      { title: "Stockfighter",
+        url: "https://www.stockfighter.io/" }
       }
     ],
     recommendations: [
@@ -1009,6 +1014,69 @@ Skate 40%
     + http://dbpedia.org/
     + http://www.freebase.com/
     + http://lod.openlinksw.com/ (yago)
+
+
++ SocialMedia Monitoring (paid)
+  + Mention
+    - https://mention.com/en/
+    - Used by: CrunchBase, Github, Microsoft, Spotify, Workable
+  + Sysomos
+    - https://sysomos.com/
+    - Used by: Subway, NBC, iHeart, Heineken, FisherPrice, Porsche, Calvin Klein
+  + BrandWatch
+    - https://www.brandwatch.com/
+    - Used by: Loreal, TheGuardian, Heineken, Cisco, Walmart, British Airways, Dell
+  + Cision
+    - http://www.cision.com/us/social-software/
+    - Used by: Variety, JetBlue, Xerox, Waterhouse PR
+  + Hootsuite Insights (formerly Ubervu)
+    - https://hootsuite.com/products/insights
+    - Used by: MTV, NBC, DDB
+  + Talkwalker
+    - http://www.talkwalker.com/es/social-media-intelligence-tool/
+    - Used by: Adecco, Deloitte, Ogilvy, Wolskvagen, BASF
+
++ All in One (SMMon + Centralizacion de Social Networks y respuesta)
+  + Salesforce Marketing Cloud
+    - http://www.salesforce.com/marketing-cloud/overview/?d=70130000000m0ZK
+  + OneQube
+    - http://www.oneqube.com/
+    - Used by: Popular Science, ESPN, SocialMediaToday, FORTUNE
+  + Brand24
+    - https://brand24.com/
+    - Used by: IKEA, H&M, Intel, Uber, Vichy
+  + SimplyMeasured
+    - http://simplymeasured.com/
+    - Used by: Samsung, Microsoft, Complex, Adidas, Seattle Seahawks
+  + Meltwater
+    - http://www.meltwater.com/
+    - Used by: LogMeIn, Sodexo, Aspen
+  + SparkCentral
+    - CustEngagement pero mas orientado a Cust Service, para tener un lugar centralizado de rta
+    - http://www.sparkcentral.com/
+    - Used by: Zappos, Delta, Netflix, Discover, Sears, Western Union
+
++ Free (exploratorias; como complemento de una con full power)
+  + Klout
+  + SocialMention
+  + TweetReach (twitter-centric)
+  + Addictomattic
+  + IceRocket by Meltwater
+  + Respond by Buffer (Twitter helpdesk)
+
++ Otra forma mas "casera" y barata seria algo asi:
+
+  ALERTA -> CONECTOR -> DASHBOARD/MAIL/SLACK/FEEDLY
+
+  + Alertas:
+    + Google Alerts (para ocurrencias en la web)
+    + Talkwalker (para ocurrencias en SM)
+    + Mention (para ocurrencias en SM)
+    + Settings de alertas de Twitter y FB
+
+  + Conector (disparar a mails y slack)
+    + IFTTT
+    + Zapier
 
 
 ===================
