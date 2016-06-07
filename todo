@@ -41,6 +41,7 @@
   + Are we there yet?
   + Copy presskithero.com
   + MediumReader
+  + Bullet Journal
 
   + Jarvis
     + https://iceddev.com/blog/jarvis-an-amazon-echo-clone-in-your-browser/
@@ -311,7 +312,9 @@
           { name: 'Learn Python',
             url': 'http://www.learnpython.org/' },
           { name: 'Introduction to the Python Interpreter',
-            url: 'http://akaptur.com/blog/2013/11/15/introduction-to-the-python-interpreter/' }
+            url: 'http://akaptur.com/blog/2013/11/15/introduction-to-the-python-interpreter/' },
+          { name: "Full Stack Python",
+            url: "https://www.fullstackpython.com/" }
         ],
         frameworks: [
           { name: "Flask",
@@ -321,7 +324,9 @@
           { name: 'Bottle',
             url: 'http://bottlepy.org' },
           { name: 'gunicorn',
-            url: 'http://gunicorn.org/' }
+            url: 'http://gunicorn.org/' },
+          { name: "Twisted",
+            url: "https://twistedmatrix.com/trac/"}
         ]},
       { name: 'Go',
         resources:
@@ -367,7 +372,8 @@
         ],
         frameworks: [
           'Elixir',
-          'http://nerves-project.org/'
+          'http://nerves-project.org/',
+          'PhoenixFramework'
         ]},
       { name: 'F#',
         tools: [
@@ -449,7 +455,13 @@
       { name: "Building React Applications with Idiomatic Redux - Dan Abramov",
         url: "https://egghead.io/series/building-react-applications-with-idiomatic-redux" },
       { name: "Linux Journey",
-        url: "https://linuxjourney.com/" }
+        url: "https://linuxjourney.com/" },
+      { name: "Operating System Development Series",
+        url: "http://www.brokenthorn.com/Resources/OSDevIndex.html" },
+      { name: "Learning Vim in 2014",
+        url: "http://benmccormick.org/learning-vim-in-2014/" },
+      { name: "Marionette Explained",
+        url: "http://benmccormick.org/marionette-explained/" }
     ],
     explanations: [
       { name: 'Neural Networks Demystified',
@@ -490,8 +502,10 @@
         url: "http://inventwithpython.com/blog/2011/08/11/recursion-explained-with-the-flood-fill-algorithm-and-zombies-and-cats/" },
       { name: "Common Lisp: The Untold Story",
         url: "http://www.nhplace.com/kent/Papers/cl-untold-story.html"},
-      { name: "",
-        url: ""}
+      { name: "What is the difference between deep learning and usual machine learning?",
+        url: "https://github.com/rasbt/python-machine-learning-book/blob/master/faq/difference-deep-and-normal-learning.md" },
+      { name: "Little Lisp Interpreter - Mary Rose Cook",
+        url: "https://www.recurse.com/blog/21-little-lisp-interpreter" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -553,7 +567,9 @@
       { title: "Functional Programming Jargon",
         url: "https://github.com/hemanth/functional-programming-jargon" },
       { title: "Scalable Live Video Streaming with NGINX Plus and BITMOVIN",
-        url: "https://www.nginx.com/blog/scalable-live-video-streaming-nginx-plus-bitmovin/" }
+        url: "https://www.nginx.com/blog/scalable-live-video-streaming-nginx-plus-bitmovin/" },
+      { title: "Cabin: Learn React & Redux building a feature-rich, scalable social network (photo sharing) app",
+        url: "http://cabin.getstream.io/" }
     ],
     onlineBooks: [
       { title: 'Eloquent Javascript',
@@ -619,7 +635,11 @@
       { title: "Building Skills in Python",
         url: "http://www.itmaybeahack.com/book/python-2.6/html/index.html#building-skills-in-python" },
       { title: "Full Stack Lisp",
-        url: "http://fullstacklisp.com/" }
+        url: "http://fullstacklisp.com/" },
+      { title: "Building Problem Solvers",
+        url: "http://www.qrg.northwestern.edu/BPS/readme.html" },
+      { title: "Build Your Own Lisp",
+        url: "http://buildyourownlisp.com/" }
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
@@ -725,7 +745,11 @@
       { title: "JS Must Watch Playlist",
         url: "https://www.youtube.com/playlist?list=PLuoyIZT5fPlH0qCoFz_jEMkmyzZRmvwWw" },
       { title: "PyCon 2016",
-        url: "https://www.youtube.com/channel/UCwTD5zJbsQGJN75MwbykYNw" }
+        url: "https://www.youtube.com/channel/UCwTD5zJbsQGJN75MwbykYNw" },
+      { title: "How To Design A Good API and Why it Matters",
+        url: "https://www.youtube.com/watch?v=heh4OeB9A-c"},
+      { title: "React Europe 2016",
+        url: "https://www.youtube.com/channel/UCorlLn2oZfgOJ-FUcF2eZ1A" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -738,8 +762,9 @@
         notable: [ 'Ep. 162 – 7 Secrets of Mastery - Dr. K Anders Ericsson, who discovered the 10,000 hour rule' ]},
       { title: 'Excelence Expected' },
       { title: 'The Foundr Podcast' },
-      { title: 'The 20 Minute VC' }
-
+      { title: 'The 20 Minute VC' },
+      { title: "Recode Code Conference 2016",
+        url: "https://www.producthunt.com/e/recode-replay?utm_source=Product+Hunt&utm_campaign=0cc2b7c81a-Hello_from_Product_Hunt6_5_2016&utm_medium=email&utm_term=0_2cd7d34185-0cc2b7c81a-122785925" }
     ],
     styleGuide: [
       { title: 'Angular styleguide by @todmotto',
@@ -774,7 +799,9 @@
       { title: "Highly Reco",
         url: "https://www.highlyreco.com" },
       { title: "Alan Kay's Reading List",
-        url: "http://www.squeakland.org/resources/books/readingList.jsp" }
+        url: "http://www.squeakland.org/resources/books/readingList.jsp" },
+      { title: "CYBERPUNK ANIME: A COMPREHENSIVE LIST OF EVERYTHING",
+        url: "https://exolymph.news/2016/06/04/cyberpunk-anime-comprehensive-list/"}
     ],
     rd: [
       { name: "Speech Recognition",
@@ -963,6 +990,9 @@ Skate 40%
   + http://www.jasonclient.org/ No Droid
   + Snips (on waiting list)
   + FindFace
+
+  + Games
+    + PIXEL CUP SOCCER 16
 
 === Scraping / Crawling ===============
   http://scrapinghub.com
@@ -1683,7 +1713,11 @@ Koa !
     + kefir
 
 
-
++ Mobile
+  + Ionic
+  + React-Native
+  + Meteor
+  + NativeScript
 
 + GO
   + Echo
@@ -1930,14 +1964,14 @@ var starters = [
     desc: 'Flask Seed App',
     url: 'https://github.com/muicss/flaskapp',
     keywords: ['flask', 'python', 'sqlite', 'gulp'] },
-  { name: '',
-    desc: '',
-    url: '',
-    keywords: ['', '', '', '', '', ''] },
-  { name: '',
-    desc: '',
-    url: '',
-    keywords: ['', '', '', '', '', ''] }
+  { name: "snowflake",
+    desc: "A React-Native Android iOS Starter App/ BoilerPlate / Example with Redux, RN Router, & Jest with either Parse.com or Hapi server locally or on OpenShift for the backend",
+    url: "https://github.com/bartonhammond/snowflake",
+    keywords: ['react-native', 'redux', 'immutable'] },
+  { name: "Ignite",
+    desc: "The ideal starting app for React Native",
+    url: "https://github.com/infinitered/ignite",
+    keywords: ['react-native', 'redux', 'immutable'] },
 ];
 
 Head First C
@@ -1945,118 +1979,7 @@ Head First JavaScript
 Professional JavaScript for Web Developers, 3rd Edition
 Theory of Fun for Game Design, 2nd Edition - http://it-ebooks.info/book/3310/
 
-Develop a single page blood donation management system to facilitate the patients from all around the world, find blood donors near them.
+Venture Deals, 2nd Ed. - Brad Feld, James Mendelson
+Difficult Conversations: How to Discuss What Matters Most - Douglas Stone, Bruce Patton, Sheila Heen
+The 5 Elements of Effective Thinking - Edward Burger, Michael Starbird
 
-
-Functional Specifications:
-
-The app will provide a bridge between the patients and the volunteer blood donors.
-
-The index page of application would load a map. Preferably it should be navigated to visitors’ location or the user can use search to navigate.
-
-For Donors:
-
-Donors can find their location and tap/click on it. On clicking it should open a form in popup, where the donor can add the following information:
-
-First NameLast NameContact NumberEmail Address Blood Group
-
-All these fields should have proper validation i.e. proper email address and a proper telephone number (+xx xxx xxxx xxx | 00xx xxx xxxx xxx).
-
-On submitting the form a success message should be shown to user and his information along with his address, ip and geographical coordinates should be saved in database.
-A unique private link should be generated and displayed to him, from where he can edit or delete his posting.
-
-For Patients:
-
-The map on index page should show all the posts in database as small pins at their respective coordinates. These pins should be lazy loaded, so only the pins that belong to the visible area of map should be loaded. As the user navigates the map, more pins should load accordingly.
-
-On clicking any pin, a popup should appear displaying the donor’s information. In place of email and phone number, there should be a text (click to show). When the user clicks on this text, it should replace with the respective information. (This is to avoid bots from reading donor’s email address and contact information)
-
-If any pin changes (a user made change to his post or deleted it) The change should be visible real time to other users.
-
-
-Requirements
-A single page architecture of data driven app, using MEAN stack.
-
-Feel free to chose between Angular 2 or REACT as your front end framework.
-
-Index page should mainly contain a map using ArcGIS
-
-The postings should be real time, using sockets via socket.io
-
-MongoDb NoSQL database should be used.
-
-Unit tests should be written, where necessary.
-
-A design document that describes
-
-System design (component interaction diagram).
-
-All the technologies, libraries and APIs used to develop the application.
-
-Any other technical details you would like to share.
-
-A readme file containing:
-
-Steps to initialize and run the application.
-
-Any missing requirements.
-
-Any feedback you can give for improvements in assignment
-
-A link to live hosted version of application. (AWS or Heroku)
-
-Source code of the application.
-
-Failing to follow these rules will invalidate your submission and you will not be evaluated.
-
-To be evaluated
-System Design.
-
-Screen Designs.
-
-Used technologies.
-
-Fulfillment of building, deploying and running your application.
-
-Implementing all mentioned functionalities.
-
-Code quality (style, documentation and performance).
-
-Fulfillment of unit tests.
-
-Delivery / What to submit
-Please, read and follow this section carefully. Any delivery that does not follow this section will score much less or simply won't be evaluated.
-
-First of all, review Delivery Instructions (Sent to your personal mail), which describes general delivery process. Delivery for this assignment should consist of:Archive named <your_name – FSD>.zip containing the following:
-
-README.txt -> Contains instructions and feedback.
-
-Design.doc -> Contains your solution design and technologies.
-
-Demo.txt -> Contains link to live version on application.
-
-Code Folder -> Contains your solution.
-
-Tests Folder -> Contains all tests.
-
-So the resulting structure of your delivery should be:
-
-<your_name - FSD>.zip \ README.txt
-
-<your_name - FSD>.zip \ Design.doc
-
-<your_name - FSD>.zip \ Demo.txt
-
-<your_name - FSD>.zip \ Code\
-
-<your_name - FSD>.zip \ TESTS\
-
-
-ATTENTION! YOUR APPLICATION WILL BE REJECTED IF IT:
-
-- Does not compile
-- Does not contain unit tests
-- Unit tests are failing
-
-
-Good luck!
