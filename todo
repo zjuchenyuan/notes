@@ -302,6 +302,56 @@
   + Javascript
 
 
+
+
++ == BI SETUP ===============
+1 . Install Docker
+    https://docs.docker.com/engine/installation/linux/ubuntulinux/
+2 . Install Node
+    https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
+3 . Install PM2
+    sudo npm install pm2 -g
+4 . Install Nginx
+    sudo apt-get install nginx
+5 . Setup nginx config: /etc/nginx/conf.d/default.conf
+server {
+    listen 80;
+
+    server_name bi-tools.etermax.com;
+
+    location / {
+        proxy_pass http://bi-tools.etermax.com:5000;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+location /shiny/ {
+  proxy_pass http://127.0.0.1:3838/;
+}
+
+location /rstudio/ {
+  proxy_pass http://127.0.0.1:8787/;
+}
+}
+6 . Clone repo & try
+
+
+
+answers_unq
+votes_unq
+country
+reports_unq
+
+
+
+
+
+
+
+
+
+
 + == STUDY ===============
   var study = {
     langs: [
@@ -340,7 +390,9 @@
             url: 'https://gobyexample.com/' }
         ],
         frameworks: [
-          'Gopher'
+          'Gopher',
+          { name: "echo",
+            url: "https://github.com/labstack/echo" }
         ]},
       { name: 'Haskell' },
       { name: 'Elm' },
@@ -505,7 +557,9 @@
       { name: "What is the difference between deep learning and usual machine learning?",
         url: "https://github.com/rasbt/python-machine-learning-book/blob/master/faq/difference-deep-and-normal-learning.md" },
       { name: "Little Lisp Interpreter - Mary Rose Cook",
-        url: "https://www.recurse.com/blog/21-little-lisp-interpreter" }
+        url: "https://www.recurse.com/blog/21-little-lisp-interpreter" },
+      { name: "An Introduction to Signal Smoothing",
+        url: "http://www.alanzucconi.com/2016/06/03/an-introduction-to-signal-smoothing/" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1363,6 +1417,40 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
 + Deep training with Open Street Maps
   + https://github.com/trailbehind/DeepOSM
 
+
+
+Ask HN: From programming to AI, how?
+vaibkv 1 hour ago
+
+Here's a tentative plan- 1. Do fully AndrewNg's course from Coursera
+2. Do a course called AnalyticsEdge by MIT folks from edx.org. I can't recommend this course highly enough. It's a gem. You will learn practical stuff like RoC curves, and what not. Note that for a few things you will need to google and read on your own as the course might just give you an overview.
+3. Keep the book "Elements of Statistical Learning" by Trevor Hastie handy. You will need to refer this book a lot.
+4. There is also a course that Professor Hastie runs but I don't know the link for it. I highly recommend it as it gives a very good grounding on things like GBM, which are used a lot in practical scenarios.
+5. Pick up twitter/enron emails/product reviews datasets and do sentiment analysis on it.
+6. Pick up a lot of documents on some topic and make a program for automatically producing a summary of those documents - first read some papers on it.
+7. Don't do Kaggle. It's something you do when you have considerable expertise with ML/AI.
+8. Pick up flights data and do prediction for flight delays. Use different algorithms, compare them.
+9. Make a recommendation system to recommend books/music/movies (or all).
+10. Make a Neural Network to predict moves in a tic-tac-toe game.
+These are a few things that can get you started. This is vast field but once you've done the above in earnest I think you have a good grounding.
+Pick a topic that interests you and write a paper on it - it's not such a big deal.
+reply
+
+civilian 14 hours ago
+
+I just started the Coursera Machine Learning course. I know that it's probably a bit under your skill level, but the second half of the class might give you some broad education about what's possible in the field of machine learning. https://www.coursera.org/learn/machine-learning/
+reply
+
+macromaniac 2 hours ago
+
+After taking Andrew Ngs course I highly recommend you take cs231n afterwards.
+Assuming you know a little bit of calculus you'll be able to create and train fully connected networks, convolution networks, recurrent networks, and long short term memory networks using only numpy. You will feel very comfortable with deep learning after taking this class.
+http://cs231n.stanford.edu/syllabus.html
+The lecture videos for the course got taken down due to complaints, but you can recover them via google
+reply
+
+
+
 ===================
 TF Show
 ===================
@@ -1750,6 +1838,9 @@ Nice console tools
   { name: 'ansiweather',
     desc: 'Weather in your terminal, with ANSI colors and Unicode symbols'
     url: 'https://github.com/fcambus/ansiweather' },
+  { name: "httpie",
+    desc: "CLI HTTP client, user-friendly curl replacement with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc.",
+    url: "https://github.com/jkbrzt/httpie" }
 ]
 
 
@@ -1983,3 +2074,83 @@ Venture Deals, 2nd Ed. - Brad Feld, James Mendelson
 Difficult Conversations: How to Discuss What Matters Most - Douglas Stone, Bruce Patton, Sheila Heen
 The 5 Elements of Effective Thinking - Edward Burger, Michael Starbird
 
+---------------
+
+Mastering Programming
+
+KENT BECK·TUESDAY, JUNE 7, 2016
+From years of watching master programmers, I have observed certain common patterns in their workflows. From years of coaching skilled journeyman programmers, I have observed the absence of those patterns. I have seen what a difference introducing the patterns can make.
+Here are ways effective programmers get the most out of their precious 3e9 seconds on the planet.
+The theme here is scaling your brain. The journeyman learns to solve bigger problems by solving more problems at once. The master learns to solve even bigger problems than that by solving fewer problems at once. Part of the wisdom is subdividing so that integrating the separate solutions will be a smaller problem than just solving them together.
+
+
+Time
+
+Slicing.
+Take a big project, cut it into thin slices, and rearrange the slices to suit your context. I can always slice projects finer and I can always find new permutations of the slices that meet different needs.
+
+One thing at a time.
+We’re so focused on efficiency that we reduce the number of feedback cycles in an attempt to reduce overhead. This leads to difficult debugging situations whose expected cost is greater than the cycle overhead we avoided.
+
+Make it run, make it right, make it fast.
+(Example of One Thing at a Time, Slicing, and Easy Changes)
+
+Easy changes.
+When faced with a hard change, first make it easy (warning, this may be hard), then make the easy change. (e.g. slicing, one thing at a time, concentration, isolation). Example of slicing.
+
+Concentration.
+If you need to change several elements, first rearrange the code so the change only needs to happen in one element.
+
+Isolation.
+If you only need to change a part of an element, extract that part so the whole subelement changes.
+
+Baseline Measurement.
+Start projects by measuring the current state of the world. This goes against our engineering instincts to start fixing things, but when you measure the baseline you will actually know whether you are fixing things.
+
+
+Learning
+
+Call your shot.
+Before you run code, predict out loud exactly what will happen.
+
+Concrete hypotheses.
+When the program is misbehaving, articulate exactly what you think is wrong before making a change. If you have two or more hypotheses, find a differential diagnosis.
+
+Remove extraneous detail.
+When reporting a bug, find the shortest repro steps. When isolating a bug, find the shortest test case. When using a new API, start from the most basic example. “All that stuff can’t possibly matter,” is an expensive assumption when it’s wrong.
+E.g. see a bug on mobile, reproduce it with curl
+
+Multiple scales.
+Move between scales freely. Maybe this is a design problem, not a testing problem. Maybe it is a people problem, not a technology problem [cheating, this is always true].
+
+
+Transcend Logic
+
+Symmetry.
+Things that are almost the same can be divided into parts that are identical and parts that are clearly different.
+
+Aesthetics.
+Beauty if a powerful gradient to climb. It is also a liberating gradient to flout (e.g. inlining a bunch of functions into one giant mess).
+
+Rhythm.
+Waiting until the right moment preserves energy and avoids clutter. Act with intensity when the time comes to act.
+
+Tradeoffs.
+All decisions are subject to tradeoffs. It’s more important to know what the decision depends on than it is to know which answer to pick today (or which answer you picked yesterday).
+
+
+Risk
+
+Fun list.
+When tangential ideas come, note them and get back to work quickly. Revisit this list when you’ve reached a stopping spot.
+
+Feed Ideas.
+Ideas are like frightened little birds. If you scare them away they will stop coming around. When you have an idea, feed it a little. Invalidate it as quickly as you can, but from data not from a lack of self-esteem.
+
+80/15/5.
+Spend 80% of your time on low-risk/reasonable-payoff work. Spend 15% of your time on related high-risk/high-payoff work. Spend 5% of your time on things that tickle you, regardless of payoff. Teach the next generation to do your 80% job. By the time someone is ready to take over, one of your 15% experiments (or, less frequently, one of your 5% experiments) will have paid off and will become your new 80%. Repeat.
+
+
+Conclusion
+
+The flow in this outline seems to be from reducing risks by managing time and increasing learning to mindfully taking risks by using your whole brain and quickly triaging ideas.
