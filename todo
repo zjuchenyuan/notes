@@ -338,10 +338,20 @@ location /rstudio/ {
 
 
 
-answers_unq
-votes_unq
-country
-reports_unq
+
++ country >> add chart/map
++ question_in_revision_with_status_vote
+  - son las questions con votos o el total de votos a question_in_rev
+  - cambiar nombre !
++ games_completed ??? >> agregar
++ community metrics
+  - agregar al listado ppal
+  - agregar en charts internos
++
+
+
+
+
 
 
 
@@ -376,7 +386,9 @@ reports_unq
           { name: 'gunicorn',
             url: 'http://gunicorn.org/' },
           { name: "Twisted",
-            url: "https://twistedmatrix.com/trac/"}
+            url: "https://twistedmatrix.com/trac/"},
+          { name: "uwsgi",
+            url: "http://uwsgi-docs.readthedocs.io/en/latest/"}
         ]},
       { name: 'Go',
         resources:
@@ -468,6 +480,11 @@ reports_unq
           { name: "The Immutability of Math and How Almost Everything Else Will Pass",
             url: "http://blog.hackerrank.com/the-immutability-of-math-and-how-almost-everything-else-will-pass/" }
         ]}
+      { name: "Scala",
+        roadmap: [
+          { name: "Scala for Human Beings - Getting started with Scala, the easy way",
+            url: "https://medium.com/from-the-couch/scala-for-human-beings-ee079f14e3a0"}
+        ]}
     ],
     codeReading: [
       { name: 'Coffeescript', author: 'Jeremy Ashkenas'},
@@ -513,7 +530,9 @@ reports_unq
       { name: "Learning Vim in 2014",
         url: "http://benmccormick.org/learning-vim-in-2014/" },
       { name: "Marionette Explained",
-        url: "http://benmccormick.org/marionette-explained/" }
+        url: "http://benmccormick.org/marionette-explained/" },
+      { name: "F# and Functional Programming in Finance with Tomas Petricek",
+        url: "http://quantshub.com/content/f-and-functional-programming-finance-tomas-petricek" }
     ],
     explanations: [
       { name: 'Neural Networks Demystified',
@@ -623,7 +642,9 @@ reports_unq
       { title: "Scalable Live Video Streaming with NGINX Plus and BITMOVIN",
         url: "https://www.nginx.com/blog/scalable-live-video-streaming-nginx-plus-bitmovin/" },
       { title: "Cabin: Learn React & Redux building a feature-rich, scalable social network (photo sharing) app",
-        url: "http://cabin.getstream.io/" }
+        url: "http://cabin.getstream.io/" },
+      { title: "VIM and Python - a Match Made in Heaven",
+        url: "https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/" }
     ],
     onlineBooks: [
       { title: 'Eloquent Javascript',
@@ -1025,6 +1046,7 @@ Skate 40%
   + http://www.somebody.io/
   + https://presskithero.com
   + http://unu.ai/
+  + https://www.usedopamine.com
 
 + == Watch: Apps ==============
   + Anchor (no android)
@@ -1047,6 +1069,19 @@ Skate 40%
 
   + Games
     + PIXEL CUP SOCCER 16
+
++ == Watch: OSS/Soft ==============
+[
+  { name: "v7",
+    desc: "Embedded JavaScript engine for C/C++",
+    url: "https://github.com/cesanta/v7" },
+  { name: "holmes",
+    desc: "Fast and easy searching inside a page",
+    url: "https://github.com/Haroenv/holmes" },
+  { name: "",
+    desc: "",
+    url: "" },
+]
 
 === Scraping / Crawling ===============
   http://scrapinghub.com
@@ -2063,6 +2098,10 @@ var starters = [
     desc: "The ideal starting app for React Native",
     url: "https://github.com/infinitered/ignite",
     keywords: ['react-native', 'redux', 'immutable'] },
+  { name: "trixly",
+    desc: "Universal TypeScript starter kit for Angular 2 and React, tests in Mocha & Chai, TSLint for better code quality, transpilation to ES5 by Babel for compatibility",
+    url: "https://github.com/trixler/trixly",
+    keywords: ["typescript", "angular2", "react", "angular", "babel"]}
 ];
 
 Head First C
