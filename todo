@@ -42,6 +42,7 @@
   + Copy presskithero.com
   + MediumReader
   + Bullet Journal
+  + Employee Tracker (whosonlocation)
 
   + Jarvis
     + https://iceddev.com/blog/jarvis-an-amazon-echo-clone-in-your-browser/
@@ -473,7 +474,9 @@ location /rstudio/ {
           { name: 'Understanding node.js (Felix Geisendörfer, former node core)',
             url: "http://debuggable.com/posts/understanding-node-js:4bd98440-45e4-4a9a-8ef7-0f7ecbdd56cb" },
           { name: "The JavaScript Event Loop: Explained",
-            url: "http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/" }
+            url: "http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/" },
+          { name: "What the Heck is the Event Loop?",
+            url: "https://www.youtube.com/watch?v=8aGhZQkoFbQ"}
         ]},
       { name: "Maths",
         roadmap: [
@@ -578,7 +581,11 @@ location /rstudio/ {
       { name: "Little Lisp Interpreter - Mary Rose Cook",
         url: "https://www.recurse.com/blog/21-little-lisp-interpreter" },
       { name: "An Introduction to Signal Smoothing",
-        url: "http://www.alanzucconi.com/2016/06/03/an-introduction-to-signal-smoothing/" }
+        url: "http://www.alanzucconi.com/2016/06/03/an-introduction-to-signal-smoothing/" },
+      { name: "Image Dithering: Eleven Algorithms and Source Code",
+        url: "http://www.tannerhelland.com/4660/dithering-eleven-algorithms-source-code/" },
+      { name: "Most used Vim commands",
+        url: "http://stackoverflow.com/questions/5400806/what-are-the-most-used-vim-commands-keypresses/5400978#5400978" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -644,7 +651,9 @@ location /rstudio/ {
       { title: "Cabin: Learn React & Redux building a feature-rich, scalable social network (photo sharing) app",
         url: "http://cabin.getstream.io/" },
       { title: "VIM and Python - a Match Made in Heaven",
-        url: "https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/" }
+        url: "https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/" },
+      { title: "SoundCloud client in React & Redux",
+        url: "http://www.robinwieruch.de/the-soundcloud-client-in-react-redux/" }
     ],
     onlineBooks: [
       { title: 'Eloquent Javascript',
@@ -824,7 +833,9 @@ location /rstudio/ {
       { title: "How To Design A Good API and Why it Matters",
         url: "https://www.youtube.com/watch?v=heh4OeB9A-c"},
       { title: "React Europe 2016",
-        url: "https://www.youtube.com/channel/UCorlLn2oZfgOJ-FUcF2eZ1A" }
+        url: "https://www.youtube.com/channel/UCorlLn2oZfgOJ-FUcF2eZ1A" },
+      { title: "AI, Deep Learning, and Machine Learning: A Primer",
+        url: "http://a16z.com/2016/06/10/ai-deep-learning-machines/" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -1047,6 +1058,8 @@ Skate 40%
   + https://presskithero.com
   + http://unu.ai/
   + https://www.usedopamine.com
+
+  + http://whosonlocation.com/
 
 + == Watch: Apps ==============
   + Anchor (no android)
