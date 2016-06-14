@@ -344,7 +344,7 @@ location /rstudio/ {
 + question_in_revision_with_status_vote
   - son las questions con votos o el total de votos a question_in_rev
   - cambiar nombre !
-+ games_completed ??? >> agregar
++ games_completed ??? >> Agregar games_finished
 + community metrics
   - agregar al listado ppal
   - agregar en charts internos
@@ -537,6 +537,40 @@ location /rstudio/ {
       { name: "F# and Functional Programming in Finance with Tomas Petricek",
         url: "http://quantshub.com/content/f-and-functional-programming-finance-tomas-petricek" }
     ],
+    mooc: [
+      { name: "Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship",
+        site: "Coursera",
+        topic: ['Business', 'Entrepreneurship']
+        url: "https://www.coursera.org/learn/innovative-ideas" },
+      { name: "Introduction to Computer Science",
+        site: "edX",
+        topic: ['Computer Science'],
+        url: "https://www.edx.org/course/introduction-computer-science-harvardx-cs50x"},
+      { name: "Real-Time Analytics with Apache Storm",
+        site: "Udacity"
+        topic: ['Storm', 'Analytics'],
+        url: "https://www.udacity.com/course/real-time-analytics-with-apache-storm--ud381" }
+      { name: "Intro to Statistics",
+        site: "Udacity"
+        topic: ['Statistics'],
+        url: "https://www.udacity.com/course/intro-to-statistics--st101" }
+      { name: "Intro to Artificial Intelligence",
+        site: "Udacity"
+        topic: ['AI'],
+        url: "https://www.udacity.com/course/intro-to-artificial-intelligence--cs271" }
+      { name: "Machine Learning",
+        site: "Udacity"
+        topic: ['Machine Learning'],
+        url: "https://www.udacity.com/course/machine-learning--ud262" }
+      { name: "Deep Learning",
+        site: "Udacity"
+        topic: ['Deep Learning', 'Machine Learning'],
+        url: "https://www.udacity.com/course/deep-learning--ud730" },
+      { name: "CalTech GPU Programming",
+        site: "CalTech",
+        topic: ["GPU"],
+        url: "http://courses.cms.caltech.edu/cs179/"}
+    ],
     explanations: [
       { name: 'Neural Networks Demystified',
         url: 'http://lumiverse.io/series/neural-networks-demystified'},
@@ -585,7 +619,11 @@ location /rstudio/ {
       { name: "Image Dithering: Eleven Algorithms and Source Code",
         url: "http://www.tannerhelland.com/4660/dithering-eleven-algorithms-source-code/" },
       { name: "Most used Vim commands",
-        url: "http://stackoverflow.com/questions/5400806/what-are-the-most-used-vim-commands-keypresses/5400978#5400978" }
+        url: "http://stackoverflow.com/questions/5400806/what-are-the-most-used-vim-commands-keypresses/5400978#5400978" },
+      { name: "Gentle explanation of 'this' keyword in JavaScript",
+        url: "http://rainsoft.io/gentle-explanation-of-this-in-javascript/" },
+      { name: "History and Background of JavaScript Module Loaders",
+        url: "http://appendto.com/2016/06/the-short-history-of-javascript-module-loaders/" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -741,7 +779,12 @@ location /rstudio/ {
           { title: "Leaf - Machine Learning for Hackers",
             url: "http://autumnai.com/leaf/book/" },
         ]}
-    ]
+    ],
+    netsec: [
+      { name: "RegEx-DoS",
+        desc: "RegEx Denial of Service (ReDos) Scanner",
+        url: "https://github.com/jagracey/RegEx-DoS" }
+    ],
     videos: [
       { title: 'Turning the database inside out',
         notes: 'Dan Abramov's inspired list',
@@ -835,7 +878,9 @@ location /rstudio/ {
       { title: "React Europe 2016",
         url: "https://www.youtube.com/channel/UCorlLn2oZfgOJ-FUcF2eZ1A" },
       { title: "AI, Deep Learning, and Machine Learning: A Primer",
-        url: "http://a16z.com/2016/06/10/ai-deep-learning-machines/" }
+        url: "http://a16z.com/2016/06/10/ai-deep-learning-machines/" },
+      { title: "UC Berkeley CS188 Intro to AI -- Course Materials",
+        url: "http://ai.berkeley.edu/lecture_videos.html" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
