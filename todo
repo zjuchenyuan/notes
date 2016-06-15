@@ -351,6 +351,35 @@ location /rstudio/ {
 +
 
 
++ BUGS nueva data
+  + question_approved_admin / question_rejected_admin
+    - viene vacio
+    - query:
+      select sum(question_approved_admin)
+      from bds.tck_cha_summary_daily
+      where channel_id = 810
+      and date = '2016-06-14';
+  + amount_times_expired_in_game_without_opponent
+  + no_role
+    - parece no ser diario
+    - se multiplica por 4
+    - query:
+      select *
+      from bds.tck_cha_summary_daily
+      where channel_id = 30
+      and date = '2016-06-14'
+      limit 10;
+  + administrator_role
+  + collaborator_role
+  + moderator_role
+    - vienen vacios
+  + answered daily (viejo) no concuerda con answers (nuevo)
+  + question_in_revision_status_with_vote
+    - faltaria si es like o dislikes
+
+  + join_range obj to arr mixup prob
+
+
 
 
 
@@ -623,7 +652,9 @@ location /rstudio/ {
       { name: "Gentle explanation of 'this' keyword in JavaScript",
         url: "http://rainsoft.io/gentle-explanation-of-this-in-javascript/" },
       { name: "History and Background of JavaScript Module Loaders",
-        url: "http://appendto.com/2016/06/the-short-history-of-javascript-module-loaders/" }
+        url: "http://appendto.com/2016/06/the-short-history-of-javascript-module-loaders/" },
+      { name: "K Nearest Neighbors From Scratch",
+        url: "https://lettier.github.io/posts/2016-06-10-k-nearest-neighbors-from-scratch.html" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
