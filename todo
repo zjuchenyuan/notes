@@ -340,17 +340,6 @@ location /rstudio/ {
 
 
 
-+ country >> add chart/map
-+ question_in_revision_with_status_vote
-  - son las questions con votos o el total de votos a question_in_rev
-  - cambiar nombre !
-+ games_completed ??? >> Agregar games_finished
-+ community metrics
-  - agregar al listado ppal
-  - agregar en charts internos
-+
-
-
 + BUGS nueva data
   + question_approved_admin / question_rejected_admin
     - viene vacio
@@ -375,8 +364,20 @@ location /rstudio/ {
     - vienen vacios
   + answered daily (viejo) no concuerda con answers (nuevo)
   + question_in_revision_status_with_vote
-    - faltaria si es like o dislikes
-
+    - cambiar nombre
+    - aperturta likes/dislikes
+  + canales raros: justin
+    - vicschannel
+    - ilovejustin
+    - trivia_crack_trivia_
+    - fireemblem
+  + list sorting broken on k
+  + community metrics:
+    - agregar en home
+  + country >> add chart/map
+  + games_completed ??? >> Agregar games_finished
+  + Al filtrar por community muestra mal la cant de results
+  + questions_in_revision trae lo mismo que amount_times_expired...
   + join_range obj to arr mixup prob
 
 
@@ -654,7 +655,11 @@ location /rstudio/ {
       { name: "History and Background of JavaScript Module Loaders",
         url: "http://appendto.com/2016/06/the-short-history-of-javascript-module-loaders/" },
       { name: "K Nearest Neighbors From Scratch",
-        url: "https://lettier.github.io/posts/2016-06-10-k-nearest-neighbors-from-scratch.html" }
+        url: "https://lettier.github.io/posts/2016-06-10-k-nearest-neighbors-from-scratch.html" },
+      { name: "JS TDD: One Weird Trick That Will Change The Way You Code Forever"
+        url: "http://jrsinclair.com/articles/2016/one-weird-trick-that-will-change-the-way-you-code-forever-javascript-tdd/" },
+      { name: "Generative Models - OpenAI",
+        url: "https://openai.com/blog/generative-models/" },
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -911,7 +916,9 @@ location /rstudio/ {
       { title: "AI, Deep Learning, and Machine Learning: A Primer",
         url: "http://a16z.com/2016/06/10/ai-deep-learning-machines/" },
       { title: "UC Berkeley CS188 Intro to AI -- Course Materials",
-        url: "http://ai.berkeley.edu/lecture_videos.html" }
+        url: "http://ai.berkeley.edu/lecture_videos.html" },
+      { title: "Critical Path - Panoramic Overview of the State of the Videogame Medium",
+        url: "http://criticalpathproject.com/" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -940,7 +947,7 @@ location /rstudio/ {
     ],
     onlineCoding: [
       { title: 'HackerRank',
-        url: 'http://hackerrank.com'
+        url: 'http://hackerrank.com' },
       { title: 'The AI Games',
         url: 'http://theaigames.com/'},
       { title: 'Hackchain',
@@ -951,9 +958,10 @@ location /rstudio/ {
         url: "http://interactivepython.org/runestone/static/thinkcspy/index.html" },
       { title: "JavaScript tools to build Blind Watchmaker style apps using Richard Dawkins' algorithms"
         url: "https://github.com/penguinpress/watchmaker.js" },
-      { title: "Stockfighter",
-        url: "https://www.stockfighter.io/" }
-      }
+      { title: "Stockfighter Jailbreak",
+        url: "https://www.stockfighter.io/#jailbreak" }
+      { title: "D3 Garden",
+        url: "https://www.rtfmanual.io/d3garden/" }
     ],
     recommendations: [
       { title: "Startup Reading List",
@@ -966,6 +974,11 @@ location /rstudio/ {
         url: "https://exolymph.news/2016/06/04/cyberpunk-anime-comprehensive-list/"}
     ],
     rd: [
+      { name: "Bots",
+        links: [
+          { name: "Claudia Bot Builder",
+            url: "https://github.com/claudiajs/claudia-bot-builder" }
+        ]},
       { name: "Speech Recognition",
         links: [
           { name: "Open Source Speech Recognition",
@@ -1136,6 +1149,7 @@ Skate 40%
   + https://www.usedopamine.com
 
   + http://whosonlocation.com/
+  + https://www.savvysumo.com
 
 + == Watch: Apps ==============
   + Anchor (no android)
@@ -1155,6 +1169,7 @@ Skate 40%
   + http://www.jasonclient.org/ No Droid
   + Snips (on waiting list)
   + FindFace
+  + https://www.triggerfinance.com/
 
   + Games
     + PIXEL CUP SOCCER 16
@@ -2190,7 +2205,11 @@ var starters = [
   { name: "trixly",
     desc: "Universal TypeScript starter kit for Angular 2 and React, tests in Mocha & Chai, TSLint for better code quality, transpilation to ES5 by Babel for compatibility",
     url: "https://github.com/trixler/trixly",
-    keywords: ["typescript", "angular2", "react", "angular", "babel"]}
+    keywords: ["typescript", "angular2", "react", "angular", "babel"]},
+  { name: "vue-example",
+    desc: "VueJs Example with Browserify | Webpack | Gulp",
+    url: "https://github.com/sohelamin/vue-example",
+    keywords: ["vue","gulp","webpack","browserify"]},
 ];
 
 Head First C
