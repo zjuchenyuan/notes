@@ -36,13 +36,17 @@
   + onDemand Crowd
   + Nagger
   + JSON Lists
+    + "How do you take notes?" - https://news.ycombinator.com/item?id=11945882
+    + https://dynalist.io/
   + cllct.io
   + FridgeOptimizer
   + Are we there yet?
   + Copy presskithero.com
   + MediumReader
   + Bullet Journal
+  + LifeLog (https://entire.life/)
   + Employee Tracker (whosonlocation)
+  + Want/Have app (https://medium.com/life-learning/the-one-skill-i-kept-practicing-to-save-my-life-62d806cbd9bd#.orcpe1fvz)
 
   + Jarvis
     + https://iceddev.com/blog/jarvis-an-amazon-echo-clone-in-your-browser/
@@ -85,7 +89,19 @@
         + http://www.joshmorony.com/how-to-add-weather-effects-in-phaser-games/
       + Godot
 
- lebac Banco Central 32
+
++ == Hard Foundry =============
+  + DickPillow
+
++ == theList =============
+  + 1. 4k
+  + 2. Sideshow
+    + knifedb
+    + caseys gear best price at any time
+    + skate eco
+    + blog translations
+  + 3. YT
+  + 4. Inc.
 
 + == rand() ==============
   + Marcelo Murase
@@ -341,48 +357,94 @@ location /rstudio/ {
 
 
 + BUGS nueva data
-  + question_approved_admin / question_rejected_admin
-    - viene vacio
-    - query:
-      select sum(question_approved_admin)
-      from bds.tck_cha_summary_daily
-      where channel_id = 810
-      and date = '2016-06-14';
-  + amount_times_expired_in_game_without_opponent
-  + no_role
-    - parece no ser diario
-    - se multiplica por 4
-    - query:
-      select *
-      from bds.tck_cha_summary_daily
-      where channel_id = 30
-      and date = '2016-06-14'
-      limit 10;
-  + administrator_role
-  + collaborator_role
-  + moderator_role
-    - vienen vacios
-  + answered daily (viejo) no concuerda con answers (nuevo)
-  + question_in_revision_status_with_vote
-    - cambiar nombre
-    - aperturta likes/dislikes
-  + canales raros: justin
-    - vicschannel
-    - ilovejustin
-    - trivia_crack_trivia_
-    - fireemblem
-  + list sorting broken on k
-  + community metrics:
-    - agregar en home
-  + country >> add chart/map
-  + games_completed ??? >> Agregar games_finished
-  + Al filtrar por community muestra mal la cant de results
-  + questions_in_revision trae lo mismo que amount_times_expired...
-  + join_range obj to arr mixup prob
+  + DONE
+    + no_role
+      - parece no ser diario
+      - se multiplica por 4
+      - query:
+        select *
+        from bds.tck_cha_summary_daily
+        where channel_id = 30
+        and date = '2016-06-14'
+        limit 10;
+    + administrator_role
+    + collaborator_role
+    + moderator_role
+      - vienen vacios
+    + community metrics:
+      - agregar en home
+    + join_range obj to arr mixup prob
+    + ------------------- +
+    + add sort by Community Roles to filters
+    + list sorting broken on k
+    + Al filtrar por community muestra mal la cant de results
+    +
+
+
+  + IN PROGRESS
+    + metricas nuevas leo:
+      + Estas se suman al set question_approved/rejected/created_by_admin que ya habia
+        + question_approved_by_moderator
+        + question_rejected_by_moderator
+        + question_created_by_moderator
+        + question_approved_by_owner
+        + question_rejected_by_owner
+        + question_created_by_owner
+      + questions_in_revision_status_with_vote se abre y pasa a ser:
+        + votes_in_revision_likes
+        + votes_in_revision_dislikes
+
+  + PENDING
+    + amount_times_expired_in_game_without_opponent
+    + answers_correct + answers_incorrect (viejo diff) no concuerda con answers_correct + answers_incorrect (nuevo metric2)
+    + country >> add chart/map
+    + games_completed ??? >> Agregar games_finished
+
+  + CURIOUS
+    + canales raros: justin
+      - vicschannel
+      - ilovejustin
+      - trivia_crack_trivia_
+      - fireemblem
 
 
 
 
++ AUDIENCE
+  + DAU
+  + Followers
+  + New Followers
+  + Social
+  + Buyers
+  + New Buyers
+  + Gender
+  + Platform
+  + Join Range
+
++ QUESTIONS
+  + Enabled/Disabled Totals
+  + Approved/Rejected/Created by Owner daily
+  + Approved/Rejected/Created by Admin daily
+  + Approved/Rejected/Created by Moderator daily
+
+  + User activity: suggested/translated daily
+  + Likes/Dislikes/Unique in Revision
+  + Question reports
+
++ USER ACTIVITY
+  + Activity Index (Q/DAU)
+  + Correct/Incorrect/Unique daily
+  + Likes/Dislikes/Uniques daily
+  + Games created/Uniques
+
+  + Answered / Answered Daily
+
++ CHANNEL STATUS
+  + Promoted
+  + Quality
+  + Diff
+  + Reports
+  + Roles
 
 
 
@@ -419,7 +481,9 @@ location /rstudio/ {
           { name: "Twisted",
             url: "https://twistedmatrix.com/trac/"},
           { name: "uwsgi",
-            url: "http://uwsgi-docs.readthedocs.io/en/latest/"}
+            url: "http://uwsgi-docs.readthedocs.io/en/latest/"},
+          { name: "coconut",
+            url: "http://coconut-lang.org/" }
         ]},
       { name: 'Go',
         resources:
@@ -435,7 +499,9 @@ location /rstudio/ {
         frameworks: [
           'Gopher',
           { name: "echo",
-            url: "https://github.com/labstack/echo" }
+            url: "https://github.com/labstack/echo" },
+          { name: "iris",
+            url: "http://iris-go.com/" }
         ]},
       { name: 'Haskell' },
       { name: 'Elm' },
@@ -468,7 +534,7 @@ location /rstudio/ {
         frameworks: [
           'Elixir',
           'http://nerves-project.org/',
-          'PhoenixFramework'
+          'PhoenixFramework (Elixir)'
         ]},
       { name: 'F#',
         tools: [
@@ -506,7 +572,11 @@ location /rstudio/ {
           { name: "The JavaScript Event Loop: Explained",
             url: "http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/" },
           { name: "What the Heck is the Event Loop?",
-            url: "https://www.youtube.com/watch?v=8aGhZQkoFbQ"}
+            url: "https://www.youtube.com/watch?v=8aGhZQkoFbQ"},
+          { name: "Tasks, microtasks, queues and schedules",
+            url: "https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/" },
+          { name: "How Do I Learn Functional Programming?",
+            url: "http://www.fse.guru/how-do-i-learn-some-fp" }
         ]},
       { name: "Maths",
         roadmap: [
@@ -517,7 +587,8 @@ location /rstudio/ {
         roadmap: [
           { name: "Scala for Human Beings - Getting started with Scala, the easy way",
             url: "https://medium.com/from-the-couch/scala-for-human-beings-ee079f14e3a0"}
-        ]}
+        ]},
+      { name: "Kotlin" }
     ],
     codeReading: [
       { name: 'Coffeescript', author: 'Jeremy Ashkenas'},
@@ -565,7 +636,9 @@ location /rstudio/ {
       { name: "Marionette Explained",
         url: "http://benmccormick.org/marionette-explained/" },
       { name: "F# and Functional Programming in Finance with Tomas Petricek",
-        url: "http://quantshub.com/content/f-and-functional-programming-finance-tomas-petricek" }
+        url: "http://quantshub.com/content/f-and-functional-programming-finance-tomas-petricek" },
+      { name: "Explore Write Pythonic Code Like a Seasoned Developer",
+        url: "https://training.talkpython.fm/courses/explore_pythonic_code/write-pythonic-code-like-a-seasoned-developer" }
     ],
     mooc: [
       { name: "Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship",
@@ -660,6 +733,10 @@ location /rstudio/ {
         url: "http://jrsinclair.com/articles/2016/one-weird-trick-that-will-change-the-way-you-code-forever-javascript-tdd/" },
       { name: "Generative Models - OpenAI",
         url: "https://openai.com/blog/generative-models/" },
+      { name: "An overview of gradient descent optimization algorithms",
+        url: "http://sebastianruder.com/optimizing-gradient-descent/" },
+      { name: "Is Faster-Than-Light Travel or Communication Possible?",
+        url: "http://math.ucr.edu/home/baez/physics/Relativity/SpeedOfLight/FTL.html" },
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -727,7 +804,9 @@ location /rstudio/ {
       { title: "VIM and Python - a Match Made in Heaven",
         url: "https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/" },
       { title: "SoundCloud client in React & Redux",
-        url: "http://www.robinwieruch.de/the-soundcloud-client-in-react-redux/" }
+        url: "http://www.robinwieruch.de/the-soundcloud-client-in-react-redux/" },
+      { title: "The Flask Mega-Tutorial",
+        url: "http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world" }
     ],
     onlineBooks: [
       { title: 'Eloquent Javascript',
@@ -797,7 +876,9 @@ location /rstudio/ {
       { title: "Building Problem Solvers",
         url: "http://www.qrg.northwestern.edu/BPS/readme.html" },
       { title: "Build Your Own Lisp",
-        url: "http://buildyourownlisp.com/" }
+        url: "http://buildyourownlisp.com/" },
+      { title: "Human Javascript",
+        url: "http://read.humanjavascript.com/ch01-introduction.html" }
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
@@ -814,12 +895,16 @@ location /rstudio/ {
             url: "http://www.andreykurenkov.com/writing/a-brief-history-of-neural-nets-and-deep-learning/"},
           { title: "Leaf - Machine Learning for Hackers",
             url: "http://autumnai.com/leaf/book/" },
-        ]}
+        ]},
+      { title: "The Practical Guide to Becoming a Professional Web Developer",
+        url: "https://medium.freecodecamp.com/the-practical-guide-to-becoming-a-professional-web-developer-2f255bc25c90" }
     ],
     netsec: [
       { name: "RegEx-DoS",
         desc: "RegEx Denial of Service (ReDos) Scanner",
-        url: "https://github.com/jagracey/RegEx-DoS" }
+        url: "https://github.com/jagracey/RegEx-DoS" },
+      { name: "Introduction to GPU Password Cracking: Owning the LinkedIn Password Dump",
+        url: "https://www.trustedsec.com/june-2016/introduction-gpu-password-cracking-owning-linkedin-password-dump/" }
     ],
     videos: [
       { title: 'Turning the database inside out',
@@ -994,6 +1079,12 @@ location /rstudio/ {
             url: "http://diffcam.com/"}
         ]}
 
+    ],
+    gamedev: [
+      { name: "Spaceship Generator",
+        url: "https://github.com/a1studmuffin/SpaceshipGenerator/" },
+      { name: "VoltAir",
+        url: "http://google.github.io/VoltAir/doc/main/html/index.html" }
     ]
   }
 
@@ -1132,6 +1223,10 @@ location /rstudio/ {
 14. The Performance of Open Source Applications (http://aosabook.org/en/)
 15. The Wealth of Networks: How Social Production Transforms Markets and Freedom (http://cyber.law.harvard.edu/wealth_of_networks/Main_Page)
 
++ == PDFs to DL ==============
+  + OReilly - Fundamentals of Deep Learning
+  + Relevant Search (ElasticSearch+Solr) (Manning)
+
 Skate 40%
 4326-4384
 
@@ -1150,6 +1245,8 @@ Skate 40%
 
   + http://whosonlocation.com/
   + https://www.savvysumo.com
+  + http://www.foundvisa.com/?ref=producthunt
+  + https://thriva.co/ (finger prick blood tests)
 
 + == Watch: Apps ==============
   + Anchor (no android)
@@ -1170,6 +1267,11 @@ Skate 40%
   + Snips (on waiting list)
   + FindFace
   + https://www.triggerfinance.com/
+  + http://www.taskcodeapp.com/
+  + Pronunciation
+    http://www.elsaspeak.com/
+  + Text grabbers (ocr)
+    https://www.abbyy.com/textgrabber/?ref=producthunt
 
   + Games
     + PIXEL CUP SOCCER 16
@@ -1186,6 +1288,11 @@ Skate 40%
     desc: "",
     url: "" },
 ]
+
++ == Watch: Simple Steal ==============
+  + Compliment Generator
+    http://www.complimentgenerator.co.uk/?ref=producthunt
+
 
 === Scraping / Crawling ===============
   http://scrapinghub.com
@@ -1555,6 +1662,10 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
   + https://github.com/aymericdamien/TensorFlow-Examples
 + Deep training with Open Street Maps
   + https://github.com/trailbehind/DeepOSM
++ Hello, TensorFlow! (Oreilly tut)
+  https://www.oreilly.com/learning/hello-tensorflow
++ The Hack that could take down NY
+  http://nymag.com/daily/intelligencer/2016/06/the-hack-that-could-take-down-nyc.html
 
 
 
@@ -2210,6 +2321,14 @@ var starters = [
     desc: "VueJs Example with Browserify | Webpack | Gulp",
     url: "https://github.com/sohelamin/vue-example",
     keywords: ["vue","gulp","webpack","browserify"]},
+  { name: "es6-node-starter",
+    desc: "ES6/7 Node starter kit with built in Rest API authentication",
+    url: "https://github.com/DimitriMikadze/es6-node-starter",
+    keywords: ["node","es6","nodemon","babel","eslint"]},
+  { name: "react-laboratory",
+    desc: "Minimal boilerplate to experiment and test with React without having to worry about the server",
+    url: "https://github.com/tstringer/react-laboratory",
+    keywords: ["react","webpack","babel"]}
 ];
 
 Head First C
