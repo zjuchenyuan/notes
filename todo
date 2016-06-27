@@ -48,6 +48,11 @@
   + Employee Tracker (whosonlocation)
   + Want/Have app (https://medium.com/life-learning/the-one-skill-i-kept-practicing-to-save-my-life-62d806cbd9bd#.orcpe1fvz)
 
+  + toSPANISH
+    + http://thecrashcourse.com/
+    + No FB (https://stallman.org/facebook.html)
+
+
   + Jarvis
     + https://iceddev.com/blog/jarvis-an-amazon-echo-clone-in-your-browser/
     + https://wit.ai/
@@ -225,6 +230,7 @@
     + Summize
     + https://larder.io/
     + http://coligo.io/bookmarking-app-electron-vuejs-firebase/
+    + https://www.stacklinks.com/
   + Packages
     + unfluff
     + gramophone
@@ -494,7 +500,9 @@ location /rstudio/ {
           { name: "Go Language Patterns",
             url: "http://www.golangpatterns.info/" }],
           { name: 'Go by Example',
-            url: 'https://gobyexample.com/' }
+            url: 'https://gobyexample.com/' },
+          { name: "Go Data Structure Implementations",
+            url: "https://github.com/emirpasic/gods" }
         ],
         frameworks: [
           'Gopher',
@@ -904,7 +912,11 @@ location /rstudio/ {
         desc: "RegEx Denial of Service (ReDos) Scanner",
         url: "https://github.com/jagracey/RegEx-DoS" },
       { name: "Introduction to GPU Password Cracking: Owning the LinkedIn Password Dump",
-        url: "https://www.trustedsec.com/june-2016/introduction-gpu-password-cracking-owning-linkedin-password-dump/" }
+        url: "https://www.trustedsec.com/june-2016/introduction-gpu-password-cracking-owning-linkedin-password-dump/" },
+      { title: "Penetration Testing Tools Cheat Sheet",
+        url: "https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/" },
+      { title: "The Hack that could take down NY",
+        url: "http://nymag.com/daily/intelligencer/2016/06/the-hack-that-could-take-down-nyc.html" }
     ],
     videos: [
       { title: 'Turning the database inside out',
@@ -1003,7 +1015,9 @@ location /rstudio/ {
       { title: "UC Berkeley CS188 Intro to AI -- Course Materials",
         url: "http://ai.berkeley.edu/lecture_videos.html" },
       { title: "Critical Path - Panoramic Overview of the State of the Videogame Medium",
-        url: "http://criticalpathproject.com/" }
+        url: "http://criticalpathproject.com/" },
+      { title: "The Theory That Would Not Die: How Bayes’ Rule Cracked the Enigma Code, Hunted Down Russian Submarines, and Emerged Triumphant from Two Centuries of Controversy.",
+        url: "http://www.mcgrayne.com/the_theory_that_would_not_die__how_bayes__rule_cracked_the_enigma_code__hunted_d_107493.htm" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -1664,8 +1678,10 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
   + https://github.com/trailbehind/DeepOSM
 + Hello, TensorFlow! (Oreilly tut)
   https://www.oreilly.com/learning/hello-tensorflow
-+ The Hack that could take down NY
-  http://nymag.com/daily/intelligencer/2016/06/the-hack-that-could-take-down-nyc.html
++ http://ofir.io/How-to-Start-Learning-Deep-Learning/
+
+
+
 
 
 
@@ -2328,7 +2344,11 @@ var starters = [
   { name: "react-laboratory",
     desc: "Minimal boilerplate to experiment and test with React without having to worry about the server",
     url: "https://github.com/tstringer/react-laboratory",
-    keywords: ["react","webpack","babel"]}
+    keywords: ["react","webpack","babel"]},
+  { name: "Vulcan",
+    desc: "Node.js application boilerplate for rapid development.",
+    url: "https://github.com/aniftyco/vulcan",
+    keywords: ["node","koa","knex","bookshelf"]}
 ];
 
 Head First C
