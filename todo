@@ -47,7 +47,7 @@
   + LifeLog (https://entire.life/)
   + Employee Tracker (whosonlocation)
   + Want/Have app (https://medium.com/life-learning/the-one-skill-i-kept-practicing-to-save-my-life-62d806cbd9bd#.orcpe1fvz)
-
+  + EyeTracker SaaS (webgazer)
   + toSPANISH
     + http://thecrashcourse.com/
     + No FB (https://stallman.org/facebook.html)
@@ -452,7 +452,12 @@ location /rstudio/ {
   + Reports
   + Roles
 
-
++ NEW TOOLS
+  + Editores
+    + Lista
+    + Details
+  + Procesos Automaticos
+  + Overview
 
 
 
@@ -584,7 +589,9 @@ location /rstudio/ {
           { name: "Tasks, microtasks, queues and schedules",
             url: "https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/" },
           { name: "How Do I Learn Functional Programming?",
-            url: "http://www.fse.guru/how-do-i-learn-some-fp" }
+            url: "http://www.fse.guru/how-do-i-learn-some-fp" },
+          { name: "JS Interview Review",
+            url: "https://github.com/adam-s/js-interview-review"}
         ]},
       { name: "Maths",
         roadmap: [
