@@ -102,7 +102,74 @@
   + 1. 4k
   + 2. Sideshow
     + knifedb
-    + caseys gear best price at any time
+    + caseysgear.store
+      + Items:
+        + Cameras & Lenses
+          + Canon 70D
+          + Canon 80D
+          + Canon EOS 5D Mark III
+          + Canon EF-S 10-18mm
+          + Canon EF-S 10-22mm
+          + Canon EF-S 18-55mm IS STM
+          + Canon EF 75-300mm f/4-5.6 III USM
+          + Canon EF 70-300mm f/4-5.6 IS USM
+          + Canon Powershot G7X
+          + Canon Powershot G7X Mark II
+          + Canon Powershot S120
+          + Sony RX100 IV
+          + GoPro Hero 4
+          + GoPro Hero 4 Black
+        + Audio
+          + Rode Videomic Pro
+          + Shure VP83 LensHopper
+        + Accesories
+          + Joby Gorillapod
+          + Joby BallHead X
+          + Filtro para Mic point & shoot sonido
+          + DJI Osmo
+          + GoPole SceneLapse
+          + Round Light ???
+          + Manfrotto Tripods
+          + SD Card (SanDisk Extreme??)
+          + Canon TC-80N3 Timer Remote Controller
+          + Neewer Timer Remote
+        + Hardware
+          + Lacie Rugged
+          + SD Card
+          + MacBook Pro
+          + Mac Pro (tubo)
+        + Drones
+          + DJI Phantom 3
+          + DJI Phantom 4
+          + Parrot Bebot 2
+        + 3D Cameras
+          + Samsung Gear 360 Camera
+          + Ricoh Theta S
+        + Transport
+          + Penny Board
+          + Boosted Board
+          + One-Wheel
+          + HoverBoard
+          + SBU Unicicle
+        + Phones & Accesories
+          + Iphone 6s
+          + Samsung Galaxy S6
+          + Moment lenses
+        + Apparel
+          + RayBans
+          + Construction Jacket
+          + Skeleton Pants
+          + Running shoes ???
+          + Urban Outfitters Pants (http://www.urbanoutfitters.com/urban/catalog/productdetail.jsp?id=33158692&parentid=M_BOTTOMS#/)
+          + Finn Jewelry
+          + Watches / Apple Watch
+        + Food
+          + Reese
+          + Green Juices
+        + Various (guest appearences)
+          + Huge Selfie stick ???
+          + The GodFather
+        + Magazine appearances
     + skate eco
     + blog translations
   + 3. YT
@@ -752,6 +819,8 @@ location /rstudio/ {
         url: "http://sebastianruder.com/optimizing-gradient-descent/" },
       { name: "Is Faster-Than-Light Travel or Communication Possible?",
         url: "http://math.ucr.edu/home/baez/physics/Relativity/SpeedOfLight/FTL.html" },
+      { name: "How to implement a programming language in JavaScript",
+        url: "http://lisperator.net/pltut/" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -893,7 +962,9 @@ location /rstudio/ {
       { title: "Build Your Own Lisp",
         url: "http://buildyourownlisp.com/" },
       { title: "Human Javascript",
-        url: "http://read.humanjavascript.com/ch01-introduction.html" }
+        url: "http://read.humanjavascript.com/ch01-introduction.html" },
+      { title: "High Performance Browser Networking",
+        url: "https://hpbn.co/" }
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
@@ -1024,7 +1095,9 @@ location /rstudio/ {
       { title: "Critical Path - Panoramic Overview of the State of the Videogame Medium",
         url: "http://criticalpathproject.com/" },
       { title: "The Theory That Would Not Die: How Bayes’ Rule Cracked the Enigma Code, Hunted Down Russian Submarines, and Emerged Triumphant from Two Centuries of Controversy.",
-        url: "http://www.mcgrayne.com/the_theory_that_would_not_die__how_bayes__rule_cracked_the_enigma_code__hunted_d_107493.htm" }
+        url: "http://www.mcgrayne.com/the_theory_that_would_not_die__how_bayes__rule_cracked_the_enigma_code__hunted_d_107493.htm" },
+      { title: "Don Knuth: The Analysis of Algorithms",
+        url: "https://vimeo.com/161783929/dba6a42ad3" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
