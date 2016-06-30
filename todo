@@ -51,7 +51,8 @@
   + toSPANISH
     + http://thecrashcourse.com/
     + No FB (https://stallman.org/facebook.html)
-
+  + DoNotPay (http://www.thememo.com/2016/06/30/parking-fine-robot-lawyer-overturn-free-has-a-64-success-rate/)
+  + https://piemapping.com/
 
   + Jarvis
     + https://iceddev.com/blog/jarvis-an-amazon-echo-clone-in-your-browser/
@@ -171,7 +172,9 @@
           + The GodFather
         + Magazine appearances
     + skate eco
-    + blog translations
+      + https://github.com/TelescopeJS/Telescope
+    + translations
+      + https://gyshido.com/join/
   + 3. YT
   + 4. Inc.
 
@@ -519,6 +522,10 @@ location /rstudio/ {
   + Reports
   + Roles
 
+
+
+
+
 + NEW TOOLS
   + Editores
     + Lista
@@ -528,6 +535,20 @@ location /rstudio/ {
 
 
 
++ CH CH CHanges Seba
+  + DAU en Home (sort)
+    + join primero
+    + cha_raw dps
+  + DAU: Apertura por:
+    + content_interactions_by_mods_unique
+    + content_interactions_by_audience_unique
+    + game_interactions_unique -> answers_unique
+    + guest_interactions_unique
+  + Home: Filter by country
+    + agregar en cha raw?
+    + join en cha_raw
+  + Details: Questions Ena/Dis sacar pie chart y mostrar totals somewhere
+  + Home: agregar delta en Played + sort filter %
 
 
 
@@ -820,7 +841,9 @@ location /rstudio/ {
       { name: "Is Faster-Than-Light Travel or Communication Possible?",
         url: "http://math.ucr.edu/home/baez/physics/Relativity/SpeedOfLight/FTL.html" },
       { name: "How to implement a programming language in JavaScript",
-        url: "http://lisperator.net/pltut/" }
+        url: "http://lisperator.net/pltut/" },
+      { name: "Anatomy of an Elasticsearch Cluster: Part I",
+        url: "http://insightdataengineering.com/blog/elasticsearch-crud/" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -890,7 +913,9 @@ location /rstudio/ {
       { title: "SoundCloud client in React & Redux",
         url: "http://www.robinwieruch.de/the-soundcloud-client-in-react-redux/" },
       { title: "The Flask Mega-Tutorial",
-        url: "http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world" }
+        url: "http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world" },
+      { title: "learningPixi: A step-by-step introduction to making games and interactive media with the Pixi.js rendering engine.",
+        url: "https://github.com/kittykatattack/learningPixi" }
     ],
     onlineBooks: [
       { title: 'Eloquent Javascript',
@@ -1178,7 +1203,9 @@ location /rstudio/ {
       { name: "Spaceship Generator",
         url: "https://github.com/a1studmuffin/SpaceshipGenerator/" },
       { name: "VoltAir",
-        url: "http://google.github.io/VoltAir/doc/main/html/index.html" }
+        url: "http://google.github.io/VoltAir/doc/main/html/index.html" },
+      { name: "WarriorJS",
+        url: "https://github.com/olistic/warriorjs" }
     ]
   }
 
