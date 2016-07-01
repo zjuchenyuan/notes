@@ -621,7 +621,9 @@ location /rstudio/ {
           { name: 'Rust by Example',
             url: 'http://rustbyexample.com/'},
           { name: 'The Path to Rust',
-            url: 'https://thesquareplanet.com/blog/the-path-to-rust/' }
+            url: 'https://thesquareplanet.com/blog/the-path-to-rust/' },
+          { name: "Rust for Node Developers",
+            url: "https://github.com/Mercateo/rust-for-node-developers" }
         ]},
       { name: 'SmallTalk',
         frameworks: [
@@ -691,7 +693,12 @@ location /rstudio/ {
           { name: "Scala for Human Beings - Getting started with Scala, the easy way",
             url: "https://medium.com/from-the-couch/scala-for-human-beings-ee079f14e3a0"}
         ]},
-      { name: "Kotlin" }
+      { name: "Kotlin" },
+      { name: "Assembly",
+        roadmap: [
+          { name: "Linux Assembly",
+            url: "http://www.tldp.org/HOWTO/Assembly-HOWTO/index.html" }
+        ]}
     ],
     codeReading: [
       { name: 'Coffeescript', author: 'Jeremy Ashkenas'},
