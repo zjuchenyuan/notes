@@ -175,6 +175,7 @@
       + https://github.com/TelescopeJS/Telescope
     + translations
       + https://gyshido.com/join/
+    + Neutral, the Independent App Store
   + 3. YT
   + 4. Inc.
 
@@ -681,7 +682,9 @@ location /rstudio/ {
           { name: "How Do I Learn Functional Programming?",
             url: "http://www.fse.guru/how-do-i-learn-some-fp" },
           { name: "JS Interview Review",
-            url: "https://github.com/adam-s/js-interview-review"}
+            url: "https://github.com/adam-s/js-interview-review"},
+          { name: "Introduction to Functional Programming in Javascript",
+            url: "https://asep.co/introduction-to-functional-programming-in-javascript-part-1/" }
         ]},
       { name: "Maths",
         roadmap: [
@@ -1129,7 +1132,9 @@ location /rstudio/ {
       { title: "The Theory That Would Not Die: How Bayes’ Rule Cracked the Enigma Code, Hunted Down Russian Submarines, and Emerged Triumphant from Two Centuries of Controversy.",
         url: "http://www.mcgrayne.com/the_theory_that_would_not_die__how_bayes__rule_cracked_the_enigma_code__hunted_d_107493.htm" },
       { title: "Don Knuth: The Analysis of Algorithms",
-        url: "https://vimeo.com/161783929/dba6a42ad3" }
+        url: "https://vimeo.com/161783929/dba6a42ad3" },
+      { title: "MIT: Design and Analysis of Algorithms",
+        url: "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-videos/" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
