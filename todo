@@ -53,6 +53,7 @@
     + No FB (https://stallman.org/facebook.html)
   + DoNotPay (http://www.thememo.com/2016/06/30/parking-fine-robot-lawyer-overturn-free-has-a-64-success-rate/)
   + https://piemapping.com/
+  + Neutral, the Independent App Store
 
   + Jarvis
     + https://iceddev.com/blog/jarvis-an-amazon-echo-clone-in-your-browser/
@@ -104,6 +105,10 @@
   + 2. Sideshow
     + knifedb
     + caseysgear.store
+      + Aff. Programs
+        ✔ Amazon
+        ✔ Etsy
+        + B&H
       + Items:
         + Cameras & Lenses
           + Canon 70D
@@ -160,6 +165,7 @@
           + RayBans
           + Construction Jacket
           + Skeleton Pants
+            https://www.etsy.com/listing/215197490/baggy-drop-crotch-skinny-leg-skeleton?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=skeleton%20pants&ref=sr_gallery_3
           + Running shoes ???
           + Urban Outfitters Pants (http://www.urbanoutfitters.com/urban/catalog/productdetail.jsp?id=33158692&parentid=M_BOTTOMS#/)
           + Finn Jewelry
@@ -175,7 +181,7 @@
       + https://github.com/TelescopeJS/Telescope
     + translations
       + https://gyshido.com/join/
-    + Neutral, the Independent App Store
+    + Battle of the Kicks
   + 3. YT
   + 4. Inc.
 
@@ -476,6 +482,7 @@ location /rstudio/ {
     + answers_correct + answers_incorrect (viejo diff) no concuerda con answers_correct + answers_incorrect (nuevo metric2)
     + country >> add chart/map
     + games_completed ??? >> Agregar games_finished
+    + Gamestats: sales US+TR no suma bien (tb probar con tres US+TR+IT)
 
   + CURIOUS
     + canales raros: justin
@@ -853,7 +860,9 @@ location /rstudio/ {
       { name: "How to implement a programming language in JavaScript",
         url: "http://lisperator.net/pltut/" },
       { name: "Anatomy of an Elasticsearch Cluster: Part I",
-        url: "http://insightdataengineering.com/blog/elasticsearch-crud/" }
+        url: "http://insightdataengineering.com/blog/elasticsearch-crud/" },
+      { name: "BSD vs. Linux",
+        url: "http://www.over-yonder.net/~fullermd/rants/bsd4linux/01" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -925,7 +934,9 @@ location /rstudio/ {
       { title: "The Flask Mega-Tutorial",
         url: "http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world" },
       { title: "learningPixi: A step-by-step introduction to making games and interactive media with the Pixi.js rendering engine.",
-        url: "https://github.com/kittykatattack/learningPixi" }
+        url: "https://github.com/kittykatattack/learningPixi" },
+      { title: "Building a BitTorrent client from scratch in C#",
+        url: "https://cheatdeath.github.io/research-bittorrent-doc/" }
     ],
     onlineBooks: [
       { title: 'Eloquent Javascript',
@@ -1177,7 +1188,8 @@ location /rstudio/ {
       { title: "Stockfighter Jailbreak",
         url: "https://www.stockfighter.io/#jailbreak" }
       { title: "D3 Garden",
-        url: "https://www.rtfmanual.io/d3garden/" }
+        url: "https://www.rtfmanual.io/d3garden/" },
+
     ],
     recommendations: [
       { title: "Startup Reading List",
