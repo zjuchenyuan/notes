@@ -95,7 +95,8 @@
       + Phaser
         + http://www.joshmorony.com/how-to-add-weather-effects-in-phaser-games/
       + Godot
-
+    + Assets
+      + https://github.com/daleroberts/tv -Satellite imagery in terminal, looks good
 
 + == Hard Foundry =============
   + DickPillow
@@ -390,6 +391,7 @@
   + cal
   + tldr
   + tree
+  + rclone
 
 
 + 30 Days
@@ -862,7 +864,15 @@ location /rstudio/ {
       { name: "Anatomy of an Elasticsearch Cluster: Part I",
         url: "http://insightdataengineering.com/blog/elasticsearch-crud/" },
       { name: "BSD vs. Linux",
-        url: "http://www.over-yonder.net/~fullermd/rants/bsd4linux/01" }
+        url: "http://www.over-yonder.net/~fullermd/rants/bsd4linux/01" },
+      { name: "The Bash Loop",
+        url: "https://ma.ttias.be/bash-loop-first-step-automation-linux/" },
+      { name: "Create your own shell in Python",
+        url: "https://hackercollider.com/articles/2016/07/05/create-your-own-shell-in-python-part-1/" },
+      { name: "Video chat application from the ground up",
+        url: "https://bengarney.com/2016/06/25/video-conference-part-1-these-things-suck/" },
+      { name: "Raw WebGl Getting Started",
+        url: "https://dev.opera.com/articles/view/raw-webgl-part1-getting-started/" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
