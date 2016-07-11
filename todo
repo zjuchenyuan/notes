@@ -561,6 +561,59 @@ location /rstudio/ {
   + Home: agregar delta en Played + sort filter %
 
 
++ MAP
+  + Links:
+    + Animation
+      { name: "Controlling the Frame Rate with requestAnimationFrame",
+        url: "http://codetheory.in/controlling-the-frame-rate-with-requestanimationframe/"},
+      { name: "Controlling fps with requestAnimationFrame?",
+        url: "http://stackoverflow.com/questions/19764018/controlling-fps-with-requestanimationframe" }
+    + WebGL
+      { name: "Many Points with Leaflet WebGL",
+        url: "https://blog.sumbera.com/2014/06/08/leaflet-webgl-many-points-rendering/" },
+      { name: "Realtime Interactive Mapping at 1000 Events / Second",
+        url: "https://dev.cdk.com/2014/03/25/realtime-interactive-mapping-at-1000-events-second/" },
+      { name: "Raw WebGL - Opera",
+        url: "https://dev.opera.com/articles/view/raw-webgl-part1-getting-started/"},
+      { name: "WebGL Fundamentals",
+        url: "http://webglfundamentals.org/" },
+      { name: "Learn OpenGL (has Bloom section)",
+        url: "http://learnopengl.com/"},
+      { name: "OpenGL Bloom Tutorial",
+        url: "http://prideout.net/archive/bloom/" },
+      { name: "Simple glow/bloom GLSL shader for Love2D",
+        url: "https://gist.github.com/BlackBulletIV/4218802" },
+      { name: "Youtube: GLSL BLoom Filter",
+        url: "https://www.youtube.com/watch?v=qNM0k522R7o" },
+      { name: "OpenGL Tutorial",
+        url: "http://www.opengl-tutorial.org/" },
+      { name: "Bloom shader questions",
+        url: "https://forum.openframeworks.cc/t/cant-get-shader-to-work/4463/2" },
+      { name: "rStats",
+        url: "http://spite.github.io/rstats/" },
+      { name: "Learning WebGL",
+        url: "http://learningwebgl.com/" }
+      { name: "Polymer: Data Visualization Using Google Maps and WebGL",
+        url: "https://io2014codelabs.appspot.com/static/codelabs/polymer-map-visualization/#1" },
+      { name: "MDN Lighting in WebGL",
+        url: "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL" }
+
+    + Mapping
+      { name: "Visualizing Large Data Sets with Bing Maps Web Apps",
+        url: "http://www.web-maps.com/gisblog/?p=1605" },
+      { name: "Youtube: Experiments in Big Data Visualization on Maps",
+        url: "https://www.youtube.com/watch?v=Coj0mnhuCJE" },
+      { name: "Porting 600k Map Views to OpenStreetMap/MapBox",
+        url: "http://doublemap.github.io/blog/2014/04/29/porting-600k-map-views-to-openstreetmap/" },
+      { name: "Realtime maps with Meteor and Leaflet",
+        url: "http://asynchrotron.com/blog/2013/12/27/realtime-maps-with-meteor-and-leaflet/" },
+      { name: "Developing a Web Based Realtime Updating Ma[ with Leaflet.js",
+        url: "https://codepen.io/ajsb85/pen/MyBwjx" }
+
+    + Shadertoys
+      + https://www.shadertoy.com/view/MdB3zK
+      + https://www.shadertoy.com/view/XdX3WN
+
 
 
 
@@ -710,6 +763,11 @@ location /rstudio/ {
         roadmap: [
           { name: "Linux Assembly",
             url: "http://www.tldp.org/HOWTO/Assembly-HOWTO/index.html" }
+        ]},
+      { name: "OpenGL/WebGL",
+        resources: [
+          { name: "Learning WebGL",
+            url: "http://learningwebgl.com/" }
         ]}
     ],
     codeReading: [
@@ -872,7 +930,9 @@ location /rstudio/ {
       { name: "Video chat application from the ground up",
         url: "https://bengarney.com/2016/06/25/video-conference-part-1-these-things-suck/" },
       { name: "Raw WebGl Getting Started",
-        url: "https://dev.opera.com/articles/view/raw-webgl-part1-getting-started/" }
+        url: "https://dev.opera.com/articles/view/raw-webgl-part1-getting-started/" },
+      { name: "Complexities of an Infinite Scroller",
+        url: "https://developers.google.com/web/updates/2016/07/infinite-scroller"}
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -2489,7 +2549,11 @@ var starters = [
   { name: "Vulcan",
     desc: "Node.js application boilerplate for rapid development.",
     url: "https://github.com/aniftyco/vulcan",
-    keywords: ["node","koa","knex","bookshelf"]}
+    keywords: ["node","koa","knex","bookshelf"]},
+  { name: "Simple Static React Firebase",m
+    desc: "Minimal boilerplate and configuration for the development of firebase websites with react & es6",
+    url: "https://github.com/Jon-Biz/simple-static-react-firebase",
+    keywords: ["react", "es6", "firebase"]}
 ];
 
 Head First C
