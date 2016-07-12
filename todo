@@ -575,6 +575,8 @@ location /rstudio/ {
         url: "https://dev.cdk.com/2014/03/25/realtime-interactive-mapping-at-1000-events-second/" },
       { name: "Raw WebGL - Opera",
         url: "https://dev.opera.com/articles/view/raw-webgl-part1-getting-started/"},
+      { name: "An Introduction to WebGL - Opera",
+        url: "https://dev.opera.com/articles/view/an-introduction-to-webgl/" },
       { name: "WebGL Fundamentals",
         url: "http://webglfundamentals.org/" },
       { name: "Learn OpenGL (has Bloom section)",
@@ -597,6 +599,17 @@ location /rstudio/ {
         url: "https://io2014codelabs.appspot.com/static/codelabs/polymer-map-visualization/#1" },
       { name: "MDN Lighting in WebGL",
         url: "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL" }
+      { name: "Github - WebGL101 - The samples from the WebGL 101 Video",
+        url: "https://github.com/emoller/WebGL101" },
+      { name: "Odin - A WebGL framework",
+        url: "https://github.com/operasoftware/Odin" },
+      { name: "NVIDIA Simple Glow pdf",
+        url: "http://developer.download.nvidia.com/SDK/10/opengl/src/simple_glow/doc/simple_glow.pdf"},
+      { name: "WebGL Lightsaber",
+        url: "http://glampert.com/2015/06-07/webgl-lightsaber/" },
+      { name: "HTML5 - An Introduction to Shaders",
+        url: "http://www.html5rocks.com/en/tutorials/webgl/shaders/" }
+
 
     + Mapping
       { name: "Visualizing Large Data Sets with Bing Maps Web Apps",
@@ -768,6 +781,11 @@ location /rstudio/ {
         resources: [
           { name: "Learning WebGL",
             url: "http://learningwebgl.com/" }
+        ]},
+      { name: "SQL",
+        roadmap: [
+          { name: "A begginers guide to thinking in SQL",
+            url: "http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/"}
         ]}
     ],
     codeReading: [
@@ -852,7 +870,9 @@ location /rstudio/ {
       { name: "CalTech GPU Programming",
         site: "CalTech",
         topic: ["GPU"],
-        url: "http://courses.cms.caltech.edu/cs179/"}
+        url: "http://courses.cms.caltech.edu/cs179/"},
+      { name: "World Science U",
+        url: "http://www.worldscienceu.com/" }
     ],
     explanations: [
       { name: 'Neural Networks Demystified',
@@ -932,7 +952,9 @@ location /rstudio/ {
       { name: "Raw WebGl Getting Started",
         url: "https://dev.opera.com/articles/view/raw-webgl-part1-getting-started/" },
       { name: "Complexities of an Infinite Scroller",
-        url: "https://developers.google.com/web/updates/2016/07/infinite-scroller"}
+        url: "https://developers.google.com/web/updates/2016/07/infinite-scroller"},
+      { name: "Introduction to Modern Hardware Prototyping",
+        url: "http://obogason.com/modern_hardware_prototyping/" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1006,7 +1028,9 @@ location /rstudio/ {
       { title: "learningPixi: A step-by-step introduction to making games and interactive media with the Pixi.js rendering engine.",
         url: "https://github.com/kittykatattack/learningPixi" },
       { title: "Building a BitTorrent client from scratch in C#",
-        url: "https://cheatdeath.github.io/research-bittorrent-doc/" }
+        url: "https://cheatdeath.github.io/research-bittorrent-doc/" },
+      { title: "A Complete Guide To Building a Bookmarklet App in Javascript",
+        url: "https://blog.sverrirs.com/2016/07/building-a-javascript-bookmarklet-app-complete-guide.html" }
     ],
     onlineBooks: [
       { title: 'Eloquent Javascript',
@@ -1080,7 +1104,9 @@ location /rstudio/ {
       { title: "Human Javascript",
         url: "http://read.humanjavascript.com/ch01-introduction.html" },
       { title: "High Performance Browser Networking",
-        url: "https://hpbn.co/" }
+        url: "https://hpbn.co/" },
+      { title: "Professional Software Development",
+        url: "http://mixmastamyk.bitbucket.org/pro_soft_dev/"}
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
@@ -1540,6 +1566,10 @@ Skate 40%
   https://www.instaparser.com/
   https://github.com/IonicaBizau/scrape-it
   https://github.com/jmcarp/robobrowser
+
+  https://github.com/mozilla/fathom
+  https://github.com/scrapinghub/portia
+  https://blog.scrapinghub.com/2016/07/07/scrapely-the-brains-behind-portia-spiders/
 
 === Design Refs ==============
 + https://zeit.co/
@@ -2223,6 +2253,7 @@ Koa !
 + Redux / Maquette
 + Redux / Kivi
 + Redux / Morphdom
++ Redux / Inferno
 
 + Cerebral / React
   + http://nervosax.com/2016/04/22/use-cerebral-as-the-brains-for-your-react-app/
@@ -2281,6 +2312,11 @@ Koa !
 + Supercharged Dialogue pattern: cellx(input) => redux => cellx(output: FRZR.render())
 
 !! flux-challenge
+
++ CMS
+  + https://getgrav.org/
++ CMS SaaS
+  + forestry.io
 
 ---------
 https://medium.com/@roman01la/understanding-transducers-in-javascript-3500d3bd9624#.481rnn1nu
