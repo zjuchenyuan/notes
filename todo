@@ -836,7 +836,9 @@ location /rstudio/ {
       { name: "F# and Functional Programming in Finance with Tomas Petricek",
         url: "http://quantshub.com/content/f-and-functional-programming-finance-tomas-petricek" },
       { name: "Explore Write Pythonic Code Like a Seasoned Developer",
-        url: "https://training.talkpython.fm/courses/explore_pythonic_code/write-pythonic-code-like-a-seasoned-developer" }
+        url: "https://training.talkpython.fm/courses/explore_pythonic_code/write-pythonic-code-like-a-seasoned-developer" },
+      { name: "A Course in Machine Learning",
+        url: "http://ciml.info/" }
     ],
     mooc: [
       { name: "Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship",
@@ -1265,8 +1267,9 @@ location /rstudio/ {
         url: 'https://github.com/johnpapa/angular-styleguide' }
     ]
     books: [
-      { title: 'The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future',
-        author: 'Kevin Kelly' }
+      { title: "The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future",
+        author: 'Kevin Kelly' },
+      { title: "Early Retirement Extreme: A philosophical and practical guide to financial independence" }
     ],
     onlineCoding: [
       { title: 'HackerRank',
@@ -1513,6 +1516,7 @@ Skate 40%
     http://www.elsaspeak.com/
   + Text grabbers (ocr)
     https://www.abbyy.com/textgrabber/?ref=producthunt
+  + http://instantapp.today/
 
   + Games
     + PIXEL CUP SOCCER 16
@@ -1911,7 +1915,8 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
   https://www.oreilly.com/learning/hello-tensorflow
 + http://ofir.io/How-to-Start-Learning-Deep-Learning/
 
-
++ A Course in Machine Learning
+  http://ciml.info/
 
 
 
