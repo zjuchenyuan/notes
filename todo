@@ -956,7 +956,9 @@ location /rstudio/ {
       { name: "Complexities of an Infinite Scroller",
         url: "https://developers.google.com/web/updates/2016/07/infinite-scroller"},
       { name: "Introduction to Modern Hardware Prototyping",
-        url: "http://obogason.com/modern_hardware_prototyping/" }
+        url: "http://obogason.com/modern_hardware_prototyping/" },
+      { name: "Bayesian Machine Learning Explained",
+        url: "http://fastml.com/bayesian-machine-learning/"}
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1328,7 +1330,9 @@ location /rstudio/ {
       { name: "VoltAir",
         url: "http://google.github.io/VoltAir/doc/main/html/index.html" },
       { name: "WarriorJS",
-        url: "https://github.com/olistic/warriorjs" }
+        url: "https://github.com/olistic/warriorjs" },
+      { name: "StarCraft_Js",
+        url: "https://github.com/gloomyson/SC_Js" }
     ]
   }
 
@@ -1915,9 +1919,14 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
   https://www.oreilly.com/learning/hello-tensorflow
 + http://ofir.io/How-to-Start-Learning-Deep-Learning/
 
++ The Unreasonable Effectiveness of Recurrent Neural Networks
+  http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+
 + A Course in Machine Learning
   http://ciml.info/
-
++ magenta reviews
+  https://github.com/tensorflow/magenta/tree/master/magenta/reviews
+  Collection of must read papers in the Neural Networks field
 
 
 
