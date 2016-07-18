@@ -838,7 +838,9 @@ location /rstudio/ {
       { name: "Explore Write Pythonic Code Like a Seasoned Developer",
         url: "https://training.talkpython.fm/courses/explore_pythonic_code/write-pythonic-code-like-a-seasoned-developer" },
       { name: "A Course in Machine Learning",
-        url: "http://ciml.info/" }
+        url: "http://ciml.info/" },
+      { name: "Vulkan Tutorial",
+        url: "https://vulkan-tutorial.com/" }
     ],
     mooc: [
       { name: "Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship",
@@ -958,7 +960,9 @@ location /rstudio/ {
       { name: "Introduction to Modern Hardware Prototyping",
         url: "http://obogason.com/modern_hardware_prototyping/" },
       { name: "Bayesian Machine Learning Explained",
-        url: "http://fastml.com/bayesian-machine-learning/"}
+        url: "http://fastml.com/bayesian-machine-learning/"},
+      { name: "Serverless Architectures",
+        url: "http://martinfowler.com/articles/serverless.html" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
