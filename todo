@@ -20,6 +20,7 @@
   + iMetrics / AutoTracker
   + BooksDB (scrappy)
   + bUNITED
+    + arguman.org
   + HoyLLueve / Precog
   + keto.com.ar
   + Metajobs
@@ -962,7 +963,9 @@ location /rstudio/ {
       { name: "Bayesian Machine Learning Explained",
         url: "http://fastml.com/bayesian-machine-learning/"},
       { name: "Serverless Architectures",
-        url: "http://martinfowler.com/articles/serverless.html" }
+        url: "http://martinfowler.com/articles/serverless.html" },
+      { name: "The History of the URL: Path, Fragment, Query, and Auth",
+        url: "https://eager.io/blog/the-history-of-the-url-path-fragment-query-auth/?h" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1249,7 +1252,9 @@ location /rstudio/ {
       { title: "Don Knuth: The Analysis of Algorithms",
         url: "https://vimeo.com/161783929/dba6a42ad3" },
       { title: "MIT: Design and Analysis of Algorithms",
-        url: "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-videos/" }
+        url: "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-videos/" },
+      { title: "Dr. Tomoaki Kato's ex-vivo tumour resection",
+        url: "http://www.orlive.com/nyp/videos/clinical-perspectives-7-year-old-girl-has-6-organs-removed?view=displayPageNLM" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -1337,6 +1342,10 @@ location /rstudio/ {
         url: "https://github.com/olistic/warriorjs" },
       { name: "StarCraft_Js",
         url: "https://github.com/gloomyson/SC_Js" }
+    ],
+    quora: [
+      { name: "Why do a lot of developers dislike Agile? answered by Agile co-creator"
+        url: "https://www.quora.com/In-a-nutshell-why-do-a-lot-of-developers-dislike-Agile" }
     ]
   }
 
