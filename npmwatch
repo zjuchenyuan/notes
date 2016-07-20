@@ -37,6 +37,8 @@ NPMWatch
   + helmet
   + passport
     + passport-local
++ SEARCH
+  + jets.js
 + ROUTERS
   + page.js
   + grapnel

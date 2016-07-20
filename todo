@@ -393,7 +393,7 @@
   + tldr
   + tree
   + rclone
-
+  + awkward
 
 + 30 Days
   + PHP
@@ -965,7 +965,9 @@ location /rstudio/ {
       { name: "Serverless Architectures",
         url: "http://martinfowler.com/articles/serverless.html" },
       { name: "The History of the URL: Path, Fragment, Query, and Auth",
-        url: "https://eager.io/blog/the-history-of-the-url-path-fragment-query-auth/?h" }
+        url: "https://eager.io/blog/the-history-of-the-url-path-fragment-query-auth/?h" },
+      { name: "Web Scraping with Nightmare.JS",
+        url: "https://azurelogic.com/posts/web-scraping-with-nightmare-js/" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1041,7 +1043,9 @@ location /rstudio/ {
       { title: "Building a BitTorrent client from scratch in C#",
         url: "https://cheatdeath.github.io/research-bittorrent-doc/" },
       { title: "A Complete Guide To Building a Bookmarklet App in Javascript",
-        url: "https://blog.sverrirs.com/2016/07/building-a-javascript-bookmarklet-app-complete-guide.html" }
+        url: "https://blog.sverrirs.com/2016/07/building-a-javascript-bookmarklet-app-complete-guide.html" },
+      { title: "Building a web and mobile app for the US Olympic Swim Trials",
+        url: "http://info.meteor.com/blog/building-app-for-us-olympic-swim-trials" }
     ],
     onlineBooks: [
       { title: 'Eloquent Javascript',
