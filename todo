@@ -535,6 +535,44 @@ location /rstudio/ {
 
 
 
++ AUDIENCE
+  - DAU
+  - Followers
+  - New Followers
+  - Social
+  - Buyers
+  - New Buyers
+  - Gender
+  - Platform
+  - Join Range
+
++ CONTENT
+  - Enabled/Disabled Totals
+  - Approved/Rejected/Created by Owner daily
+  ? Approved/Rejected/Created by Admin daily
+  ? Approved/Rejected/Created by Moderator daily
+
+  - User activity: suggested/translated daily
+  - Likes/Dislikes/Unique in Revision
+  + Question reports
+
++ USER ACTIVITY
+  - Activity Index (Q/DAU)
+  - Correct/Incorrect/Unique daily
+  - Likes/Dislikes/Uniques daily
+  - Games created/Uniques
+
+  - Answered / Answered Daily
+
++ CHANNEL STATUS
+  - Promoted
+  + Quality
+  + Diff
+  + Reports
+  + Roles
+
+
+
 
 
 + NEW TOOLS
@@ -841,7 +879,9 @@ location /rstudio/ {
       { name: "A Course in Machine Learning",
         url: "http://ciml.info/" },
       { name: "Vulkan Tutorial",
-        url: "https://vulkan-tutorial.com/" }
+        url: "https://vulkan-tutorial.com/" },
+      { name: "Practical Guide to Bare Metal C++",
+        url: "https://arobenko.gitbooks.io/bare_metal_cpp/content/" }
     ],
     mooc: [
       { name: "Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship",
@@ -967,7 +1007,13 @@ location /rstudio/ {
       { name: "The History of the URL: Path, Fragment, Query, and Auth",
         url: "https://eager.io/blog/the-history-of-the-url-path-fragment-query-auth/?h" },
       { name: "Web Scraping with Nightmare.JS",
-        url: "https://azurelogic.com/posts/web-scraping-with-nightmare-js/" }
+        url: "https://azurelogic.com/posts/web-scraping-with-nightmare-js/" },
+      { name: "A Beginner's Guide To Understanding Convolutional Neural Networks",
+        url: "https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks/" },
+      { name: "How I built an app with 500,000 users in 5 days on a $100 server",
+        url: "https://medium.com/unboxd/how-i-built-an-app-with-500-000-users-in-5-days-on-a-100-server-77deeb238e83#.4qjs7xwaw" },
+      { name: "SuperFormula",
+        url: "https://en.wikipedia.org/wiki/Superformula" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1259,6 +1305,8 @@ location /rstudio/ {
         url: "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-videos/" },
       { title: "Dr. Tomoaki Kato's ex-vivo tumour resection",
         url: "http://www.orlive.com/nyp/videos/clinical-perspectives-7-year-old-girl-has-6-organs-removed?view=displayPageNLM" }
+      { title: "Netflix - Performance without Compromise (JS)",
+        url: "http://techblog.netflix.com/2016/03/performance-without-compromise.html" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -1512,6 +1560,7 @@ Skate 40%
   + https://www.savvysumo.com
   + http://www.foundvisa.com/?ref=producthunt
   + https://thriva.co/ (finger prick blood tests)
+  + https://n26.com/
 
 + == Watch: Apps ==============
   + Anchor (no android)
