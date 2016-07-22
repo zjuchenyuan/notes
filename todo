@@ -681,7 +681,9 @@ location /rstudio/ {
           { name: 'Introduction to the Python Interpreter',
             url: 'http://akaptur.com/blog/2013/11/15/introduction-to-the-python-interpreter/' },
           { name: "Full Stack Python",
-            url: "https://www.fullstackpython.com/" }
+            url: "https://www.fullstackpython.com/" },
+          { name: "The Hitchhiker's Guide to Python",
+            url: "http://docs.python-guide.org/en/latest/" }
         ],
         frameworks: [
           { name: "Flask",
@@ -697,7 +699,9 @@ location /rstudio/ {
           { name: "uwsgi",
             url: "http://uwsgi-docs.readthedocs.io/en/latest/"},
           { name: "coconut",
-            url: "http://coconut-lang.org/" }
+            url: "http://coconut-lang.org/" },
+          { name: "Kivy",
+            url: "https://kivy.org" }
         ]},
       { name: 'Go',
         resources:
@@ -881,7 +885,11 @@ location /rstudio/ {
       { name: "Vulkan Tutorial",
         url: "https://vulkan-tutorial.com/" },
       { name: "Practical Guide to Bare Metal C++",
-        url: "https://arobenko.gitbooks.io/bare_metal_cpp/content/" }
+        url: "https://arobenko.gitbooks.io/bare_metal_cpp/content/" },
+      { name: "LLVM Programmer's Manual",
+        url: "http://llvm.org/docs/ProgrammersManual.html" },
+      { name: "The Hitchhiker's Guide to Python",
+        url: "http://docs.python-guide.org/en/latest/" }
     ],
     mooc: [
       { name: "Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship",
@@ -1013,7 +1021,9 @@ location /rstudio/ {
       { name: "How I built an app with 500,000 users in 5 days on a $100 server",
         url: "https://medium.com/unboxd/how-i-built-an-app-with-500-000-users-in-5-days-on-a-100-server-77deeb238e83#.4qjs7xwaw" },
       { name: "SuperFormula",
-        url: "https://en.wikipedia.org/wiki/Superformula" }
+        url: "https://en.wikipedia.org/wiki/Superformula" },
+      { name: "A tcpdump Primer with Examples",
+        url: "https://danielmiessler.com/study/tcpdump/" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1398,6 +1408,14 @@ location /rstudio/ {
     quora: [
       { name: "Why do a lot of developers dislike Agile? answered by Agile co-creator"
         url: "https://www.quora.com/In-a-nutshell-why-do-a-lot-of-developers-dislike-Agile" }
+    ],
+    mobile: [
+      { name: "Native Base",
+        url: "http://nativebase.io/" }
+    ],
+    business: [
+      { name: "Revenue Numbers",
+        url: "http://revenuenumbers.com/" }
     ]
   }
 
@@ -1561,6 +1579,8 @@ Skate 40%
   + http://www.foundvisa.com/?ref=producthunt
   + https://thriva.co/ (finger prick blood tests)
   + https://n26.com/
+  + http://www.cambly.com (on demand english tutors) -> port to spanish?
+  + https://vyper.io/
 
 + == Watch: Apps ==============
   + Anchor (no android)
