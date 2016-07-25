@@ -732,7 +732,11 @@ location /rstudio/ {
         ]},
       { name: 'C++' },
       { name: 'Lisp' },
-      { name: 'R' },
+      { name: 'R',
+        resources: [
+          { name: "Start here to learn R!",
+            url: "http://r-exercises.com/2016/07/22/start-here-to-learn-r/" }
+        ] },
       { name: 'Rust',
         roadmap: [
           { name: "Rust Book",
@@ -2007,6 +2011,8 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
 
 + The Unreasonable Effectiveness of Recurrent Neural Networks
   http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+
++ https://medium.com/@james_aka_yale/the-10-algorithms-machine-learning-engineers-need-to-know-f4bb63f5b2fa#.cbrizvoqf
 
 + A Course in Machine Learning
   http://ciml.info/
