@@ -55,6 +55,7 @@
   + DoNotPay (http://www.thememo.com/2016/06/30/parking-fine-robot-lawyer-overturn-free-has-a-64-success-rate/)
   + https://piemapping.com/
   + Neutral, the Independent App Store
+  + Crazy Eyes (http://yaroslav.ganin.net/static/deepwarp/)
 
   + Jarvis
     + https://iceddev.com/blog/jarvis-an-amazon-echo-clone-in-your-browser/
@@ -1211,7 +1212,9 @@ location /rstudio/ {
       { title: "Penetration Testing Tools Cheat Sheet",
         url: "https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/" },
       { title: "The Hack that could take down NY",
-        url: "http://nymag.com/daily/intelligencer/2016/06/the-hack-that-could-take-down-nyc.html" }
+        url: "http://nymag.com/daily/intelligencer/2016/06/the-hack-that-could-take-down-nyc.html" },
+      { title: "HIJACKING YOUTUBE TO TRANSMIT YOUR DATA",
+        url: "https://banmeihack.wordpress.com/2016/07/26/hijacking-youtube-to-transmit-your-data/" }
     ],
     videos: [
       { title: 'Turning the database inside out',
@@ -1407,7 +1410,9 @@ location /rstudio/ {
       { name: "WarriorJS",
         url: "https://github.com/olistic/warriorjs" },
       { name: "StarCraft_Js",
-        url: "https://github.com/gloomyson/SC_Js" }
+        url: "https://github.com/gloomyson/SC_Js" },
+      { name: "HumanInput - A JavaScript library for handling keyboard shortcuts and other human-generated events",
+        url: "https://github.com/liftoff/HumanInput" }
     ],
     quora: [
       { name: "Why do a lot of developers dislike Agile? answered by Agile co-creator"
@@ -1632,6 +1637,8 @@ Skate 40%
   + Compliment Generator
     http://www.complimentgenerator.co.uk/?ref=producthunt
 
++ == Watch: Hardware ==============
+  + https://www.density.io/
 
 === Scraping / Crawling ===============
   http://scrapinghub.com
@@ -1668,6 +1675,7 @@ Skate 40%
   https://github.com/mozilla/fathom
   https://github.com/scrapinghub/portia
   https://blog.scrapinghub.com/2016/07/07/scrapely-the-brains-behind-portia-spiders/
+  https://github.com/mozilla/fathom (A framework for extracting meaning from web pages)
 
 === Design Refs ==============
 + https://zeit.co/
@@ -2013,6 +2021,7 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
   http://karpathy.github.io/2015/05/21/rnn-effectiveness/
 
 + https://medium.com/@james_aka_yale/the-10-algorithms-machine-learning-engineers-need-to-know-f4bb63f5b2fa#.cbrizvoqf
++ https://blog.monkeylearn.com/machine-learning-1m-hotel-reviews-finds-interesting-insights/
 
 + A Course in Machine Learning
   http://ciml.info/
