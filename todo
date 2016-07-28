@@ -684,7 +684,9 @@ location /rstudio/ {
           { name: "Full Stack Python",
             url: "https://www.fullstackpython.com/" },
           { name: "The Hitchhiker's Guide to Python",
-            url: "http://docs.python-guide.org/en/latest/" }
+            url: "http://docs.python-guide.org/en/latest/" },
+          { name: "Scipy Lecture Notes",
+            url: "http://www.scipy-lectures.org/" }
         ],
         frameworks: [
           { name: "Flask",
@@ -930,7 +932,9 @@ location /rstudio/ {
         topic: ["GPU"],
         url: "http://courses.cms.caltech.edu/cs179/"},
       { name: "World Science U",
-        url: "http://www.worldscienceu.com/" }
+        url: "http://www.worldscienceu.com/" },
+      { name: "Stanforc CME193: Introduction to Scientific Python",
+        url: "https://web.stanford.edu/~arbenson/cme193.html" }
     ],
     explanations: [
       { name: 'Neural Networks Demystified',
@@ -1323,7 +1327,9 @@ location /rstudio/ {
       { title: "Dr. Tomoaki Kato's ex-vivo tumour resection",
         url: "http://www.orlive.com/nyp/videos/clinical-perspectives-7-year-old-girl-has-6-organs-removed?view=displayPageNLM" }
       { title: "Netflix - Performance without Compromise (JS)",
-        url: "http://techblog.netflix.com/2016/03/performance-without-compromise.html" }
+        url: "http://techblog.netflix.com/2016/03/performance-without-compromise.html" },
+      { title: "Image Processing And Manipulation In Node.js - JS Monthly London",
+        url: "https://www.youtube.com/watch?v=ze7IV-LnzwQ"}
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -1571,8 +1577,8 @@ Skate 40%
 4326-4384
 
 + == Watch: Startups ==============
-  + Lark: http://www.web.lark.com/#top
-  + Vango: https://www.vangoart.co/
+  + http://www.web.lark.com/
+  + https://www.vangoart.co/
   + http://queuehop.com/
   + http://deathandtax.com/
   + https://www.revlo.co/
@@ -1585,11 +1591,13 @@ Skate 40%
 
   + http://whosonlocation.com/
   + https://www.savvysumo.com
-  + http://www.foundvisa.com/?ref=producthunt
+  + http://www.foundvisa.com/
   + https://thriva.co/ (finger prick blood tests)
   + https://n26.com/
   + http://www.cambly.com (on demand english tutors) -> port to spanish?
   + https://vyper.io/
+  + https://wefunder.com
+  + keplr.io
 
 + == Watch: Apps ==============
   + Anchor (no android)
