@@ -686,7 +686,11 @@ location /rstudio/ {
           { name: "The Hitchhiker's Guide to Python",
             url: "http://docs.python-guide.org/en/latest/" },
           { name: "Scipy Lecture Notes",
-            url: "http://www.scipy-lectures.org/" }
+            url: "http://www.scipy-lectures.org/" },
+          { name: "Collection of Python Must Reads",
+            url: "http://jessenoller.com/good-to-great-python-reads/" },
+          { name: "Python Internals :: PyObject",
+            url: "http://www.gahcep.com/python-internals-pyobject/" }
         ],
         frameworks: [
           { name: "Flask",
@@ -727,7 +731,15 @@ location /rstudio/ {
             url: "http://iris-go.com/" }
         ]},
       { name: 'Haskell' },
-      { name: 'Elm' },
+      { name: 'Elm',
+        resources: [
+          { name: "Elm for Beginners",
+            url: "http://courses.knowthen.com/courses/elm-for-beginners" }
+        ],
+        articles: [
+          { name: "Some thoughts on Elm Development",
+            url: "https://medium.com/@NewMountain/some-thoughts-on-elm-development-39a0f8a9002a#.638mbe2qn" }
+        ]},
       { name: 'C',
         frameworks: [
           { name: 'Balde',
@@ -1329,7 +1341,9 @@ location /rstudio/ {
       { title: "Netflix - Performance without Compromise (JS)",
         url: "http://techblog.netflix.com/2016/03/performance-without-compromise.html" },
       { title: "Image Processing And Manipulation In Node.js - JS Monthly London",
-        url: "https://www.youtube.com/watch?v=ze7IV-LnzwQ"}
+        url: "https://www.youtube.com/watch?v=ze7IV-LnzwQ"},
+      { title: "The Most important talk ever",
+        url: "https://www.youtube.com/watch?v=_ZBKX-6Gz6A" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -1628,6 +1642,7 @@ Skate 40%
   + Games
     + PIXEL CUP SOCCER 16
 
+
 + == Watch: OSS/Soft ==============
 [
   { name: "v7",
@@ -1679,11 +1694,14 @@ Skate 40%
   https://www.instaparser.com/
   https://github.com/IonicaBizau/scrape-it
   https://github.com/jmcarp/robobrowser
+  http://www.nightmarejs.org/
+  https://github.com/METACEO/js.xsdt+ Extra Small DOM Traversal :: XSDT.js
 
   https://github.com/mozilla/fathom
   https://github.com/scrapinghub/portia
   https://blog.scrapinghub.com/2016/07/07/scrapely-the-brains-behind-portia-spiders/
   https://github.com/mozilla/fathom (A framework for extracting meaning from web pages)
+
 
 === Design Refs ==============
 + https://zeit.co/
@@ -2712,7 +2730,11 @@ var starters = [
   { name: "Simple Static React Firebase",m
     desc: "Minimal boilerplate and configuration for the development of firebase websites with react & es6",
     url: "https://github.com/Jon-Biz/simple-static-react-firebase",
-    keywords: ["react", "es6", "firebase"]}
+    keywords: ["react", "es6", "firebase"]},
+  { name: "wildfire",
+    desc: "Blazing fast front-end boilerplate",
+    url: "https://github.com/grvcoelho/wildfire",
+    keywords: ["webpack", "hotreload", "postcss", "babel"]}
 ];
 
 Head First C
