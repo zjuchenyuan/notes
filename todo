@@ -690,7 +690,9 @@ location /rstudio/ {
           { name: "Collection of Python Must Reads",
             url: "http://jessenoller.com/good-to-great-python-reads/" },
           { name: "Python Internals :: PyObject",
-            url: "http://www.gahcep.com/python-internals-pyobject/" }
+            url: "http://www.gahcep.com/python-internals-pyobject/" },
+          { name: "List of IPython (Jupyter) Notebooks by Peter Norvig",
+            url: "http://norvig.com/ipython/README.html" }
         ],
         frameworks: [
           { name: "Flask",
@@ -821,7 +823,9 @@ location /rstudio/ {
           { name: "JS Interview Review",
             url: "https://github.com/adam-s/js-interview-review"},
           { name: "Introduction to Functional Programming in Javascript",
-            url: "https://asep.co/introduction-to-functional-programming-in-javascript-part-1/" }
+            url: "https://asep.co/introduction-to-functional-programming-in-javascript-part-1/" },
+          { name: "Javascript and Functional Programming",
+            url: "https://bethallchurch.github.io/JavaScript-and-Functional-Programming/" }
         ]},
       { name: "Maths",
         roadmap: [
@@ -1044,7 +1048,9 @@ location /rstudio/ {
       { name: "SuperFormula",
         url: "https://en.wikipedia.org/wiki/Superformula" },
       { name: "A tcpdump Primer with Examples",
-        url: "https://danielmiessler.com/study/tcpdump/" }
+        url: "https://danielmiessler.com/study/tcpdump/" },
+      { name: "Surprises of the Faraday Cage",
+        url: "https://sinews.siam.org/DetailsPage/TabId/900/ArtMID/2243/ArticleID/757/Surprises-of-the-Faraday-Cage.aspx" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1122,7 +1128,9 @@ location /rstudio/ {
       { title: "A Complete Guide To Building a Bookmarklet App in Javascript",
         url: "https://blog.sverrirs.com/2016/07/building-a-javascript-bookmarklet-app-complete-guide.html" },
       { title: "Building a web and mobile app for the US Olympic Swim Trials",
-        url: "http://info.meteor.com/blog/building-app-for-us-olympic-swim-trials" }
+        url: "http://info.meteor.com/blog/building-app-for-us-olympic-swim-trials" },
+      { title: "kids.klipse.tech - An interactive functional programming course for children based on clojure and klipse",
+        url: "https://github.com/viebel/kids.klipse.tech" }
     ],
     onlineBooks: [
       { title: 'Eloquent Javascript',
@@ -1215,6 +1223,8 @@ location /rstudio/ {
             url: "http://www.andreykurenkov.com/writing/a-brief-history-of-neural-nets-and-deep-learning/"},
           { title: "Leaf - Machine Learning for Hackers",
             url: "http://autumnai.com/leaf/book/" },
+          { title: "digit-classifier - Python ANN on MNIST dataset",
+            url: "https://github.com/karandesai-96/digit-classifier" }
         ]},
       { title: "The Practical Guide to Becoming a Professional Web Developer",
         url: "https://medium.freecodecamp.com/the-practical-guide-to-becoming-a-professional-web-developer-2f255bc25c90" }
@@ -1230,7 +1240,9 @@ location /rstudio/ {
       { title: "The Hack that could take down NY",
         url: "http://nymag.com/daily/intelligencer/2016/06/the-hack-that-could-take-down-nyc.html" },
       { title: "HIJACKING YOUTUBE TO TRANSMIT YOUR DATA",
-        url: "https://banmeihack.wordpress.com/2016/07/26/hijacking-youtube-to-transmit-your-data/" }
+        url: "https://banmeihack.wordpress.com/2016/07/26/hijacking-youtube-to-transmit-your-data/" },
+      { title: "Reverse Engineering Native Apps by Intercepting Network Traffic",
+        url: "http://nickfishman.com/post/50557873036/reverse-engineering-native-apps-by-intercepting-network" }
     ],
     videos: [
       { title: 'Turning the database inside out',
@@ -1343,7 +1355,9 @@ location /rstudio/ {
       { title: "Image Processing And Manipulation In Node.js - JS Monthly London",
         url: "https://www.youtube.com/watch?v=ze7IV-LnzwQ"},
       { title: "The Most important talk ever",
-        url: "https://www.youtube.com/watch?v=_ZBKX-6Gz6A" }
+        url: "https://www.youtube.com/watch?v=_ZBKX-6Gz6A" },
+      { title: "The Language of the System - Rich Hickey",
+        url: "https://www.youtube.com/watch?v=ROor6_NGIWU" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -1432,7 +1446,9 @@ location /rstudio/ {
       { name: "StarCraft_Js",
         url: "https://github.com/gloomyson/SC_Js" },
       { name: "HumanInput - A JavaScript library for handling keyboard shortcuts and other human-generated events",
-        url: "https://github.com/liftoff/HumanInput" }
+        url: "https://github.com/liftoff/HumanInput" },
+      { name: "Scythe, the most-hyped board game of 2016, delivers",
+        url: "http://arstechnica.com/gaming/2016/07/scythe-the-most-hyped-board-game-of-2016-delivers/" }
     ],
     quora: [
       { name: "Why do a lot of developers dislike Agile? answered by Agile co-creator"
@@ -1500,6 +1516,8 @@ location /rstudio/ {
   A Course on Information Theory and the Limits of Formal Reasoning
   http://www.umcs.maine.edu/~chaitin/lm.html
 
+
++ Elon Musk Reading list: http://www.canoneo.com/list/5Mom4oSgF5NoHEWqj
 + Peteris Kramins - http://www.catonmat.net/blog/top-100-books-part-one/
   [
     { title: 'The New Turing Omnibus'
@@ -2734,7 +2752,11 @@ var starters = [
   { name: "wildfire",
     desc: "Blazing fast front-end boilerplate",
     url: "https://github.com/grvcoelho/wildfire",
-    keywords: ["webpack", "hotreload", "postcss", "babel"]}
+    keywords: ["webpack", "hotreload", "postcss", "babel"]},
+  { name: "electron-vue-boilerplate",
+    desc: "Electron & Vue.js Boilerplate App",
+    url: "https://github.com/sohelamin/electron-vue-boilerplate",
+    keywords: ["electron", "vue"]}
 ];
 
 Head First C
