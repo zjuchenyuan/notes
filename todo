@@ -107,9 +107,11 @@
     + http://beta.keplr.io/
   + Text based money tracking
     + http://hledger.org/download.html
+  + YT giveaway & community tool
 
 + == Hard Foundry =============
   + DickPillow
+  + T Shirts - Startup Threads
 
 + == theList =============
   + 1. 4k
@@ -704,11 +706,17 @@ location /rstudio/ {
           { name: "List of IPython (Jupyter) Notebooks by Peter Norvig",
             url: "http://norvig.com/ipython/README.html" },
           { name: "PyMiniRacer - V8 for Python",
-            url: "https://github.com/sqreen/PyMiniRacer" }
+            url: "https://github.com/sqreen/PyMiniRacer" },
+          { name: "The Flask Mega-Tutorial",
+            url: "http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world" }
         ],
         frameworks: [
           { name: "Flask",
-            url: "http://flask.pocoo.org/" },
+            url: "http://flask.pocoo.org/",
+            resources: [
+              { name: "How to make a Flask blog in one hour or less",
+                url: "http://charlesleifer.com/blog/how-to-make-a-flask-blog-in-one-hour-or-less/" }
+            ]},
           { name: 'Cherry Pie',
             url: 'http://www.cherrypy.org/' },
           { name: 'Bottle',
@@ -1270,7 +1278,9 @@ location /rstudio/ {
       { title: "Reverse Engineering Native Apps by Intercepting Network Traffic",
         url: "http://nickfishman.com/post/50557873036/reverse-engineering-native-apps-by-intercepting-network" },
       { title: "PrivacyTools.io - ",
-        url: "https://www.privacytools.io/" }
+        url: "https://www.privacytools.io/" },
+      { title: "Browser Based Timing Attacks",
+        url: "https://tom.vg/2016/08/browser-based-timing-attacks/" }
     ],
     videos: [
       { title: 'Turning the database inside out',
