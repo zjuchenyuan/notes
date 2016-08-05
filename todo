@@ -731,6 +731,12 @@ location /rstudio/ {
             url: "http://coconut-lang.org/" },
           { name: "Kivy",
             url: "https://kivy.org" }
+        ],
+        articles: [
+          { name: "1M rows/s from Postgres to Python",
+            url: "http://magic.io/blog/asyncpg-1m-rows-from-postgres-to-python/" },
+          { name: "uvloop: Blazing fast Python networking",
+            url: "http://magic.io/blog/uvloop-blazing-fast-python-networking/" }
         ]},
       { name: 'Go',
         resources:
@@ -743,7 +749,9 @@ location /rstudio/ {
           { name: 'Go by Example',
             url: 'https://gobyexample.com/' },
           { name: "Go Data Structure Implementations",
-            url: "https://github.com/emirpasic/gods" }
+            url: "https://github.com/emirpasic/gods" },
+          { name: "GoLang Anti Textbook - Wirting Go app without a framework",
+            url: "https://github.com/thewhitetulip/web-dev-golang-anti-textbook/" }
         ],
         frameworks: [
           'Gopher',
@@ -872,7 +880,8 @@ location /rstudio/ {
         roadmap: [
           { name: "A begginers guide to thinking in SQL",
             url: "http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/"}
-        ]}
+        ]},
+      P name: "Crystal (Fast as C, Slick as Ruby)"
     ],
     codeReading: [
       { name: 'Coffeescript', author: 'Jeremy Ashkenas'},
@@ -1080,7 +1089,9 @@ location /rstudio/ {
       { name: "Jaco Labs: Analyzing Funnels Using Solr + Cassandra",
         url: "http://blog.getjaco.com/analyzing-funnels/" },
       { name: "A Better Flux with DOM Events",
-        url: "http://arqex.com/1028/better-flux-dom-events" }
+        url: "http://arqex.com/1028/better-flux-dom-events" },
+      { name: "What are Bloom filters?",
+        url: "https://medium.com/the-story/what-are-bloom-filters-1ec2a50c68ff#.3f51x6thq" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1488,7 +1499,11 @@ location /rstudio/ {
       { name: "HumanInput - A JavaScript library for handling keyboard shortcuts and other human-generated events",
         url: "https://github.com/liftoff/HumanInput" },
       { name: "Scythe, the most-hyped board game of 2016, delivers",
-        url: "http://arstechnica.com/gaming/2016/07/scythe-the-most-hyped-board-game-of-2016-delivers/" }
+        url: "http://arstechnica.com/gaming/2016/07/scythe-the-most-hyped-board-game-of-2016-delivers/" },
+      { name: "VoxelQuest Isometric Engine",
+        url: "https://github.com/gavanw/vqisosmall" },
+      { name: "Quick tip: Game Loop in Javascript",
+        url: "https://www.sitepoint.com/quick-tip-game-loop-in-javascript/" }
     ],
     quora: [
       { name: "Why do a lot of developers dislike Agile? answered by Agile co-creator"
