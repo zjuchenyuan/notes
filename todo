@@ -108,6 +108,7 @@
   + Text based money tracking
     + http://hledger.org/download.html
   + YT giveaway & community tool
+  + http://gping.io/
 
 + == Hard Foundry =============
   + DickPillow
@@ -679,8 +680,12 @@ location /rstudio/ {
       + https://www.shadertoy.com/view/MdB3zK
       + https://www.shadertoy.com/view/XdX3WN
 
-
-
++ RT DATA
+  + https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js
+  + http://blog.safe.com/2014/03/twitter-stream-api-map/
+  + http://www.confluent.io/blog/building-a-streaming-analytics-stack-with-apache-kafka-and-druid
+  + https://yahooeng.tumblr.com/post/147711922956/combining-druid-and-datasketches-for-real-time
+  + https://metamarkets.com/2014/building-a-data-pipeline-that-handles-billions-of-events-in-real-time/
 
 + == STUDY ===============
   var study = {
@@ -738,7 +743,7 @@ location /rstudio/ {
           { name: "uvloop: Blazing fast Python networking",
             url: "http://magic.io/blog/uvloop-blazing-fast-python-networking/" }
         ]},
-      { name: 'Go',
+      { name: 'GoLang',
         resources:
           [{ name: "Go Tutorial",
             url: "http://golang.org/doc/go_tutorial.html" },
@@ -751,7 +756,9 @@ location /rstudio/ {
           { name: "Go Data Structure Implementations",
             url: "https://github.com/emirpasic/gods" },
           { name: "GoLang Anti Textbook - Wirting Go app without a framework",
-            url: "https://github.com/thewhitetulip/web-dev-golang-anti-textbook/" }
+            url: "https://github.com/thewhitetulip/web-dev-golang-anti-textbook/" },
+          { name: "Developing Realtime Apps with React, Golang & RethinkDB",
+            url: "http://courses.knowthen.com/courses/learn-how-to-develop-realtime-web-apps" }
         ],
         frameworks: [
           'Gopher',
@@ -854,6 +861,21 @@ location /rstudio/ {
             url: "https://asep.co/introduction-to-functional-programming-in-javascript-part-1/" },
           { name: "Javascript and Functional Programming",
             url: "https://bethallchurch.github.io/JavaScript-and-Functional-Programming/" }
+        ],
+        transpiledSurrogates: [
+          { name: "Amber (Smalltalk)" },
+          { name: "Brython (Python)" },
+          { name: "Cheerp (C++)" },
+          { name: "ClojureScript (Clojure)" },
+          { name: "Cor" },
+          { name: "Dart" },
+          { name: "Elm" },
+          { name: "GopherJS (Go)" },
+          { name: "GWT (Java)" },
+          { name: "Haxe" },
+          { name: "Scala.js (Scala)" },
+          { name: "Opal (Ruby)" },
+          { name: "Transcrypt (Python)" }
         ]},
       { name: "Maths",
         roadmap: [
@@ -1091,7 +1113,13 @@ location /rstudio/ {
       { name: "A Better Flux with DOM Events",
         url: "http://arqex.com/1028/better-flux-dom-events" },
       { name: "What are Bloom filters?",
-        url: "https://medium.com/the-story/what-are-bloom-filters-1ec2a50c68ff#.3f51x6thq" }
+        url: "https://medium.com/the-story/what-are-bloom-filters-1ec2a50c68ff#.3f51x6thq" },
+      { name: "Quake's Lighting Model:  Surface Caching",
+        url: "https://www.bluesnews.com/abrash/chap68.shtml" },
+      { name: "Image Kernels Explained",
+        url: "http://setosa.io/ev/image-kernels/" },
+      { name: "Fat Protocols - Value in the Protocol Layer",
+        url: "https://www.usv.com/blog/fat-protocols" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1408,7 +1436,9 @@ location /rstudio/ {
       { title: "The Language of the System - Rich Hickey",
         url: "https://www.youtube.com/watch?v=ROor6_NGIWU" },
       { title: "Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016",
-        url: "https://www.youtube.com/watch?v=e-5obm1G_FY" }
+        url: "https://www.youtube.com/watch?v=e-5obm1G_FY" },
+      { title: "Safia Abdalla: The Hitchhiker's Guide to All Things Memory in Javascript - JSConf Budapest 2016",
+        url: "chrome-extension://klbibkeccnjlkjkiokjodocebajanakg/suspended.html#uri=https://www.youtube.com/watch?v=AeUCN2lPqL8" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -1503,7 +1533,13 @@ location /rstudio/ {
       { name: "VoxelQuest Isometric Engine",
         url: "https://github.com/gavanw/vqisosmall" },
       { name: "Quick tip: Game Loop in Javascript",
-        url: "https://www.sitepoint.com/quick-tip-game-loop-in-javascript/" }
+        url: "https://www.sitepoint.com/quick-tip-game-loop-in-javascript/" },
+      { name: "DLS, the digital logic simulator game",
+        url: "https://makingartstudios.itch.io/dls" },
+      { name: "Making Pong - An Intro to Games in Elm",
+        url: "http://elm-lang.org/blog/making-pong" },
+      { name: "Building A Pokémon GO Clone Using Web Technologies And Pusher",
+        url: "https://blog.pusher.com/building-a-pokemon-go-clone-using-web-technologies-and-pusher"}
     ],
     quora: [
       { name: "Why do a lot of developers dislike Agile? answered by Agile co-creator"
@@ -1520,6 +1556,10 @@ location /rstudio/ {
     sci: [
       { name: "A Unified Theory of Random",
         url: "https://www.quantamagazine.org/20160802-unified_theory_of_randomness/" }
+    ],
+    audio: [
+      { name: "io808 - An attempt at web-based TR-808 drum machine using React, Redux, and the Web Audio API",
+        url: "http://io808.com/" }
     ]
   }
 
@@ -1689,6 +1729,7 @@ Skate 40%
   + https://vyper.io/
   + https://wefunder.com
   + keplr.io
+  + http://www.confirm.io/ - Run instant authentication checks on any government issued ID
 
 + == Watch: Apps ==============
   + Anchor (no android)
@@ -1782,7 +1823,20 @@ Skate 40%
 
 === Design Refs ==============
 + https://zeit.co/
++ http://www.thenordicweb.com/blog/finland-the-early-stage-nation-in-need-of-late-stage-money
 
+=== S::Vi ==============
++ https://github.com/carlhuda/janus
++ http://vim.spf13.com/
++ https://github.com/bling/dotvim
++ https://github.com/tpope/vim-sensible
++ https://github.com/grigio/vim-sublime
+
++ https://github.com/egalpin/apt-vim
++ http://vimawesome.com/
++ http://joelhooks.com/blog/2013/04/23/5-essential-vim-plugins/
++ http://adamdelong.com/5-vim-plugins-helped-switch-sublime/
++ http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/
 
 === Ontology =================
   + Tools
@@ -2071,7 +2125,7 @@ Trends
 + node-cache
 
 ===================
-Starting MLearning:
+S::ML
 ===================
 + Machine Learning video lectures by Professor Andrew Ng (Stanford)
 http://www.youtube.com/view_play_list?p=A89DCFA6ADACE599
@@ -2126,6 +2180,9 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
 + https://medium.com/@james_aka_yale/the-10-algorithms-machine-learning-engineers-need-to-know-f4bb63f5b2fa#.cbrizvoqf
 + https://blog.monkeylearn.com/machine-learning-1m-hotel-reviews-finds-interesting-insights/
 
++ https://www.experfy.com/blog/how-to-become-a-data-scientist-part-1-3
++ https://www.experfy.com/blog/how-to-become-a-data-scientist-part-2-3
+
 + A Course in Machine Learning
   http://ciml.info/
 + magenta reviews
@@ -2164,7 +2221,8 @@ http://cs231n.stanford.edu/syllabus.html
 The lecture videos for the course got taken down due to complaints, but you can recover them via google
 reply
 
-
+# S::TM Trained Models
+* https://github.com/fchollet/deep-learning-models
 
 ===================
 TF Show
@@ -2911,3 +2969,124 @@ Spend 80% of your time on low-risk/reasonable-payoff work. Spend 15% of your tim
 Conclusion
 
 The flow in this outline seems to be from reducing risks by managing time and increasing learning to mindfully taking risks by using your whole brain and quickly triaging ideas.
+
+
+---------------------------------
+
+Python
+
+Learn the Basics - Variables, Control Structures, Data Structures, Syntax, Tools
+Practice what you learnt on sites like Codecademy
+Take the course - MITx: 6.00.1x Introduction to Computer Science and Programming Using Python
+Get familiar with Python Libraries
+Learn how to scrape websites and scrape the whole internet, anything and everything possible you can think off without going to jail
+Research about Machine Learning
+Start solving your day to day problems with python. So, if you are doing something over and over manually think how you can automate it.
+Time to take your skills to next level - Learn Data Structure and Algorithms
+Learn about Frameworks like Django, Flask etc and create a website for yourself.
+Work on projects that interest you and learn as you go.
+Below is a list of video resources that I found useful while learning python programming. These resources are targeted towards Beginner to Intermediate level programmers.
+
+Python Tutor
+http://www.pythontutor.com ( Free )
+
+I highly recommend this tool to everybody, whether you are trying to learn Python, Java, JavaScript, TypeScript, Ruby, C, or C++ . It will help you visualize what the computer is doing step-by-step as it executes those programs.
+
+Bucky Roberts
+https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_ ( Free )
+
+If you are completely new to programming, Bucky Robert’s Tutorials are a good place to start. They are simple and easy to follow. Once you start feeling comfortable, you can move on to other resources.
+
+Corey Schafer
+https://www.youtube.com/playlist... ( Free )
+https://www.youtube.com/playlist... ( Free )
+
+Corey has good videos on String Formatting, Generators, Comprehensions, Programming Terms [ Mutable vs Immutable, DRY, Memoization, Idempotence, Combinations and Permutations, String Interpolation, First Class Functions, Closures ] etc and he does a good job explaining the concepts.
+
+Derek Banas
+https://www.youtube.com/watch?v=... ( Free )
+
+Derek Banas is a self taught programmer. He has a different teaching style, where he will make a video on particular programming language usually 45 -60 minutes in length that will cover 80% of what you need to know regarding that language.
+
+Edx
+MITx: 6.00.1x – Introduction to Computer Science and Programming Using Python
+https://www.edx.org/course/intro... ( Free )
+
+This is one of the best course that I have taken so far, not only you will learn lots of python but also important computer science concepts such Algorithms, Recursion, Debugging, Assertions and Exceptions, Efficiency and Orders of Growth, Object Oriented Programming, Trees. This course is taught by MIT Professor Eric Grimson and covers the same material which is taught in class at MIT for course 6.00 – Introduction to Computation and Programming Using Python by John Guttag. However at edX they divided the original MIT 6.00 course into two parts. MITx: 6.00.1x and MITx:6.00.2x.
+
+MITx: 6.00.2x – Introduction to Computational Thinking and Data Science
+https://www.edx.org/course/intro... ( Free )
+
+This course builds on where MITx 6.00.1x left off. So, knowledge equivalent to 6.00.1x or some prior programming experience in Python and a rudimentary knowledge of computational complexity is required. This course is taught by John Guttag and topics covered are Plotting with the pylab package, Random walks, Probability, Distributions, Monte Carlo simulations, Curve fitting, Knapsack problem, Graphs and graph optimization, Machine learning basics, Clustering algorithms, Statistical fallacies
+
+Codecademy
+https://www.codecademy.com/learn... ( Free )
+
+They say it takes 10,000 hours of coding to become a good programmer. Whether that is True or Not, Codecademy is a good place to get practice on your newly acquired skills whether they are Python, Ruby, Html & CSS, Javascript, Ajax, JQuery etc.
+
+Udacity
+https://www.udacity.com/course/intro-to-computer-science–cs101 ( Free )
+
+This course is taught by Dave Evans. He is a Professor of Computer Science at the University of Virginia where he teaches computer science and leads research in computer security. He is the author of an Introduction to Computing Explorations in Language, Logic, and Machines and has won Virginia’s highest award for university faculty. He has PhD, SM, and SB degrees from MIT.
+
+https://www.udacity.com/course/programming-foundations-with-python–ud036 ( Free )
+
+This course is taught by Kunal Chawla. He has a bachelor’s in computer science from the University of Texas at Austin and master’s in educational technology from Stanford University. In this course, you will learn how to use objected oriented programming to solve problems. Mastering Object-Oriented Programming will propel your career in tech forward, and it’s also a great way to learn how software engineers think about solving problems.
+
+Udemy
+https://www.udemy.com/automate/ ( Paid )
+
+This course is taught by Al Sweigart. He is the author of book “Automate the Boring Stuff with Python Programming”. In this course he has good introductory videos on Regular Expressions, Files, Web Scraping, Excel, Word, and PDF Documents, Email, GUI Automation
+
+https://www.udemy.com/complete-p... ( Paid )
+
+This course is instructed by Jose Portilla. He is working as a Data Scientist in the field. This course is targeted at programmers who have never programmed before, programmers switching languages to python, intermediate python programmers who want to level up their skills.
+
+Professional Python Web Development Using Flask (Paid)
+
+This course is taught by Jorge Escobar. Jorge has worked in well established companies like Yahoo!, Univision and MongoDB and has also been the technical founding member of various successful tech startups that have received multiple rounds of venture capital.
+
+Python - Learn Python From Scratch In No Time Flat (Paid)
+
+This course is taught by Tim Buchalka. This guy is professional, experienced software developer who also has exceptional teaching skills. Each video is around 15 to 20 minutes he goes into lot of detail. If you are looking for super detailed python course this is it. Not recommended to impatient learners :)
+
+Team Tree House
+https://teamtreehouse.com/librar... ( Paid )
+
+Majority of the Python videos are instructed by Kenneth Love. Below is a complete list of Team Tree House Python Library as of March 16, 2016.
+
+Django ORM
+CSV and JSON in Python
+Python File I/O
+Setting up local Python Environment ( Mac, Windows)
+PyCharm Basics
+Django Forms
+Python Basics
+Customizing Django Templates
+Image Manipulation with Python
+Functions in Python
+Tkinter
+Django Basics
+Python Decorators
+Using the Requests Library
+Python Comprehensions
+Python Testing
+Data Science Basics
+Social Network with Flask
+Databases in Python
+Regular Expressions in Python
+Functional Programming with Python
+Flask Basics
+Dates and Times in Python
+Write Better Python
+Object-Oriented Python
+Python Collections
+Customizing Django Admin
+Flask REST API
+Django REST Framework
+Flask SQLAlchemy Tutorial
+Flask SQLAlchemy ( Free )
+
+At some point when you start working with Flask you will need to use ORM to create, update, delete, query data from tables in the database. This guy does a good job providing simple overview of what it is like to use SQLAlchemy.
+
+By now you should have enough knowledge and confidence to write small to medium size programs and now you know more than what “Mark Zuckerberg” knew when he started Facebook. Now it’s time to think out the box and think BIG. Time to start your own startup and be an Entrepreneur. Get basic idea on How to Start a Startup - Standford University. Start researching about technology stack used by all major companies Quora, Facebook, Twitter, Google, Pinterest, Instagram, Dropbox etc to get basic idea what they are using and whats in trend. After doing all this, now you should feel that you are not even a drop in the bucket. Keep learning till you get Rich or Die Trying because you only have one life to live. You can either live it driving a KIA and living paycheck to paycheck or you could be driving a Lamborghini and living in a mansion. Always remember there is nothing more dangerous than a motivated person.
