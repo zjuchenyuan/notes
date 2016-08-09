@@ -113,6 +113,7 @@
 + == Hard Foundry =============
   + DickPillow
   + T Shirts - Startup Threads
+  + The Simple Co. - https://medium.com/desk-of-van-schneider/lauren-singer-runs-a-company-with-one-business-goal-go-out-of-business-58039cc474b4#.mu18ynz06
 
 + == theList =============
   + 1. 4k
@@ -418,8 +419,11 @@
   + Python
   + Javascript
 
-
-
++ SELL THE SIDE PROJECT
+  + http://codeandtechno.com/posts/tips-for-selling-your-side-project/
+    + https://flippa.com/
+    + https://www.sideprojectors.com/
+    + https://empireflippers.com/
 
 + == BI SETUP ===============
 1 . Install Docker
@@ -781,6 +785,10 @@ location /rstudio/ {
         frameworks: [
           { name: 'Balde',
             url: 'https://balde.rgm.io/' }
+        ],
+        resources: [
+          { name: "Write a simple memory allocator",
+            url: "http://arjunsreedharan.org/post/148675821737/write-a-simple-memory-allocator" }
         ]},
       { name: 'C++' },
       { name: 'Lisp' },
@@ -861,6 +869,16 @@ location /rstudio/ {
             url: "https://asep.co/introduction-to-functional-programming-in-javascript-part-1/" },
           { name: "Javascript and Functional Programming",
             url: "https://bethallchurch.github.io/JavaScript-and-Functional-Programming/" }
+        ],
+        resources: [
+          { name: "Pragmatic Modularity - Writing great NPM packages",
+            url: "http://mafintosh.com/pragmatic-modularity.html" },
+          { name: "A Glimpse Into the Future with React Native",
+            url: "https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/?platform=hootsuite" },
+          { name: "Scalable FrontEnd with Redux and Elm architecture",
+            url: "https://medium.com/@hunterbmt/scaleable-fe-with-redux-and-elm-architecture-c6812ed0125e#.dj7fkwmh0" },
+          { name: "From Zero to Front End Hero",
+            url: "https://medium.freecodecamp.com/from-zero-to-front-end-hero-part-1-7d4f7f0bff02#.v6jbp03iw" }
         ],
         transpiledSurrogates: [
           { name: "Amber (Smalltalk)" },
@@ -1001,7 +1019,9 @@ location /rstudio/ {
       { name: "World Science U",
         url: "http://www.worldscienceu.com/" },
       { name: "Stanforc CME193: Introduction to Scientific Python",
-        url: "https://web.stanford.edu/~arbenson/cme193.html" }
+        url: "https://web.stanford.edu/~arbenson/cme193.html" },
+      { name: "Modern Javascript",
+        url: "http://courses.angularclass.com/courses/modern-javascript" }
     ],
     explanations: [
       { name: 'Neural Networks Demystified',
@@ -1119,7 +1139,17 @@ location /rstudio/ {
       { name: "Image Kernels Explained",
         url: "http://setosa.io/ev/image-kernels/" },
       { name: "Fat Protocols - Value in the Protocol Layer",
-        url: "https://www.usv.com/blog/fat-protocols" }
+        url: "https://www.usv.com/blog/fat-protocols" },
+      { name: "PostgreSQL Index Internals Presentation",
+        url: "https://www.pgcon.org/2016/schedule/events/934.en.html" },
+      { name: "Getting Started with AWS Lambda coding session",
+        url: "https://cloudacademy.com/webinars/getting-started-aws-lambda-coding-session-16/" },
+      { name: "Journey to Enjoyable, Maintainable Styling with React, ITCSS, and CSS-in-JS",
+        url: "https://medium.com/maintainable-react-apps/journey-to-enjoyable-maintainable-styling-with-react-itcss-and-css-in-js-632cfa9c70d6#.wvzs1tnqm" },
+      { name: "Linear Regression",
+        url: "http://eli.thegreenplace.net/2016/linear-regression/" },
+      { name: "gdb Debugging Full Example (tutorial): ncurses",
+        ulr: "http://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1438,7 +1468,9 @@ location /rstudio/ {
       { title: "Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016",
         url: "https://www.youtube.com/watch?v=e-5obm1G_FY" },
       { title: "Safia Abdalla: The Hitchhiker's Guide to All Things Memory in Javascript - JSConf Budapest 2016",
-        url: "chrome-extension://klbibkeccnjlkjkiokjodocebajanakg/suspended.html#uri=https://www.youtube.com/watch?v=AeUCN2lPqL8" }
+        url: "chrome-extension://klbibkeccnjlkjkiokjodocebajanakg/suspended.html#uri=https://www.youtube.com/watch?v=AeUCN2lPqL8" },
+      { name: "Essence of Linear Algebra - 3Blue1Brown Video Series",
+        url: "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -1539,7 +1571,9 @@ location /rstudio/ {
       { name: "Making Pong - An Intro to Games in Elm",
         url: "http://elm-lang.org/blog/making-pong" },
       { name: "Building A Pokémon GO Clone Using Web Technologies And Pusher",
-        url: "https://blog.pusher.com/building-a-pokemon-go-clone-using-web-technologies-and-pusher"}
+        url: "https://blog.pusher.com/building-a-pokemon-go-clone-using-web-technologies-and-pusher"},
+      { name: "JS Hyperspeed infinite tunnel",
+        url: "http://codepen.io/terrytongcc/pen/NNoMJV" }
     ],
     quora: [
       { name: "Why do a lot of developers dislike Agile? answered by Agile co-creator"
@@ -2877,7 +2911,11 @@ var starters = [
   { name: "react-koa-minimal-starter",
     desc: "A minimal boilerplate to get started with complete app using React and Koa2 ready to be deployed to Heroku",
     url: "https://github.com/purezen/react-koa-minimal-starter",
-    keywords: ["react", "redux", "koa", "babel", "webpack"]}
+    keywords: ["react", "redux", "koa", "babel", "webpack"]},
+  { name: "typescript-webpack-starter",
+    desc: "A damn simple ES6 and Typescript Starter kit using webpack for packaging. Perfect for bootstraping your javascript project regardless any framework.",
+    url: "https://github.com/emyann/typescript-webpack-starter",
+    keywords: ["typescript", "webpack", "babel"]}
 ];
 
 Head First C
