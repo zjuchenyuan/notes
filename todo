@@ -901,9 +901,14 @@ location /rstudio/ {
             url: "http://blog.hackerrank.com/the-immutability-of-math-and-how-almost-everything-else-will-pass/" }
         ]}
       { name: "Scala",
-        roadmap: [
+        resources: [
+          { name: "Hands on Scala.Js",
+            url: "http://www.lihaoyi.com/hands-on-scala-js/" },
+          { name: "From first principles: Why I bet on Scala.js",
+            url: "http://www.lihaoyi.com/post/FromfirstprinciplesWhyIbetonScalajs.html" },
           { name: "Scala for Human Beings - Getting started with Scala, the easy way",
             url: "https://medium.com/from-the-couch/scala-for-human-beings-ee079f14e3a0"}
+          }
         ]},
       { name: "Kotlin" },
       { name: "Assembly",
@@ -1021,7 +1026,13 @@ location /rstudio/ {
       { name: "Stanforc CME193: Introduction to Scientific Python",
         url: "https://web.stanford.edu/~arbenson/cme193.html" },
       { name: "Modern Javascript",
-        url: "http://courses.angularclass.com/courses/modern-javascript" }
+        url: "http://courses.angularclass.com/courses/modern-javascript" },
+      { name: ""
+        url: "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/Syllabus/" },
+      { name: "",
+        url: "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-- 2011/Syllabus/" },
+      { name: "",
+        url: "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/calendar/" }
     ],
     explanations: [
       { name: 'Neural Networks Demystified',
@@ -1149,7 +1160,13 @@ location /rstudio/ {
       { name: "Linear Regression",
         url: "http://eli.thegreenplace.net/2016/linear-regression/" },
       { name: "gdb Debugging Full Example (tutorial): ncurses",
-        ulr: "http://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html" }
+        ulr: "http://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html" },
+      { name: "How does gdb work?",
+        url: "http://jvns.ca/blog/2016/08/10/how-does-gdb-work/" },
+      { name: "Turning the database inside out with Samza",
+        url: "http://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/" },
+      { name: "Introduction to Stream Data Processing",
+        url: "https://gist.github.com/aviflax/7f453a41a06a200a2f5d" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1349,7 +1366,9 @@ location /rstudio/ {
       { title: "PrivacyTools.io - ",
         url: "https://www.privacytools.io/" },
       { title: "Browser Based Timing Attacks",
-        url: "https://tom.vg/2016/08/browser-based-timing-attacks/" }
+        url: "https://tom.vg/2016/08/browser-based-timing-attacks/" },
+      { name: "masscan - scanning entire Internet in under 5 minutes.",
+        url: "https://github.com/robertdavidgraham/masscan" }
     ],
     videos: [
       { title: 'Turning the database inside out',
@@ -1573,7 +1592,15 @@ location /rstudio/ {
       { name: "Building A Pokémon GO Clone Using Web Technologies And Pusher",
         url: "https://blog.pusher.com/building-a-pokemon-go-clone-using-web-technologies-and-pusher"},
       { name: "JS Hyperspeed infinite tunnel",
-        url: "http://codepen.io/terrytongcc/pen/NNoMJV" }
+        url: "http://codepen.io/terrytongcc/pen/NNoMJV" },
+      { name: "Generating Fantasy Maps",
+        url: "http://mewo2.com/notes/terrain/" },
+      { name: "Recreating the Doctor Who Time Tunnel in GLSL",
+        url: "http://roy.red/slitscan-.html" },
+      { name: "BlackJack Simulator with OMEGA II Card Counting",
+        url: "https://github.com/seblau/BlackJack-Simulator" },
+      { name: "Algorithms that select which algorithm should play which game",
+        url: "http://togelius.blogspot.com.ar/2016/08/algorithms-that-select-which-algorithm.html" }
     ],
     quora: [
       { name: "Why do a lot of developers dislike Agile? answered by Agile co-creator"
@@ -1594,6 +1621,10 @@ location /rstudio/ {
     audio: [
       { name: "io808 - An attempt at web-based TR-808 drum machine using React, Redux, and the Web Audio API",
         url: "http://io808.com/" }
+    ],
+    datasci: [
+      { name: "Text analysis of Trump's tweets confirms he writes only the (angrier) Android half",
+        url: "http://varianceexplained.org/r/trump-tweets/" }
     ]
   }
 
@@ -2213,6 +2244,11 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
 
 + https://medium.com/@james_aka_yale/the-10-algorithms-machine-learning-engineers-need-to-know-f4bb63f5b2fa#.cbrizvoqf
 + https://blog.monkeylearn.com/machine-learning-1m-hotel-reviews-finds-interesting-insights/
++ Image Completion with Deep Learning in TensorFlow
+  http://bamos.github.io/2016/08/09/deep-completion/
+
++ The Ultimate List of TensorFlow Resources: Books, Tutorials, Libraries and More
+  https://hackerlists.com/tensorflow-resources/
 
 + https://www.experfy.com/blog/how-to-become-a-data-scientist-part-1-3
 + https://www.experfy.com/blog/how-to-become-a-data-scientist-part-2-3
