@@ -986,7 +986,9 @@ location /rstudio/ {
       { name: "LLVM Programmer's Manual",
         url: "http://llvm.org/docs/ProgrammersManual.html" },
       { name: "The Hitchhiker's Guide to Python",
-        url: "http://docs.python-guide.org/en/latest/" }
+        url: "http://docs.python-guide.org/en/latest/" },
+      { name: "Data Analysis and Visualization Using R",
+        url: "http://varianceexplained.org/RData/" }
     ],
     mooc: [
       { name: "Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship",
@@ -1166,7 +1168,11 @@ location /rstudio/ {
       { name: "Turning the database inside out with Samza",
         url: "http://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/" },
       { name: "Introduction to Stream Data Processing",
-        url: "https://gist.github.com/aviflax/7f453a41a06a200a2f5d" }
+        url: "https://gist.github.com/aviflax/7f453a41a06a200a2f5d" },
+      { name: "Why I Live in IRC",
+        url: "https://aaronparecki.com/2015/08/29/8/why-i-live-in-irc" },
+      { name: "OpenStreetMap city blocks as GeoJSON polygons",
+        url: "https://peteris.rocks/blog/openstreetmap-city-blocks-as-geojson-polygons/" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1612,7 +1618,10 @@ location /rstudio/ {
     ],
     business: [
       { name: "Revenue Numbers",
-        url: "http://revenuenumbers.com/" }
+        url: "http://revenuenumbers.com/" },
+      { name: "IndieHackers - Learn how developers are
+writing their own paychecks.",
+        url: "https://www.indiehackers.com/businesses" }
     ],
     sci: [
       { name: "A Unified Theory of Random",
@@ -2249,6 +2258,9 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
 
 + The Ultimate List of TensorFlow Resources: Books, Tutorials, Libraries and More
   https://hackerlists.com/tensorflow-resources/
+
++ Top Deep Learning Projects
+  https://github.com/aymericdamien/TopDeepLearning
 
 + https://www.experfy.com/blog/how-to-become-a-data-scientist-part-1-3
 + https://www.experfy.com/blog/how-to-become-a-data-scientist-part-2-3
