@@ -779,7 +779,9 @@ location /rstudio/ {
         ],
         articles: [
           { name: "Some thoughts on Elm Development",
-            url: "https://medium.com/@NewMountain/some-thoughts-on-elm-development-39a0f8a9002a#.638mbe2qn" }
+            url: "https://medium.com/@NewMountain/some-thoughts-on-elm-development-39a0f8a9002a#.638mbe2qn" },
+          { name: "Elm Pair Programming - Josh Adams and Luke Westby Pairing on Colluder",
+            url: "https://www.dailydrip.com/blog/elm-pair-programming-josh-adams-and-luke-westby-pairing-on-colluder" }
         ]},
       { name: 'C',
         frameworks: [
@@ -807,6 +809,10 @@ location /rstudio/ {
             url: 'https://thesquareplanet.com/blog/the-path-to-rust/' },
           { name: "Rust for Node Developers",
             url: "https://github.com/Mercateo/rust-for-node-developers" }
+        ],
+        resources: [
+          { name: "Zero-cost futures in Rust",
+            url: "http://aturon.github.io/blog/2016/08/11/futures/" }
         ]},
       { name: 'SmallTalk',
         frameworks: [
@@ -842,6 +848,10 @@ location /rstudio/ {
             url: 'http://hanamirb.org/'},
           { name: 'Trailblazer',
             url: 'http://trailblazer.to/' }
+        ],
+        resources: [
+          { name: "Scaling Rails to 125,000 Requests per Minute on Heroku",
+            url: "https://zeemee.engineering/scaling-rails-to-125-000-requests-per-minute-on-heroku-b4128a10a769#.2g7jkju3o" }
         ]},
       { name: 'Javascript',
         roadmap: [
@@ -878,7 +888,17 @@ location /rstudio/ {
           { name: "Scalable FrontEnd with Redux and Elm architecture",
             url: "https://medium.com/@hunterbmt/scaleable-fe-with-redux-and-elm-architecture-c6812ed0125e#.dj7fkwmh0" },
           { name: "From Zero to Front End Hero",
-            url: "https://medium.freecodecamp.com/from-zero-to-front-end-hero-part-1-7d4f7f0bff02#.v6jbp03iw" }
+            url: "https://medium.freecodecamp.com/from-zero-to-front-end-hero-part-1-7d4f7f0bff02#.v6jbp03iw" },
+          { name: "Recursions without names: Introduction to the Y combinator in javascript",
+            url: "http://blog.klipse.tech/lambda/2016/08/10/almost-y-combinator-javascript.html" },
+          { name: "JavaScript Functional Testing with Nightwatch.js",
+            url: "https://www.sitepoint.com/javascript-functional-testing-nightwatch-js/?utm_source=javascriptweekly&utm_medium=email" },
+          { name: "Parallel Processing in JS",
+            url: "https://advancedweb.hu/2016/08/09/parallel-processing-in-js/?utm_source=javascriptweekly&utm_medium=email" },
+          { name: "Framework Routers and Linking",
+            url: "https://medium.com/@mattburgess/framework-routers-and-linking-98398af89022#.koo6ulv8d" },
+          { name: "React Native Styling Cheat Sheet",
+            url: "https://github.com/vhpoet/react-native-styling-cheat-sheet" }
         ],
         transpiledSurrogates: [
           { name: "Amber (Smalltalk)" },
@@ -1169,10 +1189,16 @@ location /rstudio/ {
         url: "http://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/" },
       { name: "Introduction to Stream Data Processing",
         url: "https://gist.github.com/aviflax/7f453a41a06a200a2f5d" },
-      { name: "Why I Live in IRC",
-        url: "https://aaronparecki.com/2015/08/29/8/why-i-live-in-irc" },
       { name: "OpenStreetMap city blocks as GeoJSON polygons",
-        url: "https://peteris.rocks/blog/openstreetmap-city-blocks-as-geojson-polygons/" }
+        url: "https://peteris.rocks/blog/openstreetmap-city-blocks-as-geojson-polygons/" },
+      { name: "Distributed Logging Architecture in the Container Era",
+        url: "https://blog.treasuredata.com/blog/2016/08/03/distributed-logging-architecture-in-the-container-era/" },
+      { name: "Implementing a Debugger: The Fundamentals",
+        url: "http://backtrace.io/blog/blog/2016/08/11/debugger-internals/" },
+      { name: "Google Fundamentals: Shadow DOM v1: self-contained web components",
+        url: "https://developers.google.com/web/fundamentals/primers/shadowdom/" },
+      { name: "The Basics of SEO",
+        url: "http://themacro.com/articles/2016/08/the-basics-of-seo/" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1495,7 +1521,13 @@ location /rstudio/ {
       { title: "Safia Abdalla: The Hitchhiker's Guide to All Things Memory in Javascript - JSConf Budapest 2016",
         url: "chrome-extension://klbibkeccnjlkjkiokjodocebajanakg/suspended.html#uri=https://www.youtube.com/watch?v=AeUCN2lPqL8" },
       { name: "Essence of Linear Algebra - 3Blue1Brown Video Series",
-        url: "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" }
+        url: "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" },
+      { name: "Propositions as Types",
+        url: "https://www.youtube.com/watch?v=IOiZatlZtGU" },
+      { name: "An Introduction to Service Workers",
+        url: "https://www.youtube.com/watch?v=EnaKD_EHG14" },
+      { name: "Jim Weirich: Adventures in Functional Programming",
+        url: "https://vimeo.com/45140590" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -1540,6 +1572,8 @@ location /rstudio/ {
         url: "https://www.stockfighter.io/#jailbreak" }
       { title: "D3 Garden",
         url: "https://www.rtfmanual.io/d3garden/" },
+      { title: "Return true to win",
+        url: "http://alf.nu/ReturnTrue" }
 
     ],
     recommendations: [
@@ -1606,7 +1640,9 @@ location /rstudio/ {
       { name: "BlackJack Simulator with OMEGA II Card Counting",
         url: "https://github.com/seblau/BlackJack-Simulator" },
       { name: "Algorithms that select which algorithm should play which game",
-        url: "http://togelius.blogspot.com.ar/2016/08/algorithms-that-select-which-algorithm.html" }
+        url: "http://togelius.blogspot.com.ar/2016/08/algorithms-that-select-which-algorithm.html" },
+      { name: "How to Prototype a Game in Under 7 Days",
+        url: "http://www.gamasutra.com/view/feature/130848/how_to_prototype_a_game_in_under_7_.php" }
     ],
     quora: [
       { name: "Why do a lot of developers dislike Agile? answered by Agile co-creator"
@@ -1629,11 +1665,27 @@ writing their own paychecks.",
     ],
     audio: [
       { name: "io808 - An attempt at web-based TR-808 drum machine using React, Redux, and the Web Audio API",
-        url: "http://io808.com/" }
+        url: "http://io808.com/" },
+      { name: "Phonograph.js: Tolerable mobile web audio",
+        url: "https://medium.com/@Rich_Harris/phonograph-js-tolerable-mobile-web-audio-55286bd5e567#.g6rf5rk94" }
     ],
     datasci: [
       { name: "Text analysis of Trump's tweets confirms he writes only the (angrier) Android half",
         url: "http://varianceexplained.org/r/trump-tweets/" }
+    ],
+    oss: [
+      { name: "Netling",
+        desc: "Netling is a load tester client for easy web testing.",
+        url: "https://github.com/hallatore/Netling" },
+      { name: "Portfolio",
+        desc: "Portfolio is a simple blog (a la Medium) and portfolio CMS written in React/Redux(Frontend) and Rails(API)"
+        url: "https://github.com/tsurupin/portfolio" }
+    ],
+    thought: [
+      { name: "Why I Live in IRC",
+        url: "https://aaronparecki.com/2015/08/29/8/why-i-live-in-irc" },
+      { name: "Happiest at Work",
+        url: "http://milkthepigeon.com/2014/03/24/happiest-at-work/" }
     ]
   }
 
@@ -2227,6 +2279,11 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
 + 1-10 Numbers
 + Cursiva / imprenta
 
++ Neural Networks in Javascript
+  http://www.antoniodeluca.info/blog/10-08-2016/neural-networks-in-javascript.html
++ JS Digit Recognition
+  https://github.com/TimboKZ/js-digit-recognition
+
 + ConvNetJS
 + Mind.js
 + Brain.js
@@ -2238,6 +2295,7 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
   + classify.js
   + lyric
   + logistical.js
++ dn2a-javascript (https://github.com/dn2a/dn2a-javascript?utm_source=javascriptweekly&utm_medium=email)
 
 + Deep Learning Books - http://machinelearningmastery.com/deep-learning-books/
 + Tensor flow beginner examples
@@ -2258,6 +2316,9 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
 
 + The Ultimate List of TensorFlow Resources: Books, Tutorials, Libraries and More
   https://hackerlists.com/tensorflow-resources/
+
++ Tensor Methods in Machine Learning
+  http://www.offconvex.org/2015/12/17/tensor-decompositions/
 
 + Top Deep Learning Projects
   https://github.com/aymericdamien/TopDeepLearning

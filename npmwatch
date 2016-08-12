@@ -64,6 +64,7 @@ NPMWatch
   + superagent
   + touch
   + validator
+  + object-iterate
 + TOOLS
   + hyperscript-helpers
   + cheerio
