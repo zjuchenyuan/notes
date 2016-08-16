@@ -153,6 +153,7 @@ NPMWatch
   + tiny-lr
   + uglify-js
   + webpack
+  + webpack-dashboard
 + TESTING
   + eslint
     + eslint-airbnb

@@ -873,12 +873,16 @@ location /rstudio/ {
             url: "https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/" },
           { name: "How Do I Learn Functional Programming?",
             url: "http://www.fse.guru/how-do-i-learn-some-fp" },
+          { name: "JS The Right Way",
+            url: "http://jstherightway.org/" },
           { name: "JS Interview Review",
             url: "https://github.com/adam-s/js-interview-review"},
           { name: "Introduction to Functional Programming in Javascript",
             url: "https://asep.co/introduction-to-functional-programming-in-javascript-part-1/" },
           { name: "Javascript and Functional Programming",
-            url: "https://bethallchurch.github.io/JavaScript-and-Functional-Programming/" }
+            url: "https://bethallchurch.github.io/JavaScript-and-Functional-Programming/" },
+          { title: 'The introduction to Reactive Programming you've been missing',
+            url: "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754" }
         ],
         resources: [
           { name: "Pragmatic Modularity - Writing great NPM packages",
@@ -898,7 +902,9 @@ location /rstudio/ {
           { name: "Framework Routers and Linking",
             url: "https://medium.com/@mattburgess/framework-routers-and-linking-98398af89022#.koo6ulv8d" },
           { name: "React Native Styling Cheat Sheet",
-            url: "https://github.com/vhpoet/react-native-styling-cheat-sheet" }
+            url: "https://github.com/vhpoet/react-native-styling-cheat-sheet" },
+          { name: "The rise of functional programming & the decline of Angular 2.0",
+            url: "http://blog.wolksoftware.com/the-rise-of-functional-programming-and-the-death-of-angularjs" }
         ],
         transpiledSurrogates: [
           { name: "Amber (Smalltalk)" },
@@ -1008,7 +1014,11 @@ location /rstudio/ {
       { name: "The Hitchhiker's Guide to Python",
         url: "http://docs.python-guide.org/en/latest/" },
       { name: "Data Analysis and Visualization Using R",
-        url: "http://varianceexplained.org/RData/" }
+        url: "http://varianceexplained.org/RData/" },
+      { name: "Computational and Inferential Thinking - The Foundations of Data Science",
+        url: "http://www.inferentialthinking.com/" },
+      { name: "Building a C Compiler Type System",
+        url: "http://blog.robertelder.org/building-a-c-compiler-type-system-the-formidable-declarator/" }
     ],
     mooc: [
       { name: "Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship",
@@ -1198,7 +1208,23 @@ location /rstudio/ {
       { name: "Google Fundamentals: Shadow DOM v1: self-contained web components",
         url: "https://developers.google.com/web/fundamentals/primers/shadowdom/" },
       { name: "The Basics of SEO",
-        url: "http://themacro.com/articles/2016/08/the-basics-of-seo/" }
+        url: "http://themacro.com/articles/2016/08/the-basics-of-seo/" },
+      { name: "NoSQL Databases: a Survey and Decision Guidance",
+        url: "https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d#.ar71pjywo"},
+      { name: "Computational Complexity Theory",
+        url: "http://plato.stanford.edu/entries/computational-complexity/" },
+      { name: "Richard Feynman and The Connection Machine",
+        url: "http://longnow.org/essays/richard-feynman-connection-machine/" },
+      { name: "CHSH - Interactive explanation of the quantum Bell test",
+        url: "https://peteshadbolt.co.uk/chsh/" },
+      { name: "Explorable Explanations",
+        url: "http://explorableexplanations.com/" },
+      { name: "Andre Staltz - UNIDIRECTIONAL USER INTERFACE ARCHITECTURES",
+        url: "http://staltz.com/unidirectional-user-interface-architectures.html" },
+      { name: "Visualizing Clusters of Clickbait Headlines Using Spark, Word2vec, and Plotly",
+        url: "http://minimaxir.com/2016/08/clickbait-cluster/" },
+      { name: "Journey to HTTP/2",
+        url: "http://kamranahmed.info/blog/2016/08/13/http-in-depth/" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1400,7 +1426,11 @@ location /rstudio/ {
       { title: "Browser Based Timing Attacks",
         url: "https://tom.vg/2016/08/browser-based-timing-attacks/" },
       { name: "masscan - scanning entire Internet in under 5 minutes.",
-        url: "https://github.com/robertdavidgraham/masscan" }
+        url: "https://github.com/robertdavidgraham/masscan" },
+      { name: "The Shadow Brokers: Lifting the Shadows of the NSA’s Equation Group?",
+        url: "https://www.riskbasedsecurity.com/2016/08/the-shadow-brokers-lifting-the-shadows-of-the-nsas-equation-group/" },
+      { name: "EquationGroup Tool Leak – ExtraBacon Demo",
+        url: "https://xorcatt.wordpress.com/2016/08/16/equationgroup-tool-leak-extrabacon-demo/" }
     ],
     videos: [
       { title: 'Turning the database inside out',
@@ -1642,7 +1672,21 @@ location /rstudio/ {
       { name: "Algorithms that select which algorithm should play which game",
         url: "http://togelius.blogspot.com.ar/2016/08/algorithms-that-select-which-algorithm.html" },
       { name: "How to Prototype a Game in Under 7 Days",
-        url: "http://www.gamasutra.com/view/feature/130848/how_to_prototype_a_game_in_under_7_.php" }
+        url: "http://www.gamasutra.com/view/feature/130848/how_to_prototype_a_game_in_under_7_.php" },
+      { name: "Low Polyz Saturn in JS",
+        url: "http://whitestormjs.xyz/playground/?example=saturn&dir=demo" },
+      { name: "sdl-gpu - A library for high-performance, modern 2D graphics with SDL written in C",
+        url: "https://github.com/grimfang4/sdl-gpu" },
+      { name: "PINCE - gdb front-end/reverse engineering tool focused on games",
+        url: "https://github.com/korcankaraokcu/PINCE" },
+      { name: "Classic Game Programmer Interviews",
+        url: "http://www.dadgum.com/halcyon/BOOK/MISC/CONTENTS.HTM" },
+      { name: "Building a Game Network Protocol",
+        url: "http://gafferongames.com/building-a-game-network-protocol/" }
+    ],
+    games: [
+      { name: "Spaceplan",
+        url: "http://jhollands.co.uk/spaceplan/" }
     ],
     quora: [
       { name: "Why do a lot of developers dislike Agile? answered by Agile co-creator"
@@ -1657,7 +1701,9 @@ location /rstudio/ {
         url: "http://revenuenumbers.com/" },
       { name: "IndieHackers - Learn how developers are
 writing their own paychecks.",
-        url: "https://www.indiehackers.com/businesses" }
+        url: "https://www.indiehackers.com/businesses" },
+      { name: "How Top B2B Startups are Creating Case Studies to Turn Leads Into Customers",
+        url: "http://sketchdeck.com/blog/how-top-b2b-startups-are-creating-case-studies-to-turn-leads-into-customers" }
     ],
     sci: [
       { name: "A Unified Theory of Random",
@@ -1685,7 +1731,21 @@ writing their own paychecks.",
       { name: "Why I Live in IRC",
         url: "https://aaronparecki.com/2015/08/29/8/why-i-live-in-irc" },
       { name: "Happiest at Work",
-        url: "http://milkthepigeon.com/2014/03/24/happiest-at-work/" }
+        url: "http://milkthepigeon.com/2014/03/24/happiest-at-work/" },
+      { name: "What Lessons do People Learn too Late in Life?",
+        url: "https://medium.com/@ChrisHerd/what-lessons-do-people-learn-too-late-in-life-b9137fb0989f#.8r9k9umc0" },
+      { name: "The Traits of a Proficient Programmer",
+        url: "https://www.oreilly.com/ideas/the-traits-of-a-proficient-programmer" },
+      { name: "Optimism",
+        url: "https://github.com/raganwald/presentations/blob/master/optimism.md" }
+    ],
+    languages: [
+      { name: "An Introduction to Japanase",
+        url: "https://pomax.github.io/nrGrammar/" }
+    ],
+    people: [
+      { name: "How Elon Muxk Thinks",
+        url: "http://www.searchtrack.co/viewproject/92/how-elon-musk-thinks?source=socialquo&rc=120594565rcXCEQyvinJylCn" }
     ]
   }
 
@@ -1945,6 +2005,8 @@ Skate 40%
   https://github.com/scrapinghub/portia
   https://blog.scrapinghub.com/2016/07/07/scrapely-the-brains-behind-portia-spiders/
   https://github.com/mozilla/fathom (A framework for extracting meaning from web pages)
+
+  http://loige.co/extracting-data-from-wikipedia-using-curl-grep-cut-and-other-bash-commands/
 
 
 === Design Refs ==============
@@ -2332,7 +2394,25 @@ by Adam Gibson (Author), Josh Patterson (Author) OReilly
   https://github.com/tensorflow/magenta/tree/master/magenta/reviews
   Collection of must read papers in the Neural Networks field
 
++ Machine Learning Exercises In Python
+http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-1/
+http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-2/
+http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-3/
+http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-4/
+http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-5/
+http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-6/
+http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-7/
+http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
 
++ ML and Ketosis
+https://github.com/arielf/weight-loss
+
++ Theano Implementation of Tree RNNs
+  https://github.com/ofirnachum/tree_rnn
+
+# Online NN
++ Kepler
++ Aetros.com
 
 Ask HN: From programming to AI, how?
 vaibkv 1 hour ago
@@ -3024,7 +3104,11 @@ var starters = [
   { name: "typescript-webpack-starter",
     desc: "A damn simple ES6 and Typescript Starter kit using webpack for packaging. Perfect for bootstraping your javascript project regardless any framework.",
     url: "https://github.com/emyann/typescript-webpack-starter",
-    keywords: ["typescript", "webpack", "babel"]}
+    keywords: ["typescript", "webpack", "babel"]},
+  { name: "Neuron",
+    desc: "ES6 React Electron Starter Kit - Neuron is an offline first starter kit for developers wanting to create cross platform desktop applications with Electron",
+    url: "https://github.com/JamesTheHacker/Neuron",
+    keywords: ["ES6", "React", "Electron", "webpack", "sass", "pouchdb"] }
 ];
 
 Head First C
