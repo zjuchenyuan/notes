@@ -6,6 +6,7 @@ NPMWatch
 + APP / Architecture
   + express
     + express-session
+    + express-status-monitor
   + hapi
   + koa
   + reflux

@@ -425,197 +425,6 @@
     + https://www.sideprojectors.com/
     + https://empireflippers.com/
 
-+ == BI SETUP ===============
-1 . Install Docker
-    https://docs.docker.com/engine/installation/linux/ubuntulinux/
-2 . Install Node
-    https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
-3 . Install PM2
-    sudo npm install pm2 -g
-4 . Install Nginx
-    sudo apt-get install nginx
-5 . Setup nginx config: /etc/nginx/conf.d/default.conf
-server {
-    listen 80;
-
-    server_name bi-tools.etermax.com;
-
-    location / {
-        proxy_pass http://bi-tools.etermax.com:5000;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_cache_bypass $http_upgrade;
-    }
-location /shiny/ {
-  proxy_pass http://127.0.0.1:3838/;
-}
-
-location /rstudio/ {
-  proxy_pass http://127.0.0.1:8787/;
-}
-}
-6 . Clone repo & try
-
-
-
-
-+ BUGS nueva data
-  + DONE
-    + no_role
-      - parece no ser diario
-      - se multiplica por 4
-      - query:
-        select *
-        from bds.tck_cha_summary_daily
-        where channel_id = 30
-        and date = '2016-06-14'
-        limit 10;
-    + administrator_role
-    + collaborator_role
-    + moderator_role
-      - vienen vacios
-    + community metrics:
-      - agregar en home
-    + join_range obj to arr mixup prob
-    + ------------------- +
-    + add sort by Community Roles to filters
-    + list sorting broken on k
-    + Al filtrar por community muestra mal la cant de results
-    +
-
-
-  + IN PROGRESS
-    + metricas nuevas leo:
-      + Estas se suman al set question_approved/rejected/created_by_admin que ya habia
-        + question_approved_by_moderator
-        + question_rejected_by_moderator
-        + question_created_by_moderator
-        + question_approved_by_owner
-        + question_rejected_by_owner
-        + question_created_by_owner
-      + questions_in_revision_status_with_vote se abre y pasa a ser:
-        + votes_in_revision_likes
-        + votes_in_revision_dislikes
-
-  + PENDING
-    + amount_times_expired_in_game_without_opponent
-    + answers_correct + answers_incorrect (viejo diff) no concuerda con answers_correct + answers_incorrect (nuevo metric2)
-    + country >> add chart/map
-    + games_completed ??? >> Agregar games_finished
-    + Gamestats: sales US+TR no suma bien (tb probar con tres US+TR+IT)
-
-  + CURIOUS
-    + canales raros: justin
-      - vicschannel
-      - ilovejustin
-      - trivia_crack_trivia_
-      - fireemblem
-
-
-
-
-+ AUDIENCE
-  + DAU
-  + Followers
-  + New Followers
-  + Social
-  + Buyers
-  + New Buyers
-  + Gender
-  + Platform
-  + Join Range
-
-+ QUESTIONS
-  + Enabled/Disabled Totals
-  + Approved/Rejected/Created by Owner daily
-  + Approved/Rejected/Created by Admin daily
-  + Approved/Rejected/Created by Moderator daily
-
-  + User activity: suggested/translated daily
-  + Likes/Dislikes/Unique in Revision
-  + Question reports
-
-+ USER ACTIVITY
-  + Activity Index (Q/DAU)
-  + Correct/Incorrect/Unique daily
-  + Likes/Dislikes/Uniques daily
-  + Games created/Uniques
-
-  + Answered / Answered Daily
-
-+ CHANNEL STATUS
-  + Promoted
-  + Quality
-  + Diff
-  + Reports
-  + Roles
-
-
-
-+ AUDIENCE
-  - DAU
-  - Followers
-  - New Followers
-  - Social
-  - Buyers
-  - New Buyers
-  - Gender
-  - Platform
-  - Join Range
-
-+ CONTENT
-  - Enabled/Disabled Totals
-  - Approved/Rejected/Created by Owner daily
-  ? Approved/Rejected/Created by Admin daily
-  ? Approved/Rejected/Created by Moderator daily
-
-  - User activity: suggested/translated daily
-  - Likes/Dislikes/Unique in Revision
-  + Question reports
-
-+ USER ACTIVITY
-  - Activity Index (Q/DAU)
-  - Correct/Incorrect/Unique daily
-  - Likes/Dislikes/Uniques daily
-  - Games created/Uniques
-
-  - Answered / Answered Daily
-
-+ CHANNEL STATUS
-  - Promoted
-  + Quality
-  + Diff
-  + Reports
-  + Roles
-
-
-
-
-
-+ NEW TOOLS
-  + Editores
-    + Lista
-    + Details
-  + Procesos Automaticos
-  + Overview
-
-
-
-+ CH CH CHanges Seba
-  + DAU en Home (sort)
-    + join primero
-    + cha_raw dps
-  + DAU: Apertura por:
-    + content_interactions_by_mods_unique
-    + content_interactions_by_audience_unique
-    + game_interactions_unique -> answers_unique
-    + guest_interactions_unique
-  + Home: Filter by country
-    + agregar en cha raw?
-    + join en cha_raw
-  + Details: Questions Ena/Dis sacar pie chart y mostrar totals somewhere
-  + Home: agregar delta en Played + sort filter %
 
 
 + MAP
@@ -746,6 +555,10 @@ location /rstudio/ {
             url: "http://magic.io/blog/asyncpg-1m-rows-from-postgres-to-python/" },
           { name: "uvloop: Blazing fast Python networking",
             url: "http://magic.io/blog/uvloop-blazing-fast-python-networking/" }
+        ],
+        tools: [
+          { name: "Pendulum = Python datetimes made easy",
+            url: "https://github.com/sdispater/pendulum" }
         ]},
       { name: 'GoLang',
         resources:
@@ -797,7 +610,9 @@ location /rstudio/ {
       { name: 'R',
         resources: [
           { name: "Start here to learn R!",
-            url: "http://r-exercises.com/2016/07/22/start-here-to-learn-r/" }
+            url: "http://r-exercises.com/2016/07/22/start-here-to-learn-r/" },
+          { name: "15 Page Tutorial for R",
+            url: "http://www.studytrails.com/blog/15-page-tutorial-for-r/" }
         ] },
       { name: 'Rust',
         roadmap: [
@@ -952,7 +767,17 @@ location /rstudio/ {
           { name: "A begginers guide to thinking in SQL",
             url: "http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/"}
         ]},
-      P name: "Crystal (Fast as C, Slick as Ruby)"
+      { name: "Crystal (Fast as C, Slick as Ruby)" },
+      { name: "Docker",
+        resources: [
+          { name: "How To Set Up And Deploy To A 1000-Node Docker Swarm",
+            url: "http://blog.nimbleci.com/2016/08/17/how-to-set-up-and-deploy-to-a-1000-node-docker-swarm/" }
+      ]},
+      { name: "Serverless",
+        resources: [
+          { name: "30K Page Views for $0.21: A Serverless Story",
+            url: "https://fmlnerd.com/2016/08/16/30k-page-views-for-0-21-a-serverless-story/" }
+      ]}
     ],
     codeReading: [
       { name: 'Coffeescript', author: 'Jeremy Ashkenas'},
@@ -1224,7 +1049,17 @@ location /rstudio/ {
       { name: "Visualizing Clusters of Clickbait Headlines Using Spark, Word2vec, and Plotly",
         url: "http://minimaxir.com/2016/08/clickbait-cluster/" },
       { name: "Journey to HTTP/2",
-        url: "http://kamranahmed.info/blog/2016/08/13/http-in-depth/" }
+        url: "http://kamranahmed.info/blog/2016/08/13/http-in-depth/" },
+      { name: "Using Predictive Algorithms to Track Real Time Health Trends",
+        url: "http://blog.algorithmia.com/predictive-algorithms-track-real-time-health-trends/" },
+      { name: "Git Workflow Basics",
+        url: "https://blog.codeminer42.com/git-workflow-basics-d405746f6205#.e0risal86" },
+      { name: "Intro to Multicriteria Optimization",
+        url: "http://blog.sigopt.com/post/149041563563/sigopt-in-depth-intro-to-multicriteria" }
+    ],
+    implementations: [
+      { name: "30k Page Views for $0.21 - A Serverless story",
+        url: "https://fmlnerd.com/2016/08/16/30k-page-views-for-0-21-a-serverless-story/" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1384,7 +1219,13 @@ location /rstudio/ {
       { title: "High Performance Browser Networking",
         url: "https://hpbn.co/" },
       { title: "Professional Software Development",
-        url: "http://mixmastamyk.bitbucket.org/pro_soft_dev/"}
+        url: "http://mixmastamyk.bitbucket.org/pro_soft_dev/"},
+      { title: "React Enlightenment",
+        url: "http://www.reactenlightenment.com/" },
+      { title: "DOM Enlightenment",
+        url: "http://domenlightenment.com/" },
+      { title: "Javascript Enlightenment",
+        url: "http://www.javascriptenlightenment.com/" }
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
@@ -1583,7 +1424,9 @@ location /rstudio/ {
     books: [
       { title: "The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future",
         author: 'Kevin Kelly' },
-      { title: "Early Retirement Extreme: A philosophical and practical guide to financial independence" }
+      { title: "Early Retirement Extreme: A philosophical and practical guide to financial independence" },
+      { name: "The Online Books Page",
+        url: "http://onlinebooks.library.upenn.edu/archives.html" }
     ],
     onlineCoding: [
       { title: 'HackerRank',
@@ -1682,7 +1525,9 @@ location /rstudio/ {
       { name: "Classic Game Programmer Interviews",
         url: "http://www.dadgum.com/halcyon/BOOK/MISC/CONTENTS.HTM" },
       { name: "Building a Game Network Protocol",
-        url: "http://gafferongames.com/building-a-game-network-protocol/" }
+        url: "http://gafferongames.com/building-a-game-network-protocol/" },
+      { name: "Developing a 3d Street Basketball Game in the browser",
+        url: "https://medium.com/whitestormjs-framework/developing-a-street-basketball-game-part-i-getting-workflow-ready-f4f6968e4d10#.78gfj6arc" }
     ],
     games: [
       { name: "Spaceplan",
@@ -1725,7 +1570,15 @@ writing their own paychecks.",
         url: "https://github.com/hallatore/Netling" },
       { name: "Portfolio",
         desc: "Portfolio is a simple blog (a la Medium) and portfolio CMS written in React/Redux(Frontend) and Rails(API)"
-        url: "https://github.com/tsurupin/portfolio" }
+        url: "https://github.com/tsurupin/portfolio" },
+      { name: "doc_ripper",
+        desc: "Parse text contents from common file formats",
+        url: "https://github.com/pzaich/doc_ripper"},
+      { name: "SurfingKeys",
+        desc: "Map your keys for web surfing, expand your browser with javascript and keyboard."
+        url: "https://github.com/brookhong/Surfingkeys"},
+      { name: "Particles.js",
+        url: "https://github.com/marcbruederlin/particles.js" }
     ],
     thought: [
       { name: "Why I Live in IRC",
@@ -1737,7 +1590,9 @@ writing their own paychecks.",
       { name: "The Traits of a Proficient Programmer",
         url: "https://www.oreilly.com/ideas/the-traits-of-a-proficient-programmer" },
       { name: "Optimism",
-        url: "https://github.com/raganwald/presentations/blob/master/optimism.md" }
+        url: "https://github.com/raganwald/presentations/blob/master/optimism.md" },
+      { name: "What Great Listeners Actually Do",
+        url: "https://hbr.org/2016/07/what-great-listeners-actually-do" }
     ],
     languages: [
       { name: "An Introduction to Japanase",
@@ -1750,6 +1605,9 @@ writing their own paychecks.",
   }
 
 + LISP
+  https://github.com/apoterenko/javascript-ebooks
+  https://github.com/superstrings/Ebook
+
   Successful Lisp
   http://psg.com/~dlamkins/sl/contents.html
 
