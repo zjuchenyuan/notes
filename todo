@@ -729,7 +729,9 @@
           { name: "React Native Styling Cheat Sheet",
             url: "https://github.com/vhpoet/react-native-styling-cheat-sheet" },
           { name: "The rise of functional programming & the decline of Angular 2.0",
-            url: "http://blog.wolksoftware.com/the-rise-of-functional-programming-and-the-death-of-angularjs" }
+            url: "http://blog.wolksoftware.com/the-rise-of-functional-programming-and-the-death-of-angularjs" },
+          { name: "Bootstrapping a React project from Scratch",
+            url: "https://auth0.com/blog/bootstrapping-a-react-project/?utm_source=javascriptweekly&utm_medium=email" }
         ],
         transpiledSurrogates: [
           { name: "Amber (Smalltalk)" },
@@ -782,6 +784,11 @@
         resources: [
           { name: "How To Set Up And Deploy To A 1000-Node Docker Swarm",
             url: "http://blog.nimbleci.com/2016/08/17/how-to-set-up-and-deploy-to-a-1000-node-docker-swarm/" }
+      ]},
+      { name: "Racket",
+        resources: [
+          { name: "Tutorial: Zero to Sixty in Racket",
+            url: "http://prl.ccs.neu.edu/blog/2016/08/02/tutorial-zero-to-sixty-in-racket/" }
       ]},
       { name: "Serverless",
         resources: [
@@ -1065,7 +1072,11 @@
       { name: "Git Workflow Basics",
         url: "https://blog.codeminer42.com/git-workflow-basics-d405746f6205#.e0risal86" },
       { name: "Intro to Multicriteria Optimization",
-        url: "http://blog.sigopt.com/post/149041563563/sigopt-in-depth-intro-to-multicriteria" }
+        url: "http://blog.sigopt.com/post/149041563563/sigopt-in-depth-intro-to-multicriteria" },
+      { name: "Building the Soundcloud App - An In-depth Retrospective",
+        url: "http://www.michaelevensen.com/" },
+      { name: "Page dewarping",
+        url: "https://mzucker.github.io/2016/08/15/page-dewarping.html" }
     ],
     implementations: [
       { name: "30k Page Views for $0.21 - A Serverless story",
@@ -1235,7 +1246,9 @@
       { title: "DOM Enlightenment",
         url: "http://domenlightenment.com/" },
       { title: "Javascript Enlightenment",
-        url: "http://www.javascriptenlightenment.com/" }
+        url: "http://www.javascriptenlightenment.com/" },
+      { title: "F# for Fun and Profit",
+        url: "https://www.gitbook.com/book/swlaschin/fsharpforfunandprofit/details" }
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
@@ -1408,7 +1421,11 @@
       { name: "An Introduction to Service Workers",
         url: "https://www.youtube.com/watch?v=EnaKD_EHG14" },
       { name: "Jim Weirich: Adventures in Functional Programming",
-        url: "https://vimeo.com/45140590" }
+        url: "https://vimeo.com/45140590" },
+      { name: "Jake Archibald - Instant-loading Offline-first (Progressive Web App Summit 2016)",
+        url: "https://www.youtube.com/watch?v=qDJAz3IIq18" },
+      { name: "Instant loading with HTTP/2 (Progressive Web App Summit 2016)",
+        url: "https://www.youtube.com/watch?v=G62aCRIlONU" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -1492,6 +1509,8 @@
 
     ],
     gamedev: [
+      { name: "WhiteStormJS",
+        url: "http://whitestormjs.xyz/" },
       { name: "Spaceship Generator",
         url: "https://github.com/a1studmuffin/SpaceshipGenerator/" },
       { name: "VoltAir",
@@ -1537,7 +1556,13 @@
       { name: "Building a Game Network Protocol",
         url: "http://gafferongames.com/building-a-game-network-protocol/" },
       { name: "Developing a 3d Street Basketball Game in the browser",
-        url: "https://medium.com/whitestormjs-framework/developing-a-street-basketball-game-part-i-getting-workflow-ready-f4f6968e4d10#.78gfj6arc" }
+        url: "https://medium.com/whitestormjs-framework/developing-a-street-basketball-game-part-i-getting-workflow-ready-f4f6968e4d10#.78gfj6arc" },
+      { name: "A minimal raytracer",
+        url: "https://mzucker.github.io/2016/08/03/miniray.html" },
+      { name: "Drawing Isometric Boxes in the Correct Order",
+        url: "http://shaunlebron.github.io/IsometricBlocks/" },
+      { name: "Playing with Fire in WebGL",
+        url: "http://ghostinthecode.net/2016/08/17/fire.html" }
     ],
     games: [
       { name: "Spaceplan",
@@ -1558,11 +1583,17 @@
 writing their own paychecks.",
         url: "https://www.indiehackers.com/businesses" },
       { name: "How Top B2B Startups are Creating Case Studies to Turn Leads Into Customers",
-        url: "http://sketchdeck.com/blog/how-top-b2b-startups-are-creating-case-studies-to-turn-leads-into-customers" }
+        url: "http://sketchdeck.com/blog/how-top-b2b-startups-are-creating-case-studies-to-turn-leads-into-customers" },
+      { name: "33 Mobile Game Benchmarks and Rules of Thumb",
+        url: "http://blog.soom.la/2016/08/33-benchmarks-in-mobile-games-business.html" },
+      { name: "How the VPN industry is creating its stake in online gaming",
+        url: "https://techcrunch.com/2016/08/18/how-the-vpn-industry-is-creating-its-stake-in-online-gaming/?ncid=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29" }
     ],
     sci: [
       { name: "A Unified Theory of Random",
-        url: "https://www.quantamagazine.org/20160802-unified_theory_of_randomness/" }
+        url: "https://www.quantamagazine.org/20160802-unified_theory_of_randomness/" },
+      { name: "Lagrange points redux",
+        url: "http://leancrew.com/all-this/2016/08/lagrange-points-redux/" }
     ],
     audio: [
       { name: "io808 - An attempt at web-based TR-808 drum machine using React, Redux, and the Web Audio API",
@@ -1588,7 +1619,9 @@ writing their own paychecks.",
         desc: "Map your keys for web surfing, expand your browser with javascript and keyboard."
         url: "https://github.com/brookhong/Surfingkeys"},
       { name: "Particles.js",
-        url: "https://github.com/marcbruederlin/particles.js" }
+        url: "https://github.com/marcbruederlin/particles.js" },
+      { name: "save-as-ebook",
+        url: "https://github.com/alexadam/save-as-ebook" }
     ],
     thought: [
       { name: "Why I Live in IRC",
@@ -1602,7 +1635,9 @@ writing their own paychecks.",
       { name: "Optimism",
         url: "https://github.com/raganwald/presentations/blob/master/optimism.md" },
       { name: "What Great Listeners Actually Do",
-        url: "https://hbr.org/2016/07/what-great-listeners-actually-do" }
+        url: "https://hbr.org/2016/07/what-great-listeners-actually-do" },
+      { name: "The 80 hour Myth",
+        url: "https://startupboy.com/2005/11/29/the-80-hour-myth/" }
     ],
     languages: [
       { name: "An Introduction to Japanase",
@@ -2281,6 +2316,8 @@ https://github.com/arielf/weight-loss
 # Online NN
 + Kepler
 + Aetros.com
+
++ https://iamtrask.github.io/2016/08/17/grokking-deep-learning/
 
 Ask HN: From programming to AI, how?
 vaibkv 1 hour ago
