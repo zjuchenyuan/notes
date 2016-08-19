@@ -94,6 +94,7 @@
       + Genetic Evolution
         + https://github.com/penguinpress/watchmaker.js
         + http://www.mountimprobable.com/
+      + Nim
     + Tools
       + Phaser
         + http://www.joshmorony.com/how-to-add-weather-effects-in-phaser-games/
@@ -114,6 +115,7 @@
   + DickPillow
   + T Shirts - Startup Threads
   + The Simple Co. - https://medium.com/desk-of-van-schneider/lauren-singer-runs-a-company-with-one-business-goal-go-out-of-business-58039cc474b4#.mu18ynz06
+  + https://www.greycork.com/
 
 + == theList =============
   + 1. 4k
@@ -419,6 +421,7 @@
   + tree
   + rclone
   + awkward
+  + https://github.com/mchav/With
 
 + 30 Days
   + PHP
@@ -434,6 +437,33 @@
     + https://flippa.com/
     + https://www.sideprojectors.com/
     + https://empireflippers.com/
+
+
++ Vim
+  + https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/
+  + http://thenorthcode.net/2016/01/11/using-vim-as-a-javascript-ide/
+
+  + Plugins
+    + Vundle
+    + NERDTree
+    + CtrlP
+    + vim-json
+    + YouCompleteMe
+    + supertab
+    + vim-airline
+    + vim-gitgutter
+    + vim-easymotion
+    + GUndo
+    + syntastic
+    + vim-commentary
+    + vim-surround
+
+    + vim-pathogen
+    + vim-fugitive
+    + Solarized?
+    + Tagbar
+
+    + vim-javascript
 
 
 
@@ -763,6 +793,11 @@
             url: "https://medium.com/from-the-couch/scala-for-human-beings-ee079f14e3a0"}
           }
         ]},
+      { name: "PHP",
+        resources: [
+          { name: "PHP The Wrong Way",
+            url: "http://www.phpthewrongway.com/" }
+      ]},
       { name: "Kotlin" },
       { name: "Assembly",
         roadmap: [
@@ -1076,7 +1111,9 @@
       { name: "Building the Soundcloud App - An In-depth Retrospective",
         url: "http://www.michaelevensen.com/" },
       { name: "Page dewarping",
-        url: "https://mzucker.github.io/2016/08/15/page-dewarping.html" }
+        url: "https://mzucker.github.io/2016/08/15/page-dewarping.html" },
+      { name: "Game Theory - Prison Breakthrough",
+        url: "http://www.economist.com/news/economics-brief/21705308-fifth-our-series-seminal-economic-ideas-looks-nash-equilibrium-prison" }
     ],
     implementations: [
       { name: "30k Page Views for $0.21 - A Serverless story",
@@ -1562,7 +1599,9 @@
       { name: "Drawing Isometric Boxes in the Correct Order",
         url: "http://shaunlebron.github.io/IsometricBlocks/" },
       { name: "Playing with Fire in WebGL",
-        url: "http://ghostinthecode.net/2016/08/17/fire.html" }
+        url: "http://ghostinthecode.net/2016/08/17/fire.html" },
+      { name: "Posio - A multiplayer geography game using Websockets",
+        url: "https://github.com/abrenaut/posio" }
     ],
     games: [
       { name: "Spaceplan",
@@ -1575,6 +1614,12 @@
     mobile: [
       { name: "Native Base",
         url: "http://nativebase.io/" }
+    ],
+    passive: [
+      { name: "Ask HN: Best passive income method for a solo developer?",
+        url: "https://news.ycombinator.com/item?id=12318449" },
+      { name: "Ask HN: What was your best passive income in 2015?",
+        url: "https://news.ycombinator.com/item?id=10726489" }
     ],
     business: [
       { name: "Revenue Numbers",
@@ -1603,7 +1648,9 @@ writing their own paychecks.",
     ],
     datasci: [
       { name: "Text analysis of Trump's tweets confirms he writes only the (angrier) Android half",
-        url: "http://varianceexplained.org/r/trump-tweets/" }
+        url: "http://varianceexplained.org/r/trump-tweets/" },
+      { name: "The Open Data Science Masters",
+        url: "http://datasciencemasters.org/"}
     ],
     oss: [
       { name: "Netling",
@@ -1637,7 +1684,11 @@ writing their own paychecks.",
       { name: "What Great Listeners Actually Do",
         url: "https://hbr.org/2016/07/what-great-listeners-actually-do" },
       { name: "The 80 hour Myth",
-        url: "https://startupboy.com/2005/11/29/the-80-hour-myth/" }
+        url: "https://startupboy.com/2005/11/29/the-80-hour-myth/" },
+      { name: "The stuff we really need is getting more expensive. Other stuff is getting cheaper.",
+        url: "https://www.washingtonpost.com/news/wonk/wp/2016/08/17/the-stuff-we-really-need-is-getting-more-expensive-other-stuff-is-getting-cheaper/" },
+      { name: "Eleven Reasons To Be Excited About The Future of Technology",
+        url: "https://medium.com/@cdixon/eleven-reasons-to-be-excited-about-the-future-of-technology-ef5f9b939cb2#.i5e7kcjbz" }
     ],
     languages: [
       { name: "An Introduction to Japanase",
