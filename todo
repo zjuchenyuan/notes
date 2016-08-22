@@ -588,7 +588,9 @@
           { name: "coconut",
             url: "http://coconut-lang.org/" },
           { name: "Kivy",
-            url: "https://kivy.org" }
+            url: "https://kivy.org" },
+          { name: "Kyokai",
+            url: "https://mirai.veriny.tf/en/latest/" }
         ],
         articles: [
           { name: "1M rows/s from Postgres to Python",
@@ -624,7 +626,11 @@
           { name: "iris",
             url: "http://iris-go.com/" }
         ]},
-      { name: 'Haskell' },
+      { name: 'Haskell',
+        resources: [
+          { name: "Pitfalls in Haskell",
+            url: "http://users.jyu.fi/~sapekiis/haskell-pitfalls/" }
+      ]},
       { name: 'Elm',
         resources: [
           { name: "Elm for Beginners",
@@ -652,7 +658,9 @@
           { name: "Start here to learn R!",
             url: "http://r-exercises.com/2016/07/22/start-here-to-learn-r/" },
           { name: "15 Page Tutorial for R",
-            url: "http://www.studytrails.com/blog/15-page-tutorial-for-r/" }
+            url: "http://www.studytrails.com/blog/15-page-tutorial-for-r/" },
+          { name: "Playing with Syntax",
+            url: "http://stevelosh.com/blog/2016/08/playing-with-syntax/" }
         ] },
       { name: 'Rust',
         roadmap: [
@@ -706,7 +714,9 @@
         ],
         resources: [
           { name: "Scaling Rails to 125,000 Requests per Minute on Heroku",
-            url: "https://zeemee.engineering/scaling-rails-to-125-000-requests-per-minute-on-heroku-b4128a10a769#.2g7jkju3o" }
+            url: "https://zeemee.engineering/scaling-rails-to-125-000-requests-per-minute-on-heroku-b4128a10a769#.2g7jkju3o" },
+          { name: "How I Finally Learned Rails",
+            url: "https://medium.com/ruby-on-rails/how-i-finally-learned-rails-95e9b832675b#.7fd4so8gy" }
         ]},
       { name: 'Javascript',
         roadmap: [
@@ -737,7 +747,9 @@
           { name: "Javascript and Functional Programming",
             url: "https://bethallchurch.github.io/JavaScript-and-Functional-Programming/" },
           { title: 'The introduction to Reactive Programming you've been missing',
-            url: "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754" }
+            url: "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754" },
+          { title: "Yes, You Should Learn Vanilla JavaScript Before Fancy JS Frameworks",
+            url: "https://snipcart.com/blog/learn-vanilla-javascript-before-using-js-frameworks" }
         ],
         resources: [
           { name: "Pragmatic Modularity - Writing great NPM packages",
@@ -790,7 +802,9 @@
           { name: "From first principles: Why I bet on Scala.js",
             url: "http://www.lihaoyi.com/post/FromfirstprinciplesWhyIbetonScalajs.html" },
           { name: "Scala for Human Beings - Getting started with Scala, the easy way",
-            url: "https://medium.com/from-the-couch/scala-for-human-beings-ee079f14e3a0"}
+            url: "https://medium.com/from-the-couch/scala-for-human-beings-ee079f14e3a0"},
+          { name: "Higher-kinded types: the difference between giving up, and moving forward",
+            url: "http://typelevel.org/blog/2016/08/21/hkts-moving-forward.html" }
           }
         ]},
       { name: "PHP",
@@ -1113,11 +1127,23 @@
       { name: "Page dewarping",
         url: "https://mzucker.github.io/2016/08/15/page-dewarping.html" },
       { name: "Game Theory - Prison Breakthrough",
-        url: "http://www.economist.com/news/economics-brief/21705308-fifth-our-series-seminal-economic-ideas-looks-nash-equilibrium-prison" }
+        url: "http://www.economist.com/news/economics-brief/21705308-fifth-our-series-seminal-economic-ideas-looks-nash-equilibrium-prison" },
+      { name: "History of the GIF",
+        url: "http://www.popularmechanics.com/technology/a21457/the-gif-is-dead-long-live-the-gif/" },
+      { name: "From NAND to Tetris - Building a Modern Computer from First Principles",
+        url: "http://www.nand2tetris.org/" },
+      { name: "Probabilistic Programming & Bayesian Methods for Hackers",
+        url: "https://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/" },
+      { name: "Ad-Wars: Ad-Blockers VS Ad-Tech",
+        url: "https://www.whitehatsec.com/blog/the-ad-blocking-wars-ad-blockers-vs-ad-tech/" },
+      { name: "12 Reasons Why Your App Wont Scale",
+        url: "http://blog.scalingo.com/post/149073816358/12-reasons-why-your-app-wont-scale" }
     ],
     implementations: [
       { name: "30k Page Views for $0.21 - A Serverless story",
-        url: "https://fmlnerd.com/2016/08/16/30k-page-views-for-0-21-a-serverless-story/" }
+        url: "https://fmlnerd.com/2016/08/16/30k-page-views-for-0-21-a-serverless-story/" },
+      { name: "A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS"
+        url: "http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1462,7 +1488,13 @@
       { name: "Jake Archibald - Instant-loading Offline-first (Progressive Web App Summit 2016)",
         url: "https://www.youtube.com/watch?v=qDJAz3IIq18" },
       { name: "Instant loading with HTTP/2 (Progressive Web App Summit 2016)",
-        url: "https://www.youtube.com/watch?v=G62aCRIlONU" }
+        url: "https://www.youtube.com/watch?v=G62aCRIlONU" },
+      { name: "Rust: Systems Programming for Everyone",
+        url: "https://www.infoq.com/presentations/rust" },
+      { name: "Webpack from First Principles",
+        url: "https://www.youtube.com/watch?v=WQue1AN93YU" },
+      { name: "Scaling Up to Your First 10 Million Users",
+        url: "https://www.youtube.com/watch?v=vg5onp8TU6Q&list=PLhr1KZpdzukdRxs_pGJm-qSy5LayL6W_Y" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -1601,7 +1633,13 @@
       { name: "Playing with Fire in WebGL",
         url: "http://ghostinthecode.net/2016/08/17/fire.html" },
       { name: "Posio - A multiplayer geography game using Websockets",
-        url: "https://github.com/abrenaut/posio" }
+        url: "https://github.com/abrenaut/posio" },
+      { name: "Building PokemonGo in pure HTML, Javascript & CSS - Part 1",
+        url: "http://blog.geofenceapi.org/post/149196681132/building-pokemongo-in-pure-html-javascript-css" },
+      { name: "bombsweeper - VanillaJS bombsweeper by Pakastin",
+        url: "https://github.com/pakastin/bombsweeper" },
+      { name: "The Making of Warcraft",
+        url: "http://www.codeofhonor.com/blog/the-making-of-warcraft-part-1" }
     ],
     games: [
       { name: "Spaceplan",
@@ -1632,7 +1670,9 @@ writing their own paychecks.",
       { name: "33 Mobile Game Benchmarks and Rules of Thumb",
         url: "http://blog.soom.la/2016/08/33-benchmarks-in-mobile-games-business.html" },
       { name: "How the VPN industry is creating its stake in online gaming",
-        url: "https://techcrunch.com/2016/08/18/how-the-vpn-industry-is-creating-its-stake-in-online-gaming/?ncid=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29" }
+        url: "https://techcrunch.com/2016/08/18/how-the-vpn-industry-is-creating-its-stake-in-online-gaming/?ncid=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29" },
+      { name: "How This Hedge Fund Robot Outsmarted Its Human Master",
+        url: "http://www.bloomberg.com/news/articles/2016-08-21/hedge-fund-robot-outsmarts-human-master-as-ai-passes-brexit-test" }
     ],
     sci: [
       { name: "A Unified Theory of Random",
@@ -1644,7 +1684,11 @@ writing their own paychecks.",
       { name: "io808 - An attempt at web-based TR-808 drum machine using React, Redux, and the Web Audio API",
         url: "http://io808.com/" },
       { name: "Phonograph.js: Tolerable mobile web audio",
-        url: "https://medium.com/@Rich_Harris/phonograph-js-tolerable-mobile-web-audio-55286bd5e567#.g6rf5rk94" }
+        url: "https://medium.com/@Rich_Harris/phonograph-js-tolerable-mobile-web-audio-55286bd5e567#.g6rf5rk94" },
+      { name: "Make Dope Beats with ReactJS",
+        url: "https://formidable.com/blog/2016/08/22/make-dope-beats-with-reactjs/" },
+      { name: "A Web Audio experiment: detecting piano notes",
+        url: "https://medium.com/@david.gilbertson/a-web-audio-experiment-666743e16679#.fpjotd1fy" }
     ],
     datasci: [
       { name: "Text analysis of Trump's tweets confirms he writes only the (angrier) Android half",
@@ -1668,7 +1712,9 @@ writing their own paychecks.",
       { name: "Particles.js",
         url: "https://github.com/marcbruederlin/particles.js" },
       { name: "save-as-ebook",
-        url: "https://github.com/alexadam/save-as-ebook" }
+        url: "https://github.com/alexadam/save-as-ebook" },
+      { name: "Self-Hosted Awesome List",
+        url: "https://github.com/Kickball/awesome-selfhosted" }
     ],
     thought: [
       { name: "Why I Live in IRC",
@@ -1688,17 +1734,39 @@ writing their own paychecks.",
       { name: "The stuff we really need is getting more expensive. Other stuff is getting cheaper.",
         url: "https://www.washingtonpost.com/news/wonk/wp/2016/08/17/the-stuff-we-really-need-is-getting-more-expensive-other-stuff-is-getting-cheaper/" },
       { name: "Eleven Reasons To Be Excited About The Future of Technology",
-        url: "https://medium.com/@cdixon/eleven-reasons-to-be-excited-about-the-future-of-technology-ef5f9b939cb2#.i5e7kcjbz" }
+        url: "https://medium.com/@cdixon/eleven-reasons-to-be-excited-about-the-future-of-technology-ef5f9b939cb2#.i5e7kcjbz" },
+      { name: "The Unicorn Hedge",
+        url: "https://500hats.com/welcome-to-the-unicorn-hedge-2fd3c6b50f89#.wegj69tde" },
+      { name: "George Orwell - Politics and he English Language",
+        url: "http://www.orwell.ru/library/essays/politics/english/e_polit/" },
+      { name: "Six Very Clear Signs That Your Job Is Due To Be Automated",
+        url: "http://www.fastcompany.com/3062739/the-future-of-work/six-very-clear-signs-that-your-job-is-due-to-be-automated" },
+      { name: "Loneliness is a Warning Sign to be Social",
+        url: "http://nautil.us/blog/loneliness-is-a-warning-sign-to-be-social" }
+    ],
+    interviews: [
+      { name: "Bill Gates 1993",
+        url: "http://americanhistory.si.edu/comphist/gates.htm" }
     ],
     languages: [
       { name: "An Introduction to Japanase",
-        url: "https://pomax.github.io/nrGrammar/" }
+        url: "https://pomax.github.io/nrGrammar/" },
+      { name: "Japanese writing system basics",
+        url: "https://www.candyjapan.com/%E5%8F%A3" },
+      { name: "If English was written like Chinese",
+        url: "http://www.zompist.com/yingzi/yingzi.htm" }
     ],
     people: [
       { name: "How Elon Muxk Thinks",
         url: "http://www.searchtrack.co/viewproject/92/how-elon-musk-thinks?source=socialquo&rc=120594565rcXCEQyvinJylCn" }
     ]
   }
+
++ S::HN
+  + Ask HN: How much do you make at a remote job?
+    https://news.ycombinator.com/item?id=12336661
+
+
 
 + LISP
   https://github.com/apoterenko/javascript-ebooks
@@ -2364,11 +2432,42 @@ https://github.com/arielf/weight-loss
 + Theano Implementation of Tree RNNs
   https://github.com/ofirnachum/tree_rnn
 
++ Training a Recurrent Neural Network to Compose Music
+  https://maraoz.com/2016/02/02/abc-rnn/
+
++ RECURRENT NEURAL NETWORKS TUTORIAL, PART 1 – INTRODUCTION TO RNNS
+  http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/
+  http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/
+  http://www.wildml.com/2015/10/recurrent-neural-networks-tutorial-part-3-backpropagation-through-time-and-vanishing-gradients/
+  http://www.wildml.com/2015/10/recurrent-neural-network-tutorial-part-4-implementing-a-grulstm-rnn-with-python-and-theano/
+
++ RNNS IN TENSORFLOW, A PRACTICAL GUIDE AND UNDOCUMENTED FEATURES
+  http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/
+
++ UNDERSTANDING CONVOLUTIONAL NEURAL NETWORKS FOR NLP
+  http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/
+
++ IMPLEMENTING A CNN FOR TEXT CLASSIFICATION IN TENSORFLOW
+  http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/
+
++ ATTENTION AND MEMORY IN DEEP LEARNING AND NLP
+  http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/
+
++ DEEP LEARNING FOR CHATBOTS, PART 1 – INTRODUCTION
+  http://www.wildml.com/2016/04/deep-learning-for-chatbots-part-1-introduction/
+  http://www.wildml.com/2016/07/deep-learning-for-chatbots-2-retrieval-based-model-tensorflow/
+
++ The Unreasonable Effectiveness of Recurrent Neural Networks
+  https://karpathy.github.io/2015/05/21/rnn-effectiveness/
+
 # Online NN
 + Kepler
 + Aetros.com
 
 + https://iamtrask.github.io/2016/08/17/grokking-deep-learning/
+
++ PyCNN: Cellular Neural Networks Image Processing Python Library
+  https://github.com/ankitaggarwal011/PyCNN
 
 Ask HN: From programming to AI, how?
 vaibkv 1 hour ago
@@ -3064,7 +3163,11 @@ var starters = [
   { name: "Neuron",
     desc: "ES6 React Electron Starter Kit - Neuron is an offline first starter kit for developers wanting to create cross platform desktop applications with Electron",
     url: "https://github.com/JamesTheHacker/Neuron",
-    keywords: ["ES6", "React", "Electron", "webpack", "sass", "pouchdb"] }
+    keywords: ["ES6", "React", "Electron", "webpack", "sass", "pouchdb"] },
+  { name: "horizon-react-webpack-boilerplate",
+    desc: "Horizon, React, Webpack boilerplate with demo app",
+    url: "https://github.com/juliancwirko/horizon-react-webpack-boilerplate",
+    keywords: ["react", "webpack", "horizon"]}
 ];
 
 Head First C
