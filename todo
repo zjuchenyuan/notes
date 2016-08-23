@@ -116,6 +116,8 @@
   + T Shirts - Startup Threads
   + The Simple Co. - https://medium.com/desk-of-van-schneider/lauren-singer-runs-a-company-with-one-business-goal-go-out-of-business-58039cc474b4#.mu18ynz06
   + https://www.greycork.com/
+  + https://www.elysiumhealth.com/basis
+
 
 + == theList =============
   + 1. 4k
@@ -203,6 +205,7 @@
     + Battle of the Kicks
   + 3. YT
   + 4. Inc.
+  + https://e-estonia.com/e-residents/apply/
 
 + == rand() ==============
   + Marcelo Murase
@@ -219,6 +222,7 @@
   + http://stackoverflow.com/questions/20327898/how-to-capture-key-modifier-when-chrome-page-action-is-clicked
   + http://stackoverflow.com/questions/18936524/action-on-key-bind-google-chrome-extension
   + http://stackoverflow.com/questions/17535154/google-chrome-extension-background-script
+  + http://stackoverflow.com/questions/15149322/executing-chrome-extension-onclick-instead-of-page-load
 
 + == Lingooista ==========
   + To do:
@@ -540,6 +544,8 @@
   + https://yahooeng.tumblr.com/post/147711922956/combining-druid-and-datasketches-for-real-time
   + https://metamarkets.com/2014/building-a-data-pipeline-that-handles-billions-of-events-in-real-time/
 
+Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
+
 + == STUDY ===============
   var study = {
     langs: [
@@ -617,7 +623,9 @@
           { name: "GoLang Anti Textbook - Wirting Go app without a framework",
             url: "https://github.com/thewhitetulip/web-dev-golang-anti-textbook/" },
           { name: "Developing Realtime Apps with React, Golang & RethinkDB",
-            url: "http://courses.knowthen.com/courses/learn-how-to-develop-realtime-web-apps" }
+            url: "http://courses.knowthen.com/courses/learn-how-to-develop-realtime-web-apps" },
+          { name: "SOLID Go Design",
+            url: "http://dave.cheney.net/2016/08/20/solid-go-design" }
         ],
         frameworks: [
           'Gopher',
@@ -626,6 +634,11 @@
           { name: "iris",
             url: "http://iris-go.com/" }
         ]},
+      { name: "Git",
+        resources: [
+          { name: "Learn Git Branching",
+            url: "http://learngitbranching.js.org/" }
+      ]},
       { name: 'Haskell',
         resources: [
           { name: "Pitfalls in Haskell",
@@ -773,7 +786,9 @@
           { name: "The rise of functional programming & the decline of Angular 2.0",
             url: "http://blog.wolksoftware.com/the-rise-of-functional-programming-and-the-death-of-angularjs" },
           { name: "Bootstrapping a React project from Scratch",
-            url: "https://auth0.com/blog/bootstrapping-a-react-project/?utm_source=javascriptweekly&utm_medium=email" }
+            url: "https://auth0.com/blog/bootstrapping-a-react-project/?utm_source=javascriptweekly&utm_medium=email" },
+          { name: "Build your own reactivity system",
+            url: "http://monterail.com/blog/2016/build-your-own-reactivity-system/" }
         ],
         transpiledSurrogates: [
           { name: "Amber (Smalltalk)" },
@@ -1137,7 +1152,15 @@
       { name: "Ad-Wars: Ad-Blockers VS Ad-Tech",
         url: "https://www.whitehatsec.com/blog/the-ad-blocking-wars-ad-blockers-vs-ad-tech/" },
       { name: "12 Reasons Why Your App Wont Scale",
-        url: "http://blog.scalingo.com/post/149073816358/12-reasons-why-your-app-wont-scale" }
+        url: "http://blog.scalingo.com/post/149073816358/12-reasons-why-your-app-wont-scale" },
+      { name: "One Easy Way to Inject Malicious Code in Any NodeJs Application",
+        url: "https://blog.sqreen.io/one-easy-way-to-inject-malicious-code-in-any-node-js-application/" },
+      { name: "Dividing Infinity: Distributed Partiotioning Schemes",
+        url: "http://eventql.io/blog/dividing-infinity-distributed-partitioning-schemes/" },
+      { name: "Metrics Driven Development",
+        url: "https://sookocheff.com/post/mdd/mdd/" },
+      { name: "Convert Canvas to Image & viceversa",
+        url: "https://davidwalsh.name/convert-canvas-image" }
     ],
     implementations: [
       { name: "30k Page Views for $0.21 - A Serverless story",
@@ -1714,7 +1737,9 @@ writing their own paychecks.",
       { name: "save-as-ebook",
         url: "https://github.com/alexadam/save-as-ebook" },
       { name: "Self-Hosted Awesome List",
-        url: "https://github.com/Kickball/awesome-selfhosted" }
+        url: "https://github.com/Kickball/awesome-selfhosted" },
+      { name: "NASA Open Mission Control",
+        url: "https://github.com/nasa/openmct" }
     ],
     thought: [
       { name: "Why I Live in IRC",
@@ -1759,12 +1784,20 @@ writing their own paychecks.",
     people: [
       { name: "How Elon Muxk Thinks",
         url: "http://www.searchtrack.co/viewproject/92/how-elon-musk-thinks?source=socialquo&rc=120594565rcXCEQyvinJylCn" }
+    ],
+    life-extension: [
+      { name: "An MIT Scientist Claims That This Pill Is the Fountain of Youth",
+        url: "http://nymag.com/scienceofus/2016/08/is-elysium-healths-basis-the-fountain-of-youth.html" }
     ]
   }
 
 + S::HN
   + Ask HN: How much do you make at a remote job?
     https://news.ycombinator.com/item?id=12336661
+  + HN Who is Hiring? Thread Analysis
+    https://blog.whoishiring.io/hacker-news-who-is-hiring-thread-part-1/
+    https://blog.whoishiring.io/hacker-news-who-is-hiring-thread-part-2-remote-and-locations/
+    https://blog.whoishiring.io/hacker-news-who-is-hiring-thread-part-3/
 
 
 
@@ -2030,6 +2063,8 @@ Skate 40%
 
   http://loige.co/extracting-data-from-wikipedia-using-curl-grep-cut-and-other-bash-commands/
 
+  https://blog.hartleybrody.com/web-scraping/
+  https://franciskim.co/2016/08/24/dont-need-no-stinking-api-web-scraping-2016-beyond/
 
 === Design Refs ==============
 + https://zeit.co/
@@ -2127,212 +2162,7 @@ Skate 40%
     + Zapier
 
 
-===================
-Old Channels
-===================
-. Responsive G charts
-. Big UI/UX Refactor
-. cambio de colors en bootstrap paper #3db049
-. restructure table
-. Filters: is certified
-. Filters: is promoted
-. Rename etermax filter to Exclude Etermax
-. Color for partner icon
-. promoted list order
-. numeral.js home
-. numeral.js e internas
-. paddings en graphs
-. graphs a d3
-. activity
-. colores default para cada row
-. activity: DP/F + remove from home
-. search en domain tb
-. channel details: add modifier, compare 1 week
-. group permissions
-. Agregar HINDI
-. crown + crown bars
-. ChannelDetails: export to csv
-. fixes gulp
-. Check copy/export
-. Filtros: excluded
-. Eze: agregar idiomas full list
 
-+ document deploy & ops procedure: pm2 start
-  + pm2 list
-  + pm2 start bin/www --watch --ignore-watch='db node_modules'
-  + pm2 start 0
-  + pm2 stop 0
-  + pm2 delete 0
-+ collapse mobile: searchbox
-+ collapse mobile: table
-+ unificar front-end JS' (not worth ??)
-
-
-
-===== BI-Tools: Content ======
-  + Channels
-  + Map
-    + http://blog.char95.com/demos/daylight-on-google-maps/
-    + http://blog.scottlogic.com/2015/08/06/an-adventure-in-svg-filter-land.html
-    + https://github.com/mapbox/supercluster
-    + http://zhxnlai.github.io/react-webgl-globe-basic-example/
-    + https://www.pubnub.com/developers/eon/map/flight/
-    + https://www.pubnub.com/developers/realtime-data-streams/pubnub-global-traffic/
-  + Content
-    + Activity
-      + Channel
-        + questions_created_today
-        + questions_enabled_today
-        + questions_disabled_today
-      + Users
-        + TOP answers
-        + TOP reviewer
-    + Health
-      + Quality ( 100 * L / (L + D) )
-      + Difficulty ( 100 * C / (C + I) )
-      + Engagement
-        + Games Created per channel (games_created_today)
-        + Games Created per user (games_created_today / dau)
-
-
-
-    + Channel Activity
-      + Top by Volume
-        + ID Leaders        => Content characteristics: Generic / Safe
-        + ID Growers ABS <<== x Promoted !!
-        + ID Shrinkers ABS
-        + ID Active ABS
-      + Top by Growth
-        + ID Growers REL    => Content characteristics: Most Viral <<== x Promoted !!
-        + ID Shrinkers REL  => Content characteristics: Seasonal / Fads / Old / Dying
-        + ID Active REL     => Content characteristics: Most passionate / fun / current
-      + Top by Moderation
-        + questions_created_today + questions_enabled_today + questions_disabled_today
-        + questions_suggested_today + questions_rated_today + questions_translated_today
-
-
-+ Nuevos Sorts de Busqueda
-+ activity
-+ country
-+ dau
-
-
-
-+ Channel
-  + Followers
-  + New Followers
-  + questions
-  + questions_daily
-  + answers
-  + answers_daily
-
-  + dau => users o (answers_correct + answers_incorrect) unq
-  + new_users => join_range = 0
-  + games_created => new
-  + games_created_unq => nro de users que crearon partida en ese dia
-  + answers_unq => nro de users que contestaron en ese dia
-  + votes_unq => nro de users que votaron en ese dia
-  + question_reports_unq => nro de users que reportaron en ese dia
-
-
-+ dims (filtros)
-platform
-country
-join_range
-is_social
-is_buyer
-gender
-
-+ En TABLAS
-  + tck_cha_summary_daily: language -> lang
-  + bds.cha_raw: reports_copyright_infrigement => reports_copyright_infringement
-
-
-+ BUGS
-  + Disney Movies id 51050
-
-===================
-Gamestats
-===================
-+ sudo apt-get install php-pear
-+ sudo apt-get install php5-dev
-+ sudo apt-get install libcurl3-openssl-dev
-+ sudo pecl install pecl_http
-sudo apt-get install libpcre3-dev
-sudo pecl install apcu-4.0.10
-extension=apcu.so
-
-+ Contenidos
-  + bds.tck_content_daily
-
-+ Users
-  + Armar lista !
-
-+ Bugs
-  + FIXED
-    + Gamestats - 'allrevenue last' ahora funciona.
-    + gamestats - 'last' da valores incorrectos.
-    + Gamestats - conservar la app seleccionada al recargar la pagina.
-    + Gamestats - Conservar la app seleccionada en New Dashboard.
-    + Gamestats - 'approved country auto table' ya no agrega un columna extra que rompe los labels (fix en line 738 ojo conditions >= 2).
-    + Gamestats - Division Multimetrica (/) ya funciona correctamente.
-    + Gamestats - 'dau,new country' multimetrica con dimension ahora funciona ok.
-    + Gamestats - 'dau,new AR US' Se swapean los valores (Fix: MysqlStatsClient.php:309 '$query = $query->orderBy($prefix.$dimension);')
-    + Gamestats - 'impressions banner native TR' roto - OK: Ahora countries es siempre upper: TR
-    + Gamestats - 'impressions/dau US TR' no anda cuando le agregas un valor o dim (con dos distintos) -> ESTANDARIZAR
-    - Gamestats - 'dau,new country' invierte headers de las columnas (IT con TR)
-    - Gamestats - por default hacer los ultimos N dias, o sacar endDate
-    - Gamestats - retention1 country EMEA
-    - Gamestats - VER CON SEBA: 'sales type' no funciona, busca en summary_daily; querems type como en dbsales type
-    - questions_old online disabled sebastian total
-
-  + PENDING
-
-    - Gamestats - multimetrica con disitnta cantidad de elementos (sales,adrevenue) (igualar cant de rows) (adrev llega primero)
-    - Gamestats - dashboards de muchos graficos (Ver gridster limitaciones
-    - Gamestats - funcionalidad candado ?? (whitelist para filtros)
-    - Gamestats - Cancel active req on new reqs
-    - adrevenue/dau AR ios
-
-    - Gamestats - metrica dim val (en autocomplete)
-
-  + NUEVOS
-    + Uli:
-      + Users nuevos
-      + Tutorial para save dashboard
-      + Ver con tincho tema bandwidth uru
-
-
-  + Re-enable CACHE !!!!!!!!!!!!!!!!!!!!!!!
-
-
-  + http://research.microsoft.com/en-us/projects/sanddance/
-
-===================
-New Channels
-===================
-+ express
-+ helmet
-+ passport
-+ passport-atlassian-crowd
-+ moment
-+ pg
-+ knex
-+ gulp
-+ mocha
-+ browser-sync
-
-+ Permissions !
-
-===================
-Trends
-===================
-+ express
-+ helmet
-+ passport
-+ passport-atlassian-crowd
-+ moment
-+ node-cache
 
 ===================
 S::ML
@@ -2472,7 +2302,35 @@ https://github.com/arielf/weight-loss
 Ask HN: From programming to AI, how?
 vaibkv 1 hour ago
 
-Here's a tentative plan- 1. Do fully AndrewNg's course from Coursera
+
+----------
+
+# Recommended Resources for Learning AI - ALL FREE
+(from https://medium.com/open-intelligence/recommended-resources-for-learning-ai-3ab4023cfa85#.6spl6f6if)
+
+# Classes that everyone is taking:
+  + Machine Learning by Andrew Ng (https://www.coursera.org/learn/machine-learning) /// Class notes: (http://holehouse.org/mlclass/index.html)
+  + Yaser Abu-Mostafa’s Machine Learning course which focuses much more on theory than the Coursera class but it is still relevant for beginners.(https://work.caltech.edu/telecourse.html)
+  + Probabilistic Graphical Models (https://www.coursera.org/learn/probabilistic-graphical-models)
+  + Computational Neuroscience (https://www.coursera.org/learn/computational-neuroscience)
+
+#From Open AI CEO Greg Brockman on Quora:
+  + Deep Learning Book (http://www.deeplearningbook.org/)
+    It contains essentially all the concepts and intuition needed for deep learning engineering (except reinforcement learning).
+
+# Courses:
+  + Linear Algebra — Stephen Boyd’s EE263 (Stanford) (http://ee263.stanford.edu/) or Linear Algebra (MIT)(http://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm)
+  + Neural Networks for Machine Learning — Geoff Hinton (Coursera) https://www.coursera.org/learn/neural-networks
+  + Neural Nets — Andrej Karpathy’s CS231N (Stanford) http://cs231n.stanford.edu/
+  + Advanced Robotics (the MDP / optimal control lectures) — Pieter Abbeel’s CS287 (Berkeley) https://people.eecs.berkeley.edu/~pabbeel/cs287-fa11/
+  + Deep RL — John Schulman’s CS294–112 (Berkeley) http://rll.berkeley.edu/deeprlcourse/
+
+# From Director of AI Research at Facebook and Professor at NYU Yann LeCun on Quora:
+  + In any case, take Calc I, Calc II, Calc III, Linear Algebra, Probability and Statistics, and as many physics courses as you can. But make sure you learn to program.
+
+----------
+Here's a tentative plan-
+1. Do fully AndrewNg's course from Coursera
 2. Do a course called AnalyticsEdge by MIT folks from edx.org. I can't recommend this course highly enough. It's a gem. You will learn practical stuff like RoC curves, and what not. Note that for a few things you will need to google and read on your own as the course might just give you an overview.
 3. Keep the book "Elements of Statistical Learning" by Trevor Hastie handy. You will need to refer this book a lot.
 4. There is also a course that Professor Hastie runs but I don't know the link for it. I highly recommend it as it gives a very good grounding on things like GBM, which are used a lot in practical scenarios.
