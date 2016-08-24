@@ -113,7 +113,9 @@
 
 + == Hard Foundry =============
   + DickPillow
-  + T Shirts - Startup Threads
+  + T Shirts
+    + Startup Threads
+    + http://direct.teespring.com/teams/?ref=producthunt&utm_source=producthunt_post1
   + The Simple Co. - https://medium.com/desk-of-van-schneider/lauren-singer-runs-a-company-with-one-business-goal-go-out-of-business-58039cc474b4#.mu18ynz06
   + https://www.greycork.com/
   + https://www.elysiumhealth.com/basis
@@ -572,7 +574,13 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "PyMiniRacer - V8 for Python",
             url: "https://github.com/sqreen/PyMiniRacer" },
           { name: "The Flask Mega-Tutorial",
-            url: "http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world" }
+            url: "http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world" },
+          { name: "Why You Should Learn Python",
+            url: "https://iluxonchik.github.io/why-you-should-learn-python/" },
+          { name: "Python: Beyond Just Web Apps",
+            url: "http://devops.sys-con.com/node/3871997" },
+          { name: "Web2py Kicks Ass",
+            url: "https://medium.com/@richardeng/web2py-kicks-ass-5a18dce6f967#.93gbln75b" }
         ],
         frameworks: [
           { name: "Flask",
@@ -650,10 +658,14 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://courses.knowthen.com/courses/elm-for-beginners" }
         ],
         articles: [
+          { name: "10 Reasons Why You Should Give Elm a Try",
+            url: "https://medium.com/@tibastral/10-reasons-why-you-should-give-elm-a-try-62b56d305643#.cajvcuyzq" },
           { name: "Some thoughts on Elm Development",
             url: "https://medium.com/@NewMountain/some-thoughts-on-elm-development-39a0f8a9002a#.638mbe2qn" },
           { name: "Elm Pair Programming - Josh Adams and Luke Westby Pairing on Colluder",
-            url: "https://www.dailydrip.com/blog/elm-pair-programming-josh-adams-and-luke-westby-pairing-on-colluder" }
+            url: "https://www.dailydrip.com/blog/elm-pair-programming-josh-adams-and-luke-westby-pairing-on-colluder" },
+          { name: "Translations Using Unions in Elm",
+            url: "https://toast.al/posts/2016-08-20-seer-stones-translations-using-unions-in-elm.html" }
         ]},
       { name: 'C',
         frameworks: [
@@ -673,7 +685,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "15 Page Tutorial for R",
             url: "http://www.studytrails.com/blog/15-page-tutorial-for-r/" },
           { name: "Playing with Syntax",
-            url: "http://stevelosh.com/blog/2016/08/playing-with-syntax/" }
+            url: "http://stevelosh.com/blog/2016/08/playing-with-syntax/" },
+          { name: "Dinosaur and Lisp",
+            url: "http://vito.sdf.org/dino.html" }
         ] },
       { name: 'Rust',
         roadmap: [
@@ -1160,7 +1174,19 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Metrics Driven Development",
         url: "https://sookocheff.com/post/mdd/mdd/" },
       { name: "Convert Canvas to Image & viceversa",
-        url: "https://davidwalsh.name/convert-canvas-image" }
+        url: "https://davidwalsh.name/convert-canvas-image" },
+      { name: "Real Time Recommendation Engine using Data Sceince and Neo4j",
+        url: "https://neo4j.com/blog/real-time-recommendation-engine-data-science/" },
+      { name: "Unix: An Oral History",
+        url: "https://www.princeton.edu/~hos/frs122/unixhist/finalhis.htm" },
+      { name: "Types",
+        url: "https://gist.github.com/garybernhardt/122909856b570c5c457a6cd674795a9c?" },
+      { name: "NodeJS + Docker => The Missing Manual",
+        url: "http://blog.getjaco.com/jaco-labs-nodejs-docker-missing-manual/" },
+      { name: "Evolution of Linux Shells",
+        url: "https://www.ibm.com/developerworks/library/l-linux-shells/" },
+      { name: "Practical Guide to PostgreSQL Optimizations",
+        url: "https://tech.lendinghome.com/practical-guide-to-postgresql-optimizations-d7b9c2ad6a22#.fkiqkwvt1" }
     ],
     implementations: [
       { name: "30k Page Views for $0.21 - A Serverless story",
@@ -1334,7 +1360,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { title: "Javascript Enlightenment",
         url: "http://www.javascriptenlightenment.com/" },
       { title: "F# for Fun and Profit",
-        url: "https://www.gitbook.com/book/swlaschin/fsharpforfunandprofit/details" }
+        url: "https://www.gitbook.com/book/swlaschin/fsharpforfunandprofit/details" },
+      { title: "Data Structures and Algorithms with Object-Oriented Design Patterns in C#",
+        url: "http://www.brpreiss.com/books/opus6/html/book.html" }
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
@@ -1380,7 +1408,11 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "The Shadow Brokers: Lifting the Shadows of the NSA’s Equation Group?",
         url: "https://www.riskbasedsecurity.com/2016/08/the-shadow-brokers-lifting-the-shadows-of-the-nsas-equation-group/" },
       { name: "EquationGroup Tool Leak – ExtraBacon Demo",
-        url: "https://xorcatt.wordpress.com/2016/08/16/equationgroup-tool-leak-extrabacon-demo/" }
+        url: "https://xorcatt.wordpress.com/2016/08/16/equationgroup-tool-leak-extrabacon-demo/" },
+      { name: "Sweet32 Birthday attacks on 64-bit block ciphers in TLS and OpenVPN",
+        url: "https://sweet32.info/" },
+      { name: "How to Build a Simple Backdoor in 30 Lines of Code",
+        url: "http://www.abovesecurity.com/blog/how-to-build-a-simple-backdoor-in-30-lines-of-code/" }
     ],
     videos: [
       { title: 'Turning the database inside out',
@@ -1545,7 +1577,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         author: 'Kevin Kelly' },
       { title: "Early Retirement Extreme: A philosophical and practical guide to financial independence" },
       { name: "The Online Books Page",
-        url: "http://onlinebooks.library.upenn.edu/archives.html" }
+        url: "http://onlinebooks.library.upenn.edu/archives.html" },
+      { name: "Basic CS Reading - M. Douglas McIlroy",
+        url: "http://www.cs.dartmouth.edu/~doug/booklist"}
     ],
     onlineCoding: [
       { title: 'HackerRank',
@@ -1662,7 +1696,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "bombsweeper - VanillaJS bombsweeper by Pakastin",
         url: "https://github.com/pakastin/bombsweeper" },
       { name: "The Making of Warcraft",
-        url: "http://www.codeofhonor.com/blog/the-making-of-warcraft-part-1" }
+        url: "http://www.codeofhonor.com/blog/the-making-of-warcraft-part-1" },
+      { name: "Tacks - A sailing race simulator, multiplayer & real-time, in you browser, written in Elm.",
+        url: "https://github.com/etaque/tacks" }
     ],
     games: [
       { name: "Spaceplan",
@@ -1767,7 +1803,11 @@ writing their own paychecks.",
       { name: "Six Very Clear Signs That Your Job Is Due To Be Automated",
         url: "http://www.fastcompany.com/3062739/the-future-of-work/six-very-clear-signs-that-your-job-is-due-to-be-automated" },
       { name: "Loneliness is a Warning Sign to be Social",
-        url: "http://nautil.us/blog/loneliness-is-a-warning-sign-to-be-social" }
+        url: "http://nautil.us/blog/loneliness-is-a-warning-sign-to-be-social" },
+      { name: "Notes on Startup Engineering Management",
+        url: "http://www.elidedbranches.com/2015/10/notes-on-startup-engineering-management.html?m=1" },
+      { name: "Is There Any Room for the Not-Passionate Developer ?",
+        url: "http://philippe.bourgau.net/is-there-any-room-for-the-not-passionate-developer/" }
     ],
     interviews: [
       { name: "Bill Gates 1993",
@@ -1799,6 +1839,39 @@ writing their own paychecks.",
     https://blog.whoishiring.io/hacker-news-who-is-hiring-thread-part-2-remote-and-locations/
     https://blog.whoishiring.io/hacker-news-who-is-hiring-thread-part-3/
 
+
++ Basic CS Reading - M. Douglas McIlroy
+Cook's Travels and Other Salesmen's Tales - Dick Karp
+Partition in a Pair Tree - Rabin and Scott
+The Ten Best Algorithms of 1979
+Ava's Hop Croft - J. D. Ullman
+A Hoary Sort of Life - I. M. Quick
+Basic Jumping - Uneda Goto
+The Joy of Unix - wnj@ucbvax
+Cossack Dances in Log Time - Arlazarov, Dinic, Kronrod, and Faradzev
+Hamming it Up - D. Slepian
+In Search of Perfect Hash - Craig Claiborne
+The Humble Programmer - E. W. Dijkstra
+Veni, Dividi, Vici - Trajan, R. E. (Roman Emperor)
+A Visit from St. Nicholas - J. Ichbiah
+Favorite Pebble Games - R. Sethi
+The Curse of Floating Point - W. Kahan
+Her Brand of Universe - Martin Davis
+Death in the Wine Garden - R. Tennent
+Manna from Heaven: Eventually, Why Not Now? - Stanford Saviors Circle
+Modern Bayonet, Vol. 2: Fixed Point Methods - FOCS Field Manual
+Johnson's Complete Works - P. Space
+Crossing the Bar - J. Hartmanis
+My Sin - E. Feigenbaum
+The Fellowship of Bacchus - P. Naur
+Balanced Logging in Binary Forests - D. E. Knuth
+Gedanken Experiments Concerning Flows at High Reynolds Number - W. Burge
+Black Lists and Funargs: Reliving the McCarthy Era - D. R. Hofstadter
+The Importance of Being Earnest - Abrahams and Wegner
+Drei Groschen Oper - Sammet, Denning, and Brandin
+Fuzzylocks and the Three Fuzzy Bears - L. Zadeh
+Briefing for a Recursive Descent into Hell - Benoit Mandelbrot
+Eminent Programming Languages - Strachey
 
 
 + LISP
@@ -2066,9 +2139,10 @@ Skate 40%
   https://blog.hartleybrody.com/web-scraping/
   https://franciskim.co/2016/08/24/dont-need-no-stinking-api-web-scraping-2016-beyond/
 
-=== Design Refs ==============
+=== S::Inspiration / Design Refs ==============
 + https://zeit.co/
 + http://www.thenordicweb.com/blog/finland-the-early-stage-nation-in-need-of-late-stage-money
++ http://daringfireball.net/2016/08/vesper_adieu
 
 === S::Vi ==============
 + https://github.com/carlhuda/janus
@@ -2290,6 +2364,16 @@ https://github.com/arielf/weight-loss
 + The Unreasonable Effectiveness of Recurrent Neural Networks
   https://karpathy.github.io/2015/05/21/rnn-effectiveness/
 
++ A Beginner's Guide To Understanding Convolutional Neural Networks
+  https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks/
+  A Beginner's Guide To Understanding Convolutional Neural Networks Part 2
+  https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks-Part-2/
+  The 9 Deep Learning Papers You Need To Know About (Understanding CNNs Part 3)
+  https://adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html
+
++ BEGINNER'S GUIDE TO DECISION TREES FOR SUPERVISED MACHINE LEARNING
+  https://www.quantstart.com/articles/Beginners-Guide-to-Decision-Trees-for-Supervised-Machine-Learning
+
 # Online NN
 + Kepler
 + Aetros.com
@@ -2298,6 +2382,9 @@ https://github.com/arielf/weight-loss
 
 + PyCNN: Cellular Neural Networks Image Processing Python Library
   https://github.com/ankitaggarwal011/PyCNN
+
++ Text Summarization with TensorFlow
+  https://research.googleblog.com/2016/08/text-summarization-with-tensorflow.html
 
 Ask HN: From programming to AI, how?
 vaibkv 1 hour ago
@@ -2687,6 +2774,8 @@ Koa !
 + Yolk
 + RiotJS
 + CycleJS
+
++ Choo
 
 + BackEnd
   + Sails
