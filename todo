@@ -580,7 +580,11 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "Python: Beyond Just Web Apps",
             url: "http://devops.sys-con.com/node/3871997" },
           { name: "Web2py Kicks Ass",
-            url: "https://medium.com/@richardeng/web2py-kicks-ass-5a18dce6f967#.93gbln75b" }
+            url: "https://medium.com/@richardeng/web2py-kicks-ass-5a18dce6f967#.93gbln75b" },
+          { name: "attr: The One Python Library Everyone Needs",
+            url: "https://glyph.twistedmatrix.com/2016/08/attrs.html" },
+          { name: "Python Profiling",
+            url: "https://pythonspot.com/en/python-profiling/" }
         ],
         frameworks: [
           { name: "Flask",
@@ -633,7 +637,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "Developing Realtime Apps with React, Golang & RethinkDB",
             url: "http://courses.knowthen.com/courses/learn-how-to-develop-realtime-web-apps" },
           { name: "SOLID Go Design",
-            url: "http://dave.cheney.net/2016/08/20/solid-go-design" }
+            url: "http://dave.cheney.net/2016/08/20/solid-go-design" },
+          { name: "Why I don't like GO",
+            url: "http://www.teamten.com/lawrence/writings/why-i-dont-like-go.html" }
         ],
         frameworks: [
           'Gopher',
@@ -642,10 +648,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "iris",
             url: "http://iris-go.com/" }
         ]},
-      { name: "Git",
+      { name: "git",
         resources: [
           { name: "Learn Git Branching",
-            url: "http://learngitbranching.js.org/" }
+            url: "http://learngitbranching.js.org/" },
+          { name: "Git Undo",
+            url: "http://megakemp.com/2016/08/25/git-undo/" }
       ]},
       { name: 'Haskell',
         resources: [
@@ -677,17 +685,21 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://arjunsreedharan.org/post/148675821737/write-a-simple-memory-allocator" }
         ]},
       { name: 'C++' },
-      { name: 'Lisp' },
+      { name: 'Lisp',
+        resources: [
+          { name: "Playing with Syntax",
+            url: "http://stevelosh.com/blog/2016/08/playing-with-syntax/" },
+          { name: "Dinosaur and Lisp",
+            url: "http://vito.sdf.org/dino.html" },
+          { name: "Mezzano, an operating system written in Common Lisp.",
+            url: "https://github.com/froggey/Mezzano" }
+      ]},
       { name: 'R',
         resources: [
           { name: "Start here to learn R!",
             url: "http://r-exercises.com/2016/07/22/start-here-to-learn-r/" },
           { name: "15 Page Tutorial for R",
             url: "http://www.studytrails.com/blog/15-page-tutorial-for-r/" },
-          { name: "Playing with Syntax",
-            url: "http://stevelosh.com/blog/2016/08/playing-with-syntax/" },
-          { name: "Dinosaur and Lisp",
-            url: "http://vito.sdf.org/dino.html" }
         ] },
       { name: 'Rust',
         roadmap: [
@@ -1186,7 +1198,15 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Evolution of Linux Shells",
         url: "https://www.ibm.com/developerworks/library/l-linux-shells/" },
       { name: "Practical Guide to PostgreSQL Optimizations",
-        url: "https://tech.lendinghome.com/practical-guide-to-postgresql-optimizations-d7b9c2ad6a22#.fkiqkwvt1" }
+        url: "https://tech.lendinghome.com/practical-guide-to-postgresql-optimizations-d7b9c2ad6a22#.fkiqkwvt1" },
+      { name: "Essential Electron",
+        url: "http://jlord.us/essential-electron/" },
+      { name: "From 10x programmer to 0.1x programmer: creating more with less",
+        url: "https://codewithoutrules.com/2016/08/25/the-01x-programmer/" },
+      { name: "New Horizons with Horizon, RethinkDB and React",
+        url: "http://julian.io/new-horizons-with-horizon-rethinkdb-and-react/" },
+      { name: "Using Amazon Elastic Map Reduce (EMR) with Spark and Python 3.4",
+        url: "http://blog.thehumangeo.com/amazon-emr-spark-python3.html" }
     ],
     implementations: [
       { name: "30k Page Views for $0.21 - A Serverless story",
@@ -1348,7 +1368,7 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { title: "Build Your Own Lisp",
         url: "http://buildyourownlisp.com/" },
       { title: "Human Javascript",
-        url: "http://read.humanjavascript.com/ch01-introduction.html" },
+        url: "http://read.humanjavmissingascript.com/ch01-introduction.html" },
       { title: "High Performance Browser Networking",
         url: "https://hpbn.co/" },
       { title: "Professional Software Development",
@@ -1362,7 +1382,11 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { title: "F# for Fun and Profit",
         url: "https://www.gitbook.com/book/swlaschin/fsharpforfunandprofit/details" },
       { title: "Data Structures and Algorithms with Object-Oriented Design Patterns in C#",
-        url: "http://www.brpreiss.com/books/opus6/html/book.html" }
+        url: "http://www.brpreiss.com/books/opus6/html/book.html" },
+      { title: "React Native Training",
+        url: "https://unbug.gitbooks.io/react-native-training/content/" },
+      { title: "The Imposter's Handbook",
+        url: "https://bigmachine.io/imposter/" }
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
@@ -1412,7 +1436,17 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Sweet32 Birthday attacks on 64-bit block ciphers in TLS and OpenVPN",
         url: "https://sweet32.info/" },
       { name: "How to Build a Simple Backdoor in 30 Lines of Code",
-        url: "http://www.abovesecurity.com/blog/how-to-build-a-simple-backdoor-in-30-lines-of-code/" }
+        url: "http://www.abovesecurity.com/blog/how-to-build-a-simple-backdoor-in-30-lines-of-code/" },
+      { name: "The target=_blank vulnerability by example",
+        url: "https://dev.to/ben/the-targetblank-vulnerability-by-example" },
+      { name: "HackedThat: Breaking in to a hardened server via the back door",
+        url: "http://polynome.co/infosec/inversoft/elasticsearch/linode/penetration-testing/2016/08/16/hack-that-inversoft.html" },
+      { name: "Reverse Shell Cheat Sheet",
+        url: "https://highon.coffee/blog/reverse-shell-cheat-sheet/" },
+      { name: "Guide to User Data Security - Inversoft 2016",
+        url: "https://www.inversoft.com/guides/2016-guide-to-user-data-security" },
+      { name: "XSS payloads test dump",
+        url: "https://github.com/zsitro/XSS-test-dump/blob/master/xss.txt" }
     ],
     videos: [
       { title: 'Turning the database inside out',
@@ -1731,7 +1765,9 @@ writing their own paychecks.",
       { name: "How the VPN industry is creating its stake in online gaming",
         url: "https://techcrunch.com/2016/08/18/how-the-vpn-industry-is-creating-its-stake-in-online-gaming/?ncid=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29" },
       { name: "How This Hedge Fund Robot Outsmarted Its Human Master",
-        url: "http://www.bloomberg.com/news/articles/2016-08-21/hedge-fund-robot-outsmarts-human-master-as-ai-passes-brexit-test" }
+        url: "http://www.bloomberg.com/news/articles/2016-08-21/hedge-fund-robot-outsmarts-human-master-as-ai-passes-brexit-test" },
+      { name: "How Startup Options (and Ownership) Works",
+        url: "http://a16z.com/2016/08/24/options-ownership/" }
     ],
     sci: [
       { name: "A Unified Theory of Random",
@@ -1775,7 +1811,11 @@ writing their own paychecks.",
       { name: "Self-Hosted Awesome List",
         url: "https://github.com/Kickball/awesome-selfhosted" },
       { name: "NASA Open Mission Control",
-        url: "https://github.com/nasa/openmct" }
+        url: "https://github.com/nasa/openmct" },
+      { name: "traefik - Modern HTTP reverse proxy and load balancers to deploy microservices & containers",
+        url: "https://traefik.io/" },
+      { name: "ShaderGif - A tool to play with fragment shaders to create nice 2D images.",
+        url: "https://github.com/antoineMoPa/shadergif" }
     ],
     thought: [
       { name: "Why I Live in IRC",
@@ -1807,7 +1847,12 @@ writing their own paychecks.",
       { name: "Notes on Startup Engineering Management",
         url: "http://www.elidedbranches.com/2015/10/notes-on-startup-engineering-management.html?m=1" },
       { name: "Is There Any Room for the Not-Passionate Developer ?",
-        url: "http://philippe.bourgau.net/is-there-any-room-for-the-not-passionate-developer/" }
+        url: "http://philippe.bourgau.net/is-there-any-room-for-the-not-passionate-developer/" },
+      { name: "Complexity No Bar to AI",
+        url: "http://www.gwern.net/Complexity%20vs%20AI" },
+      { name: "New Programming Jargon",
+        url: "https://blog.codinghorror.com/new-programming-jargon/" }
+      }
     ],
     interviews: [
       { name: "Bill Gates 1993",
@@ -1828,6 +1873,10 @@ writing their own paychecks.",
     life-extension: [
       { name: "An MIT Scientist Claims That This Pill Is the Fountain of Youth",
         url: "http://nymag.com/scienceofus/2016/08/is-elysium-healths-basis-the-fountain-of-youth.html" }
+    ],
+    dbs: [
+      { name: "noms",
+        url: "https://github.com/attic-labs/noms" }
     ]
   }
 
@@ -2138,6 +2187,7 @@ Skate 40%
 
   https://blog.hartleybrody.com/web-scraping/
   https://franciskim.co/2016/08/24/dont-need-no-stinking-api-web-scraping-2016-beyond/
+  https://blog.scrapinghub.com/2016/08/25/how-to-crawl-the-web-politely-with-scrapy/
 
 === S::Inspiration / Design Refs ==============
 + https://zeit.co/
@@ -2374,6 +2424,9 @@ https://github.com/arielf/weight-loss
 + BEGINNER'S GUIDE TO DECISION TREES FOR SUPERVISED MACHINE LEARNING
   https://www.quantstart.com/articles/Beginners-Guide-to-Decision-Trees-for-Supervised-Machine-Learning
 
++ The 10 Algorithms Machine Learning Engineers Need to Know
+  http://www.kdnuggets.com/2016/08/10-algorithms-machine-learning-engineers.html/1
+
 # Online NN
 + Kepler
 + Aetros.com
@@ -2385,6 +2438,20 @@ https://github.com/arielf/weight-loss
 
 + Text Summarization with TensorFlow
   https://research.googleblog.com/2016/08/text-summarization-with-tensorflow.html
+
++ Segmenting and refining images with DeepMask and SharpMask
+  https://code.facebook.com/posts/561187904071636#
+
++ Deep Learning with Keras - Tutorial @ EuroScipy 2016
+  https://github.com/leriomaggio/deep-learning-keras-euroscipy2016
+
++ Reinforcement Learning and DQN, learning to play from pixels
+  https://rubenfiszel.github.io/posts/rl4j/2016-08-24-Reinforcement-Learning-and-DQN.html
+
++ Teaching Your Computer To Play Super Mario Bros. – A Fork of the Google DeepMind Atari Machine Learning Project
+  http://www.ehrenbrav.com/2016/08/teaching-your-computer-to-play-super-mario-bros-a-fork-of-the-google-deepmind-atari-machine-learning-project/
+
+
 
 Ask HN: From programming to AI, how?
 vaibkv 1 hour ago
