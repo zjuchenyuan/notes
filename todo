@@ -681,8 +681,13 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: 'https://balde.rgm.io/' }
         ],
         resources: [
+          { name: "A Super-Simple Makefile for Medium-Sized C/C++ Projects",
+            url: "https://spin.atomicobject.com/2016/08/26/makefile-c-projects/" },
+          { name: "How to allocate memory",
+            url: "http://geocar.sdf1.org/alloc.html" },
           { name: "Write a simple memory allocator",
             url: "http://arjunsreedharan.org/post/148675821737/write-a-simple-memory-allocator" }
+          }
         ]},
       { name: 'C++' },
       { name: 'Lisp',
@@ -693,6 +698,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://vito.sdf.org/dino.html" },
           { name: "Mezzano, an operating system written in Common Lisp.",
             url: "https://github.com/froggey/Mezzano" }
+      ]},
+      { name: "PicoLisp",
+        url: "http://picolisp.com/"
+        resources: [
+          { name: "",
+            url: "" }
       ]},
       { name: 'R',
         resources: [
@@ -742,6 +753,14 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: 'Reagent',
             url: 'https://github.com/reagent-project/reagent' }
         ]},
+      { name: "ClojureScript",
+        resources: [
+          { name: "ClojureScript Syntax in 15 Minutes",
+            url: "https://github.com/shaunlebron/ClojureScript-Syntax-in-15-minutes" },
+          { name: "Tetris in ClojureScript",
+            url: "http://shaunlebron.github.io/t3tr0s-slides/#0" }
+          }
+      ]},
       { name: 'Ruby',
         frameworks: [
           { name: 'Rails',
@@ -814,7 +833,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "Bootstrapping a React project from Scratch",
             url: "https://auth0.com/blog/bootstrapping-a-react-project/?utm_source=javascriptweekly&utm_medium=email" },
           { name: "Build your own reactivity system",
-            url: "http://monterail.com/blog/2016/build-your-own-reactivity-system/" }
+            url: "http://monterail.com/blog/2016/build-your-own-reactivity-system/" },
+          { name: "Writing good React components",
+            url: "https://medium.com/thoughts-from-travelperk/writing-a-good-react-component-59624ed40b8e#.2fednx7uy" }
         ],
         transpiledSurrogates: [
           { name: "Amber (Smalltalk)" },
@@ -1206,13 +1227,25 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "New Horizons with Horizon, RethinkDB and React",
         url: "http://julian.io/new-horizons-with-horizon-rethinkdb-and-react/" },
       { name: "Using Amazon Elastic Map Reduce (EMR) with Spark and Python 3.4",
-        url: "http://blog.thehumangeo.com/amazon-emr-spark-python3.html" }
+        url: "http://blog.thehumangeo.com/amazon-emr-spark-python3.html" },
+      { name: "A Unix Utility You Should Know About: lsof",
+        url: "http://www.catonmat.net/blog/unix-utilities-lsof/" },
+      { name: "Function Composition: Building Blocks for Maintainable Code",
+        url: "https://www.sitepoint.com/function-composition-building-blocks-for-maintainable-code/" },
+      { name: "The Log: What every software engineer should know about real-time data's unifying abstraction",
+        url: "https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying" },
+      { name: "Itsy Bitsy Data Structures",
+        url: "https://github.com/thejameskyle/itsy-bitsy-data-structures" }
     ],
     implementations: [
       { name: "30k Page Views for $0.21 - A Serverless story",
         url: "https://fmlnerd.com/2016/08/16/30k-page-views-for-0-21-a-serverless-story/" },
       { name: "A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS"
-        url: "http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html" }
+        url: "http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html" },
+      { name: "600k concurrent websocket connections on AWS using Node.js",
+        url: "https://www.jayway.com/2015/04/13/600k-concurrent-websocket-connections-on-aws-using-node-js/" },
+      { name: "Benchmarking Cassandra Scalability on AWS - Over a million writes per second",
+        url: "http://techblog.netflix.com/2011/11/benchmarking-cassandra-scalability-on.html" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1583,7 +1616,11 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Webpack from First Principles",
         url: "https://www.youtube.com/watch?v=WQue1AN93YU" },
       { name: "Scaling Up to Your First 10 Million Users",
-        url: "https://www.youtube.com/watch?v=vg5onp8TU6Q&list=PLhr1KZpdzukdRxs_pGJm-qSy5LayL6W_Y" }
+        url: "https://www.youtube.com/watch?v=vg5onp8TU6Q&list=PLhr1KZpdzukdRxs_pGJm-qSy5LayL6W_Y" },
+      { name: "XMPP 2015 - challenges of modern day instant messaging",
+        url: "https://media.ccc.de/v/froscon2015-1548-xmpp_2015_-_challenges_of_modern_day_instant_messaging" },
+      { name: "Hey Underscore, you're Doing It Wrong!",
+        url: "https://www.youtube.com/watch?v=m3svKOdZijA" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -1783,7 +1820,19 @@ writing their own paychecks.",
       { name: "Make Dope Beats with ReactJS",
         url: "https://formidable.com/blog/2016/08/22/make-dope-beats-with-reactjs/" },
       { name: "A Web Audio experiment: detecting piano notes",
-        url: "https://medium.com/@david.gilbertson/a-web-audio-experiment-666743e16679#.fpjotd1fy" }
+        url: "https://medium.com/@david.gilbertson/a-web-audio-experiment-666743e16679#.fpjotd1fy" },
+      { name: "Javascript Systems Music",
+        url: "http://teropa.info/blog/2016/07/28/javascript-systems-music.html" },
+      { name: "What is the Web Audio API?",
+        url: "http://teropa.info/blog/2016/08/19/what-is-the-web-audio-api.html" },
+      { name: "Learn Web Audio from the Ground Up, Part 1: Signals and Sine Waves"
+        url: "http://teropa.info/blog/2016/08/04/sine-waves.html" },
+      { name: "Learn Web Audio from the Ground Up, Part 2: Controlling Frequency and Pitch"
+        url: "http://teropa.info/blog/2016/08/10/frequency-and-pitch.html" },
+      { name: "VexWarp - JS Algo implementations for audio time stretching and pitch shifting",
+        url: "https://github.com/0xfe/vexwarp" },
+      { name: "Blockdust",
+        url: "https://blokdust.com/" }
     ],
     datasci: [
       { name: "Text analysis of Trump's tweets confirms he writes only the (angrier) Android half",
@@ -1815,7 +1864,9 @@ writing their own paychecks.",
       { name: "traefik - Modern HTTP reverse proxy and load balancers to deploy microservices & containers",
         url: "https://traefik.io/" },
       { name: "ShaderGif - A tool to play with fragment shaders to create nice 2D images.",
-        url: "https://github.com/antoineMoPa/shadergif" }
+        url: "https://github.com/antoineMoPa/shadergif" },
+      { name: "likes",
+        url: "https://github.com/lipp/likes" }
     ],
     thought: [
       { name: "Why I Live in IRC",
@@ -1856,7 +1907,9 @@ writing their own paychecks.",
     ],
     interviews: [
       { name: "Bill Gates 1993",
-        url: "http://americanhistory.si.edu/comphist/gates.htm" }
+        url: "http://americanhistory.si.edu/comphist/gates.htm" },
+      { name: "Steve Wozniak",
+        url: "https://theconversation.com/interview-steve-wozniak-apple-co-founder-and-inventor-of-the-home-computer-64313" }
     ],
     languages: [
       { name: "An Introduction to Japanase",
@@ -1888,6 +1941,7 @@ writing their own paychecks.",
     https://blog.whoishiring.io/hacker-news-who-is-hiring-thread-part-2-remote-and-locations/
     https://blog.whoishiring.io/hacker-news-who-is-hiring-thread-part-3/
 
+  + http://hackernewsbooks.com/
 
 + Basic CS Reading - M. Douglas McIlroy
 Cook's Travels and Other Salesmen's Tales - Dick Karp
@@ -2439,6 +2493,9 @@ https://github.com/arielf/weight-loss
 + Text Summarization with TensorFlow
   https://research.googleblog.com/2016/08/text-summarization-with-tensorflow.html
 
++ text-to-image: Tensorflow implementation of text to image synthesis using thought vectors
+  https://github.com/paarthneekhara/text-to-image
+
 + Segmenting and refining images with DeepMask and SharpMask
   https://code.facebook.com/posts/561187904071636#
 
@@ -2451,7 +2508,13 @@ https://github.com/arielf/weight-loss
 + Teaching Your Computer To Play Super Mario Bros. – A Fork of the Google DeepMind Atari Machine Learning Project
   http://www.ehrenbrav.com/2016/08/teaching-your-computer-to-play-super-mario-bros-a-fork-of-the-google-deepmind-atari-machine-learning-project/
 
++ Learning from Imbalanced Classes
+  http://www.svds.com/learning-imbalanced-classes/
 
++ Emojineering Part 1: Machine Learning for Emoji Trends
+  http://instagram-engineering.tumblr.com/post/117889701472/emojineering-part-1-machine-learning-for-emoji
+
++
 
 Ask HN: From programming to AI, how?
 vaibkv 1 hour ago
