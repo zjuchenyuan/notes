@@ -124,87 +124,89 @@
 + == theList =============
   + 1. 4k
   + 2. Sideshow
-    + knifedb
-    + caseysgear.store
-      + Aff. Programs
-        ✔ Amazon
-        ✔ Etsy
-        + B&H
-      + Items:
-        + Cameras & Lenses
-          + Canon 70D
-          + Canon 80D
-          + Canon EOS 5D Mark III
-          + Canon EF-S 10-18mm
-          + Canon EF-S 10-22mm
-          + Canon EF-S 18-55mm IS STM
-          + Canon EF 75-300mm f/4-5.6 III USM
-          + Canon EF 70-300mm f/4-5.6 IS USM
-          + Canon Powershot G7X
-          + Canon Powershot G7X Mark II
-          + Canon Powershot S120
-          + Sony RX100 IV
-          + GoPro Hero 4
-          + GoPro Hero 4 Black
-        + Audio
-          + Rode Videomic Pro
-          + Shure VP83 LensHopper
-        + Accesories
-          + Joby Gorillapod
-          + Joby BallHead X
-          + Filtro para Mic point & shoot sonido
-          + DJI Osmo
-          + GoPole SceneLapse
-          + Round Light ???
-          + Manfrotto Tripods
-          + SD Card (SanDisk Extreme??)
-          + Canon TC-80N3 Timer Remote Controller
-          + Neewer Timer Remote
-        + Hardware
-          + Lacie Rugged
-          + SD Card
-          + MacBook Pro
-          + Mac Pro (tubo)
-        + Drones
-          + DJI Phantom 3
-          + DJI Phantom 4
-          + Parrot Bebot 2
-        + 3D Cameras
-          + Samsung Gear 360 Camera
-          + Ricoh Theta S
-        + Transport
-          + Penny Board
-          + Boosted Board
-          + One-Wheel
-          + HoverBoard
-          + SBU Unicicle
-        + Phones & Accesories
-          + Iphone 6s
-          + Samsung Galaxy S6
-          + Moment lenses
-        + Apparel
-          + RayBans
-          + Construction Jacket
-          + Skeleton Pants
-            https://www.etsy.com/listing/215197490/baggy-drop-crotch-skinny-leg-skeleton?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=skeleton%20pants&ref=sr_gallery_3
-          + Running shoes ???
-          + Urban Outfitters Pants (http://www.urbanoutfitters.com/urban/catalog/productdetail.jsp?id=33158692&parentid=M_BOTTOMS#/)
-          + Finn Jewelry
-          + Watches / Apple Watch
-        + Food
-          + Reese
-          + Green Juices
-        + Various (guest appearences)
-          + Huge Selfie stick ???
-          + The GodFather
-        + Magazine appearances
-    + skate eco
-      + https://github.com/TelescopeJS/Telescope
+    + Amazon
+      + https://medium.com/@ceyhunkazel/amazon-search-hack-eliminate-amazon-products-that-have-4-or-5-starts-but-only-few-reviews-f485d35d5969#.b7d8z5f44
+      + knifedb
+      + caseysgear.store
+        + Aff. Programs
+          ✔ Amazon
+          ✔ Etsy
+          + B&H
+        + Items:
+          + Cameras & Lenses
+            + Canon 70D
+            + Canon 80D
+            + Canon EOS 5D Mark III
+            + Canon EF-S 10-18mm
+            + Canon EF-S 10-22mm
+            + Canon EF-S 18-55mm IS STM
+            + Canon EF 75-300mm f/4-5.6 III USM
+            + Canon EF 70-300mm f/4-5.6 IS USM
+            + Canon Powershot G7X
+            + Canon Powershot G7X Mark II
+            + Canon Powershot S120
+            + Sony RX100 IV
+            + GoPro Hero 4
+            + GoPro Hero 4 Black
+          + Audio
+            + Rode Videomic Pro
+            + Shure VP83 LensHopper
+          + Accesories
+            + Joby Gorillapod
+            + Joby BallHead X
+            + Filtro para Mic point & shoot sonido
+            + DJI Osmo
+            + GoPole SceneLapse
+            + Round Light ???
+            + Manfrotto Tripods
+            + SD Card (SanDisk Extreme??)
+            + Canon TC-80N3 Timer Remote Controller
+            + Neewer Timer Remote
+          + Hardware
+            + Lacie Rugged
+            + SD Card
+            + MacBook Pro
+            + Mac Pro (tubo)
+          + Drones
+            + DJI Phantom 3
+            + DJI Phantom 4
+            + Parrot Bebot 2
+          + 3D Cameras
+            + Samsung Gear 360 Camera
+            + Ricoh Theta S
+          + Transport
+            + Penny Board
+            + Boosted Board
+            + One-Wheel
+            + HoverBoard
+            + SBU Unicicle
+          + Phones & Accesories
+            + Iphone 6s
+            + Samsung Galaxy S6
+            + Moment lenses
+          + Apparel
+            + RayBans
+            + Construction Jacket
+            + Skeleton Pants
+              https://www.etsy.com/listing/215197490/baggy-drop-crotch-skinny-leg-skeleton?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=skeleton%20pants&ref=sr_gallery_3
+            + Running shoes ???
+            + Urban Outfitters Pants (http://www.urbanoutfitters.com/urban/catalog/productdetail.jsp?id=33158692&parentid=M_BOTTOMS#/)
+            + Finn Jewelry
+            + Watches / Apple Watch
+          + Food
+            + Reese
+            + Green Juices
+          + Various (guest appearences)
+            + Huge Selfie stick ???
+            + The GodFather
+          + Magazine appearances
+      + skate eco
+        + https://github.com/TelescopeJS/Telescope
+      + Battle of the Kicks
     + translations
       + https://toppub.xyz/
       + https://gyshido.com/join/
       + privacytools.io
-    + Battle of the Kicks
   + 3. YT
   + 4. Inc.
   + https://e-estonia.com/e-residents/apply/
@@ -812,10 +814,6 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         resources: [
           { name: "Pragmatic Modularity - Writing great NPM packages",
             url: "http://mafintosh.com/pragmatic-modularity.html" },
-          { name: "A Glimpse Into the Future with React Native",
-            url: "https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/?platform=hootsuite" },
-          { name: "Scalable FrontEnd with Redux and Elm architecture",
-            url: "https://medium.com/@hunterbmt/scaleable-fe-with-redux-and-elm-architecture-c6812ed0125e#.dj7fkwmh0" },
           { name: "From Zero to Front End Hero",
             url: "https://medium.freecodecamp.com/from-zero-to-front-end-hero-part-1-7d4f7f0bff02#.v6jbp03iw" },
           { name: "Recursions without names: Introduction to the Y combinator in javascript",
@@ -826,16 +824,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://advancedweb.hu/2016/08/09/parallel-processing-in-js/?utm_source=javascriptweekly&utm_medium=email" },
           { name: "Framework Routers and Linking",
             url: "https://medium.com/@mattburgess/framework-routers-and-linking-98398af89022#.koo6ulv8d" },
-          { name: "React Native Styling Cheat Sheet",
-            url: "https://github.com/vhpoet/react-native-styling-cheat-sheet" },
           { name: "The rise of functional programming & the decline of Angular 2.0",
             url: "http://blog.wolksoftware.com/the-rise-of-functional-programming-and-the-death-of-angularjs" },
-          { name: "Bootstrapping a React project from Scratch",
-            url: "https://auth0.com/blog/bootstrapping-a-react-project/?utm_source=javascriptweekly&utm_medium=email" },
           { name: "Build your own reactivity system",
             url: "http://monterail.com/blog/2016/build-your-own-reactivity-system/" },
-          { name: "Writing good React components",
-            url: "https://medium.com/thoughts-from-travelperk/writing-a-good-react-component-59624ed40b8e#.2fednx7uy" }
+          { name: "The Node Playbook",
+            url: "https://github.com/HiFaraz/node-playbook#" },
         ],
         transpiledSurrogates: [
           { name: "Amber (Smalltalk)" },
@@ -852,6 +846,27 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "Opal (Ruby)" },
           { name: "Transcrypt (Python)" }
         ]},
+      { name: "React",
+        resources: [
+          { name: "awesome-react-components",
+            url: "https://github.com/brillout/awesome-react-components" },
+          { name: "React FAQ",
+            url: "https://github.com/timarney/react-faq" },
+          { name: "Bootstrapping a React project from Scratch",
+            url: "https://auth0.com/blog/bootstrapping-a-react-project/?utm_source=javascriptweekly&utm_medium=email" },
+          { name: "React Native Styling Cheat Sheet",
+            url: "https://github.com/vhpoet/react-native-styling-cheat-sheet" },
+          { name: "Writing good React components",
+            url: "https://medium.com/thoughts-from-travelperk/writing-a-good-react-component-59624ed40b8e#.2fednx7uy" },
+          { name: "The Elegance Of React",
+            url: "https://medium.com/javascript-inside/the-elegance-of-react-ebc21a2dcd19#.78fmqk92d" },
+          { name: "Elm Architecture for React",
+            url: "https://medium.com/javascript-inside/elm-architecture-for-react-951b383fcd65#.aj4yt6cj4" }
+          { name: "A Glimpse Into the Future with React Native",
+            url: "https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/?platform=hootsuite" },
+          { name: "Scalable FrontEnd with Redux and Elm architecture",
+            url: "https://medium.com/@hunterbmt/scaleable-fe-with-redux-and-elm-architecture-c6812ed0125e#.dj7fkwmh0" },
+      ]},
       { name: "Maths",
         roadmap: [
           { name: "The Immutability of Math and How Almost Everything Else Will Pass",
@@ -883,7 +898,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "OpenGL/WebGL",
         resources: [
           { name: "Learning WebGL",
-            url: "http://learningwebgl.com/" }
+            url: "http://learningwebgl.com/" },
+          { name: "Fluid Simulation (with WebGL demo)",
+            url: "http://jamie-wong.com/2016/08/05/webgl-fluid-simulation/" }
         ]},
       { name: "SQL",
         roadmap: [
@@ -905,6 +922,13 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         resources: [
           { name: "30K Page Views for $0.21: A Serverless Story",
             url: "https://fmlnerd.com/2016/08/16/30k-page-views-for-0-21-a-serverless-story/" }
+      ]},
+      { name: "ASM",
+        resources: [
+          { name: "AsmBB (forum)",
+            url: "http://asm32.info/fossil/repo/asmbb/index" },
+          { name: "10 simple diet tricks for asm.js",
+            url: "http://floooh.github.io/2016/08/27/asmjs-diet.html"}
       ]}
     ],
     codeReading: [
@@ -1235,7 +1259,17 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "The Log: What every software engineer should know about real-time data's unifying abstraction",
         url: "https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying" },
       { name: "Itsy Bitsy Data Structures",
-        url: "https://github.com/thejameskyle/itsy-bitsy-data-structures" }
+        url: "https://github.com/thejameskyle/itsy-bitsy-data-structures" },
+      { name: "How I built a Slack bot to help me find an apartment in San Francisco",
+        url: "https://www.dataquest.io/blog/apartment-finding-slackbot/" },
+      { name: "Github Code Search - Programmers' Goldmine",
+        url: "http://jakubdziworski.github.io/tools/2016/08/26/github-code-advances-search-programmers-goldmine.html" },
+      { name: "Designing a fast Hash Table",
+        url: "http://www.ilikebigbits.com/blog/2016/8/28/designing-a-fast-hash-table" },
+      { name: "The Myth of RAM, part 1",
+        url: "http://www.ilikebigbits.com/blog/2014/4/21/the-myth-of-ram-part-i" },
+      { name: "The Future of Conversational UI Belongs to Hybrid Interfaces",
+        url: "https://medium.com/the-layer/the-future-of-conversational-ui-belongs-to-hybrid-interfaces-8a228de0bdb5#.a57z7qz7l" }
     ],
     implementations: [
       { name: "30k Page Views for $0.21 - A Serverless story",
@@ -1620,7 +1654,11 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "XMPP 2015 - challenges of modern day instant messaging",
         url: "https://media.ccc.de/v/froscon2015-1548-xmpp_2015_-_challenges_of_modern_day_instant_messaging" },
       { name: "Hey Underscore, you're Doing It Wrong!",
-        url: "https://www.youtube.com/watch?v=m3svKOdZijA" }
+        url: "https://www.youtube.com/watch?v=m3svKOdZijA" },
+      { name: "Rules for Radicals: Changing the Culture of Python at Facebook",
+        url: "https://www.youtube.com/watch?v=nRtp9NgtXiA" },
+      { name: "Watch This Surveillance Master Dissect a Murder From the Sky",
+        url: "http://www.bloomberg.com/news/articles/2016-08-23/watch-this-surveillance-master-dissect-a-murder-from-the-sky"}
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -1769,7 +1807,15 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "The Making of Warcraft",
         url: "http://www.codeofhonor.com/blog/the-making-of-warcraft-part-1" },
       { name: "Tacks - A sailing race simulator, multiplayer & real-time, in you browser, written in Elm.",
-        url: "https://github.com/etaque/tacks" }
+        url: "https://github.com/etaque/tacks" },
+      { name: "The Nomads of Game Development",
+        url: "http://www.vice.com/read/the-nomads-of-game-development" },
+      { name: "Balls to learning how to animate, let's film some parkour!",
+        url: "https://moral.net.au/writing/2016/08/27/animation/" },
+      { name: "Game Graphics 101: Rendering 2D on GPU. Shaders",
+        url: "http://ithare.com/game-graphics-101-rendering-2d-on-gpu-shaders/" },
+      { name: "How to Minify Your HTML5 Game for the Js13kGames Competition",
+        url: "http://gamedevelopment.tutsplus.com/articles/how-to-minify-your-html5-game-for-the-js13kgames-competition--cms-21883" }
     ],
     games: [
       { name: "Spaceplan",
@@ -1832,7 +1878,9 @@ writing their own paychecks.",
       { name: "VexWarp - JS Algo implementations for audio time stretching and pitch shifting",
         url: "https://github.com/0xfe/vexwarp" },
       { name: "Blockdust",
-        url: "https://blokdust.com/" }
+        url: "https://blokdust.com/" },
+      { name: "coda - Simple abstractions for music software",
+        url: "https://github.com/sdeleon28/coda" }
     ],
     datasci: [
       { name: "Text analysis of Trump's tweets confirms he writes only the (angrier) Android half",
@@ -1902,7 +1950,15 @@ writing their own paychecks.",
       { name: "Complexity No Bar to AI",
         url: "http://www.gwern.net/Complexity%20vs%20AI" },
       { name: "New Programming Jargon",
-        url: "https://blog.codinghorror.com/new-programming-jargon/" }
+        url: "https://blog.codinghorror.com/new-programming-jargon/" },
+      { name: "On Finding Your Purpose: An Extraordinary Letter by Hunter S. Thompson",
+        url: "http://tranquilmonkey.com/hunter-s-thompsons-extraordinary-letter-on-finding-your-purpose/" },
+      { name: "Big data, Google and the end of free will",
+        url: "https://www.ft.com/content/50bb4830-6a4c-11e6-ae5b-a7cc5dd5a28c" },
+      { name: "Why Should Children Program",
+        url: "http://dannas.github.io/2016/08/27/review-of-seymor-paperts-mindstorms.html" },
+      { name: "4 Millennial Men with 4 Very Different Incomes Open Up About the Lives They Can Afford",
+        url: "http://www.esquire.com/lifestyle/money/news/a48020/four-millennial-men-four-incomes/" }
       }
     ],
     interviews: [
@@ -1910,6 +1966,10 @@ writing their own paychecks.",
         url: "http://americanhistory.si.edu/comphist/gates.htm" },
       { name: "Steve Wozniak",
         url: "https://theconversation.com/interview-steve-wozniak-apple-co-founder-and-inventor-of-the-home-computer-64313" }
+    ],
+    opinion: [
+      { name: "Max Levchin - Why It's Time To Re-Imagine the Financial Services Industry",
+        url: "https://www.linkedin.com/pulse/why-its-time-re-imagine-financial-services-industry-max-levchin"}
     ],
     languages: [
       { name: "An Introduction to Japanase",
@@ -2514,12 +2574,13 @@ https://github.com/arielf/weight-loss
 + Emojineering Part 1: Machine Learning for Emoji Trends
   http://instagram-engineering.tumblr.com/post/117889701472/emojineering-part-1-machine-learning-for-emoji
 
-+
++ Machine Learning Recipes with Hosh Gordon - Google Developers
+  https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
 
 Ask HN: From programming to AI, how?
 vaibkv 1 hour ago
 
-
+An Introduction to Statistical Learning
 ----------
 
 # Recommended Resources for Learning AI - ALL FREE
@@ -2904,6 +2965,10 @@ Koa !
 + Yolk
 + RiotJS
 + CycleJS
+
++ DOM
+  + https://redom.js.org/
+  + Maquette.js
 
 + Choo
 
