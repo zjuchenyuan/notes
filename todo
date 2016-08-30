@@ -302,8 +302,9 @@
       + Elevate
       + Lumosity
 + == BigLFG ==============
-  + Meteor + React
-  +
+  + Home
+    + LFG
+    + LFM
 + == Zopaas ==============
   + Back
     + cache
@@ -586,7 +587,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "attr: The One Python Library Everyone Needs",
             url: "https://glyph.twistedmatrix.com/2016/08/attrs.html" },
           { name: "Python Profiling",
-            url: "https://pythonspot.com/en/python-profiling/" }
+            url: "https://pythonspot.com/en/python-profiling/" },
+          { name: "Moving from R to Python: The Libraries You Need to Know",
+            url: "http://blog.yhat.com/posts/moving-from-r-to-python.html" }
         ],
         frameworks: [
           { name: "Flask",
@@ -829,7 +832,15 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "Build your own reactivity system",
             url: "http://monterail.com/blog/2016/build-your-own-reactivity-system/" },
           { name: "The Node Playbook",
-            url: "https://github.com/HiFaraz/node-playbook#" },
+            url: "https://github.com/HiFaraz/node-playbook#" },,
+          { name: "Compose: functions as building blocks",
+            url: "https://javascriptweblog.wordpress.com/2010/04/14/compose-functions-as-building-blocks/" },
+          { name: "JS Mythbusters High Level Optimization Handbook",
+            url: "http://mythbusters.js.org/" },
+          { name: "Javascript Garbage Collection Imporvements - Orinoco",
+            url: "https://blog.risingstack.com/javascript-garbage-collection-orinoco/" },
+          { name: "Three JavaScript performance fundamentals that make Bluebird fast",
+            url: "https://reaktor.com/blog/javascript-performance-fundamentals-make-bluebird-fast/" }
         ],
         transpiledSurrogates: [
           { name: "Amber (Smalltalk)" },
@@ -866,6 +877,14 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/?platform=hootsuite" },
           { name: "Scalable FrontEnd with Redux and Elm architecture",
             url: "https://medium.com/@hunterbmt/scaleable-fe-with-redux-and-elm-architecture-c6812ed0125e#.dj7fkwmh0" },
+          { name: "The one thing that no one properly explains about React — Why Virtual DOM",
+            url: "https://hashnode.com/post/the-one-thing-that-no-one-properly-explains-about-react-why-virtual-dom-cisczhfj41bmssp53mvfwmgrq" },
+          { name: "10 Tips for Better Redux Architecture",
+            url: "https://medium.com/javascript-scene/10-tips-for-better-redux-architecture-69250425af44#.kl5x30k0u" },
+          { name: "React Stateless Functional Components: Nine Wins You Might Have Overlooked",
+            url: "https://medium.com/@housecor/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc#.1mrb6x93o" },
+          { name: "React on the Server for Beginners: Build a Universal React and Node App",
+            url:: "https://scotch.io/tutorials/react-on-the-server-for-beginners-build-a-universal-react-and-node-app" }
       ]},
       { name: "Maths",
         roadmap: [
@@ -1269,7 +1288,13 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "The Myth of RAM, part 1",
         url: "http://www.ilikebigbits.com/blog/2014/4/21/the-myth-of-ram-part-i" },
       { name: "The Future of Conversational UI Belongs to Hybrid Interfaces",
-        url: "https://medium.com/the-layer/the-future-of-conversational-ui-belongs-to-hybrid-interfaces-8a228de0bdb5#.a57z7qz7l" }
+        url: "https://medium.com/the-layer/the-future-of-conversational-ui-belongs-to-hybrid-interfaces-8a228de0bdb5#.a57z7qz7l" },
+      { name: "Latency Numbers Every Programmer Should Know",
+        url: "https://people.eecs.berkeley.edu/~rcs/research/interactive_latency.html" },
+      { name: "Wavelets 4 Dummies: Signal Processing, Fourier Transforms and Heisenberg",
+        url: "https://georgemdallas.wordpress.com/2014/05/14/wavelets-4-dummies-signal-processing-fourier-transforms-and-heisenberg/" },
+      { name: "Calm Technology",
+        url: "http://www.calmtech.com/" }
     ],
     implementations: [
       { name: "30k Page Views for $0.21 - A Serverless story",
@@ -1279,7 +1304,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "600k concurrent websocket connections on AWS using Node.js",
         url: "https://www.jayway.com/2015/04/13/600k-concurrent-websocket-connections-on-aws-using-node-js/" },
       { name: "Benchmarking Cassandra Scalability on AWS - Over a million writes per second",
-        url: "http://techblog.netflix.com/2011/11/benchmarking-cassandra-scalability-on.html" }
+        url: "http://techblog.netflix.com/2011/11/benchmarking-cassandra-scalability-on.html" },
+      { name: "How we survived HackerNews using Docker and AWS",
+        url: "https://www.loopperfect.com/blog/how-we-survived-hackernews/" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1513,7 +1540,11 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Guide to User Data Security - Inversoft 2016",
         url: "https://www.inversoft.com/guides/2016-guide-to-user-data-security" },
       { name: "XSS payloads test dump",
-        url: "https://github.com/zsitro/XSS-test-dump/blob/master/xss.txt" }
+        url: "https://github.com/zsitro/XSS-test-dump/blob/master/xss.txt" },
+      { name: "Hacked: Investigating An Intrusion On My Server",
+        url: "https://thedarkside.frantzmiccoli.com/tricks/2016/08/27/hacked-investigating-intrusion-on-server.html" },
+      { name: "CloudFlare's half-baked SSL: suspicious sockets layer",
+        url: "http://www.crimeflare.com/cfssl.html" }
     ],
     videos: [
       { title: 'Turning the database inside out',
@@ -1708,7 +1739,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { title: "D3 Garden",
         url: "https://www.rtfmanual.io/d3garden/" },
       { title: "Return true to win",
-        url: "http://alf.nu/ReturnTrue" }
+        url: "http://alf.nu/ReturnTrue" },
+      { title: "C++ Fiddle",
+        url: "http://fiddle.jyt.io/" }
 
     ],
     recommendations: [
@@ -1850,7 +1883,13 @@ writing their own paychecks.",
       { name: "How This Hedge Fund Robot Outsmarted Its Human Master",
         url: "http://www.bloomberg.com/news/articles/2016-08-21/hedge-fund-robot-outsmarts-human-master-as-ai-passes-brexit-test" },
       { name: "How Startup Options (and Ownership) Works",
-        url: "http://a16z.com/2016/08/24/options-ownership/" }
+        url: "http://a16z.com/2016/08/24/options-ownership/" },
+      { name: "My Timeline of Failed Business Ideas",
+        url: "https://www.bugmuncher.com/blog/timeline-of-failures/" }
+    ],
+    finance: [
+      { name: "Invisible Super Intelligence for The Stock Market",
+        url: "https://medium.com/@Numerai/invisible-super-intelligence-for-the-stock-market-3c64b57b244c#.30ecuubcp" }
     ],
     sci: [
       { name: "A Unified Theory of Random",
@@ -1875,6 +1914,8 @@ writing their own paychecks.",
         url: "http://teropa.info/blog/2016/08/04/sine-waves.html" },
       { name: "Learn Web Audio from the Ground Up, Part 2: Controlling Frequency and Pitch"
         url: "http://teropa.info/blog/2016/08/10/frequency-and-pitch.html" },
+      { name: "Learn Web Audio from the Ground Up, Part 3: Controlling Amplitude and Loudness",
+        url: "http://teropa.info/blog/2016/08/30/amplitude-and-loudness.html" }
       { name: "VexWarp - JS Algo implementations for audio time stretching and pitch shifting",
         url: "https://github.com/0xfe/vexwarp" },
       { name: "Blockdust",
@@ -1914,7 +1955,13 @@ writing their own paychecks.",
       { name: "ShaderGif - A tool to play with fragment shaders to create nice 2D images.",
         url: "https://github.com/antoineMoPa/shadergif" },
       { name: "likes",
-        url: "https://github.com/lipp/likes" }
+        url: "https://github.com/lipp/likes" },
+      { name: "SRL - Simple Regex Language",
+        url: "https://simple-regex.com/" },
+      { name: "Normit - Google Translate with speech synthesis in your terminal as a node package",
+        url: "https://github.com/pawurb/normit" },
+      { name: "str-replace",
+        url: "https://github.com/FagnerMartinsBrack/str-replace#why" }
     ],
     thought: [
       { name: "Why I Live in IRC",
@@ -1965,7 +2012,9 @@ writing their own paychecks.",
       { name: "Bill Gates 1993",
         url: "http://americanhistory.si.edu/comphist/gates.htm" },
       { name: "Steve Wozniak",
-        url: "https://theconversation.com/interview-steve-wozniak-apple-co-founder-and-inventor-of-the-home-computer-64313" }
+        url: "https://theconversation.com/interview-steve-wozniak-apple-co-founder-and-inventor-of-the-home-computer-64313" },
+      { name: "Ruminations on D: An Interview with Walter Bright",
+        url: "https://dlang.org/blog/2016/08/30/ruminations-on-d-an-interview-with-walter-bright/" }
     ],
     opinion: [
       { name: "Max Levchin - Why It's Time To Re-Imagine the Financial Services Industry",
@@ -1989,7 +2038,22 @@ writing their own paychecks.",
     ],
     dbs: [
       { name: "noms",
-        url: "https://github.com/attic-labs/noms" }
+        url: "https://github.com/attic-labs/noms" },
+      { name: "Top 10 Time Series Database",
+        url: "https://blog.dataloop.io/top10-open-source-time-series-databases" },
+      { name: "aerospike",
+        url: "http://www.aerospike.com/" }
+    ],
+    hardware: [
+      { name: "Arduino",
+        resources: [
+          { name: "An Arduino-Based Home Weather Station on the Elastic Stack",
+            url: "https://www.elastic.co/blog/arduino-based-home-weather-station-on-the-elastic-stack" }
+        ]}
+    ],
+    blockchain: [
+      { name: "DNSChain",
+        url: "https://github.com/okTurtles/dnschain" }
     ]
   }
 
@@ -2576,6 +2640,15 @@ https://github.com/arielf/weight-loss
 
 + Machine Learning Recipes with Hosh Gordon - Google Developers
   https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
+
++ ML-games (machine learning race cars)
+  https://github.com/TomaszRewak/ML-games
+
++ Infrastructure for Deep Learning
+  https://openai.com/blog/infrastructure-for-deep-learning/
+
++ Paddle (baidu's open source deep learning platform)
+  https://github.com/baidu/paddle
 
 Ask HN: From programming to AI, how?
 vaibkv 1 hour ago
