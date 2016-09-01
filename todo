@@ -346,6 +346,7 @@
     + https://larder.io/
     + http://coligo.io/bookmarking-app-electron-vuejs-firebase/
     + https://www.stacklinks.com/
+    + http://candybank.com Candy Chrome Extension
   + Packages
     + unfluff
     + gramophone
@@ -524,7 +525,12 @@
         url: "http://glampert.com/2015/06-07/webgl-lightsaber/" },
       { name: "HTML5 - An Introduction to Shaders",
         url: "http://www.html5rocks.com/en/tutorials/webgl/shaders/" }
-
+    + WebGL FB Stack
+      + https://eng.uber.com/data-viz-intel/
+      + react-vis
+      + react-map-gl
+      + deck.gl
+      + luma.gl
 
     + Mapping
       { name: "Visualizing Large Data Sets with Bing Maps Web Apps",
@@ -644,7 +650,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "SOLID Go Design",
             url: "http://dave.cheney.net/2016/08/20/solid-go-design" },
           { name: "Why I don't like GO",
-            url: "http://www.teamten.com/lawrence/writings/why-i-dont-like-go.html" }
+            url: "http://www.teamten.com/lawrence/writings/why-i-dont-like-go.html" },
+          { name: "How to hack Go's http.Server correctly",
+            url: "http://ymmt2005.hatenablog.com/entry/2016/09/01/How_to_hack_Go%27s_http_Server_correctly" }
         ],
         frameworks: [
           'Gopher',
@@ -668,7 +676,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: 'Elm',
         resources: [
           { name: "Elm for Beginners",
-            url: "http://courses.knowthen.com/courses/elm-for-beginners" }
+            url: "http://courses.knowthen.com/courses/elm-for-beginners" },
+          { name: "KnowThen Course: Elm Beyond the Basics",
+            url: "http://courses.knowthen.com/courses/elm-beyond-the-basics" }
         ],
         articles: [
           { name: "10 Reasons Why You Should Give Elm a Try",
@@ -737,9 +747,11 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           'Amber'
         ]},
       { name: 'Erlang',
-        resources:
-          [{ name: 'Learn You Some Erlang'
+        resources: [
+          { name: 'Learn You Some Erlang'
             url: 'http://learnyousomeerlang.com/'},
+          { name: "My favorite Erlang Program",
+            url: "http://joearms.github.io/2013/11/21/My-favorite-erlang-program.html" }
         ],
         frameworks: [
           'Elixir',
@@ -884,7 +896,16 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "React Stateless Functional Components: Nine Wins You Might Have Overlooked",
             url: "https://medium.com/@housecor/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc#.1mrb6x93o" },
           { name: "React on the Server for Beginners: Build a Universal React and Node App",
-            url:: "https://scotch.io/tutorials/react-on-the-server-for-beginners-build-a-universal-react-and-node-app" }
+            url:: "https://scotch.io/tutorials/react-on-the-server-for-beginners-build-a-universal-react-and-node-app" },
+          { name: "How I built React Native Tab View",
+            url: "https://medium.com/@satya164/how-i-built-react-native-tab-view-7adfb2570af6#.doug32iba" }
+      ]},
+      { name: "Elm",
+        resources: [
+          { name: "KnowThen Course: Elm for Beginners",
+            url: "http://courses.knowthen.com/courses/elm-for-beginners" },
+
+          }
       ]},
       { name: "Maths",
         roadmap: [
@@ -919,7 +940,13 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "Learning WebGL",
             url: "http://learningwebgl.com/" },
           { name: "Fluid Simulation (with WebGL demo)",
-            url: "http://jamie-wong.com/2016/08/05/webgl-fluid-simulation/" }
+            url: "http://jamie-wong.com/2016/08/05/webgl-fluid-simulation/" },
+          { name: "Particle Love",
+            url: "https://www.chromeexperiments.com/experiment/particle-love" },
+          { name: "Shader School",
+            url: "https://github.com/stackgl/shader-school" },
+          { name: "WebGL Workshop - The Sequel to Shader School",
+            url: "https://github.com/stackgl/webgl-workshop" }
         ]},
       { name: "SQL",
         roadmap: [
@@ -948,6 +975,11 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://asm32.info/fossil/repo/asmbb/index" },
           { name: "10 simple diet tricks for asm.js",
             url: "http://floooh.github.io/2016/08/27/asmjs-diet.html"}
+      ]},
+      { name: "Swift",
+        resources: [
+          { name: "Benchmarks for the Top Server-Side Swift Frameworks vs. Node.js",
+            url: "https://medium.com/@rymcol/benchmarks-for-the-top-server-side-swift-frameworks-vs-node-js-24460cfe0beb#.k981ihb0b" }
       ]}
     ],
     codeReading: [
@@ -1294,7 +1326,13 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Wavelets 4 Dummies: Signal Processing, Fourier Transforms and Heisenberg",
         url: "https://georgemdallas.wordpress.com/2014/05/14/wavelets-4-dummies-signal-processing-fourier-transforms-and-heisenberg/" },
       { name: "Calm Technology",
-        url: "http://www.calmtech.com/" }
+        url: "http://www.calmtech.com/" },
+      { name: "BrowserLab: Automated regression detection for the web",
+        url: "https://code.facebook.com/posts/1368798036482517/browserlab-automated-regression-detection-for-the-web/" },
+      { name: "Understanding JSON web tokens",
+        url: "http://stackabuse.com/understanding-json-web-tokens-jwt/" },
+      { name: "Aliens in the Valley: The Complete History of Reddit",
+        url: "http://mashable.com/2014/12/03/history-of-reddit/#WsJMlkCoakq5" }
     ],
     implementations: [
       { name: "30k Page Views for $0.21 - A Serverless story",
@@ -1306,7 +1344,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Benchmarking Cassandra Scalability on AWS - Over a million writes per second",
         url: "http://techblog.netflix.com/2011/11/benchmarking-cassandra-scalability-on.html" },
       { name: "How we survived HackerNews using Docker and AWS",
-        url: "https://www.loopperfect.com/blog/how-we-survived-hackernews/" }
+        url: "https://www.loopperfect.com/blog/how-we-survived-hackernews/" },
+      { name: "Apache Spark @Scale: A 60 TB+ production use case",
+        url: "https://code.facebook.com/posts/1671373793181703/apache-spark-scale-a-60-tb-production-use-case/" }
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1544,7 +1584,14 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Hacked: Investigating An Intrusion On My Server",
         url: "https://thedarkside.frantzmiccoli.com/tricks/2016/08/27/hacked-investigating-intrusion-on-server.html" },
       { name: "CloudFlare's half-baked SSL: suspicious sockets layer",
-        url: "http://www.crimeflare.com/cfssl.html" }
+        url: "http://www.crimeflare.com/cfssl.html" },
+      { name: "Over 18,000 Redis Instances Targeted by Fake Ransomware",
+        url: "https://duo.com/blog/over-18-000-redis-instances-targeted-by-fake-ransomware" },
+      { name: "How to steal any developer's local database",
+        url: "http://bouk.co/blog/hacking-developers/" },
+      { name: "Hacked Redis Servers being used to install the Fairware Ransomware Attack",
+        url: "http://www.bleepingcomputer.com/news/security/hacked-redis-servers-being-used-to-install-the-fairware-ransomware-attack/" }
+
     ],
     videos: [
       { title: 'Turning the database inside out',
@@ -1579,7 +1626,7 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { topic: 'BigData',
         links: [
           { title: 'Apache Storm Deployment and Use Cases by Spotify Developers',
-            keywords: ['storm', 'kafka', 'social', 'recommendations', 'dataviz'],
+            keywords: ['storm', 'kafka', 'social', 'recommendations', 'datavis'],
             url: 'https://www.youtube.com/watch?v=5F0eQ7mkpTU' },
           { title: 'Design patterns for real time data analytics',
             keywords: ['hadoop', 'storm']
@@ -1689,7 +1736,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Rules for Radicals: Changing the Culture of Python at Facebook",
         url: "https://www.youtube.com/watch?v=nRtp9NgtXiA" },
       { name: "Watch This Surveillance Master Dissect a Murder From the Sky",
-        url: "http://www.bloomberg.com/news/articles/2016-08-23/watch-this-surveillance-master-dissect-a-murder-from-the-sky"}
+        url: "http://www.bloomberg.com/news/articles/2016-08-23/watch-this-surveillance-master-dissect-a-murder-from-the-sky"},
+      { name: "Concurrency is Not Parallelism",
+        url: "https://blog.golang.org/concurrency-is-not-parallelism" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -1713,6 +1762,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: 'https://github.com/johnpapa/angular-styleguide' }
     ]
     books: [
+      { title: "The Public Domain Review",
+        url: "http://publicdomainreview.org/" }
       { title: "The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future",
         author: 'Kevin Kelly' },
       { title: "Early Retirement Extreme: A philosophical and practical guide to financial independence" },
@@ -1885,7 +1936,13 @@ writing their own paychecks.",
       { name: "How Startup Options (and Ownership) Works",
         url: "http://a16z.com/2016/08/24/options-ownership/" },
       { name: "My Timeline of Failed Business Ideas",
-        url: "https://www.bugmuncher.com/blog/timeline-of-failures/" }
+        url: "https://www.bugmuncher.com/blog/timeline-of-failures/" },
+      { name: "The Macro: Raising Money Online: Advice for Startups",
+        url: "http://themacro.com/articles/2016/08/raising-money-online-advice-for-startups/" },
+      { name: "Common startup mistakes and how to avoid them",
+        url: "https://codingvc.com/common-startup-timing-mistakes-and-how-to-avoid-them/" },
+      { name: "A Surprisingly Powerful Mechanism For Growing A SaaS Startup (prepay)",
+        url: "http://tomtunguz.com/cash-collections/" }
     ],
     finance: [
       { name: "Invisible Super Intelligence for The Stock Market",
@@ -1961,17 +2018,19 @@ writing their own paychecks.",
       { name: "Normit - Google Translate with speech synthesis in your terminal as a node package",
         url: "https://github.com/pawurb/normit" },
       { name: "str-replace",
-        url: "https://github.com/FagnerMartinsBrack/str-replace#why" }
+        url: "https://github.com/FagnerMartinsBrack/str-replace#why" },
+      { name: "textures.js",
+        url: "https://github.com/riccardoscalco/textures" },
+      { name: "anim8js",
+        url: "https://github.com/ClickerMonkey/anim8js" },
+      { name: "postmate.js para benja",
+        url: "https://github.com/dollarshaveclub/postmate" }
     ],
     thought: [
-      { name: "Why I Live in IRC",
-        url: "https://aaronparecki.com/2015/08/29/8/why-i-live-in-irc" },
       { name: "Happiest at Work",
         url: "http://milkthepigeon.com/2014/03/24/happiest-at-work/" },
       { name: "What Lessons do People Learn too Late in Life?",
         url: "https://medium.com/@ChrisHerd/what-lessons-do-people-learn-too-late-in-life-b9137fb0989f#.8r9k9umc0" },
-      { name: "The Traits of a Proficient Programmer",
-        url: "https://www.oreilly.com/ideas/the-traits-of-a-proficient-programmer" },
       { name: "Optimism",
         url: "https://github.com/raganwald/presentations/blob/master/optimism.md" },
       { name: "What Great Listeners Actually Do",
@@ -1996,17 +2055,31 @@ writing their own paychecks.",
         url: "http://philippe.bourgau.net/is-there-any-room-for-the-not-passionate-developer/" },
       { name: "Complexity No Bar to AI",
         url: "http://www.gwern.net/Complexity%20vs%20AI" },
-      { name: "New Programming Jargon",
-        url: "https://blog.codinghorror.com/new-programming-jargon/" },
       { name: "On Finding Your Purpose: An Extraordinary Letter by Hunter S. Thompson",
         url: "http://tranquilmonkey.com/hunter-s-thompsons-extraordinary-letter-on-finding-your-purpose/" },
       { name: "Big data, Google and the end of free will",
         url: "https://www.ft.com/content/50bb4830-6a4c-11e6-ae5b-a7cc5dd5a28c" },
+      { name: "4 Millennial Men with 4 Very Different Incomes Open Up About the Lives They Can Afford",
+        url: "http://www.esquire.com/lifestyle/money/news/a48020/four-millennial-men-four-incomes/" },
+      { name: "What We Talk About When We Talk About Computation - Two Views in Computer Science",
+        url: "https://pressron.wordpress.com/2016/08/30/what-we-talk-about-when-we-talk-about-computation/" },
+      { name: "Does Giftedness Matter? No.",
+        url: "http://blogs.scientificamerican.com/beautiful-minds/does-giftedness-matter/" }
+      }
+    ],
+    thoughtcs: [
+      { name: "Why I Live in IRC",
+        url: "https://aaronparecki.com/2015/08/29/8/why-i-live-in-irc" },
+      { name: "The Traits of a Proficient Programmer",
+        url: "https://www.oreilly.com/ideas/the-traits-of-a-proficient-programmer" },
+      { name: "New Programming Jargon",
+        url: "https://blog.codinghorror.com/new-programming-jargon/" },
       { name: "Why Should Children Program",
         url: "http://dannas.github.io/2016/08/27/review-of-seymor-paperts-mindstorms.html" },
-      { name: "4 Millennial Men with 4 Very Different Incomes Open Up About the Lives They Can Afford",
-        url: "http://www.esquire.com/lifestyle/money/news/a48020/four-millennial-men-four-incomes/" }
-      }
+      { name: "The Lost Art of Typing Shit by Hand",
+        url: "https://daveceddia.com/the-lost-art-of-typing-shit-by-hand/" },
+      { name: "Is Artificial Intelligence Permanently Inscrutable?",
+        url: "http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable" }
     ],
     interviews: [
       { name: "Bill Gates 1993",
@@ -2054,6 +2127,26 @@ writing their own paychecks.",
     blockchain: [
       { name: "DNSChain",
         url: "https://github.com/okTurtles/dnschain" }
+    ],
+    compression: [
+      { name: "zstandard by Facebook",
+        url: "https://code.facebook.com/posts/1658392934479273/smaller-and-faster-data-compression-with-zstandard/" }
+    ],
+    adtech: [
+      { name: "Investigating Google Adwords Click Fraud",
+        url: "https://medium.com/@nesovok/investigating-fraudulent-clicks-in-google-adwords-f3c42da0ad62#.ze4kurl7k" }
+    ],
+    urbanism: [
+      { name: "SOS Brutalism",
+        url: "http://www.sosbrutalism.org/cms/15802395" }
+    ],
+    datavis: [
+      { name: "ENGINEERING INTELLIGENCE THROUGH DATA VISUALIZATION AT UBER",
+        url: "https://eng.uber.com/data-viz-intel/" }
+    ],
+    design: [
+      { name: "IBM Design Language",
+        url: "https://www.ibm.com/design/language/" }
     ]
   }
 
@@ -2064,7 +2157,9 @@ writing their own paychecks.",
     https://blog.whoishiring.io/hacker-news-who-is-hiring-thread-part-1/
     https://blog.whoishiring.io/hacker-news-who-is-hiring-thread-part-2-remote-and-locations/
     https://blog.whoishiring.io/hacker-news-who-is-hiring-thread-part-3/
-
+  + Ask HN: Who is hiring?
+    + September 2016
+      https://news.ycombinator.com/item?id=12405698
   + http://hackernewsbooks.com/
 
 + Basic CS Reading - M. Douglas McIlroy
@@ -2464,89 +2559,46 @@ Skate 40%
     + Zapier
 
 
+# Titulo
++
+  +
+  +
+  +
++
++
 
 
 ===================
 S::ML
 ===================
-+ Machine Learning video lectures by Professor Andrew Ng (Stanford)
-http://www.youtube.com/view_play_list?p=A89DCFA6ADACE599
-+ Lectures by Professor Gilbert Strang
-http://web.mit.edu/18.06/www/
-+ Ask HN: How do I start with Machine Learning?
-https://news.ycombinator.com/item?id=2645671
-+ https://www.coursera.org/course/ml
 
-+ Books:
-. Programming Collective Intelligence
-. Machine Learning, Tom Mitchell, McGraw Hill, 1997.
-. Reinforcement Learning: An Introduction - Richard S. Sutton and Andrew G. Barto, MIT Press, Cambridge, MA, 1998
-. Machine Learning for Hackers
-. Machine Learning in Action
-. Programming Collective Intelligence: Building Smart Web 2.0 Applications
-. Machine Learning: An Algorithmic Perspective - Stephen Marsland  (Chapman & Hall/Crc Machine Learning & Pattern Recognition) 1st Edition
+# Books:
+  + Programming Collective Intelligence
+  + Machine Learning, Tom Mitchell, McGraw Hill, 1997.
+  + Reinforcement Learning: An Introduction - Richard S. Sutton and Andrew G. Barto, MIT Press, Cambridge, MA, 1998
+  + Machine Learning for Hackers
+  + Machine Learning in Action
+  + Programming Collective Intelligence: Building Smart Web 2.0 Applications
+  + Machine Learning: An Algorithmic Perspective - Stephen Marsland  (Chapman & Hall/Crc Machine Learning & Pattern Recognition) 1st Edition
+  + Data Science from Scratch: First Principles with Python 1st Edition
+  by Joel Grus (Author) OReilly
+  + Deep Learning: A Practitioner's Approach 1st Edition
+  by Adam Gibson (Author), Josh Patterson (Author) OReilly
 
-. Data Science from Scratch: First Principles with Python 1st Edition
-by Joel Grus (Author) OReilly
-. Deep Learning: A Practitioner's Approach 1st Edition
-by Adam Gibson (Author), Josh Patterson (Author) OReilly
+# JS:
+  + ConvNetJS
+  + Mind.js
+  + Brain.js
+  + Synaptic.js
+  + percipio
+  + bloom.js ??
+  + sean byrnes
+    + likely.js
+    + classify.js
+    + lyric
+    + logistical.js
+  + dn2a-javascript (https://github.com/dn2a/dn2a-javascript?utm_source=javascriptweekly&utm_medium=email)
 
-+ TCSchool
-+ 1-10 Numbers
-+ Cursiva / imprenta
-
-+ Neural Networks in Javascript
-  http://www.antoniodeluca.info/blog/10-08-2016/neural-networks-in-javascript.html
-+ JS Digit Recognition
-  https://github.com/TimboKZ/js-digit-recognition
-
-+ ConvNetJS
-+ Mind.js
-+ Brain.js
-+ Synaptic.js
-+ percipio
-+ bloom.js ??
-+ sean byrnes
-  + likely.js
-  + classify.js
-  + lyric
-  + logistical.js
-+ dn2a-javascript (https://github.com/dn2a/dn2a-javascript?utm_source=javascriptweekly&utm_medium=email)
-
-+ Deep Learning Books - http://machinelearningmastery.com/deep-learning-books/
-+ Tensor flow beginner examples
-  + https://github.com/aymericdamien/TensorFlow-Examples
-+ Deep training with Open Street Maps
-  + https://github.com/trailbehind/DeepOSM
-+ Hello, TensorFlow! (Oreilly tut)
-  https://www.oreilly.com/learning/hello-tensorflow
-+ http://ofir.io/How-to-Start-Learning-Deep-Learning/
-
-+ The Unreasonable Effectiveness of Recurrent Neural Networks
-  http://karpathy.github.io/2015/05/21/rnn-effectiveness/
-
-+ https://medium.com/@james_aka_yale/the-10-algorithms-machine-learning-engineers-need-to-know-f4bb63f5b2fa#.cbrizvoqf
-+ https://blog.monkeylearn.com/machine-learning-1m-hotel-reviews-finds-interesting-insights/
-+ Image Completion with Deep Learning in TensorFlow
-  http://bamos.github.io/2016/08/09/deep-completion/
-
-+ The Ultimate List of TensorFlow Resources: Books, Tutorials, Libraries and More
-  https://hackerlists.com/tensorflow-resources/
-
-+ Tensor Methods in Machine Learning
-  http://www.offconvex.org/2015/12/17/tensor-decompositions/
-
-+ Top Deep Learning Projects
-  https://github.com/aymericdamien/TopDeepLearning
-
-+ https://www.experfy.com/blog/how-to-become-a-data-scientist-part-1-3
-+ https://www.experfy.com/blog/how-to-become-a-data-scientist-part-2-3
-
-+ A Course in Machine Learning
-  http://ciml.info/
-+ magenta reviews
-  https://github.com/tensorflow/magenta/tree/master/magenta/reviews
-  Collection of must read papers in the Neural Networks field
 
 + Machine Learning Exercises In Python
 http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-1/
@@ -2558,98 +2610,77 @@ http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-6/
 http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-7/
 http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
 
-+ ML and Ketosis
-https://github.com/arielf/weight-loss
-
-+ Theano Implementation of Tree RNNs
-  https://github.com/ofirnachum/tree_rnn
-
-+ Training a Recurrent Neural Network to Compose Music
-  https://maraoz.com/2016/02/02/abc-rnn/
-
-+ RECURRENT NEURAL NETWORKS TUTORIAL, PART 1 – INTRODUCTION TO RNNS
-  http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/
-  http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/
-  http://www.wildml.com/2015/10/recurrent-neural-networks-tutorial-part-3-backpropagation-through-time-and-vanishing-gradients/
-  http://www.wildml.com/2015/10/recurrent-neural-network-tutorial-part-4-implementing-a-grulstm-rnn-with-python-and-theano/
-
-+ RNNS IN TENSORFLOW, A PRACTICAL GUIDE AND UNDOCUMENTED FEATURES
-  http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/
-
-+ UNDERSTANDING CONVOLUTIONAL NEURAL NETWORKS FOR NLP
-  http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/
-
-+ IMPLEMENTING A CNN FOR TEXT CLASSIFICATION IN TENSORFLOW
-  http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/
-
-+ ATTENTION AND MEMORY IN DEEP LEARNING AND NLP
-  http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/
-
-+ DEEP LEARNING FOR CHATBOTS, PART 1 – INTRODUCTION
-  http://www.wildml.com/2016/04/deep-learning-for-chatbots-part-1-introduction/
-  http://www.wildml.com/2016/07/deep-learning-for-chatbots-2-retrieval-based-model-tensorflow/
-
-+ The Unreasonable Effectiveness of Recurrent Neural Networks
-  https://karpathy.github.io/2015/05/21/rnn-effectiveness/
-
-+ A Beginner's Guide To Understanding Convolutional Neural Networks
-  https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks/
-  A Beginner's Guide To Understanding Convolutional Neural Networks Part 2
-  https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks-Part-2/
-  The 9 Deep Learning Papers You Need To Know About (Understanding CNNs Part 3)
-  https://adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html
-
-+ BEGINNER'S GUIDE TO DECISION TREES FOR SUPERVISED MACHINE LEARNING
-  https://www.quantstart.com/articles/Beginners-Guide-to-Decision-Trees-for-Supervised-Machine-Learning
-
-+ The 10 Algorithms Machine Learning Engineers Need to Know
-  http://www.kdnuggets.com/2016/08/10-algorithms-machine-learning-engineers.html/1
-
 # Online NN
 + Kepler
 + Aetros.com
 
-+ https://iamtrask.github.io/2016/08/17/grokking-deep-learning/
 
-+ PyCNN: Cellular Neural Networks Image Processing Python Library
-  https://github.com/ankitaggarwal011/PyCNN
-
-+ Text Summarization with TensorFlow
-  https://research.googleblog.com/2016/08/text-summarization-with-tensorflow.html
-
-+ text-to-image: Tensorflow implementation of text to image synthesis using thought vectors
-  https://github.com/paarthneekhara/text-to-image
-
-+ Segmenting and refining images with DeepMask and SharpMask
-  https://code.facebook.com/posts/561187904071636#
-
-+ Deep Learning with Keras - Tutorial @ EuroScipy 2016
-  https://github.com/leriomaggio/deep-learning-keras-euroscipy2016
-
-+ Reinforcement Learning and DQN, learning to play from pixels
-  https://rubenfiszel.github.io/posts/rl4j/2016-08-24-Reinforcement-Learning-and-DQN.html
-
-+ Teaching Your Computer To Play Super Mario Bros. – A Fork of the Google DeepMind Atari Machine Learning Project
-  http://www.ehrenbrav.com/2016/08/teaching-your-computer-to-play-super-mario-bros-a-fork-of-the-google-deepmind-atari-machine-learning-project/
-
-+ Learning from Imbalanced Classes
-  http://www.svds.com/learning-imbalanced-classes/
-
-+ Emojineering Part 1: Machine Learning for Emoji Trends
-  http://instagram-engineering.tumblr.com/post/117889701472/emojineering-part-1-machine-learning-for-emoji
-
-+ Machine Learning Recipes with Hosh Gordon - Google Developers
-  https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
-
-+ ML-games (machine learning race cars)
-  https://github.com/TomaszRewak/ML-games
-
-+ Infrastructure for Deep Learning
-  https://openai.com/blog/infrastructure-for-deep-learning/
-
-+ Paddle (baidu's open source deep learning platform)
-  https://github.com/baidu/paddle
-
+# List
++ [ Machine Learning video lectures by Professor Andrew Ng (Stanford) ](http://www.youtube.com/view_play_list?p=A89DCFA6ADACE599)
++ [ Lectures by Professor Gilbert Strang ](http://web.mit.edu/18.06/www/)
++ [ Ask HN: How do I start with Machine Learning? ](https://news.ycombinator.com/item?id=2645671)
++ [Coursera ML](https://www.coursera.org/course/ml)
++ [ Deep Learning Books ](http://machinelearningmastery.com/deep-learning-books/)
++ [ Tensor flow beginner examples ](https://github.com/aymericdamien/TensorFlow-Examples)
++ [ Deep training with Open Street Maps ](https://github.com/trailbehind/DeepOSM)
++ [ Hello, TensorFlow! (Oreilly tut) ](https://www.oreilly.com/learning/hello-tensorflow)
++ [ How to Start Learning Depp Learning ](http://ofir.io/How-to-Start-Learning-Deep-Learning/)
++ [ Neural Networks in Javascript ](http://www.antoniodeluca.info/blog/10-08-2016/neural-networks-in-javascript.html)
++ [ JS Digit Recognition ](https://github.com/TimboKZ/js-digit-recognition)
++ [ The Unreasonable Effectiveness of Recurrent Neural Networks ](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
++ [ The 10 Algos Machine Learning Engineers need to know ](https://medium.com/@james_aka_yale/the-10-algorithms-machine-learning-engineers-need-to-know-f4bb63f5b2fa#.cbrizvoqf)
++ [ Machine Learning over 1M hotel reviews finds interesting insights ](https://blog.monkeylearn.com/machine-learning-1m-hotel-reviews-finds-interesting-insights/)
++ [ Image Completion with Deep Learning in TensorFlow ](http://bamos.github.io/2016/08/09/deep-completion/)
++ [ The Ultimate List of TensorFlow Resources: Books, Tutorials, Libraries and More ](https://hackerlists.com/tensorflow-resources/)
++ [ Tensor Methods in Machine Learning ](http://www.offconvex.org/2015/12/17/tensor-decompositions/)
++ [ Top Deep Learning Projects ](https://github.com/aymericdamien/TopDeepLearning)
++ [ How to become a Data Scientist Part 1 ](https://www.experfy.com/blog/how-to-become-a-data-scientist-part-1-3)
++ [ How to become a Data Scientist Part 2 ](https://www.experfy.com/blog/how-to-become-a-data-scientist-part-2-3)
++ [ How to become a Data Scientist Part 3 ](https://www.experfy.com/blog/how-to-become-a-data-scientist-part-3-3)
++ [ A Course in Machine Learning ](http://ciml.info/)
++ [ Magenta reviews: Collection of must read papers in the Neural Networks field ](https://github.com/tensorflow/magenta/tree/master/magenta/reviews)
++ [ ML and Ketosis ](https://github.com/arielf/weight-loss)
++ [ Theano Implementation of Tree RNNs ](https://github.com/ofirnachum/tree_rnn)
++ [ Training a Recurrent Neural Network to Compose Music ](https://maraoz.com/2016/02/02/abc-rnn/)
++ [ Recurrent Neural Networks Tutorial, Part 1 – Itroduction To RNNS ](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/)
++ [ Recurrent Neural Networks Tutorial, Part 2 – Implementing a Language Model with Python, NumPy and Theano ](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/)
++ [ Recurrent Neural Networks Tutorial, Part 3 – Backpropagation through time and vanishing gradients ](http://www.wildml.com/2015/10/recurrent-neural-networks-tutorial-part-3-backpropagation-through-time-and-vanishing-gradients/)
++ [ Recurrent Neural Networks Tutorial, Part 4 – Implementing a grulstm RNN with Python and Theano ](http://www.wildml.com/2015/10/recurrent-neural-network-tutorial-part-4-implementing-a-grulstm-rnn-with-python-and-theano/)
++ [ RNNS IN TENSORFLOW, A PRACTICAL GUIDE AND UNDOCUMENTED FEATURES ](http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/)
++ [ UNDERSTANDING CONVOLUTIONAL NEURAL NETWORKS FOR NLP ](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
++ [ IMPLEMENTING A CNN FOR TEXT CLASSIFICATION IN TENSORFLOW ](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)
++ [ ATTENTION AND MEMORY IN DEEP LEARNING AND NLP ](http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/)
++ [ Deep Learning for Chatbots, Part 1 – Introduction ](http://www.wildml.com/2016/04/deep-learning-for-chatbots-part-1-introduction/)
++ [ Deep Learning for Chatbots, Part 1 – Retrieval based model in TensorFlow ](http://www.wildml.com/2016/07/deep-learning-for-chatbots-2-retrieval-based-model-tensorflow/)
++ [ The Unreasonable Effectiveness of Recurrent Neural Networks ](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
++ [ A Beginner's Guide To Understanding Convolutional Neural Networks ](https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks/)
++ [ A Beginner's Guide To Understanding Convolutional Neural Networks Part 2](https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks-Part-2/)
++ [ The 9 Deep Learning Papers You Need To Know About (Understanding CNNs Part 3)](https://adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html)
++ [ BEGINNER'S GUIDE TO DECISION TREES FOR SUPERVISED MACHINE LEARNING ](https://www.quantstart.com/articles/Beginners-Guide-to-Decision-Trees-for-Supervised-Machine-Learning)
++ [ The 10 Algorithms Machine Learning Engineers Need to Know ](http://www.kdnuggets.com/2016/08/10-algorithms-machine-learning-engineers.html/1)
++ [ Grokking Deep Learning](https://iamtrask.github.io/2016/08/17/grokking-deep-learning/)
++ [ PyCNN: Cellular Neural Networks Image Processing Python Library ](https://github.com/ankitaggarwal011/PyCNN)
++ [ Text Summarization with TensorFlow ](https://research.googleblog.com/2016/08/text-summarization-with-tensorflow.html)
++ [ text-to-image: Tensorflow implementation of text to image synthesis using thought vectors ](https://github.com/paarthneekhara/text-to-image)
++ [ Segmenting and refining images with DeepMask and SharpMask ](https://code.facebook.com/posts/561187904071636#)
++ [ Deep Learning with Keras - Tutorial @ EuroScipy 2016 ](https://github.com/leriomaggio/deep-learning-keras-euroscipy2016)
++ [ Reinforcement Learning and DQN, learning to play from pixels ](https://rubenfiszel.github.io/posts/rl4j/2016-08-24-Reinforcement-Learning-and-DQN.html)
++ [ Teaching Your Computer To Play Super Mario Bros. – A Fork of the Google DeepMind Atari Machine Learning Project ](http://www.ehrenbrav.com/2016/08/teaching-your-computer-to-play-super-mario-bros-a-fork-of-the-google-deepmind-atari-machine-learning-project/)
++ [ Learning from Imbalanced Classes ](http://www.svds.com/learning-imbalanced-classes/)
++ [ Emojineering Part 1: Machine Learning for Emoji Trends ](http://instagram-engineering.tumblr.com/post/117889701472/emojineering-part-1-machine-learning-for-emoji)
++ [ Machine Learning Recipes with Hosh Gordon - Google Developers ](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
++ [ ML-games (machine learning race cars) ](https://github.com/TomaszRewak/ML-games)
++ [ Infrastructure for Deep Learning ](https://openai.com/blog/infrastructure-for-deep-learning/)
++ [ Paddle (baidu's open source deep learning platform) ](https://github.com/baidu/paddle)
++ [ Safe Retirement Spending Using Certainty Equivalent Cash Flow and TensorFlow ](http://blog.streeteye.com/blog/2016/08/safe-retirement-spending-using-certainty-equivalent-cash-flow-and-tensorflow/)
++ [ TF-Slim: A high level library to define complex models in TensorFlow ](https://research.googleblog.com/2016/08/tf-slim-high-level-library-to-define.html)
++ [ HackerNews categorizer with MonkeyLearn ](https://blog.monkeylearn.com/hacker-news-categorizer-with-monkeylearn/)
++ [ Improving Inception and Image Classification in TensorFlow ](https://research.googleblog.com/2016/08/improving-inception-and-image.html)
++ [ How a Japanese cucumber farmer is using deep learning and TensorFlow ](https://cloud.google.com/blog/big-data/2016/08/how-a-japanese-cucumber-farmer-is-using-deep-learning-and-tensorflow)
++ [ MLPaint: the Real-Time Handwritten Digit Recognizer ](http://blog.mldb.ai/blog/posts/2016/09/mlpaint/)
++ [ Implementation of Neural Style Transfer in Keras (from paper: A Neural Algorithm of Artistic Style) ](https://github.com/titu1994/Neural-Style-Transfer)
++ [ Analyzing The Papers Behind Facebook's Computer Vision Approach ](https://adeshpande3.github.io/adeshpande3.github.io/Analyzing-the-Papers-Behind-Facebook%27s-Computer-Vision-Approach/)
++ [ How a Japanese cucumber farmer is using deep learning and TensorFlow ](https://cloud.google.com/blog/big-data/2016/08/how-a-japanese-cucumber-farmer-is-using-deep-learning-and-tensorflow)
 Ask HN: From programming to AI, how?
 vaibkv 1 hour ago
 
@@ -3382,7 +3413,11 @@ var starters = [
   { name: "horizon-react-webpack-boilerplate",
     desc: "Horizon, React, Webpack boilerplate with demo app",
     url: "https://github.com/juliancwirko/horizon-react-webpack-boilerplate",
-    keywords: ["react", "webpack", "horizon"]}
+    keywords: ["react", "webpack", "horizon"]},
+  { name: "electron-basic-ui-layout",
+    desc: "Common UI layout for an Electron/React app",
+    url: "https://github.com/tstringer/electron-basic-ui-layout",
+    keywords: ["electron", "react"]}
 ];
 
 Head First C
