@@ -562,7 +562,7 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
     langs: [
       { name: 'Hyperpolyglot Cheat Sheets',
         url: 'http://hyperpolyglot.org/' },
-      { name: 'Python':
+      { name: "Python":
         resources: [
           { name: 'Learn Python',
             url': 'http://www.learnpython.org/' },
@@ -631,7 +631,7 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "Pendulum = Python datetimes made easy",
             url: "https://github.com/sdispater/pendulum" }
         ]},
-      { name: 'GoLang',
+      { name: "GoLang",
         resources:
           [{ name: "Go Tutorial",
             url: "http://golang.org/doc/go_tutorial.html" },
@@ -639,6 +639,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://golang.org/doc/effective_go.html" },
           { name: "Go Language Patterns",
             url: "http://www.golangpatterns.info/" }],
+          { name: "go-patterns - A curated list of Go patterns and idioms",
+            url: "https://github.com/tmrts/go-patterns" }
           { name: 'Go by Example',
             url: 'https://gobyexample.com/' },
           { name: "Go Data Structure Implementations",
@@ -655,7 +657,7 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://ymmt2005.hatenablog.com/entry/2016/09/01/How_to_hack_Go%27s_http_Server_correctly" }
         ],
         frameworks: [
-          'Gopher',
+          { name: "Gopher" },
           { name: "echo",
             url: "https://github.com/labstack/echo" },
           { name: "iris",
@@ -668,12 +670,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "Git Undo",
             url: "http://megakemp.com/2016/08/25/git-undo/" }
       ]},
-      { name: 'Haskell',
+      { name: "Haskell",
         resources: [
           { name: "Pitfalls in Haskell",
             url: "http://users.jyu.fi/~sapekiis/haskell-pitfalls/" }
       ]},
-      { name: 'Elm',
+      { name: "Elm",
         resources: [
           { name: "Elm for Beginners",
             url: "http://courses.knowthen.com/courses/elm-for-beginners" },
@@ -688,9 +690,13 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "Elm Pair Programming - Josh Adams and Luke Westby Pairing on Colluder",
             url: "https://www.dailydrip.com/blog/elm-pair-programming-josh-adams-and-luke-westby-pairing-on-colluder" },
           { name: "Translations Using Unions in Elm",
-            url: "https://toast.al/posts/2016-08-20-seer-stones-translations-using-unions-in-elm.html" }
+            url: "https://toast.al/posts/2016-08-20-seer-stones-translations-using-unions-in-elm.html" },
+          { title: "Hacker News Reader in Elm",
+            url: "https://github.com/massung/elm-hn" },
+          { name: "Making Pong - An Intro to Games in Elm",
+            url: "http://elm-lang.org/blog/making-pong" },
         ]},
-      { name: 'C',
+      { name: "C",
         frameworks: [
           { name: 'Balde',
             url: 'https://balde.rgm.io/' }
@@ -704,8 +710,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://arjunsreedharan.org/post/148675821737/write-a-simple-memory-allocator" }
           }
         ]},
-      { name: 'C++' },
-      { name: 'Lisp',
+      { name: "C++",
+        resources: [
+          { name: "Auto Type Deduction in Range-Based For Loops",
+            url: "https://blog.petrzemek.net/2016/08/17/auto-type-deduction-in-range-based-for-loops/" }
+      ]},
+      { name: "Lisp",
         resources: [
           { name: "Playing with Syntax",
             url: "http://stevelosh.com/blog/2016/08/playing-with-syntax/" },
@@ -720,14 +730,14 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "",
             url: "" }
       ]},
-      { name: 'R',
+      { name: "R",
         resources: [
           { name: "Start here to learn R!",
             url: "http://r-exercises.com/2016/07/22/start-here-to-learn-r/" },
           { name: "15 Page Tutorial for R",
             url: "http://www.studytrails.com/blog/15-page-tutorial-for-r/" },
         ] },
-      { name: 'Rust',
+      { name: "Rust",
         roadmap: [
           { name: "Rust Book",
             url: "https://doc.rust-lang.org/book/" },
@@ -742,11 +752,11 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "Zero-cost futures in Rust",
             url: "http://aturon.github.io/blog/2016/08/11/futures/" }
         ]},
-      { name: 'SmallTalk',
+      { name: "SmallTalk",
         frameworks: [
           'Amber'
         ]},
-      { name: 'Erlang',
+      { name: "Erlang",
         resources: [
           { name: 'Learn You Some Erlang'
             url: 'http://learnyousomeerlang.com/'},
@@ -758,12 +768,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           'http://nerves-project.org/',
           'PhoenixFramework (Elixir)'
         ]},
-      { name: 'F#',
+      { name: "F#",
         tools: [
           { name: "Fable",
             url: "http://fsprojects.github.io/Fable/" },
         ]},
-      { name: 'Clojure',
+      { name: "Clojure",
         frameworks: [
           { name: 'om',
             url: 'https://github.com/omcljs/om' },
@@ -778,7 +788,7 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://shaunlebron.github.io/t3tr0s-slides/#0" }
           }
       ]},
-      { name: 'Ruby',
+      { name: "Ruby",
         frameworks: [
           { name: 'Rails',
             url: 'http://rubyonrails.org/' },
@@ -793,7 +803,7 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "How I Finally Learned Rails",
             url: "https://medium.com/ruby-on-rails/how-i-finally-learned-rails-95e9b832675b#.7fd4so8gy" }
         ]},
-      { name: 'Javascript',
+      { name: "Javascript",
         roadmap: [
           { name: 'Quora - What is the best way of learning Node.js?'
             url: 'https://www.quora.com/What-is-the-best-way-of-learning-Node-js' },
@@ -852,7 +862,13 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "Javascript Garbage Collection Imporvements - Orinoco",
             url: "https://blog.risingstack.com/javascript-garbage-collection-orinoco/" },
           { name: "Three JavaScript performance fundamentals that make Bluebird fast",
-            url: "https://reaktor.com/blog/javascript-performance-fundamentals-make-bluebird-fast/" }
+            url: "https://reaktor.com/blog/javascript-performance-fundamentals-make-bluebird-fast/" },
+          { name: "ES6 Generators and async/await",
+            url: "http://blog.davidjs.com/2016/08/es6-generators-and-asyncawait/"},
+          { name: "Catiline.js - A JavaScript Library for workers",
+            url: "http://catilinejs.com/" },
+          { name: "webworkify",
+            url: "https://github.com/substack/webworkify" }
         ],
         transpiledSurrogates: [
           { name: "Amber (Smalltalk)" },
@@ -898,14 +914,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "React on the Server for Beginners: Build a Universal React and Node App",
             url:: "https://scotch.io/tutorials/react-on-the-server-for-beginners-build-a-universal-react-and-node-app" },
           { name: "How I built React Native Tab View",
-            url: "https://medium.com/@satya164/how-i-built-react-native-tab-view-7adfb2570af6#.doug32iba" }
-      ]},
-      { name: "Elm",
-        resources: [
-          { name: "KnowThen Course: Elm for Beginners",
-            url: "http://courses.knowthen.com/courses/elm-for-beginners" },
-
-          }
+            url: "https://medium.com/@satya164/how-i-built-react-native-tab-view-7adfb2570af6#.doug32iba" },
+          { name: "Better Prop Validation in React",
+            url: "https://medium.com/@MoeSattler/better-prop-validation-in-react-cc83590d311f#.dsrmv4hfl" }
       ]},
       { name: "Maths",
         roadmap: [
@@ -1332,7 +1343,19 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Understanding JSON web tokens",
         url: "http://stackabuse.com/understanding-json-web-tokens-jwt/" },
       { name: "Aliens in the Valley: The Complete History of Reddit",
-        url: "http://mashable.com/2014/12/03/history-of-reddit/#WsJMlkCoakq5" }
+        url: "http://mashable.com/2014/12/03/history-of-reddit/#WsJMlkCoakq5" },
+      { name: "How Tor Works",
+        url: "http://www.alexkyte.me/2016/09/how-tor-works.html" },
+      { name: "Introduction to Mean Shift Algorithm",
+        url: "https://saravananthirumuruganathan.wordpress.com/2010/04/01/introduction-to-mean-shift-algorithm/" },
+      { name: "k-Nearest Neighbours: From slow to fast thanks to maths",
+        url: "http://blog.booking.com/k-nearest-neighbours-from-slow-to-fast-thanks-to-math.html" },
+      { name: "Websocket Shootout: Clojure, C++, Elixir, Go, NodeJS, and Ruby",
+        url: "https://hashrocket.com/blog/posts/websocket-shootout" },
+      { name: "websocket-shootout - Websocket Shootout Repo",
+        url: "https://github.com/hashrocket/websocket-shootout" },
+      { name: "Think Befor You Parallelize",
+        url: "https://jackmott.github.io/programming/2016/08/30/think-before-you-parallelize.html" }
     ],
     implementations: [
       { name: "30k Page Views for $0.21 - A Serverless story",
@@ -1395,8 +1418,6 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "http://blog.angular-academy.io/angular-2-universal-meet-the-internet-of-the-future-seo-friendly-single-page-web-apps/" },
       { title: "React & Redux Example App Tutorials – Instagram clone",
         url: "http://blog.getstream.io/react-redux-example-app-tutorials-preview/?fthr=cabin_pre_rd_re" },
-      { title: "Hacker News Reader in Elm",
-        url: "https://github.com/massung/elm-hn" },
       { title: "Building Rock Paper Scissors with Botkit",
         url: "https://blog.neondaylight.com/building-rock-paper-scissors-with-botkit-f08c9f48ba42#.5zligtkg8" },
       { title: "Apache Spark as a Compiler: Joining a Billion Rows per Second on a Laptop",
@@ -1738,7 +1759,13 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Watch This Surveillance Master Dissect a Murder From the Sky",
         url: "http://www.bloomberg.com/news/articles/2016-08-23/watch-this-surveillance-master-dissect-a-murder-from-the-sky"},
       { name: "Concurrency is Not Parallelism",
-        url: "https://blog.golang.org/concurrency-is-not-parallelism" }
+        url: "https://blog.golang.org/concurrency-is-not-parallelism" },
+      { name: "Progressive Web Apps across all frameworks - Google I/O 2016",
+        url: "https://www.youtube.com/watch?v=srdKq0DckXQ" },
+      { name: "The 2016 Web Development Workflow - Google I/O 2016",
+        url: "https://www.youtube.com/watch?v=sGsA7oKoQhI" }
+      { name: "Instant Loading: Building offline-first Progressive Web Apps - Google I/O 2016",
+        url: "https://www.youtube.com/watch?v=cmGr0RszHc8" }
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -1942,7 +1969,9 @@ writing their own paychecks.",
       { name: "Common startup mistakes and how to avoid them",
         url: "https://codingvc.com/common-startup-timing-mistakes-and-how-to-avoid-them/" },
       { name: "A Surprisingly Powerful Mechanism For Growing A SaaS Startup (prepay)",
-        url: "http://tomtunguz.com/cash-collections/" }
+        url: "http://tomtunguz.com/cash-collections/" },
+      { name: "Tricks to Monetize your Side Projects",
+        url: "http://jeremyaboyd.com/tricks-to-monetize-your-side-projects/" }
     ],
     finance: [
       { name: "Invisible Super Intelligence for The Stock Market",
@@ -1978,7 +2007,9 @@ writing their own paychecks.",
       { name: "Blockdust",
         url: "https://blokdust.com/" },
       { name: "coda - Simple abstractions for music software",
-        url: "https://github.com/sdeleon28/coda" }
+        url: "https://github.com/sdeleon28/coda" },
+      { name: "Waud.js - Web Audio Library",
+        url: "http://www.waudjs.com/" }
     ],
     datasci: [
       { name: "Text analysis of Trump's tweets confirms he writes only the (angrier) Android half",
@@ -2024,7 +2055,9 @@ writing their own paychecks.",
       { name: "anim8js",
         url: "https://github.com/ClickerMonkey/anim8js" },
       { name: "postmate.js para benja",
-        url: "https://github.com/dollarshaveclub/postmate" }
+        url: "https://github.com/dollarshaveclub/postmate" },
+      { name: "bild - A collection of image processing algorithms in pure Go",
+        url: "https://github.com/anthonynsimon/bild" }
     ],
     thought: [
       { name: "Happiest at Work",
@@ -2079,7 +2112,9 @@ writing their own paychecks.",
       { name: "The Lost Art of Typing Shit by Hand",
         url: "https://daveceddia.com/the-lost-art-of-typing-shit-by-hand/" },
       { name: "Is Artificial Intelligence Permanently Inscrutable?",
-        url: "http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable" }
+        url: "http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable" },
+      { name: "Great developers don't need to be passionate",
+        url: "http://blog.qualified.io/great-developers-dont-need-to-be-passionate/" }
     ],
     interviews: [
       { name: "Bill Gates 1993",
@@ -2126,7 +2161,9 @@ writing their own paychecks.",
     ],
     blockchain: [
       { name: "DNSChain",
-        url: "https://github.com/okTurtles/dnschain" }
+        url: "https://github.com/okTurtles/dnschain" },
+      { name: "Maybe Blockchain Really Does Have Magical Powers",
+        url: "https://www.bloomberg.com/view/articles/2016-09-01/maybe-blockchain-really-does-have-magical-powers" }
     ],
     compression: [
       { name: "zstandard by Facebook",
@@ -2134,7 +2171,11 @@ writing their own paychecks.",
     ],
     adtech: [
       { name: "Investigating Google Adwords Click Fraud",
-        url: "https://medium.com/@nesovok/investigating-fraudulent-clicks-in-google-adwords-f3c42da0ad62#.ze4kurl7k" }
+        url: "https://medium.com/@nesovok/investigating-fraudulent-clicks-in-google-adwords-f3c42da0ad62#.ze4kurl7k" },
+      { name: "Golden State Warriors Android app constantly listens to nearby audio, fan says",
+        url: "http://arstechnica.com/tech-policy/2016/09/golden-state-warriors-android-app-constantly-listens-to-nearby-audio-fan-says/" },
+      { name: "Signal360",
+        url: "http://www.signal360.com/" }
     ],
     urbanism: [
       { name: "SOS Brutalism",
@@ -2147,20 +2188,27 @@ writing their own paychecks.",
     design: [
       { name: "IBM Design Language",
         url: "https://www.ibm.com/design/language/" }
+    ],
+    marketing: [
+      { name: "How Google Analytics Ruined marketing",
+        url: "https://techcrunch.com/2016/08/07/how-google-analytics-ruined-marketing/How Google Analytics Ruined marketing" }
+    ],
+    fun: [
+      { name: "Coding Explained in 25 Profound Comics",
+        url: "https://medium.freecodecamp.com/coding-explained-in-25-profound-comics-8847ea03819c#.ism70p3ww" }
+    ],
+    worktheory: [
+      { name: "What Happened When I Moved My Company To A 5-Hour Workday",
+        url: "https://www.fastcompany.com/3063262/lessons-learned/what-happened-when-i-moved-my-company-to-a-5-hour-workday" }
     ]
   }
 
 + S::HN
-  + Ask HN: How much do you make at a remote job?
-    https://news.ycombinator.com/item?id=12336661
-  + HN Who is Hiring? Thread Analysis
-    https://blog.whoishiring.io/hacker-news-who-is-hiring-thread-part-1/
-    https://blog.whoishiring.io/hacker-news-who-is-hiring-thread-part-2-remote-and-locations/
-    https://blog.whoishiring.io/hacker-news-who-is-hiring-thread-part-3/
-  + Ask HN: Who is hiring?
-    + September 2016
-      https://news.ycombinator.com/item?id=12405698
-  + http://hackernewsbooks.com/
+  + [Ask HN: How much do you make at a remote job?](https://news.ycombinator.com/item?id=12336661)
+  + [HN Who is Hiring? Thread Analysis](https://blog.whoishiring.io/hacker-news-who-is-hiring-thread-part-1/)
+  + [Ask HN: Who is hiring? - September 2016](https://news.ycombinator.com/item?id=12405698)
+  + [HackerNews Books](http://hackernewsbooks.com/)
+  + [Ask HN: Non-tech books that have helped you grow professionally?](https://news.ycombinator.com/item?id=12415621)
 
 + Basic CS Reading - M. Douglas McIlroy
 Cook's Travels and Other Salesmen's Tales - Dick Karp
@@ -2681,6 +2729,11 @@ http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
 + [ Implementation of Neural Style Transfer in Keras (from paper: A Neural Algorithm of Artistic Style) ](https://github.com/titu1994/Neural-Style-Transfer)
 + [ Analyzing The Papers Behind Facebook's Computer Vision Approach ](https://adeshpande3.github.io/adeshpande3.github.io/Analyzing-the-Papers-Behind-Facebook%27s-Computer-Vision-Approach/)
 + [ How a Japanese cucumber farmer is using deep learning and TensorFlow ](https://cloud.google.com/blog/big-data/2016/08/how-a-japanese-cucumber-farmer-is-using-deep-learning-and-tensorflow)
++ [ Neural Networks for Genomics ](http://blog.qure.ai/notes/neural-networks-for-genomics)
++ [ Neural Network Architectures ](http://culurciello.github.io/tech/2016/06/04/nets.html)
++ [ Decoupled Neural Interfaces Using Synthetic Gradients ](https://deepmind.com/blog#decoupled-neural-interfaces-using-synthetic-gradients)
+
+
 Ask HN: From programming to AI, how?
 vaibkv 1 hour ago
 
