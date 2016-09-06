@@ -448,7 +448,6 @@
     + https://www.sideprojectors.com/
     + https://empireflippers.com/
 
-
 + Vim
   + https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/
   + http://thenorthcode.net/2016/01/11/using-vim-as-a-javascript-ide/
@@ -474,6 +473,7 @@
     + Tagbar
 
     + vim-javascript
+    + https://github.com/pgilad/vim-react-proptypes-snippets
 
 
 
@@ -878,7 +878,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "10 Things You Shouldn't Do While Running Node.js in Production",
             url: "https://hashnode.com/post/10-things-you-shouldnt-do-while-running-nodejs-in-production-cisab2fyu0s9oth5341faywcw" },
           { name: "An incremental tutorial on promises in javascript",
-            url: "http://www.sohamkamani.com/blog/2016/08/28/incremenal-tutorial-to-promises/"}
+            url: "http://www.sohamkamani.com/blog/2016/08/28/incremenal-tutorial-to-promises/"},
+          { name: "Beyond RegEx - Writing a parser in JavaScript",
+            url: "https://medium.com/@daffl/beyond-regex-writing-a-parser-in-javascript-8c9ed10576a6?swoff=true#.98m454t91" },
+          { name: "Master the JavaScript Interview: What is Function Composition?",
+            url: "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.bldm6cezc" },
+
         ],
         transpiledSurrogates: [
           { name: "Amber (Smalltalk)" },
@@ -934,6 +939,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "Using React Native: One Year Later",
             url: "https://discord.engineering/using-react-native-one-year-later-91fd5e949933#.7zc64516u" }
       ]},
+      { name: "Node",
+        resources: [
+          { name: "Learn Node.js",
+            desc: "A free interactive course for Node beginners",
+            url: "https://hyperdev.com/help/learn-node-js-free-beginner-course/" },
+      ]},
       { name: "Webpack",
         resources: [
           { name: "Webpack: The Missing Tutorial",
@@ -948,7 +959,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "How To Learn Advanced Mathematics Without Heading To University - Part 2",
             url: "https://www.quantstart.com/articles/How-to-Learn-Advanced-Mathematics-Without-Heading-to-University-Part-2" },
           { name: "How To Learn Advanced Mathematics Without Heading To University - Part 1",
-            url: "https://www.quantstart.com/articles/How-to-Learn-Advanced-Mathematics-Without-Heading-to-University-Part-3" }
+            url: "https://www.quantstart.com/articles/How-to-Learn-Advanced-Mathematics-Without-Heading-to-University-Part-3" },
+          { name: "The time I ‘nearly’ solved the Twin Prime Conjecture",
+            url: "https://hackernoon.com/the-time-i-nearly-solved-the-twin-prime-conjecture-8f033030fe90#.n6nt2gew1" }
         ]}
       { name: "Scala",
         resources: [
@@ -1400,7 +1413,11 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "The Building Blocks Of Progressive Web Apps",
         url: "https://www.smashingmagazine.com/2016/09/the-building-blocks-of-progressive-web-apps/" },
       { name: "Reverse Network Effects: Why Today’s Social Networks Can Fail As They Grow Larger",
-        url: "http://www.wired.com/insights/2014/03/reverse-network-effects-todays-social-networks-can-fail-grow-larger/" }
+        url: "http://www.wired.com/insights/2014/03/reverse-network-effects-todays-social-networks-can-fail-grow-larger/" },
+      { name: "SVG Heat Shimmer",
+        url: "http://bl.ocks.org/monfera/19845caf6aa383abddaa248a3f0d2ae0" },
+      { name: "So you want to be a Functional Programmer",
+        url: "https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536#.5zc2jnd3z" }
     ],
     implementations: [
       { name: "30k Page Views for $0.21 - A Serverless story",
@@ -1495,8 +1512,14 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "http://info.meteor.com/blog/building-app-for-us-olympic-swim-trials" },
       { title: "kids.klipse.tech - An interactive functional programming course for children based on clojure and klipse",
         url: "https://github.com/viebel/kids.klipse.tech" },
-      { title: "RisingStack - Writing a JavaScript Framework (Part 1/7)",
+      { title: "RisingStack - Writing a JavaScript Framework - Project Structuring (Part 1/7)",
         url: "https://blog.risingstack.com/writing-a-javascript-framework-project-structuring/" },
+      { name: "RisingStack - Writing a JavaScript Framework - Execution timing, beyond setTimeout (Part 2/7)",
+        url: "https://blog.risingstack.com/writing-a-javascript-framework-execution-timing-beyond-settimeout/" },
+      { name: "RisingStack - Writing a JavaScript Framework - Sandboxed code evaluation (Part 3/7)",
+        url: "https://blog.risingstack.com/writing-a-javascript-framework-sandboxed-code-evaluation/" },
+      { name: "RisingStack - Writing a JavaScript Framework - Introduction to Data Binding, beyond Dirty Checking (Part 4/7)",
+        url: "https://blog.risingstack.com/writing-a-javascript-framework-data-binding-dirty-checking/" },
       { title: "Using a Static Site Generator at Scale: Lessons Learned",
         url: "https://www.smashingmagazine.com/2016/08/using-a-static-site-generator-at-scale-lessons-learned/" }
     ],
@@ -1662,8 +1685,11 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Hacked Redis Servers being used to install the Fairware Ransomware Attack",
         url: "http://www.bleepingcomputer.com/news/security/hacked-redis-servers-being-used-to-install-the-fairware-ransomware-attack/" },
       { name: "Linux Rex 1",
-        url: "http://vms.drweb.com/virus/?_is=1&i=8436299&lng=en" }
-
+        url: "http://vms.drweb.com/virus/?_is=1&i=8436299&lng=en" },
+      { name: "Continuous Intrusion: Why CI tools are an attacker's best friends",
+        url: "https://www.blackhat.com/docs/eu-15/materials/eu-15-Mittal-Continuous-Intrusion-Why-CI-Tools-Are-An-Attackers-Best-Friend.pdf" },
+      { name: "Threat Modelling For Node.js Applications",
+        url: "https://snyk.io/blog/nodejs-attack-tree-modelling/" },
     ],
     videos: [
       { title: 'Turning the database inside out',
@@ -2147,7 +2173,7 @@ writing their own paychecks.",
         url: "https://github.com/shekhargulati/52-technologies-in-2016" },
       { name: "Granim.js",
         desc: "Create fluid and interactive gradients animations",
-        url: "https://sarcadass.github.io/granim.js/"}
+        url: "https://sarcadass.github.io/granim.js/"},
     ],
     thought: [
       { name: "Happiest at Work",
@@ -2206,6 +2232,10 @@ writing their own paychecks.",
       { name: "Great developers don't need to be passionate",
         url: "http://blog.qualified.io/great-developers-dont-need-to-be-passionate/" }
     ],
+    people: [
+      { name: "How Elon Muxk Thinks",
+        url: "http://www.searchtrack.co/viewproject/92/how-elon-musk-thinks?source=socialquo&rc=120594565rcXCEQyvinJylCn" }
+    ],
     interviews: [
       { name: "Bill Gates 1993",
         url: "http://americanhistory.si.edu/comphist/gates.htm" },
@@ -2218,6 +2248,10 @@ writing their own paychecks.",
       { name: "Max Levchin - Why It's Time To Re-Imagine the Financial Services Industry",
         url: "https://www.linkedin.com/pulse/why-its-time-re-imagine-financial-services-industry-max-levchin"}
     ],
+    quotes: [
+      { author: "Edward Snowden",
+        text: "Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say." }
+    ],
     languages: [
       { name: "An Introduction to Japanase",
         url: "https://pomax.github.io/nrGrammar/" },
@@ -2225,10 +2259,6 @@ writing their own paychecks.",
         url: "https://www.candyjapan.com/%E5%8F%A3" },
       { name: "If English was written like Chinese",
         url: "http://www.zompist.com/yingzi/yingzi.htm" }
-    ],
-    people: [
-      { name: "How Elon Muxk Thinks",
-        url: "http://www.searchtrack.co/viewproject/92/how-elon-musk-thinks?source=socialquo&rc=120594565rcXCEQyvinJylCn" }
     ],
     life-extension: [
       { name: "An MIT Scientist Claims That This Pill Is the Fountain of Youth",
@@ -2269,7 +2299,11 @@ writing their own paychecks.",
       { name: "Golden State Warriors Android app constantly listens to nearby audio, fan says",
         url: "http://arstechnica.com/tech-policy/2016/09/golden-state-warriors-android-app-constantly-listens-to-nearby-audio-fan-says/" },
       { name: "Signal360",
-        url: "http://www.signal360.com/" }
+        url: "http://www.signal360.com/" },
+      { name: "Is a big Google search update happening? Chatter thinks so.",
+        url: "http://searchengineland.com/big-google-search-update-happening-chatter-thinks-258142" },
+      { name: "How we unnecessarily burned 20k with Facebook Ads",
+        url: "https://www.stackfield.com/blog/how-we-unnecessarily-burned-20k-with-facebook-ads-43" },
     ],
     urbanism: [
       { name: "SOS Brutalism",
@@ -2300,6 +2334,15 @@ writing their own paychecks.",
     jobs: [
       { name: "How not to bomb your offer negotiation",
         url: "https://medium.freecodecamp.com/how-not-to-bomb-your-offer-negotiation-c46bb9bc7dea#.kmfp03l6p" }
+    ],
+    legal: [
+      { name: "Global-Regulation - The Global Law Search Engine",
+        url: "https://www.global-regulation.com/" }
+    ],
+    privacy: [
+      { name: "Umbra",
+        desc: "A platform for complete privacy",
+        url: "http://umbra.shadowproject.io/" },
     ]
   }
 
@@ -2895,6 +2938,11 @@ reply
 
 # S::TM Trained Models
 * https://github.com/fchollet/deep-learning-models
+
+
+
+===================
+
 
 ===================
 TF Show
