@@ -1,5 +1,4 @@
 # UBER - PostgreSQL
-
 + https://eng.uber.com/mysql-migration/
 + https://eng.uber.com/schemaless-part-one/
 + http://use-the-index-luke.com/blog/2016-07-29/on-ubers-choice-of-databases
@@ -8,13 +7,16 @@
 + http://rhaas.blogspot.com.ar/2016/08/ubers-move-away-from-postgresql.html
 
 # Anti Scrum
-* http://okigiveup.net/not-big-fan-of-scrum/
++ http://okigiveup.net/not-big-fan-of-scrum/
 
 # MongoDB Bad
-* http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/
-* http://blog.runnable.com/post/149000201856/think-before-you-mongo
-* https://www.linkedin.com/pulse/mongodb-32-now-powered-postgresql-john-de-goes
++ http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/
++ http://blog.runnable.com/post/149000201856/think-before-you-mongo
++ https://www.linkedin.com/pulse/mongodb-32-now-powered-postgresql-john-de-goes
 
 # Docker
-* https://circleci.com/blog/its-the-future/
-* http://blog.goodstuff.im/docker_not_prime_time
++ https://circleci.com/blog/its-the-future/
++ http://blog.goodstuff.im/docker_not_prime_time
+
+#Youtube De-Monetization
++ https://medium.com/internet-creators-guild/youtube-de-monetization-explained-44464f902a22#.ihomio26z

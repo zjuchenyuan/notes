@@ -57,6 +57,7 @@
   + Neutral, the Independent App Store
   + Crazy Eyes (http://yaroslav.ganin.net/static/deepwarp/)
   + HTML Job Applications (https://dribbble.com/shots/2873870-HTML-Email-Cover-Letter)
+  + Baby name picking app (http://www.bbc.co.uk/newsbeat/article/37255033/a-16-year-old-british-girl-earns-48000-helping-chinese-people-name-their-babies)
 
   + Jarvis
     + https://iceddev.com/blog/jarvis-an-amazon-echo-clone-in-your-browser/
@@ -541,7 +542,7 @@
         url: "http://doublemap.github.io/blog/2014/04/29/porting-600k-map-views-to-openstreetmap/" },
       { name: "Realtime maps with Meteor and Leaflet",
         url: "http://asynchrotron.com/blog/2013/12/27/realtime-maps-with-meteor-and-leaflet/" },
-      { name: "Developing a Web Based Realtime Updating Ma[ with Leaflet.js",
+      { name: "Developing a Web Based Realtime Updating Map with Leaflet.js",
         url: "https://codepen.io/ajsb85/pen/MyBwjx" }
 
     + Shadertoys
@@ -599,7 +600,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "Reclaiming the Web in <100 lines of code",
             url: "http://blog.dwyer.co.za/2016/09/reclaiming-web-in-100-lines-of-code.html" },
           { name: "Further Reading: Intermediate Python Resources",
-            url: "http://inventwithpython.com/blog/2015/09/01/further-reading-intermediate-python-resources/" }
+            url: "http://inventwithpython.com/blog/2015/09/01/further-reading-intermediate-python-resources/" },
+          { name: "Plotly Academy - IPython Notebook Tutorial in Python",
+            url: "https://plot.ly/python/ipython-notebook-tutorial/" },
+          { name: "Dockerizing a Python Gunicorn Django Web Application",
+            desc: "",
+            url: "https://semaphoreci.com/community/tutorials/dockerizing-a-python-django-web-application" },
         ],
         frameworks: [
           { name: "Flask",
@@ -677,8 +683,15 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Haskell",
         resources: [
           { name: "Pitfalls in Haskell",
-            url: "http://users.jyu.fi/~sapekiis/haskell-pitfalls/" }
-      ]},
+            url: "http://users.jyu.fi/~sapekiis/haskell-pitfalls/" },
+          { name: "ZuriHac 2016: Spock - Powerful Elegant Web Applications",
+            url: "https://www.youtube.com/watch?v=-b-Oz6y-n_Y" },
+        ],
+        frameworks: [
+          { name: "Spock",
+            url: "https://www.spock.li/" },
+        ]
+      },
       { name: "Elm",
         resources: [
           { name: "Elm for Beginners",
@@ -937,7 +950,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "Pokemon Go in React Native",
             url: "https://github.com/VctrySam/Pokemon" },
           { name: "Using React Native: One Year Later",
-            url: "https://discord.engineering/using-react-native-one-year-later-91fd5e949933#.7zc64516u" }
+            url: "https://discord.engineering/using-react-native-one-year-later-91fd5e949933#.7zc64516u" },
+          { name: "Plotly Academy - Build your first real world React.js application with @mxstbr",
+            url: "http://academy.plot.ly/#react" },
       ]},
       { name: "Node",
         resources: [
@@ -961,7 +976,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "How To Learn Advanced Mathematics Without Heading To University - Part 1",
             url: "https://www.quantstart.com/articles/How-to-Learn-Advanced-Mathematics-Without-Heading-to-University-Part-3" },
           { name: "The time I ‘nearly’ solved the Twin Prime Conjecture",
-            url: "https://hackernoon.com/the-time-i-nearly-solved-the-twin-prime-conjecture-8f033030fe90#.n6nt2gew1" }
+            url: "https://hackernoon.com/the-time-i-nearly-solved-the-twin-prime-conjecture-8f033030fe90#.n6nt2gew1" },
+          { name: "Mastering Linear Algebra in 10 Days: Astounding Experiments in Ultra-Learning",
+            url: "http://calnewport.com/blog/2012/10/26/mastering-linear-algebra-in-10-days-astounding-experiments-in-ultra-learning/" },
         ]}
       { name: "Scala",
         resources: [
@@ -1041,6 +1058,16 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "SRL",
             desc: "Simple Regex Language",
             url: "https://simple-regex.com/" },
+      ]},
+      { name: "Dart",
+        resources: [
+          { name: "Bootstrap into Dart",
+            desc: "Flutter's favorite resources to help you quickly learn Dart.",
+            url: "https://flutter.io/bootstrap-into-dart/" },
+          { name: "Flutter I: Intro and Install",
+            url: "https://medium.com/@develodroid/flutter-i-intro-and-install-a8bf6dfcc7c8#.8s9w6hgh8" },
+          { name: "Flutter II: Material Design",
+            url: "https://medium.com/@develodroid/flutter-ii-material-design-f437e3e8e6a9#.xit37791s" },
       ]}
     ],
     codeReading: [
@@ -1107,7 +1134,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Computational and Inferential Thinking - The Foundations of Data Science",
         url: "http://www.inferentialthinking.com/" },
       { name: "Building a C Compiler Type System",
-        url: "http://blog.robertelder.org/building-a-c-compiler-type-system-the-formidable-declarator/" }
+        url: "http://blog.robertelder.org/building-a-c-compiler-type-system-the-formidable-declarator/" },
+      { name: "Lectures on Digital Photography from Stanford Prof.",
+        url: "https://sites.google.com/site/marclevoylectures/home" },
     ],
     mooc: [
       { name: "Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship",
@@ -1417,7 +1446,19 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "SVG Heat Shimmer",
         url: "http://bl.ocks.org/monfera/19845caf6aa383abddaa248a3f0d2ae0" },
       { name: "So you want to be a Functional Programmer",
-        url: "https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536#.5zc2jnd3z" }
+        url: "https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536#.5zc2jnd3z" },
+      { name: "How to Generate Secure Random Numbers in Various Programming Languages",
+        url: "https://paragonie.com/blog/2016/05/how-generate-secure-random-numbers-in-various-programming-languages" },
+      { name: "What is the Nash Equilibrium and why does it matter",
+        url: "http://www.economist.com/blogs/economist-explains/2016/09/economist-explains-economics" },
+      { name: "API First Transformation at Etsy – Concurrency",
+        url: "https://codeascraft.com/2016/09/06/api-first-transformation-at-etsy-concurrency/" },
+      { name: "How Do Criminals Launder Money Through a Restaurant?",
+        url: "http://www.eater.com/2016/9/1/12533030/money-laundering-restaurant" },
+      { name: "A Brief, Incomplete, and Mostly Wrong History of Programming Languages",
+        url: "http://james-iry.blogspot.com.ar/2009/05/brief-incomplete-and-mostly-wrong.html" },
+      { name: "Google Closure Compiler Advanced Compilation - Live Demo",
+        url: "http://viebel.github.io/klipse/examples/google_closure_compiler_advanced.html" },
     ],
     implementations: [
       { name: "30k Page Views for $0.21 - A Serverless story",
@@ -1690,6 +1731,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://www.blackhat.com/docs/eu-15/materials/eu-15-Mittal-Continuous-Intrusion-Why-CI-Tools-Are-An-Attackers-Best-Friend.pdf" },
       { name: "Threat Modelling For Node.js Applications",
         url: "https://snyk.io/blog/nodejs-attack-tree-modelling/" },
+      { name: "Snagging creds from locked machines",
+        url: "https://room362.com/post/2016/snagging-creds-from-locked-machines/" },
     ],
     videos: [
       { title: 'Turning the database inside out',
@@ -1846,7 +1889,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Randy Pausch Last Lecture: Achieving Your Childhood Dreams",
         url: "https://www.youtube.com/watch?v=ji5_MqicxSo" },
       { name: "Tim Perry - Promises Are So Passé",
-        url: "https://vimeo.com/181328943" }
+        url: "https://vimeo.com/181328943" },
+      { name: "ZuriHac 2016: Spock - Powerful Elegant Web Applications",
+        url: "https://www.youtube.com/watch?v=-b-Oz6y-n_Y" },
     ],
     podcasts: [
       { title: 'Supreme Clientele by: Roger Chen',
@@ -2068,17 +2113,41 @@ writing their own paychecks.",
       { name: "A Surprisingly Powerful Mechanism For Growing A SaaS Startup (prepay)",
         url: "http://tomtunguz.com/cash-collections/" },
       { name: "Tricks to Monetize your Side Projects",
-        url: "http://jeremyaboyd.com/tricks-to-monetize-your-side-projects/" }
+        url: "http://jeremyaboyd.com/tricks-to-monetize-your-side-projects/" },
+      { name: "Startup Pitch Decks",
+        desc: "A collection of real fundraising decks from real startups",
+        url: "https://attach.io/startup-pitch-decks/" },
+      { name: "The IPO is Dead. Long live the OPO!",
+        url: "https://blog.startengine.com/the-ipo-is-dead-long-live-the-opo-b3a7eb0c8089#.ymqqfhtvr" },
+    ],
+    econ: [
+      { name: "Economics Briefs - The Economist",
+        url: "http://www.economist.com/economics-briefs" },
+      { name: "Robot Macroeconomics: What can theory and several centuries of economic history teach us?",
+        url: "https://bankunderground.co.uk/2016/09/06/robot-macroeconomics-what-can-theory-and-several-centuries-of-economic-history-teach-us/" },
     ],
     finance: [
       { name: "Invisible Super Intelligence for The Stock Market",
         url: "https://medium.com/@Numerai/invisible-super-intelligence-for-the-stock-market-3c64b57b244c#.30ecuubcp" }
     ],
+    vc: [
+      { name: "A(Junior)VC",
+        desc: "Things I've learned while serving as an analyst at USV.",
+        url: "http://whoo.ps/2016/08/31/a-junior-vc" },
+    ],
+    legal: [
+      { name: "Global-Regulation - The Global Law Search Engine",
+        url: "https://www.global-regulation.com/" }
+    ],
     sci: [
       { name: "A Unified Theory of Random",
         url: "https://www.quantamagazine.org/20160802-unified_theory_of_randomness/" },
       { name: "Lagrange points redux",
-        url: "http://leancrew.com/all-this/2016/08/lagrange-points-redux/" }
+        url: "http://leancrew.com/all-this/2016/08/lagrange-points-redux/" },
+      { name: "How Much More Can We Learn About the Universe?",
+        url: "http://nautil.us/issue/40/learning/how-much-more-can-we-learn-about-the-universe" },
+      { name: "How to Raise a Genius: Lessons from a 45-year Study of Super-Smart Children",
+        url: "http://www.scientificamerican.com/article/how-to-raise-a-genius-lessons-from-a-45-year-study-of-super-smart-children/" },
     ],
     physics: [
       { name: "A Universe Made of Tiny Random Chunks",
@@ -2116,7 +2185,9 @@ writing their own paychecks.",
       { name: "Text analysis of Trump's tweets confirms he writes only the (angrier) Android half",
         url: "http://varianceexplained.org/r/trump-tweets/" },
       { name: "The Open Data Science Masters",
-        url: "http://datasciencemasters.org/"}
+        url: "http://datasciencemasters.org/"},
+      { name: "Examining the dynamic between Top Grossing and Top Downloaded",
+        url: "http://mobiledevmemo.com/examining-dynamic-top-grossing-top-downloaded/" }
     ],
     oss: [
       { name: "Netling",
@@ -2174,6 +2245,12 @@ writing their own paychecks.",
       { name: "Granim.js",
         desc: "Create fluid and interactive gradients animations",
         url: "https://sarcadass.github.io/granim.js/"},
+      { name: "sdees",
+        desc: "Serverless Decentralized Editing of Encrypted Stuff (gpg, rsync, vim)",
+        url: "https://github.com/schollz/sdees" },
+      { name: "placeholder.js",
+        desc: "< 1Kb library to generate image placeholders on client side",
+        url: "https://github.com/hustcc/placeholder.js" },
     ],
     thought: [
       { name: "Happiest at Work",
@@ -2213,8 +2290,14 @@ writing their own paychecks.",
       { name: "What We Talk About When We Talk About Computation - Two Views in Computer Science",
         url: "https://pressron.wordpress.com/2016/08/30/what-we-talk-about-when-we-talk-about-computation/" },
       { name: "Does Giftedness Matter? No.",
-        url: "http://blogs.scientificamerican.com/beautiful-minds/does-giftedness-matter/" }
-      }
+        url: "http://blogs.scientificamerican.com/beautiful-minds/does-giftedness-matter/" },
+      { name: "Your App Makes Me Fat",
+        desc: "Willpower and cognitive processing draw from the same pool of resources.",
+        url: "http://seriouspony.com/blog/2013/7/24/your-app-makes-me-fat" },
+      { name: "Paul Graham - Good and Bad Procrastination",
+        url: "http://paulgraham.com/procrastination.html" },
+      { name: "Paul Graham - How to Make Wealth",
+        url: "http://paulgraham.com/wealth.html" },
     ],
     thoughtcs: [
       { name: "Why I Live in IRC",
@@ -2230,7 +2313,9 @@ writing their own paychecks.",
       { name: "Is Artificial Intelligence Permanently Inscrutable?",
         url: "http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable" },
       { name: "Great developers don't need to be passionate",
-        url: "http://blog.qualified.io/great-developers-dont-need-to-be-passionate/" }
+        url: "http://blog.qualified.io/great-developers-dont-need-to-be-passionate/" },
+      { name: "The Programming Languages Zoo",
+        url: "http://plzoo.andrej.com/index.html" },
     ],
     people: [
       { name: "How Elon Muxk Thinks",
@@ -2287,7 +2372,9 @@ writing their own paychecks.",
       { name: "DNSChain",
         url: "https://github.com/okTurtles/dnschain" },
       { name: "Maybe Blockchain Really Does Have Magical Powers",
-        url: "https://www.bloomberg.com/view/articles/2016-09-01/maybe-blockchain-really-does-have-magical-powers" }
+        url: "https://www.bloomberg.com/view/articles/2016-09-01/maybe-blockchain-really-does-have-magical-powers" },
+      { name: "The Blockchain is Perfect for Government Services, Here’s A Blueprint",
+        url: "https://extranewsfeed.com/the-blockchain-is-perfect-for-government-services-heres-a-blueprint-628d4c73edb7#.vatdorhcb" },
     ],
     compression: [
       { name: "zstandard by Facebook",
@@ -2335,14 +2422,31 @@ writing their own paychecks.",
       { name: "How not to bomb your offer negotiation",
         url: "https://medium.freecodecamp.com/how-not-to-bomb-your-offer-negotiation-c46bb9bc7dea#.kmfp03l6p" }
     ],
-    legal: [
-      { name: "Global-Regulation - The Global Law Search Engine",
-        url: "https://www.global-regulation.com/" }
-    ],
     privacy: [
       { name: "Umbra",
         desc: "A platform for complete privacy",
         url: "http://umbra.shadowproject.io/" },
+      { name: "Free Speech is Now a Brutal War on the Internet",
+        url: "https://medium.com/trouble-stories/free-speech-is-now-a-brutal-war-on-the-internet-f5261ff0bc44#.qwjce0uqc" },
+      { name: "The Right to Privacy",
+        url: "http://groups.csail.mit.edu/mac/classes/6.805/articles/privacy/Privacy_brand_warr2.html" },
+      { name: "Cory Doctorow: The Privacy Wars Are About to Get A Whole Lot Worse",
+        url: "http://www.locusmag.com/Perspectives/2016/09/cory-doctorowthe-privacy-wars-are-about-to-get-a-whole-lot-worse/" },
+    ],
+    swisstools: [
+      { name: "DTMF beta",
+        desc: "an anonymous phone number in your browser for an hour",
+        url: "https://dtmf.io/" },
+    ],
+    current: [
+      { name: "How Snowden Escaped",
+        url: "http://news.nationalpost.com/features/how-edward-snowden-escaped-hong-kong" },
+    ],
+    writing: [
+      { name: "How to Write Articles and Essays Quickly and Expertly",
+        url: "http://www.downes.ca/post/38526" },
+      { name: "How to write a proposal and get what you want",
+        url: "https://www.process.st/how-to-write-a-proposal/" },
     ]
   }
 
@@ -2352,6 +2456,7 @@ writing their own paychecks.",
   + [Ask HN: Who is hiring? - September 2016](https://news.ycombinator.com/item?id=12405698)
   + [HackerNews Books](http://hackernewsbooks.com/)
   + [Ask HN: Non-tech books that have helped you grow professionally?](https://news.ycombinator.com/item?id=12415621)
+  + [Ask HN: What are your favorite articles/blog posts of all time?](https://news.ycombinator.com/item?id=12440509)
 
 + Basic CS Reading - M. Douglas McIlroy
 Cook's Travels and Other Salesmen's Tales - Dick Karp
@@ -2386,6 +2491,8 @@ Fuzzylocks and the Three Fuzzy Bears - L. Zadeh
 Briefing for a Recursive Descent into Hell - Benoit Mandelbrot
 Eminent Programming Languages - Strachey
 
+
++ [ engineering-blogs: A curated list of engineering blogs ](https://github.com/kilimchoi/engineering-blogs)
 
 + LISP
   https://github.com/apoterenko/javascript-ebooks
@@ -2546,6 +2653,7 @@ Skate 40%
   + https://presskithero.com
   + http://unu.ai/
   + https://www.usedopamine.com
+  + https://www.figure1.com
 
   + http://whosonlocation.com/
   + https://www.savvysumo.com
@@ -2876,7 +2984,7 @@ http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
 + [ Neural Networks for Genomics ](http://blog.qure.ai/notes/neural-networks-for-genomics)
 + [ Neural Network Architectures ](http://culurciello.github.io/tech/2016/06/04/nets.html)
 + [ Decoupled Neural Interfaces Using Synthetic Gradients ](https://deepmind.com/blog#decoupled-neural-interfaces-using-synthetic-gradients)
-
++ [ Do-it-yourself NLP for bot developers ](https://medium.com/lastmile-conversations/do-it-yourself-nlp-for-bot-developers-2e2da2817f3d#.w0sqn05hk)
 
 Ask HN: From programming to AI, how?
 vaibkv 1 hour ago
