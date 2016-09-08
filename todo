@@ -108,7 +108,9 @@
     + https://github.com/drewatk/candidates
     + http://beta.keplr.io/
   + Text based money tracking
+    + http://ledger-cli.org/
     + http://hledger.org/download.html
+    + https://github.com/hrj/abandon
   + YT giveaway & community tool
   + http://gping.io/
 
@@ -453,6 +455,8 @@
   + https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/
   + http://thenorthcode.net/2016/01/11/using-vim-as-a-javascript-ide/
 
+  + https://github.com/isRuslan/vim-es6
+
   + Plugins
     + Vundle
     + NERDTree
@@ -476,7 +480,11 @@
     + vim-javascript
     + https://github.com/pgilad/vim-react-proptypes-snippets
 
-
++ MonoT
+  + http://www.iprofesional.com/notas/50695-Cmo-juegan-las-compras-a-monotributistas-en-Ganancias
+  + http://www.afip.gob.ar/monotributo/categorias.asp
+  + http://www.oecd.org/tax/exchange-of-tax-information/Status_of_convention.pdf
+  + http://www.invertax.com/noticias/noticia.php?noticia=46
 
 + MAP
   + Links:
@@ -604,8 +612,14 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "Plotly Academy - IPython Notebook Tutorial in Python",
             url: "https://plot.ly/python/ipython-notebook-tutorial/" },
           { name: "Dockerizing a Python Gunicorn Django Web Application",
-            desc: "",
             url: "https://semaphoreci.com/community/tutorials/dockerizing-a-python-django-web-application" },
+          { name: "A bite of Python",
+            desc: "A handful of security-related quirks for people who are new to Python",
+            url: "https://access.redhat.com/blogs/766093/posts/2592591" },
+          { name: "This is What Python Beginners Have to Deal With",
+            url: "http://pythonforengineers.com/this-is-what-python-beginners-have-to-deal-with/" },
+          { name: "A Python Interpreter Written in Python",
+            url: "http://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html" },
         ],
         frameworks: [
           { name: "Flask",
@@ -953,6 +967,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://discord.engineering/using-react-native-one-year-later-91fd5e949933#.7zc64516u" },
           { name: "Plotly Academy - Build your first real world React.js application with @mxstbr",
             url: "http://academy.plot.ly/#react" },
+          { name: "Creating a Realtime Pokedex App with React and RethinkDB",
+            url: "https://appendto.com/2016/09/creating-a-realtime-pokedex-app-with-react-and-rethinkdb/?reddit" },
+          { name: "How to Scale React Applications: React Boilerplate 3",
+            url: "https://www.smashingmagazine.com/2016/09/how-to-scale-react-applications/" },
+          { name: "Reouting React Apps: The Complete Guide",
+            url: "https://scotch.io/tutorials/routing-react-apps-the-complete-guide?utm_source=javascriptweekly&utm_medium=email" },
       ]},
       { name: "Node",
         resources: [
@@ -1459,6 +1479,14 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "http://james-iry.blogspot.com.ar/2009/05/brief-incomplete-and-mostly-wrong.html" },
       { name: "Google Closure Compiler Advanced Compilation - Live Demo",
         url: "http://viebel.github.io/klipse/examples/google_closure_compiler_advanced.html" },
+      { name: "Font Loading Revisited with Font Events",
+        url: "https://www.filamentgroup.com/lab/font-events.html" },
+      { name: "How to Write a Spelling Corrector",
+        url: "http://norvig.com/spell-correct.html" },
+      { name: "I am a fast webpage, kneel before my greatness",
+        url: "https://varvy.com/pagespeed/wicked-fast.html" },
+      { name: "Why we open-sourced our uptime monitoring system",
+        url: "https://text.sourcegraph.com/why-we-open-sourced-our-uptime-monitoring-system-d4503d1a7ba0#.8rtr6z54w" },
     ],
     implementations: [
       { name: "30k Page Views for $0.21 - A Serverless story",
@@ -1474,7 +1502,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Apache Spark @Scale: A 60 TB+ production use case",
         url: "https://code.facebook.com/posts/1671373793181703/apache-spark-scale-a-60-tb-production-use-case/" },
       { name: "How Elixir helped us scale our Video User Profile Service for the Olympics",
-        url: "https://medium.com/software-sandwich/how-elixir-helped-us-to-scale-our-video-user-profile-service-for-the-olympics-dd7fbba1ad4e#.73ec3hcla" }
+        url: "https://medium.com/software-sandwich/how-elixir-helped-us-to-scale-our-video-user-profile-service-for-the-olympics-dd7fbba1ad4e#.73ec3hcla" },
+      { name: "Building a Forex trading platform using Kafka, Storm and Cassandra",
+        url: "https://blog.insightdatascience.com/building-a-forex-trading-platform-using-kafka-storm-and-cassandra-a48b262facc2#.jsybse83k" },
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1733,6 +1763,10 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://snyk.io/blog/nodejs-attack-tree-modelling/" },
       { name: "Snagging creds from locked machines",
         url: "https://room362.com/post/2016/snagging-creds-from-locked-machines/" },
+      { name: "Browser fingerprinting: Technical analysis of client identification mechanisms",
+        url: "https://sites.google.com/a/chromium.org/dev/Home/chromium-security/client-identification-mechanisms" },
+      { name: "The Missing Piece – Sophisticated OS X Backdoor Discovered",
+        url: "https://securelist.com/blog/research/75990/the-missing-piece-sophisticated-os-x-backdoor-discovered/" },
     ],
     videos: [
       { title: 'Turning the database inside out',
@@ -2057,13 +2091,17 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "http://inventwithpython.com/blog/2012/02/20/i-need-practice-programming-49-ideas-for-game-clones-to-code/" },
       { name: "Canvas Star Wars game",
         demo: "http://starwars.liamannis.com/",
-        url: "https://github.com/Liamta/starwars" }
+        url: "https://github.com/Liamta/starwars" },
+      { name: "Particle Swarm",
+        url: "https://ytiurin.github.io/particleswarm/" },
     ],
     gametheory: [
       { name: "The Depth Project",
         url: "http://gamedesignadvance.com/?p=3124"},
       { name: "Mechanics, Dynamics, Aesthetics",
-        url: "http://gamedesignadvance.com/?p=2995" }
+        url: "http://gamedesignadvance.com/?p=2995" },
+      { name: "No, Video Games Aren't Art. We're BETTER.",
+        url: "http://jeff-vogel.blogspot.com.ar/2016/09/no-video-games-arent-art-were-better.html" },
     ],
     games: [
       { name: "Spaceplan",
@@ -2135,6 +2173,18 @@ writing their own paychecks.",
         desc: "Things I've learned while serving as an analyst at USV.",
         url: "http://whoo.ps/2016/08/31/a-junior-vc" },
     ],
+    growth: [
+      { name: "Growth Hacker is the new VP Marketing",
+        url: "http://andrewchen.co/how-to-be-a-growth-hacker-an-airbnbcraigslist-case-study/" },
+      { name: "The State of Growth Hacking",
+        url: "https://blog.mixpanel.com/2016/03/16/andrew-chen-and-the-state-of-growth-hacking/" },
+      { name: "Growth Hacking: 10 Key Concepts You Need to Remember",
+        url: "https://www.hackisition.com/growth-hacking-the-10-key-concepts-you-need-to-remember/" },
+      { name: "What’s your viral loop? Understanding the engine of adoption",
+        url: "http://andrewchen.co/whats-your-viral-loop-understanding-the-engine-of-adoption/" },
+      { name: "The Law of Shitty Clickthroughs",
+        url: "http://andrewchen.co/the-law-of-shitty-clickthroughs/" },
+    ],
     legal: [
       { name: "Global-Regulation - The Global Law Search Engine",
         url: "https://www.global-regulation.com/" }
@@ -2187,7 +2237,15 @@ writing their own paychecks.",
       { name: "The Open Data Science Masters",
         url: "http://datasciencemasters.org/"},
       { name: "Examining the dynamic between Top Grossing and Top Downloaded",
-        url: "http://mobiledevmemo.com/examining-dynamic-top-grossing-top-downloaded/" }
+        url: "http://mobiledevmemo.com/examining-dynamic-top-grossing-top-downloaded/" },
+      { name: "The State of Data Engineering",
+        url: "https://www.stitchdata.com/resources/reports/the-state-of-data-engineering/" },
+      { name: "Why You Shouldn’t Build Your Own Data Pipeline",
+        url: "https://blog.stitchdata.com/why-you-shouldnt-build-your-own-data-pipeline-16c767fd8f46#.ypj70m92c" },
+      { name: "The Data Infrastructure Meta-Analysis: How Top Engineering Organizations Built Their Big Data Stacks",
+        url: "https://blog.stitchdata.com/the-data-infrastructure-meta-analysis-how-top-engineering-organizations-built-their-big-data-2e704f787670#.skzhbwnix" },
+      { name: "New data shows losing 80% of mobile users is normal, and why the best apps do better",
+        url: "http://andrewchen.co/new-data-shows-why-losing-80-of-your-mobile-users-is-normal-and-that-the-best-apps-do-much-better/" },
     ],
     oss: [
       { name: "Netling",
@@ -2298,6 +2356,8 @@ writing their own paychecks.",
         url: "http://paulgraham.com/procrastination.html" },
       { name: "Paul Graham - How to Make Wealth",
         url: "http://paulgraham.com/wealth.html" },
+      { name: "Live asynchronously",
+        url: "https://medium.freecodecamp.com/live-asynchronously-c8e7172fe7ea#.t9o8cybqj" },
     ],
     thoughtcs: [
       { name: "Why I Live in IRC",
@@ -2447,6 +2507,12 @@ writing their own paychecks.",
         url: "http://www.downes.ca/post/38526" },
       { name: "How to write a proposal and get what you want",
         url: "https://www.process.st/how-to-write-a-proposal/" },
+    ],
+    health: [
+      { name: "Fasting triggers stem cell regeneration of damaged, old immune system",
+        url: "http://news.usc.edu/63669/fasting-triggers-stem-cell-regeneration-of-damaged-old-immune-system/" },
+      { name: "Fasting for three days can regenerate entire immune system, study finds",
+        url: "http://www.telegraph.co.uk/science/2016/03/12/fasting-for-three-days-can-regenerate-entire-immune-system-study/" },
     ]
   }
 
@@ -2985,6 +3051,10 @@ http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
 + [ Neural Network Architectures ](http://culurciello.github.io/tech/2016/06/04/nets.html)
 + [ Decoupled Neural Interfaces Using Synthetic Gradients ](https://deepmind.com/blog#decoupled-neural-interfaces-using-synthetic-gradients)
 + [ Do-it-yourself NLP for bot developers ](https://medium.com/lastmile-conversations/do-it-yourself-nlp-for-bot-developers-2e2da2817f3d#.w0sqn05hk)
++ [ Fun generating MIDI with Markov chains ](https://karl-hiner.squarespace.com/blog/2016/8/27/fun-generating-midi-with-markov-chains)
++ [ WaveNet: A Generative Model for Raw Audio ](https://deepmind.com/blog/wavenet-generative-model-raw-audio/)
++ [ Awesome Recurrent Neural Networks ](https://github.com/kjw0612/awesome-rnn)
+
 
 Ask HN: From programming to AI, how?
 vaibkv 1 hour ago
