@@ -15,8 +15,17 @@
 + https://www.linkedin.com/pulse/mongodb-32-now-powered-postgresql-john-de-goes
 
 # Docker
-+ https://circleci.com/blog/its-the-future/
-+ http://blog.goodstuff.im/docker_not_prime_time
++ [ Boycott Docker ](http://www.boycottdocker.org/)
++ [ Lets review... Docker (again) ](http://iops.io/blog/docker-hype)
++ [ Great example of Docker usage ](http://reventlov.com/advisories/using-the-docker-command-to-root-the-host)
++ [ The Case Against Docker ](https://www.andreas-jung.com/contents/the-case-against-docker)
++ [ Docker vs Reality, 0-1 ](http://www.krisbuytaert.be/blog/docker-vs-reality-0-1)
++ [ Docker is the new hype these days ](http://grep.be/blog//en/computer/Docker/)
++ [ The sad state of sysadmin in the age of containers ](http://www.vitavonni.de/blog/201503/2015031201-the-sad-state-of-sysadmin-in-the-age-of-containers.html)
++ [ wow suck container ](http://doger.io/)
++ [ It's The Future ](https://circleci.com/blog/its-the-future/)
++ [ Docker Not Ready for Prime Time August 27, 2016 ](http://blog.goodstuff.im/docker_not_prime_time)
++ [ Why Kubernetes is winning the container war ](http://www.infoworld.com/article/3118345/cloud-computing/why-kubernetes-is-winning-the-container-war.html)
 
 #Youtube De-Monetization
 + https://medium.com/internet-creators-guild/youtube-de-monetization-explained-44464f902a22#.ihomio26z

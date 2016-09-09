@@ -540,6 +540,7 @@
       + react-map-gl
       + deck.gl
       + luma.gl
+      + http://stackoverflow.com/questions/38111157/react-map-gl-map-does-not-appear (walkthrough example with react-slingshot)
 
     + Mapping
       { name: "Visualizing Large Data Sets with Bing Maps Web Apps",
@@ -552,6 +553,9 @@
         url: "http://asynchrotron.com/blog/2013/12/27/realtime-maps-with-meteor-and-leaflet/" },
       { name: "Developing a Web Based Realtime Updating Map with Leaflet.js",
         url: "https://codepen.io/ajsb85/pen/MyBwjx" }
+
+      + https://datamaps.co/
+      + https://mikewilliamson.wordpress.com/2016/02/24/using-mapbox-gl-and-webpack-together/
 
     + Shadertoys
       + https://www.shadertoy.com/view/MdB3zK
@@ -692,7 +696,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "Learn Git Branching",
             url: "http://learngitbranching.js.org/" },
           { name: "Git Undo",
-            url: "http://megakemp.com/2016/08/25/git-undo/" }
+            url: "http://megakemp.com/2016/08/25/git-undo/" },
+          { name: "Oh shit, git!",
+            url: "http://ohshitgit.com/" },
       ]},
       { name: "Haskell",
         resources: [
@@ -973,6 +979,10 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://www.smashingmagazine.com/2016/09/how-to-scale-react-applications/" },
           { name: "Reouting React Apps: The Complete Guide",
             url: "https://scotch.io/tutorials/routing-react-apps-the-complete-guide?utm_source=javascriptweekly&utm_medium=email" },
+          { name: "Using create-react-app with a server",
+            url: "https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/" },
+          { name: "Using create-react-app with a Rails server",
+            url: "https://www.fullstackreact.com/articles/how-to-get-create-react-app-to-work-with-your-rails-api/" },
       ]},
       { name: "Node",
         resources: [
@@ -983,7 +993,16 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Webpack",
         resources: [
           { name: "Webpack: The Missing Tutorial",
-            url: "https://github.com/shekhargulati/52-technologies-in-2016/blob/master/36-webpack/README.md" }
+            url: "https://github.com/shekhargulati/52-technologies-in-2016/blob/master/36-webpack/README.md" },
+          { name: "Webpack - The Confusing Parts",
+            url: "https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9#.urnrn6ri4" },
+      ]},
+      { name: "Electron",
+        resources: [
+          { name: "Essential Electron",
+            url: "http://jlord.us/essential-electron/" },
+          { name: "15 Essential Packages to Get Started With Electron",
+            url: "https://nodesource.com/blog/fifteen-essential-packages-to-get-started-with-electron/" },
       ]},
       { name: "Maths",
         roadmap: [
@@ -1088,7 +1107,26 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://medium.com/@develodroid/flutter-i-intro-and-install-a8bf6dfcc7c8#.8s9w6hgh8" },
           { name: "Flutter II: Material Design",
             url: "https://medium.com/@develodroid/flutter-ii-material-design-f437e3e8e6a9#.xit37791s" },
+      ]},
+      { name: "Markdown",
+        resources: [
+          { name: "Fuck Yeah Markdown",
+            url: "http://fuckyeahmarkdown.com/" },
+      ]},
+      { name: "Hakaru",
+        desc: "A probabilistic programming language",
+        url: "https://hakaru-dev.github.io/" },
+      { name: "Eff"
+        desc: "Eff is a functional language with handlers of not only exceptions, but also of other computational effects such as state or I/O.",
+        resources: [
+          { name: "Eff",
+            url: "http://www.eff-lang.org/" },
       ]}
+    ],
+    css: [
+      { name: "radiobox.css",
+        desc: "Radio Input animations",
+        url: "https://720kb.github.io/radiobox.css/" },
     ],
     codeReading: [
       { name: 'Coffeescript', author: 'Jeremy Ashkenas'},
@@ -1405,8 +1443,6 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://www.ibm.com/developerworks/library/l-linux-shells/" },
       { name: "Practical Guide to PostgreSQL Optimizations",
         url: "https://tech.lendinghome.com/practical-guide-to-postgresql-optimizations-d7b9c2ad6a22#.fkiqkwvt1" },
-      { name: "Essential Electron",
-        url: "http://jlord.us/essential-electron/" },
       { name: "From 10x programmer to 0.1x programmer: creating more with less",
         url: "https://codewithoutrules.com/2016/08/25/the-01x-programmer/" },
       { name: "New Horizons with Horizon, RethinkDB and React",
@@ -1487,6 +1523,10 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://varvy.com/pagespeed/wicked-fast.html" },
       { name: "Why we open-sourced our uptime monitoring system",
         url: "https://text.sourcegraph.com/why-we-open-sourced-our-uptime-monitoring-system-d4503d1a7ba0#.8rtr6z54w" },
+      { name: "Pure UI",
+        url: "http://rauchg.com/2015/pure-ui/" },
+      { name: "How LaunchDarkly Serves Over 4 Billion Feature Flags Daily",
+        url: "http://stackshare.io/launchdarkly/how-launchdarkly-serves-over-4-billion-feature-flags-daily" },
     ],
     implementations: [
       { name: "30k Page Views for $0.21 - A Serverless story",
@@ -1505,6 +1545,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://medium.com/software-sandwich/how-elixir-helped-us-to-scale-our-video-user-profile-service-for-the-olympics-dd7fbba1ad4e#.73ec3hcla" },
       { name: "Building a Forex trading platform using Kafka, Storm and Cassandra",
         url: "https://blog.insightdatascience.com/building-a-forex-trading-platform-using-kafka-storm-and-cassandra-a48b262facc2#.jsybse83k" },
+      { name: "Using State Machines to Power Citus Cloud (our Database as a Service)",
+        url: "https://www.citusdata.com/blog/2016/08/12/state-machines-to-run-databases/" },
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -1684,7 +1726,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { title: "The Imposter's Handbook",
         url: "https://bigmachine.io/imposter/" },
       { name: "ReactJS For Dummies",
-        url: "https://reactjs.co/" }
+        url: "https://reactjs.co/" },
+      { name: "Essential Numerical Methods",
+        url: "http://silas.psfc.mit.edu/22.15/lectures/index.xml" },
     ],
     paths: [
       { title: "A path to enlightenment in Programming Language Theory",
@@ -1926,9 +1970,11 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://vimeo.com/181328943" },
       { name: "ZuriHac 2016: Spock - Powerful Elegant Web Applications",
         url: "https://www.youtube.com/watch?v=-b-Oz6y-n_Y" },
+      { name: "OSCON 2014: How Instagram.com Works, by Pete Hunt",
+        url: "https://www.youtube.com/watch?v=VkTCL6Nqm6Y&feature=youtu.be" },
     ],
     podcasts: [
-      { title: 'Supreme Clientele by: Roger Chen',
+      { title: 'Supreme Clientele byeckRoger Chen',
         notable: [ 'SC5. Kathleen Breitman - R3, Blockchain, Digital Currencies' ] },
       { title: 'a16z Podcast' }
       { title: 'Angel Insights from Jim Goetz @ Sequoia',
@@ -2094,6 +2140,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://github.com/Liamta/starwars" },
       { name: "Particle Swarm",
         url: "https://ytiurin.github.io/particleswarm/" },
+      { name: "DOOM (2016) Graphics Study",
+        url: "http://www.adriancourreges.com/blog/2016/09/09/doom-2016-graphics-study/" },
     ],
     gametheory: [
       { name: "The Depth Project",
@@ -2126,7 +2174,7 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Ask HN: What was your best passive income in 2015?",
         url: "https://news.ycombinator.com/item?id=10726489" }
     ],
-    business: [
+    biz: [
       { name: "Revenue Numbers",
         url: "http://revenuenumbers.com/" },
       { name: "IndieHackers - Learn how developers are
@@ -2157,6 +2205,10 @@ writing their own paychecks.",
         url: "https://attach.io/startup-pitch-decks/" },
       { name: "The IPO is Dead. Long live the OPO!",
         url: "https://blog.startengine.com/the-ipo-is-dead-long-live-the-opo-b3a7eb0c8089#.ymqqfhtvr" },
+      { name: "How to Test Drive Your Business Idea Before Quitting Your Job",
+        url: "https://blog.ladder.io/business-idea/" },
+      { name: "The Billing Maturity Model",
+        url: "http://www.daedtech.com/the-billing-maturity-model/" },
     ],
     econ: [
       { name: "Economics Briefs - The Economist",
@@ -2172,6 +2224,9 @@ writing their own paychecks.",
       { name: "A(Junior)VC",
         desc: "Things I've learned while serving as an analyst at USV.",
         url: "http://whoo.ps/2016/08/31/a-junior-vc" },
+      { name: "neuvc",
+        desc: "Very Early Stage",
+        url: "http://neuvc.com/" },
     ],
     growth: [
       { name: "Growth Hacker is the new VP Marketing",
@@ -2513,6 +2568,10 @@ writing their own paychecks.",
         url: "http://news.usc.edu/63669/fasting-triggers-stem-cell-regeneration-of-damaged-old-immune-system/" },
       { name: "Fasting for three days can regenerate entire immune system, study finds",
         url: "http://www.telegraph.co.uk/science/2016/03/12/fasting-for-three-days-can-regenerate-entire-immune-system-study/" },
+    ],
+    food: [
+      { name: "The History of Beer Yeast",
+        url: "http://sciencebulletin.org/archives/5049.html" },
     ]
   }
 
@@ -2828,6 +2887,8 @@ Skate 40%
   https://blog.scrapinghub.com/2016/08/25/how-to-crawl-the-web-politely-with-scrapy/
   https://github.com/codelucas/newspaper/
 
+  https://blog.scrapinghub.com/2016/09/08/how-to-deploy-custom-docker-images-for-your-web-crawlers/
+
 === S::Inspiration / Design Refs ==============
 + https://zeit.co/
 + http://www.thenordicweb.com/blog/finland-the-early-stage-nation-in-need-of-late-stage-money
@@ -3054,11 +3115,14 @@ http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
 + [ Fun generating MIDI with Markov chains ](https://karl-hiner.squarespace.com/blog/2016/8/27/fun-generating-midi-with-markov-chains)
 + [ WaveNet: A Generative Model for Raw Audio ](https://deepmind.com/blog/wavenet-generative-model-raw-audio/)
 + [ Awesome Recurrent Neural Networks ](https://github.com/kjw0612/awesome-rnn)
-
++ [ Attention and Augmented Recurrent Neural Networks ](http://distill.pub/2016/augmented-rnns/)
++ [ Install GPU TensorFlow From Sources w/ Ubuntu 16.04 and Cuda 8.0 RC ](https://alliseesolutions.wordpress.com/2016/09/08/install-gpu-tensorflow-from-sources-w-ubuntu-16-04-and-cuda-8-0-rc/)
++ [ The Definitive Guide to Natural Language Processing ](https://blog.monkeylearn.com/the-definitive-guide-to-natural-language-processing/)
++ [ The Extraordinary Link Between Deep Neural Networks and the Nature of the Universe ](https://www.technologyreview.com/s/602344/the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe/)
 
 Ask HN: From programming to AI, how?
 vaibkv 1 hour ago
-
+In Front of and Behind the Veil of Ignorance: An Analysis of Motivations for Redistribution Inside and Outside the Lab
 An Introduction to Statistical Learning
 ----------
 
