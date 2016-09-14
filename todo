@@ -771,6 +771,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://github.com/massung/elm-hn" },
           { name: "Making Pong - An Intro to Games in Elm",
             url: "http://elm-lang.org/blog/making-pong" },
+          { name: "Move fast and don't break things. Running a startup on Elm (elm-hipster-stack creators)",
+            url: "https://medium.com/the-ahead-story/move-fast-and-dont-break-things-running-a-startup-on-elm-b5491082fe8b#.k771ayk0n" },
         ]},
       { name: "C",
         frameworks: [
@@ -867,9 +869,11 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://tech.noredink.com/post/142689001488/the-most-object-oriented-language" },
       ]},
       { name: "F#",
-        tools: [
+        resources: [
           { name: "Fable",
             url: "http://fsprojects.github.io/Fable/" },
+          { name: "F# and the Meaning of Life",
+            url: "http://kalidor-web.com/blog.html" },
         ]},
       { name: "Clojure",
         frameworks: [
@@ -877,7 +881,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: 'https://github.com/omcljs/om' },
           { name: 'Reagent',
             url: 'https://github.com/reagent-project/reagent' }
-        ]},
+        ],
+        resources: [
+          { name: "Haskell vs Clojure",
+            url: "https://gist.github.com/honza/5897359" },
+        ]
+      },
       { name: "ClojureScript",
         resources: [
           { name: "ClojureScript Syntax in 15 Minutes",
@@ -896,6 +905,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: 'http://trailblazer.to/' }
         ],
         resources: [
+          { name: 'Learn Ruby the Hard Way',
+            url: 'http://learnrubythehardway.org/book/' },
           { name: "Scaling Rails to 125,000 Requests per Minute on Heroku",
             url: "https://zeemee.engineering/scaling-rails-to-125-000-requests-per-minute-on-heroku-b4128a10a769#.2g7jkju3o" },
           { name: "How I Finally Learned Rails",
@@ -904,6 +915,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://www.randomhacks.net/2005/12/03/why-ruby-is-an-acceptable-lisp/" },
           { name: "How I spent two weeks hunting a memory leak in Ruby",
             url: "http://www.be9.io/2015/09/21/memory-leak/" },
+          { name: "Mittsu",
+            desc: "3D Graphics Library for Ruby, based on three.js"
+            url: "https://github.com/jellymann/mittsu" },
         ]},
       { name: "Javascript",
         roadmap: [
@@ -985,6 +999,10 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.bldm6cezc" },
           { name: "Modernization of Reactivity",
             url: "https://davidwalsh.name/modernization-reactivity" },
+          { name: "JavaScript Refactoring Techniques: Specific to Generic Code",
+            url: "https://www.sitepoint.com/javascript-refactoring-techniques-specific-to-generic-code/" },
+          { name: "Why use Flow?",
+            url: "https://blog.aria.ai/post/why-use-flow/" },
         ],
         transpiledSurrogates: [
           { name: "Amber (Smalltalk)" },
@@ -1059,6 +1077,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://codepen.io/sdras/pen/YWBdQd" },
           { name: "9 libraries to consider for your next React Native project",
             url: "https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-react-native-project-723f179d4764#.r9rns7cyk" },
+          { name: "Open Source Apps and Examples in React",
+            url: "https://github.com/markerikson/redux-ecosystem-links/blob/master/apps-and-examples.md" },
+          { name: "16 Opensource Reactjs Projects to Learn From",
+            url: "https://www.icicletech.com/blog/16-opensource-reactjs-projects-to-learn-from" },
+          { name: "Introducing Tide",
+            url: "https://medium.com/tictail/introducing-tide-our-react-state-management-library-1dcc6e80551e#.z3awlx3u6" },
       ]},
       { name: "Node",
         resources: [
@@ -1201,7 +1225,15 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         resources: [
           { name: "Eff",
             url: "http://www.eff-lang.org/" },
-      ]}
+      ]},
+      { name: "milk",
+        resources: [
+          { name: "Faster parallel computing",
+            url: "http://news.mit.edu/2016/faster-parallel-computing-big-data-0913" },
+          { name: "",
+            desc: "",
+            url: "" },
+      ]},
     ],
     css: [
       { name: "radiobox.css",
@@ -1644,6 +1676,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://formidable.com/open-source/playbook/" },
       { name: "Scalable and secure access with SSH",
         url: "https://code.facebook.com/posts/365787980419535/scalable-and-secure-access-with-ssh/" },
+      { name: "Writing a Slack Application",
+        url: "https://arahayrabedian.github.io/writing-a-slack-application/" },
+      { name: "Five months of Kubernetes",
+        url: "http://danielmartins.ninja/posts/five-months-of-kubernetes.html" },
+      { name: "Type Systems: Covariance, Contravariance, Bivariance, and Invariance explained",
+        url: "https://medium.com/@thejameskyle/type-systems-covariance-contravariance-bivariance-and-invariance-explained-35f43d1110f8#.99k6x7176" },
     ],
     implementations: [
       { name: "30k Page Views for $0.21 - A Serverless story",
@@ -1940,6 +1978,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://theintercept.com/2016/09/12/long-secret-stingray-manuals-detail-how-police-can-spy-on-phones/" },
       { name: "Someone Is Learning How to Take Down the Internet",
         url: "https://www.lawfareblog.com/someone-learning-how-take-down-internet" },
+      { name: "How I gained access to TMobile’s national network for free",
+        url: "https://medium.com/@jacobajit/how-i-gained-access-to-tmobiles-national-network-for-free-f9aaf9273dea#.uv5g2rwmp" },
     ],
     encryption: [
       { name: "Python 3: An Intro to Encryption",
@@ -2105,6 +2145,10 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://www.youtube.com/watch?v=-b-Oz6y-n_Y" },
       { name: "OSCON 2014: How Instagram.com Works, by Pete Hunt",
         url: "https://www.youtube.com/watch?v=VkTCL6Nqm6Y&feature=youtu.be" },
+      { name: "M.M.T Chakravarty - Playing with Graphics and Animations in Haskell",
+        url: "https://www.youtube.com/watch?v=9dk7_GDNocQ" },
+      { name: "The design of C++ - Bjarne Stroustrup",
+        url: "http://www.computerhistory.org/collections/catalog/102624733" },
     ],
     podcasts: [
       { title: 'Supreme Clientele byeckRoger Chen',
@@ -2397,6 +2441,8 @@ writing their own paychecks.",
     startup: [
       { name: "The Startup Tapes",
         url: "http://tapes.scalevp.com/" },
+      { name: "Why building a start-up is probably your most sensible career path",
+        url: "http://blogs.nature.com/naturejobs/2016/09/05/why-building-a-start-up-is-probably-your-most-sensible-career-path/" },
     ],
     growth: [
       { name: "Growth Hacker is the new VP Marketing",
@@ -2409,6 +2455,8 @@ writing their own paychecks.",
         url: "http://andrewchen.co/whats-your-viral-loop-understanding-the-engine-of-adoption/" },
       { name: "The Law of Shitty Clickthroughs",
         url: "http://andrewchen.co/the-law-of-shitty-clickthroughs/" },
+      { name: "The 7 Techniques To Influence Anyone Of Anything",
+        url: "https://medium.com/the-mission/the-7-techniques-to-influence-anyone-of-anything-454e75c38343#.jcqrc9ga1" },
     ],
     legal: [
       { name: "Global-Regulation - The Global Law Search Engine",
@@ -2462,6 +2510,8 @@ writing their own paychecks.",
       { name: "beatboxer",
         desc: "Drum machine in about 100 lines of html/js/css",
         url: "https://github.com/siggy/beatboxer" },
+      { name: "Procedural Drum Loops for Lazy Composers",
+        url: "http://120bpm.raph.site/" },
     ],
     datasci: [
       { name: "The Open-Source Data Science Masters",
@@ -2558,6 +2608,9 @@ writing their own paychecks.",
       { name: "flask_jsondash",
         desc: "Build javascript chart dashboards without any front-end code. Uses any json endpoint. JSON config only.",
         url: "https://github.com/christabor/flask_jsondash" },
+      { name: "reframe.js",
+        desc: "Reframe unresponsive elements responsively.",
+        url: "https://github.com/dollarshaveclub/reframe.js" },
     ],
     thought: [
       { name: "Happiest at Work",
@@ -2611,6 +2664,8 @@ writing their own paychecks.",
         url: "https://knowledge.sparkcapital.com/eponymous-laws-as-persuasion-tools-and-other-tricks-for-robbing-walmart-1dc5dd9196e9#.5wicpvr5m" },
       { name: "Are developmental mistakes essential for evolution?",
         url: "https://www.bigquestionsonline.com/2016/07/28/are-developmental-mistakes-essential-evolution/" },
+      { name: "Why are adults so busy?",
+        url: "http://debarghyadas.com/writes/why-are-adults-so-busy/" },
     ],
     thoughtcs: [
       { name: "Why I Live in IRC",
@@ -2633,6 +2688,8 @@ writing their own paychecks.",
         url: "https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.k0bnb4qdw" },
       { name: "Michael Abrash's experience with working at Valve",
         url: "http://blogs.valvesoftware.com/abrash/valve-how-i-got-here-what-its-like-and-what-im-doing-2/" },
+      { name: "The Twelve-Factor App",
+        url: "https://12factor.net/" },
     ],
     behaviour: [
       { name: "A philosopher’s 350-year-old trick to get people to change their minds is now backed up by psychologists",
@@ -2681,7 +2738,9 @@ writing their own paychecks.",
       { name: "Top 10 Time Series Database",
         url: "https://blog.dataloop.io/top10-open-source-time-series-databases" },
       { name: "aerospike",
-        url: "http://www.aerospike.com/" }
+        url: "http://www.aerospike.com/" },
+      { name: "The Best Redshift Optimization Blog Posts of 2016",
+        url: "https://www.periscopedata.com/blog/best-redshift-blog-posts-2016.html" },
     ],
     hardware: [
       { name: "Arduino",
@@ -2691,7 +2750,9 @@ writing their own paychecks.",
           { name: "The Rapsberry Pi has Revolutionized Emulation",
             url: "https://blog.codinghorror.com/the-raspberry-pi-has-revolutionized-emulation/" },
           { name: "Vilros Raspberry Starter Kit",
-            url: "https://www.amazon.com/dp/B01D92SSX6/?tag=codihorr-20" }
+            url: "https://www.amazon.com/dp/B01D92SSX6/?tag=codihorr-20" },
+          { name: "Improving Redshift Query Performance Through Effective Use of Zone Maps",
+            url: "http://www.47lining.com/index.php/2016/05/31/improving-redshift-query-performance-through-effective-use-of-zone-maps/" },
         ]},
     ],
     blockchain: [
@@ -2717,10 +2778,20 @@ writing their own paychecks.",
         url: "http://searchengineland.com/big-google-search-update-happening-chatter-thinks-258142" },
       { name: "How we unnecessarily burned 20k with Facebook Ads",
         url: "https://www.stackfield.com/blog/how-we-unnecessarily-burned-20k-with-facebook-ads-43" },
+      { name: "The perverse incentive of Google Adsense",
+        url: "https://haxel.ca/perverse-incentive-of-google-adsense.html?26" },
     ],
     urbanism: [
       { name: "SOS Brutalism",
-        url: "http://www.sosbrutalism.org/cms/15802395" }
+        url: "http://www.sosbrutalism.org/cms/15802395" },
+      { name: "The case for wooden skyscrapers",
+        url: "http://www.economist.com/news/science-and-technology/21706492-case-wooden-skyscrapers-not-barking-top-tree" },
+      { name: "Andreesen Horowitz on Point",
+        url: "http://a16z.com/2016/09/13/point/" },
+      { name: "Don’t Reform Housing Finance – Reinvent It",
+        url: "http://knowledge.wharton.upenn.edu/article/dont-reform-housing-finance-reinvent/" },
+      { name: "What If Urban Sprawl Is the Only Realistic Way to Create Affordable Cities?",
+        url: "http://blogs.wsj.com/economics/2016/09/14/what-if-urban-sprawl-is-the-only-realistic-way-to-create-affordable-cities/" },
     ],
     datavis: [
       { name: "ENGINEERING INTELLIGENCE THROUGH DATA VISUALIZATION AT UBER",
@@ -2732,7 +2803,9 @@ writing their own paychecks.",
     ],
     design: [
       { name: "IBM Design Language",
-        url: "https://www.ibm.com/design/language/" }
+        url: "https://www.ibm.com/design/language/" },
+      { name: "Giving animations life",
+        url: "https://medium.com/tictail/giving-animations-life-8b20165224c5#.m3j2ohdgv" },
     ],
     marketing: [
       { name: "How Google Analytics Ruined marketing",
@@ -2745,12 +2818,17 @@ writing their own paychecks.",
         url: "https://medium.com/pointer-io/the-engineers-guide-to-babies-1d451b665bce#.c8zrz6uxx" }
     ],
     worktheory: [
+      { name: "Only 7 Percent of Office Workers Are Productive (but Most Are Miserable)",
+        url: "http://www.inc.com/brian-de-haaff/only-7-of-office-workers-are-productive-but-most-are-miserable.html" },
       { name: "What Happened When I Moved My Company To A 5-Hour Workday",
         url: "https://www.fastcompany.com/3063262/lessons-learned/what-happened-when-i-moved-my-company-to-a-5-hour-workday" }
+      }
     ],
     jobs: [
       { name: "How not to bomb your offer negotiation",
-        url: "https://medium.freecodecamp.com/how-not-to-bomb-your-offer-negotiation-c46bb9bc7dea#.kmfp03l6p" }
+        url: "https://medium.freecodecamp.com/how-not-to-bomb-your-offer-negotiation-c46bb9bc7dea#.kmfp03l6p" },
+      { name: "Three unconventional interview questions",
+        url: "https://slackhq.com/three-unconventional-interview-questions-664cc55501e#.ah8x9rqhe" },
     ],
     privacy: [
       { name: "The GNU Privacy handbook",
@@ -2771,6 +2849,8 @@ writing their own paychecks.",
         url: "https://data.postandcourier.com/saga/watched/page/1" },
       { name: "Facebook Is Collaborating With the Israeli Government to Determine What Should Be Censored",
         url: "https://theintercept.com/2016/09/12/facebook-is-collaborating-with-the-israeli-government-to-determine-what-should-be-censored/" },
+      { name: "Tor Browser Exposed: Anti-Privacy Implantation at Mass Scale",
+        url: "https://medium.com/@movrcx/tor-browser-exposed-anti-privacy-implantation-at-mass-scale-bd68e9eb1e95#.ic84xz65w" },
     ],
     swisstools: [
       { name: "DTMF beta",
@@ -2820,6 +2900,27 @@ writing their own paychecks.",
   + [HackerNews Books](http://hackernewsbooks.com/)
   + [Ask HN: Non-tech books that have helped you grow professionally?](https://news.ycombinator.com/item?id=12415621)
   + [Ask HN: What are your favorite articles/blog posts of all time?](https://news.ycombinator.com/item?id=12440509)
+  + [Ask HN: What's your favorite HN post? ](https://news.ycombinator.com/item?id=12496558)
+
+Ask HN: How do I start being a consultant?
+tptacek 1521 days ago | parent | favorite | on: Ask HN: How do I start being a consultant?
+
+(1) Start a freelance practice.
+(2) Raise your rates.
+(3) As you work for clients, keep a sharp eye for opportunities to build "specialty practices". If you get to work on a project involving Mongodb, spend some extra time and effort to get Mongodb under your belt. If you get a project for a law firm, spend some extra time thinking about how to develop applications that deal with contracts or boilerplates or PDF generation or document management.
+(4) Raise your rates.
+(5) Start refusing hourly-rate projects. Your new minimum billable increment is a day.
+(6) Take end-to-end responsibility for the business objectives of whatever you build. This sounds fuzzy, like, "be able to talk in a board room", but it isn't! It's mechanically simple and you can do it immediately: Stop counting hours and days. Stop pushing back when your client changes scope. Your remedy for clients who abuse your flexibility with regards to scope is "stop working with that client". Some of your best clients will be abusive and you won't have that remedy. Oh well! Note: you are now a consultant.
+(7) Hire one person at a reasonable salary. You are now responsible for their payroll and benefits. If you don't book enough work to pay both your take-home and their salary, you don't eat. In return: they don't get an automatic percentage of all the revenue of the company, nor does their salary automatically scale with your bill rate.
+(8) You are now "senior" or "principal". Raise your rates.
+(9) Generalize out from your specialties: Mongodb -> NoSQL -> highly scalable backends. Document management -> secure contract management.
+(10) Raise your rates.
+(11) You are now a top-tier consulting group compared to most of the market. Market yourself as such. Also: your rates are too low by probably about 40-60%.
+Try to get it through your head: people who can simultaneously (a) crank out code (or arrange to have code cranked out) and (b) take responsibility for the business outcome of the problems that code is supposed to solve --- people who can speak both tech and biz --- are exceptionally rare. They shouldn't be; the language of business is mostly just elementary customer service, of the kind taught to entry level clerks at Nordstrom's. But they are, so if you can do that, raise your rates.
+
+
+
+
 
 + Basic CS Reading - M. Douglas McIlroy
 Cook's Travels and Other Salesmen's Tales - Dick Karp
@@ -3370,8 +3471,12 @@ http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
 + [ Using Open Street Maps and Kalman Filters to Clean Up GPS Data (hypertrack.io) ](https://blog.hypertrack.io/2016/09/11/our-framework-for-real-time-filtering-of-location-streams/)
 + [ I: Building a Deep Learning (Dream) Machine ](http://graphific.github.io/posts/building-a-deep-learning-dream-machine/)
 + [ II: Running a Deep Learning (Dream) Machine ](http://graphific.github.io/posts/running-a-deep-learning-dream-machine/)
-
-
++ [ Generative Visual Manipulation on the Natural Image Manifold ](https://people.eecs.berkeley.edu/~junyanz/projects/gvm/)
++ [ A TensorFlow implementation of DeepMind's WaveNet paper ](https://github.com/ibab/tensorflow-wavenet)
++ [ THE NEURAL NETWORK ZOO ](http://www.asimovinstitute.org/neural-network-zoo/)
++ [ Face Search Engine ](https://github.com/pavelgonchar/face-search)
++ [ Labeled Faces in the Wild dataset ](http://vis-www.cs.umass.edu/lfw/)
++ [ Keplr Open Api ](http://openapi.keplr.io/)
 + [ Machine Learning in a Year ](https://medium.com/learning-new-stuff/machine-learning-in-a-year-cdb0b0ebd29c#.mj38ouulh)
 + [ Command-line tools can be 235x faster than your Hadoop cluster ](http://aadrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html)
 
@@ -3749,6 +3854,8 @@ Koa !
 + Redux / Morphdom
 + Redux / Inferno
 
++ Tide !
+
 + Cerebral / React
   + http://nervosax.com/2016/04/22/use-cerebral-as-the-brains-for-your-react-app/
 + Cerebral / Angular2
@@ -3769,6 +3876,9 @@ Koa !
 + Yolk
 + RiotJS
 + CycleJS
++ dva
+  + https://github.com/dvajs/dva
+  + https://medium.com/@chenchengpro/dva-1-0-a-lightweight-framework-based-on-react-redux-and-redux-saga-eeeecb7a481d#.b22hz45l8
 
 + DOM
   + https://redom.js.org/
@@ -4117,7 +4227,15 @@ var starters = [
   { name: "electron-basic-ui-layout",
     desc: "Common UI layout for an Electron/React app",
     url: "https://github.com/tstringer/electron-basic-ui-layout",
-    keywords: ["electron", "react"]}
+    keywords: ["electron", "react"]},
+  { name: "elm-hipster-stack",
+    desc: "Elm, Phoenix, GraphQL, RethinkDB, from http://Ahead.life ",
+    keywords: ["elm", "phoenix", "graphql", "rethinkdb"],
+    url: "https://github.com/carleryd/elm-hipster-stack" },
+  { name: "electron-flexbox-ui-layout",
+    desc: "Common UI layout for an Electron/React app using Flexbox",
+    keywords: ["electron", "react", "webpack", "flexbox"],
+    url: "https://github.com/tstringer/electron-flexbox-ui-layout" },
 ];
 
 Head First C
