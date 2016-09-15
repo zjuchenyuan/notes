@@ -59,6 +59,7 @@
   + HTML Job Applications (https://dribbble.com/shots/2873870-HTML-Email-Cover-Letter)
   + Baby name picking app (http://www.bbc.co.uk/newsbeat/article/37255033/a-16-year-old-british-girl-earns-48000-helping-chinese-people-name-their-babies)
   + DressRecon (see "Human in AI loop" article, below)
+  + CS for All !
 
   + Jarvis
     + https://iceddev.com/blog/jarvis-an-amazon-echo-clone-in-your-browser/
@@ -127,7 +128,7 @@
 
 
 + == theList =============
-  + 1. 4k
+  . 1. 4k
   + 2. Sideshow
     + Amazon
       + https://medium.com/@ceyhunkazel/amazon-search-hack-eliminate-amazon-products-that-have-4-or-5-starts-but-only-few-reviews-f485d35d5969#.b7d8z5f44
@@ -214,6 +215,8 @@
       + privacytools.io
   + 3. YT
   + 4. Inc.
+
+
   + https://e-estonia.com/e-residents/apply/
 
 + == rand() ==============
@@ -738,6 +741,11 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://megakemp.com/2016/08/25/git-undo/" },
           { name: "Oh shit, git!",
             url: "http://ohshitgit.com/" },
+          { name: "Git It",
+            desc: "Terminal based workshop for learning Git and GitHub.",
+            url: "https://github.com/jlord/git-it" },
+          { name: "Git It Electron",
+            url: "https://github.com/jlord/git-it-electron" },
       ]},
       { name: "Haskell",
         resources: [
@@ -1168,7 +1176,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Docker",
         resources: [
           { name: "How To Set Up And Deploy To A 1000-Node Docker Swarm",
-            url: "http://blog.nimbleci.com/2016/08/17/how-to-set-up-and-deploy-to-a-1000-node-docker-swarm/" }
+            url: "http://blog.nimbleci.com/2016/08/17/how-to-set-up-and-deploy-to-a-1000-node-docker-swarm/" },
+          { name: "Lessons learned from using Docker Swarm mode in production",
+            url: "http://blog.bugsnag.com/container-orchestration-with-docker-swarm-mode" },
       ]},
       { name: "Racket",
         resources: [
@@ -1235,12 +1245,18 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "" },
       ]},
     ],
+    progtheory: [
+      { name: "Actors vs Objects",
+        url: "https://anthonylebrun.silvrback.com/actors-vs-objects" },
+    ],
     css: [
       { name: "radiobox.css",
         desc: "Radio Input animations",
         url: "https://720kb.github.io/radiobox.css/" },
       { name: "Learn CSS Flexbox in 3 minutes",
         url: "https://medium.com/learning-new-stuff/learn-css-flexbox-in-3-minutes-c616c7070672#.e1l15xidb" },
+      { name: "STRETCHING THE LIMITS OF CSS 3: AMAZING CREATIONS IN PURE CSS",
+        url: "http://www.independent-software.com/stretching-the-limits-of-css-3-amazing-creations-in-pure-css/" },
     ],
     codeReading: [
       { name: 'Coffeescript', author: 'Jeremy Ashkenas'},
@@ -1980,6 +1996,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://www.lawfareblog.com/someone-learning-how-take-down-internet" },
       { name: "How I gained access to TMobile’s national network for free",
         url: "https://medium.com/@jacobajit/how-i-gained-access-to-tmobiles-national-network-for-free-f9aaf9273dea#.uv5g2rwmp" },
+      { name: "naxsi",
+        desc: "NAXSI means Nginx Anti XSS & SQL Injection.",
+        url: "https://github.com/nbs-system/naxsi" },
     ],
     encryption: [
       { name: "Python 3: An Intro to Encryption",
@@ -2325,6 +2344,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://github.com/Lallassu/DungeonGenerator" },
       { name: "Confessions of a Pokemon Go cheat",
         url: "http://www.cnet.com/news/pokemon-go-cheat-confessions/" },
+      { name: "A Pixel Artist renounces pixel art",
+        url: "http://www.dinofarmgames.com/a-pixel-artist-renounces-pixel-art/" },
     ],
     gametheory: [
       { name: "The Depth Project",
@@ -2407,6 +2428,8 @@ writing their own paychecks.",
         url: "http://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/" },
       { name: "How to Become a C.E.O.? The Quickest Path Is a Winding One",
         url: "http://www.nytimes.com/2016/09/11/upshot/how-to-become-a-ceo-the-quickest-path-is-a-winding-one.html?ref=business&_r=0" },
+      { name: "Moz returns to SEO",
+        url: "https://medium.com/@randfish/moz-returns-to-seo-5a330c0e6eb2#.x8cal6z49" },
     ],
     econ: [
       { name: "Economics Briefs - The Economist",
@@ -2611,6 +2634,8 @@ writing their own paychecks.",
       { name: "reframe.js",
         desc: "Reframe unresponsive elements responsively.",
         url: "https://github.com/dollarshaveclub/reframe.js" },
+      { name: "GraphicsJS",
+        url: "https://github.com/anychart/graphicsjs" },
     ],
     thought: [
       { name: "Happiest at Work",
@@ -2690,6 +2715,10 @@ writing their own paychecks.",
         url: "http://blogs.valvesoftware.com/abrash/valve-how-i-got-here-what-its-like-and-what-im-doing-2/" },
       { name: "The Twelve-Factor App",
         url: "https://12factor.net/" },
+      { name: "Old Geek",
+        url: "https://www.tbray.org/ongoing/When/201x/2016/09/14/Old-Geek" },
+      { name: "How the right syntax can help teach recursion",
+        url: "http://akkartik.name/post/swamp" },
     ],
     behaviour: [
       { name: "A philosopher’s 350-year-old trick to get people to change their minds is now backed up by psychologists",
@@ -2711,6 +2740,8 @@ writing their own paychecks.",
       { name: "React: Facebook's Functional Turn on Writing JavaScript",
         desc: "A discussion with Pete Hunt, Paul O'Shannessy, Dave Smith and Terry Coatta",
         url: "http://queue.acm.org/detail.cfm?id=2994373" },
+      { name: "How to build the Future - Elon Musk",
+        url: "http://www.ycombinator.com/future/elon/" },
     ],
     opinion: [
       { name: "Max Levchin - Why It's Time To Re-Imagine the Financial Services Industry",
@@ -2852,6 +2883,11 @@ writing their own paychecks.",
       { name: "Tor Browser Exposed: Anti-Privacy Implantation at Mass Scale",
         url: "https://medium.com/@movrcx/tor-browser-exposed-anti-privacy-implantation-at-mass-scale-bd68e9eb1e95#.ic84xz65w" },
     ],
+    freespeech: [
+      { name: "web2web",
+        desc: "Server-less & domain-less websites updatable via torrents and bitcoin blockchain.",
+        url: "https://github.com/elendirx/web2web" },
+    ],
     swisstools: [
       { name: "DTMF beta",
         desc: "an anonymous phone number in your browser for an hour",
@@ -2873,6 +2909,14 @@ writing their own paychecks.",
       { name: "Fasting for three days can regenerate entire immune system, study finds",
         url: "http://www.telegraph.co.uk/science/2016/03/12/fasting-for-three-days-can-regenerate-entire-immune-system-study/" },
     ],
+    brain: [
+      { name: "Addicted to Anticipation",
+        desc: "What goes wrong in the brain chemistry of a gambling addict.",
+        url: "http://nautil.us/issue/40/learning/addicted-to-anticipation" },
+      { name: "How I Rewired My Brain to Become Fluent in Math",
+        desc: "The building blocks of understanding are memorization and repetition.",
+        url: "http://nautil.us/issue/40/learning/how-i-rewired-my-brain-to-become-fluent-in-math-rp" },
+    ],
     food: [
       { name: "The History of Beer Yeast",
         url: "http://sciencebulletin.org/archives/5049.html" },
@@ -2893,6 +2937,8 @@ writing their own paychecks.",
     ]
   }
 
+http://blogs.microsoft.com/next/2016/09/13/microsoft-researchers-achieve-speech-recognition-milestone/
+
 + S::HN
   + [Ask HN: How much do you make at a remote job?](https://news.ycombinator.com/item?id=12336661)
   + [HN Who is Hiring? Thread Analysis](https://blog.whoishiring.io/hacker-news-who-is-hiring-thread-part-1/)
@@ -2901,6 +2947,7 @@ writing their own paychecks.",
   + [Ask HN: Non-tech books that have helped you grow professionally?](https://news.ycombinator.com/item?id=12415621)
   + [Ask HN: What are your favorite articles/blog posts of all time?](https://news.ycombinator.com/item?id=12440509)
   + [Ask HN: What's your favorite HN post? ](https://news.ycombinator.com/item?id=12496558)
+  + [Elon Musk on How to Build the Future](https://news.ycombinator.com/item?id=12508356)
 
 Ask HN: How do I start being a consultant?
 tptacek 1521 days ago | parent | favorite | on: Ask HN: How do I start being a consultant?
@@ -3479,7 +3526,8 @@ http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
 + [ Keplr Open Api ](http://openapi.keplr.io/)
 + [ Machine Learning in a Year ](https://medium.com/learning-new-stuff/machine-learning-in-a-year-cdb0b0ebd29c#.mj38ouulh)
 + [ Command-line tools can be 235x faster than your Hadoop cluster ](http://aadrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html)
-
++ [ Keras WaveNet implementation ](https://github.com/basveeling/wavenet/)
++ [ Deep neural nets and the purpose of life ](https://medium.com/@nitin_pande/deep-neural-nets-and-the-purpose-of-life-d3d60a38d108#.37hrnbx0b)
 
 Ask HN: From programming to AI, how?
 vaibkv 1 hour ago
@@ -4224,10 +4272,6 @@ var starters = [
     desc: "Horizon, React, Webpack boilerplate with demo app",
     url: "https://github.com/juliancwirko/horizon-react-webpack-boilerplate",
     keywords: ["react", "webpack", "horizon"]},
-  { name: "electron-basic-ui-layout",
-    desc: "Common UI layout for an Electron/React app",
-    url: "https://github.com/tstringer/electron-basic-ui-layout",
-    keywords: ["electron", "react"]},
   { name: "elm-hipster-stack",
     desc: "Elm, Phoenix, GraphQL, RethinkDB, from http://Ahead.life ",
     keywords: ["elm", "phoenix", "graphql", "rethinkdb"],
