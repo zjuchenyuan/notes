@@ -664,6 +664,16 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://pythonforengineers.com/this-is-what-python-beginners-have-to-deal-with/" },
           { name: "A Python Interpreter Written in Python",
             url: "http://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html" },
+          { name: "Asynchronous Programming in Python",
+            url: "https://engineering.quora.com/Asynchronous-Programming-in-Python?share=1" },
+          { name: "Deep Exploration Into Python: Let’s Review The Dict Module",
+            url: "https://www.buzzfeed.com/andrewkelleher/deep-exploration-into-python-lets-review-the-dict-module" },
+          { name: "Fabric",
+            desc: "Library and command-line tool for streamlining the use of SSH for application deployment or systems administration tasks.",
+            url: "http://www.fabfile.org/" },
+          { name: "Saltstack",
+            desc: "Automation for enterprise IT ops, event-driven data center orchestration and the most flexible configuration management for DevOps at scale.",
+            url: "https://saltstack.com/" },
         ],
         frameworks: [
           { name: "Flask",
@@ -725,6 +735,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://ymmt2005.hatenablog.com/entry/2016/09/01/How_to_hack_Go%27s_http_Server_correctly" },
           { name: "Golang concepts from an OOP point of view",
             url: "https://github.com/luciotato/golang-notes/blob/master/OOP.md" },
+          { name: "dingo",
+            desc: "A caching DNS proxy for the Google DNS-over-HTTPS. It effectively encrypts all your DNS traffic.",
+            url: "https://github.com/pforemski/dingo" },
         ],
         frameworks: [
           { name: "Gopher" },
@@ -799,7 +812,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "C++",
         resources: [
           { name: "Auto Type Deduction in Range-Based For Loops",
-            url: "https://blog.petrzemek.net/2016/08/17/auto-type-deduction-in-range-based-for-loops/" }
+            url: "https://blog.petrzemek.net/2016/08/17/auto-type-deduction-in-range-based-for-loops/" },
+          { name: "The memory usage of STL containers can be surprising",
+            url: "http://lemire.me/blog/2016/09/15/the-memory-usage-of-stl-containers-can-be-surprising/" },
       ]},
       { name: "Lisp",
         resources: [
@@ -1011,6 +1026,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://www.sitepoint.com/javascript-refactoring-techniques-specific-to-generic-code/" },
           { name: "Why use Flow?",
             url: "https://blog.aria.ai/post/why-use-flow/" },
+          { name: "Full text Search in Javascript",
+            url: "http://kornr.net/prez/paris.js22/#/9" },
         ],
         transpiledSurrogates: [
           { name: "Amber (Smalltalk)" },
@@ -1091,6 +1108,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://www.icicletech.com/blog/16-opensource-reactjs-projects-to-learn-from" },
           { name: "Introducing Tide",
             url: "https://medium.com/tictail/introducing-tide-our-react-state-management-library-1dcc6e80551e#.z3awlx3u6" },
+          { name: "react-game-kit",
+            url: "https://github.com/FormidableLabs/react-game-kit" },
       ]},
       { name: "Node",
         resources: [
@@ -1248,6 +1267,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
     progtheory: [
       { name: "Actors vs Objects",
         url: "https://anthonylebrun.silvrback.com/actors-vs-objects" },
+      { name: "The advantages of static typing, simply stated",
+        url: "http://pchiusano.github.io/2016-09-15/static-vs-dynamic.html" },
     ],
     css: [
       { name: "radiobox.css",
@@ -1698,6 +1719,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "http://danielmartins.ninja/posts/five-months-of-kubernetes.html" },
       { name: "Type Systems: Covariance, Contravariance, Bivariance, and Invariance explained",
         url: "https://medium.com/@thejameskyle/type-systems-covariance-contravariance-bivariance-and-invariance-explained-35f43d1110f8#.99k6x7176" },
+      { name: "Use Caps Lock as a language switch",
+        url: "http://marinin.xyz/thoughts/capslock/" },
     ],
     implementations: [
       { name: "30k Page Views for $0.21 - A Serverless story",
@@ -1999,10 +2022,47 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "naxsi",
         desc: "NAXSI means Nginx Anti XSS & SQL Injection.",
         url: "https://github.com/nbs-system/naxsi" },
+      { name: "Tor Browser Exposed: Anti-Privacy Implantation at Mass Scale",
+        url: "https://medium.com/@movrcx/tor-browser-exposed-anti-privacy-implantation-at-mass-scale-bd68e9eb1e95#.ic84xz65w" },
+      { name: "Deep down the certificate pinning rabbit hole of "Tor  Browser Exposed"",
+        url: "http://seclists.org/dailydave/2016/q3/51" },
+      { name: "Researchers try to pull back the curtain on surveillance efforts in Washington",
+        url: "https://www.washingtonpost.com/world/national-security/researchers-try-to-pull-back-curtain-on-surveillance-efforts-in-washington/2014/09/17/f8c1f590-3e81-11e4-b03f-de718edeb92f_story.html" },
     ],
     encryption: [
       { name: "Python 3: An Intro to Encryption",
         url: "http://www.blog.pythonlibrary.org/2016/05/18/python-3-an-intro-to-encryption/" },
+    ],
+    privacy: [
+      { name: "The GNU Privacy handbook",
+        url: "https://www.gnupg.org/gph/en/manual/book1.html" },
+      { name: "Umbra",
+        desc: "A platform for complete privacy",
+        url: "http://umbra.shadowproject.io/" },
+      { name: "Free Speech is Now a Brutal War on the Internet",
+        url: "https://medium.com/trouble-stories/free-speech-is-now-a-brutal-war-on-the-internet-f5261ff0bc44#.qwjce0uqc" },
+      { name: "The Right to Privacy",
+        url: "http://groups.csail.mit.edu/mac/classes/6.805/articles/privacy/Privacy_brand_warr2.html" },
+      { name: "Cory Doctorow: The Privacy Wars Are About to Get A Whole Lot Worse",
+        url: "http://www.locusmag.com/Perspectives/2016/09/cory-doctorowthe-privacy-wars-are-about-to-get-a-whole-lot-worse/" },
+      { name: "Stuck in a Pattern - Early evidence on "predictive policing" and civil rights",
+        url: "https://www.teamupturn.com/reports/2016/stuck-in-a-pattern" },
+      { name: "Watched",
+        desc: "Police forces across the United States are stockpiling massive databases with personal information"
+        url: "https://data.postandcourier.com/saga/watched/page/1" },
+      { name: "Facebook Is Collaborating With the Israeli Government to Determine What Should Be Censored",
+        url: "https://theintercept.com/2016/09/12/facebook-is-collaborating-with-the-israeli-government-to-determine-what-should-be-censored/" },
+      { name: "Playpen: The Story of the FBI’s Unprecedented and Illegal Hacking Operation",
+        url: "https://www.eff.org/deeplinks/2016/09/playpen-story-fbis-unprecedented-and-illegal-hacking-operation" },
+    ],
+    freespeech: [
+      { name: "web2web",
+        desc: "Server-less & domain-less websites updatable via torrents and bitcoin blockchain.",
+        url: "https://github.com/elendirx/web2web" },
+    ],
+    videotech: [
+      { name: "Buffering reduces video watch time by ~40%, according to research",
+        url: "http://mux.com/blog/buffering-reduces-video-watch-time-by-40-according-to-research/" },
     ],
     videos: [
       { title: 'Turning the database inside out',
@@ -2346,6 +2406,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "http://www.cnet.com/news/pokemon-go-cheat-confessions/" },
       { name: "A Pixel Artist renounces pixel art",
         url: "http://www.dinofarmgames.com/a-pixel-artist-renounces-pixel-art/" },
+      { name: "react-game-kit",
+        url: "https://github.com/FormidableLabs/react-game-kit" },
     ],
     gametheory: [
       { name: "The Depth Project",
@@ -2430,6 +2492,8 @@ writing their own paychecks.",
         url: "http://www.nytimes.com/2016/09/11/upshot/how-to-become-a-ceo-the-quickest-path-is-a-winding-one.html?ref=business&_r=0" },
       { name: "Moz returns to SEO",
         url: "https://medium.com/@randfish/moz-returns-to-seo-5a330c0e6eb2#.x8cal6z49" },
+      { name: "The Most Surefire Way I’ve Found to Win Enterprise Deals",
+        url: "http://firstround.com/review/the-most-surefire-way-ive-found-to-win-enterprise-deals/" },
     ],
     econ: [
       { name: "Economics Briefs - The Economist",
@@ -2439,7 +2503,9 @@ writing their own paychecks.",
     ],
     finance: [
       { name: "Invisible Super Intelligence for The Stock Market",
-        url: "https://medium.com/@Numerai/invisible-super-intelligence-for-the-stock-market-3c64b57b244c#.30ecuubcp" }
+        url: "https://medium.com/@Numerai/invisible-super-intelligence-for-the-stock-market-3c64b57b244c#.30ecuubcp" },
+      { name: "Investing for Geeks",
+        url: "https://training.kalzumeus.com/newsletters/archive/investing-for-geeks?__s=esaiz3kazigwidftsigk" },
     ],
     vc: [
       { name: "A(Junior)VC",
@@ -2460,12 +2526,16 @@ writing their own paychecks.",
         url: "http://a16z.com/2016/09/11/vc-economics/" },
       { name: "Trouble in the House of Rothenberg",
         url: "https://backchannel.com/mike-rothenbergs-vc-firm-was-young-splashy-and-loaded-with-cash-now-it-s-all-come-crashing-down-e76fa076c7c5#.9j9x7fe32" },
+      { name: "What Do Investors Look For When Evaluating a Startup?",
+        url: "https://medium.com/product-hunt/what-do-investors-look-for-when-evaluating-a-startup-3023a65c4160#.aow8ed1tb" },
     ],
     startup: [
       { name: "The Startup Tapes",
         url: "http://tapes.scalevp.com/" },
       { name: "Why building a start-up is probably your most sensible career path",
         url: "http://blogs.nature.com/naturejobs/2016/09/05/why-building-a-start-up-is-probably-your-most-sensible-career-path/" },
+      { name: "Startup Metrics: Which Ones Matter Most to Investors?",
+        url: "https://medium.com/product-hunt/startup-metrics-which-ones-matter-most-to-investors-835f6a3c9a2d?swoff=true#.dtaz8qhp7" },
     ],
     growth: [
       { name: "Growth Hacker is the new VP Marketing",
@@ -2501,7 +2571,9 @@ writing their own paychecks.",
     ],
     physics: [
       { name: "A Universe Made of Tiny Random Chunks",
-        url: "http://nautil.us/issue/2/uncertainty/a-universe-made-of-tiny-random-chunks" }
+        url: "http://nautil.us/issue/2/uncertainty/a-universe-made-of-tiny-random-chunks" },
+      { name: "The Strange Second Life of String Theory",
+        url: "https://www.quantamagazine.org/20160915-string-theorys-strange-second-life/" },
     ],
     audio: [
       { name: "io808 - An attempt at web-based TR-808 drum machine using React, Redux, and the Web Audio API",
@@ -2636,6 +2708,9 @@ writing their own paychecks.",
         url: "https://github.com/dollarshaveclub/reframe.js" },
       { name: "GraphicsJS",
         url: "https://github.com/anychart/graphicsjs" },
+      { name: "Gearman",
+        desc: "Generic application framework to farm out work to other machines or processes in multiple languages",
+        url: "http://gearman.org/" },
     ],
     thought: [
       { name: "Happiest at Work",
@@ -2691,6 +2766,10 @@ writing their own paychecks.",
         url: "https://www.bigquestionsonline.com/2016/07/28/are-developmental-mistakes-essential-evolution/" },
       { name: "Why are adults so busy?",
         url: "http://debarghyadas.com/writes/why-are-adults-so-busy/" },
+      { name: "Why I'm an Anarchist",
+        url: "http://www.catb.org/~esr/writings/anarchist.html" },
+      { name: "On Refusing to Read",
+        url: "http://www.chronicle.com/article/On-Refusing-to-Read/237717" },
     ],
     thoughtcs: [
       { name: "Why I Live in IRC",
@@ -2719,6 +2798,8 @@ writing their own paychecks.",
         url: "https://www.tbray.org/ongoing/When/201x/2016/09/14/Old-Geek" },
       { name: "How the right syntax can help teach recursion",
         url: "http://akkartik.name/post/swamp" },
+      { name: "Esoteric Program forms and languages",
+        url: "http://web.archive.org/web/20020609152409/www.catseye.mb.ca/esoteric/index.html" },
     ],
     behaviour: [
       { name: "A philosopher’s 350-year-old trick to get people to change their minds is now backed up by psychologists",
@@ -2772,6 +2853,14 @@ writing their own paychecks.",
         url: "http://www.aerospike.com/" },
       { name: "The Best Redshift Optimization Blog Posts of 2016",
         url: "https://www.periscopedata.com/blog/best-redshift-blog-posts-2016.html" },
+      { name: "EliasDB",
+        desc: "EliasDB is a lightweight graph based database written in Go.",
+        url: "https://github.com/krotik/eliasdb" },
+      { name: "BlazingDB",
+        desc: "lazingDB is an extremely fast SQL GPU database able to handle petabyte scale.",
+        url: "http://blazingdb.com/" },
+      { name: "BRIN indexes in Postgres 9.5",
+        url: "http://dev.sortable.com/brin-indexes-in-postgres-9.5/" },
     ],
     hardware: [
       { name: "Arduino",
@@ -2846,13 +2935,23 @@ writing their own paychecks.",
       { name: "Coding Explained in 25 Profound Comics",
         url: "https://medium.freecodecamp.com/coding-explained-in-25-profound-comics-8847ea03819c#.ism70p3ww" },
       { name: "The Engineer’s Guide to Babies",
-        url: "https://medium.com/pointer-io/the-engineers-guide-to-babies-1d451b665bce#.c8zrz6uxx" }
+        url: "https://medium.com/pointer-io/the-engineers-guide-to-babies-1d451b665bce#.c8zrz6uxx" },
+      { name: "So you think you can fake your own death?",
+        url: "https://www.linkedin.com/pulse/so-you-think-can-fake-your-own-death-elizabeth-greenwood" },
+      { name: "10 Ways to Adapt to Prison",
+        url: "https://medium.com/personal-growth/10-ways-to-adapt-to-prison-7e1956904409#.mb9hihoua" },
+      { name: "The Doomed Mouse Utopia that Inspired the Rats of NIMH",
+        url: "http://www.atlasobscura.com/articles/the-doomed-mouse-utopia-that-inspired-the-rats-of-nimh" },
     ],
     worktheory: [
       { name: "Only 7 Percent of Office Workers Are Productive (but Most Are Miserable)",
         url: "http://www.inc.com/brian-de-haaff/only-7-of-office-workers-are-productive-but-most-are-miserable.html" },
       { name: "What Happened When I Moved My Company To A 5-Hour Workday",
-        url: "https://www.fastcompany.com/3063262/lessons-learned/what-happened-when-i-moved-my-company-to-a-5-hour-workday" }
+        url: "https://www.fastcompany.com/3063262/lessons-learned/what-happened-when-i-moved-my-company-to-a-5-hour-workday" },
+      { name: "Introducing the Programmer's Guide to a Sane (shorter) Workweek",
+        url: "https://codewithoutrules.com/2016/09/16/sane-workweek/" },
+      { name: "Ditching the office to work in paradise as a “digital nomad” has a hidden dark side",
+        url: "http://qz.com/775751/digital-nomad-problems-nomadlist-and-remoteok-founder-pieter-levels-explains-why-he-has-quit-the-nomadic-lifestyle/" },
       }
     ],
     jobs: [
@@ -2860,33 +2959,6 @@ writing their own paychecks.",
         url: "https://medium.freecodecamp.com/how-not-to-bomb-your-offer-negotiation-c46bb9bc7dea#.kmfp03l6p" },
       { name: "Three unconventional interview questions",
         url: "https://slackhq.com/three-unconventional-interview-questions-664cc55501e#.ah8x9rqhe" },
-    ],
-    privacy: [
-      { name: "The GNU Privacy handbook",
-        url: "https://www.gnupg.org/gph/en/manual/book1.html" },
-      { name: "Umbra",
-        desc: "A platform for complete privacy",
-        url: "http://umbra.shadowproject.io/" },
-      { name: "Free Speech is Now a Brutal War on the Internet",
-        url: "https://medium.com/trouble-stories/free-speech-is-now-a-brutal-war-on-the-internet-f5261ff0bc44#.qwjce0uqc" },
-      { name: "The Right to Privacy",
-        url: "http://groups.csail.mit.edu/mac/classes/6.805/articles/privacy/Privacy_brand_warr2.html" },
-      { name: "Cory Doctorow: The Privacy Wars Are About to Get A Whole Lot Worse",
-        url: "http://www.locusmag.com/Perspectives/2016/09/cory-doctorowthe-privacy-wars-are-about-to-get-a-whole-lot-worse/" },
-      { name: "Stuck in a Pattern - Early evidence on "predictive policing" and civil rights",
-        url: "https://www.teamupturn.com/reports/2016/stuck-in-a-pattern" },
-      { name: "Watched",
-        desc: "Police forces across the United States are stockpiling massive databases with personal information"
-        url: "https://data.postandcourier.com/saga/watched/page/1" },
-      { name: "Facebook Is Collaborating With the Israeli Government to Determine What Should Be Censored",
-        url: "https://theintercept.com/2016/09/12/facebook-is-collaborating-with-the-israeli-government-to-determine-what-should-be-censored/" },
-      { name: "Tor Browser Exposed: Anti-Privacy Implantation at Mass Scale",
-        url: "https://medium.com/@movrcx/tor-browser-exposed-anti-privacy-implantation-at-mass-scale-bd68e9eb1e95#.ic84xz65w" },
-    ],
-    freespeech: [
-      { name: "web2web",
-        desc: "Server-less & domain-less websites updatable via torrents and bitcoin blockchain.",
-        url: "https://github.com/elendirx/web2web" },
     ],
     swisstools: [
       { name: "DTMF beta",
@@ -2908,6 +2980,12 @@ writing their own paychecks.",
         url: "http://news.usc.edu/63669/fasting-triggers-stem-cell-regeneration-of-damaged-old-immune-system/" },
       { name: "Fasting for three days can regenerate entire immune system, study finds",
         url: "http://www.telegraph.co.uk/science/2016/03/12/fasting-for-three-days-can-regenerate-entire-immune-system-study/" },
+      { name: "What It Feels Like to Die",
+        url: "http://www.theatlantic.com/health/archive/2016/09/what-it-feels-like-to-die/499319/?single_page=true" },
+      { name: "Relative Age Effect",
+        url: "https://en.wikipedia.org/wiki/Relative_age_effect" },
+      { name: "This is a 3D model of a clitoris – and the start of a sexual revolution",
+        url: "https://www.theguardian.com/commentisfree/2016/sep/15/3d-model-clitoris-sexual-revolution-sex-education-womens-sexuality" },
     ],
     brain: [
       { name: "Addicted to Anticipation",
@@ -2928,12 +3006,20 @@ writing their own paychecks.",
     edu: [
       { name: "The Steps to a Universal Online Tutor",
         url: "http://davidvandegrift.com/blog?id=63" },
+      { name: "New science is driving the country with the world’s best math (Singapore) students to rethink high-stakes tests",
+        url: "http://qz.com/780752/singapore-is-rethinking-high-stakes-tests/" },
+      { name: "Making Math Lessons as Easy as 1, Pause, 2, Pause ... - Singapur method",
+        url: "http://www.nytimes.com/2010/10/01/education/01math.html?_r=0" },
     ],
     search: [
       { name: "DuckDuckGo",
         url: "https://duckduckgo.com" },
       { name: "deusu",
         url: "https://deusu.org" },
+    ],
+    electronics: [
+      { name: "RESISTANCE IN MOTION: WHAT YOU SHOULD KNOW ABOUT VARIABLE RESISTORS",
+        url: "https://hackaday.com/2016/09/16/resistance-in-motion-everything-you-should-know-about-variable-resistors/" },
     ]
   }
 
@@ -3529,7 +3615,11 @@ http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
 + [ Keras WaveNet implementation ](https://github.com/basveeling/wavenet/)
 + [ Deep neural nets and the purpose of life ](https://medium.com/@nitin_pande/deep-neural-nets-and-the-purpose-of-life-d3d60a38d108#.37hrnbx0b)
 + [ Markov Chains Explained Visually ](http://setosa.io/blog/2014/07/26/markov-chains/)
-
++ [ That Sentimental Feeling - Sentiment analysis as a proxy for plot movement ](http://www.matthewjockers.net/2015/12/20/that-sentimental-feeling/)
++ [ Detecting Games On Twitch.tv With Google Prediction API ](https://adam.bronte.me/2015/06/02/detecting-what-game-is-streaming-on-twitch-tv/)
++ [ Replacing Google Prediction API ](https://adam.bronte.me/2016/02/24/replacing-google-prediction-api/)
++ [ Detecting the game being played on a live Twitch stream ](https://adam.bronte.me/2016/02/26/detecting-game-on-live-twitch-stream/)
++ [ Visual Game Detection ](https://github.com/abronte/GamePredict)
 
 Ask HN: From programming to AI, how?
 vaibkv 1 hour ago
