@@ -36,6 +36,7 @@
 
 # Object Oriented Programming
 + [ Goodbye, Object Oriented Programming ](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.k0bnb4qdw)
++ [ What's Wrong With Object-Oriented Programming? ](http://www.yegor256.com/2016/08/15/what-is-wrong-object-oriented-programming.html)
 
 # ES2017
 + [ Top-level await is a footgun ](https://gist.github.com/Rich-Harris/0b6f317657f5167663b493c722647221)
@@ -49,3 +50,15 @@
 # On Demand
 + [ SpoonRocket shuts down amongst on-demand apocalypse ](https://techcrunch.com/2016/03/15/spoonrocket-shuts-down/)
 + [ Uber investors aren’t paying for innovation anymore ](http://qz.com/782916/ubers-billion-dollar-losses-expose-the-fragile-state-of-the-on-demand-economy/)
+
+# Firebase
++ [ Reasons Not To Use Firebase ](https://crisp.im/blog/why-you-should-never-use-firebase-realtime-database/)
+
+# Kafka
++ [ Why I am not a fan of Apache Kafka ](https://gist.github.com/markrendle/26e423b6597685757732)
+
+# Angular 2
++ [ Why Learning Angular 2 Was Excruciating ](https://hackernoon.com/why-learning-angular-2-was-excruciating-d50dc28acc8a#.42sk09s6r)
+
+# React Universe
++ [ Your Dependencies Are Your Problem; Or, Why I Don't Use React Router ](http://jkk.github.io/dependencies-your-problem)
