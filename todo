@@ -126,6 +126,7 @@
   + DickPillow
   + T Shirts
     + Startup Threads
+    + https://snapprint.com/
     + http://direct.teespring.com/teams/?ref=producthunt&utm_source=producthunt_post1
   + The Simple Co. - https://medium.com/desk-of-van-schneider/lauren-singer-runs-a-company-with-one-business-goal-go-out-of-business-58039cc474b4#.mu18ynz06
   + https://www.greycork.com/
@@ -768,7 +769,7 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         ]},
       { name: "GoLang",
         resources:
-          [{ name: "Go Tutorial",hardware
+          [{ name: "Go Tutorial",
             url: "http://golang.org/doc/go_tutorial.html" },
           { name: "Effective Go",
             url: "http://golang.org/doc/effective_go.html" },
@@ -814,6 +815,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "goexpress",
             desc: "An Express JS Style HTTP server implementation in Golang",
             url: "https://github.com/DronRathore/goexpress" },
+          { name: "Armor",
+            desc: "Simple HTTP server, supports HTTP/2 and auto TLS",
+            url: "https://github.com/labstack/armor" },
+          { name: "gosl",
+            desc: "Go Scientifc Library",
+            url: "https://github.com/cpmech/gosl" },
         ],
         frameworks: [
           { name: "Gopher" },
@@ -1016,6 +1023,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://joearms.github.io/2013/11/21/My-favorite-erlang-program.html" },
           { name: "Erlang Installer: A Better Way To Use Erlang On OSX",
             url: "https://www.erlang-solutions.com/blog/erlang-installer-a-better-way-to-use-erlang-on-osx.html" },
+          { name: "The most basic Erlang service ⇒ worker pattern",
+            url: "http://zxq9.com/archives/1311" },
         ],
       { name: "Elixir",
         resources: [
@@ -1087,6 +1096,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://thomasleecopeland.com/2016/09/20/programs-that-rewrite-ruby-programs.html" },
           { name: "edX - Agile Development Using Ruby on Rails",
             url: "https://www.edx.org/xseries/agile-development-using-ruby-rails" },
+          { name: "Introducing Tensorflow Ruby API",
+            url: "https://medium.com/@Arafat./introducing-tensorflow-ruby-api-e77a477ff16e#.cckzpnwfr" },
         ]},
       { name: "Javascript",
         roadmap: [
@@ -1191,6 +1202,18 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://gist.github.com/jatins/11aac836f25257148a1d61def2c7270c" },
           { name: "Javascript Speech Recognition",
             url: "https://davidwalsh.name/speech-recognition" },
+          { name: "Why you should avoid using document.write, specifically for scripts injection",
+            url: "http://blog.dareboost.com/en/2016/09/avoid-using-document-write-scripts-injection/" },
+          { name: "Express ES5 to Koa ES7",
+            url: "http://blog.bandwidth.com/express-es5-to-koa-es7/" },
+          { name: "JavaScript Video Coruse for Designers",
+            url: "http://betaflows.com/" },
+          { name: "ES 5-6-7: From Callbacks to Promises to Generators to Async/await",
+            url: "https://medium.com/@rdsubhas/es6-from-callbacks-to-promises-to-generators-87f1c0cd8f2e#.r5k762x57" },
+          { name: "A Study on Solving Callbacks with JavaScript Generators",
+            url: "http://jlongster.com/A-Study-on-Solving-Callbacks-with-JavaScript-Generators" },
+          { name: "Implementing a Stepping Debugger in JavaScript",
+            url: "http://jlongster.com/Implementing-Stepping-Debugger-JavaScript" },
         ],
         transpiledSurrogates: [
           { name: "Amber (Smalltalk)" },
@@ -1294,8 +1317,6 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://blog.nativebase.io/how-we-built-react-native-card-swiper-for-nativebase-d1cd32a506d1#.ty6pma6gp" },
           { name: "Backbone → React: it’s a people problem after all",
             url: "https://swizec.com/blog/backbone-%E2%86%92-react-its-a-people-problem-after-all-%F0%9F%98%91/swizec/7049" },
-          { name: "JavaScript Video Coruse for Designers",
-            url: "http://betaflows.com/" },
       ]},
       { name: "Angular",
         resources: [
@@ -1315,6 +1336,14 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://www.alexkras.com/simple-guide-to-finding-a-javascript-memory-leak-in-node-js/" },
           { name: "Node.js at Scale - npm Best Practices",
             url: "https://blog.risingstack.com/nodejs-at-scale-npm-best-practices/" },
+          { name: "Node.js debugging with Chrome DevTools (in parallel with browser JavaScript)",
+            url: "https://blog.hospodarets.com/nodejs-debugging-in-chrome-devtools" },
+          { name: "An expensive line of code: scaling Node.JS on Heroku",
+            url: "http://micheljansen.org/blog/entry/1698&gws_rd=cr&ei=xS_tV6fnC4KdwgTak4PgDw" },
+          { name: "Apostrophe CMS",
+            url: "http://apostrophecms.org/?utm_source=nodeweekly&utm_medium=email" },
+          { name: "INTEGRATING PASSPORTJS WITH KOA",
+            url: "http://ghost-dozoisch.rhcloud.com/integrating-passportjs-with-koa/" },
       ]},
       { name: "Webpack",
         resources: [
@@ -1358,6 +1387,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://calnewport.com/blog/2012/10/26/mastering-linear-algebra-in-10-days-astounding-experiments-in-ultra-learning/" },
           { name: "Fourier Transform tutorial",
             url: "https://zzag.github.io/2016/09/02/fourier-transform/" },
+          { name: "NRICH",
+            url: "https://nrich.maths.org/frontpage" },
         ]}
       { name: "Scala",
         resources: [
@@ -1501,6 +1532,14 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "http://pchiusano.github.io/2016-09-15/static-vs-dynamic.html" },
       { name: "Gossip Protocols",
         url: "http://www.inf.u-szeged.hu/~jelasity/ddm/gossip.pdf" },
+      { name: "A Modern Architecture for FP",
+        url: "http://degoes.net/articles/modern-fp" },
+      { name: "Modern Functional Programming: Part 2",
+        url: "http://degoes.net/articles/modern-fp-part-2" },
+      { name: "Resolving Web Application Resource Bottlenecks with Concurrency",
+        url: "https://blog.phusion.nl/2016/09/27/resolving-resource-bottlenecks/" },
+      { name: "Callbacks vs. Coroutines",
+        url: "https://medium.com/@tjholowaychuk/callbacks-vs-coroutines-174f1fe66127#.yp4rq6z3w" },
     ],
     mobile: [
       { name: "Realm Mobile Platform and Database",
@@ -1719,8 +1758,6 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://dev.opera.com/articles/view/raw-webgl-part1-getting-started/" },
       { name: "Complexities of an Infinite Scroller",
         url: "https://developers.google.com/web/updates/2016/07/infinite-scroller"},
-      { name: "Introduction to Modern Hardware Prototyping",
-        url: "http://obogason.com/modern_hardware_prototyping/" },
       { name: "Bayesian Machine Learning Explained",
         url: "http://fastml.com/bayesian-machine-learning/"},
       { name: "The History of the URL: Path, Fragment, Query, and Auth",
@@ -2036,6 +2073,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://www.indiehackers.com/businesses/park-io" },
       { name: "How Uber Manages A Million Writes Per Second Using Mesos And Cassandra Across Multiple Datacenters ",
         url: "http://highscalability.com/blog/2016/9/28/how-uber-manages-a-million-writes-per-second-using-mesos-and.html" },
+      { name: "Bringing Pokémon GO to life on Google Cloud",
+        url: "https://cloudplatform.googleblog.com/2016/09/bringing-Pokemon-GO-to-life-on-Google-Cloud.html" },
     ],
     githubTuts: [
       { title: 'React Router Tutorial',
@@ -2355,6 +2394,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "http://securityaffairs.co/wordpress/51726/cyber-crime/ovh-hit-botnet-iot.html" },
       { name: "How to Crash Systemd in One Tweet",
         url: "https://www.agwa.name/blog/post/how_to_crash_systemd_in_one_tweet" },
+      { name: "Vuls",
+        desc: "Vulnerability scanner for Linux/FreeBSD, agentless, written in Go",
+        url: "https://github.com/future-architect/vuls" },
+      { name: "Apache Spot",
+        desc: "Advanced threat detection solution that uses big data analytics",
+        url: "http://open-network-insight.org/" },
     ],
     encryption: [
       { name: "Python 3: An Intro to Encryption",
@@ -2401,6 +2446,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "http://www.faz.net/aktuell/feuilleton/debatten/the-digital-debate/shoshanna-zuboff-dark-google-12916679.html" },
       { name: "Five EFF Tools to Help You Protect Yourself Online",
         url: "https://www.eff.org/deeplinks/2016/09/five-eff-tools-help-you-protect-yourself-online" },
+      { name: "AP: Across US, police officers abuse confidential databases",
+        url: "http://bigstory.ap.org/699236946e3140659fff8a2362e16f43" },
     ],
     freespeech: [
       { name: "web2web",
@@ -2624,6 +2671,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://vimeo.com/168648012" },
       { name: "GOTO 2016 • What I Wish I Had Known Before Scaling Uber to 1000 Services • Matt Ranney",
         url: "https://www.youtube.com/watch?v=kb-m2fasdDY" },
+      { name: "Chad Rigetti, founder of Rigetti Quantum Computing (S14), at Startup School 2016",
+        url: "http://themacro.com/articles/2016/09/chad-rigetti-on-building-quantum-computers/" },
     ],
     podcasts: [
       { title: 'Supreme Clientele byeckRoger Chen',
@@ -2985,6 +3034,10 @@ writing their own paychecks.",
         url: "http://www.unz.com/article/finance-is-not-the-economy/" },
       { name: "America's monopoly problem",
         url: "http://www.theatlantic.com/magazine/archive/2016/10/americas-monopoly-problem/497549/?single_page=true" },
+      { name: "The Next Industrial Revolution",
+        url: "http://www.theatlantic.com/business/archive/2016/09/the-next-industrial-revolution/498779/?single_page=true" },
+      { name: "Why Capitalism Creates Pointless Jobs",
+        url: "http://evonomics.com/why-capitalism-creates-pointless-jobs-david-graeber/" },
     ],
     finance: [
       { name: "Invisible Super Intelligence for The Stock Market",
@@ -3106,6 +3159,10 @@ writing their own paychecks.",
         url: "http://hackaday.com/2016/09/28/chemical-formulas-101/" },
       { name: "Papers We Love",
         url: "http://paperswelove.org/" },
+      { name: "Cloud History, Cloud Thinking",
+        url: "http://cloudindx.com/history/" },
+      { name: "Goodbye World: We’ve Passed the Carbon Tipping Point For Good",
+        url: "http://motherboard.vice.com/read/goodbye-world-weve-passed-the-carbon-tipping-point-for-good" },
     ],
     physics: [
       { name: "A Universe Made of Tiny Random Chunks",
@@ -3125,6 +3182,16 @@ writing their own paychecks.",
         url: "https://www.wired.com/2013/12/amplituhedron-jewel-quantum-physics/" },
       { name: "Strange Dark Galaxy Puzzles Astrophysicists",
         url: "https://www.quantamagazine.org/20160927-ultra-diffuse-galaxy-dragonfly-44/" },
+      { name: "Paper: A computer program for simulating time travel and a possible 'solution' for the grandfather paradox",
+        url: "http://arxiv.org/abs/1609.08470" },
+      { name: "Paradoxical Crystal Baffles Physicists",
+        url: "https://www.quantamagazine.org/20150702-paradoxical-crystal-baffles-physicists/" },
+    ],
+    space: [
+      { name: "Off-the-Shelf Lens Assists Dark Matter Find",
+        url: "https://www.quantamagazine.org/20160928-off-the-shelf-lens-assists-dark-matter-find/" },
+      { name: "SpaceX’s Big Fucking Rocket – The Full Story",
+        url: "http://waitbutwhy.com/2016/09/spacexs-big-fking-rocket-the-full-story.html" },
     ],
     music: [
       { name: "Music Theory for Nerds",
@@ -3204,6 +3271,8 @@ writing their own paychecks.",
         url: "http://blog.burntsushi.net/ripgrep/" },
       { name: "Gmail with mutt",
         url: "https://smalldata.tech/blog/2016/09/10/gmail-with-mutt" },
+      { name: "Linux Performance Analysis in 60,000 Milliseconds",
+        url: "http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html" },
     ],
     oss: [
       { name: "Netling",
@@ -3299,6 +3368,8 @@ writing their own paychecks.",
       { name: "ZeroBin",
         desc: "Minimalist, opensource online pastebin/discussion board where the server has zero knowledge of hosted data.",
         url: "http://sebsauvage.net/wiki/doku.php?id=php:zerobin" },
+      { name: "I’m sorry Cron, I’ve met AirBnB’s Airflow",
+        url: "https://danidelvalle.me/2016/09/12/im-sorry-cron-ive-met-airbnbs-airflow/" },
     ],
     thought: [
       { name: "Happiest at Work",
@@ -3384,6 +3455,8 @@ writing their own paychecks.",
         url: "https://signalvnoise.com/posts/3124-give-it-five-minutes" },
       { name: "The Satir Change Model",
         url: "http://stevenmsmith.com/ar-satir-change-model/" },
+      { name: "Amoralism 101",
+        url: "http://degoes.net/articles/amoralism-101" },
     ],
     thoughtcs: [
       { name: "Why I Live in IRC",
@@ -3446,6 +3519,8 @@ writing their own paychecks.",
         url: "http://bart-sokol.info/blog/2016/09-18-your-programming-language-is-probably-unproductive/index.html" },
       { name: "Software Architect as a Developer Pension Plan",
         url: "http://www.daedtech.com/software-architect-as-a-developer-pension-plan/" },
+      { name: "On The Value Of Fundamentals In Software Development",
+        url: "http://www.skorks.com/2010/04/on-the-value-of-fundamentals-in-software-development/" },
     ],
     behaviour: [
       { name: "A philosopher’s 350-year-old trick to get people to change their minds is now backed up by psychologists",
@@ -3456,6 +3531,14 @@ writing their own paychecks.",
         url: "http://www.wired.co.uk/article/banning-small-talk" },
       { name: "The Hot New Millennial Housing Trend Is a Repeat of the Middle Ages",
         url: "http://www.theatlantic.com/business/archive/2016/09/millennial-housing-communal-living-middle-ages/501467/?single_page=true" },
+      { name: "How anxiety warps your perception",
+        url: "http://www.bbc.com/future/story/20160928-how-anxiety-warps-your-perception" },
+      { name: "A Developer’s Guide for Hacking Procrastination to Achieve Success",
+        url: "https://www.crondose.com/2016/09/developers-guide-hacking-procrastination/" },
+    ],
+    scandal: [
+      { name: "Revealed: How one Amazon Kindle scam made millions of dollars",
+        url: "http://www.zdnet.com/article/exclusive-inside-a-million-dollar-amazon-kindle-catfishing-scam/" },
     ],
     people: [
       { name: "How Elon Muxk Thinks",
@@ -3559,6 +3642,8 @@ writing their own paychecks.",
         url: "https://www.opsdash.com/blog/postgresql-streaming-replication-howto.html?h=n" },
       { name: "4 n00b MySQL Mistakes Every Programmer Makes",
         url: "https://devops.com/2016/08/11/4-n00b-mysql-mistakes-every-programmer-makes/" },
+      { name: "Debugging PostgreSQL performance, the hard way",
+        url: "https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/" },
     ],
     distributed: [
       { name: "Matrix",
@@ -3599,6 +3684,10 @@ writing their own paychecks.",
         url: "http://www.theregister.co.uk/2016/09/22/the_evolution_of_moores_law_suggests_hardware_is_eating_software/" },
       { name: "Ghetto Ribbon Connector",
         url: "http://hackaday.com/2016/09/27/ghetto-ribbon-connector/" },
+      { name: "Designing and Producing 2FA tokens to Sell on Amazon",
+        url: "https://conorpp.com/2016/09/23/designing-and-producing-2fa-tokens-to-sell-on-amazon/" },
+      { name: "Introduction to Modern Hardware Prototyping",
+        url: "http://obogason.com/modern_hardware_prototyping/" },
     ],
     blockchain: [
       { name: "DNSChain",
@@ -3615,6 +3704,8 @@ writing their own paychecks.",
         url: "https://news.ycombinator.com/item?id=12571287" },
       { name: "(Building the) Minimum Viable Block Chain",
         url: "https://www.igvita.com/2014/05/05/minimum-viable-block-chain/" },
+      { name: "The Disaster that is Bitcoin",
+        url: "https://medium.com/@rogomonz/the-disaster-that-is-bitcoin-97f08f99a73e#.j48hhc3vo" },
     ],
     compression: [
       { name: "zstandard by Facebook",
@@ -3635,6 +3726,8 @@ writing their own paychecks.",
         url: "https://haxel.ca/perverse-incentive-of-google-adsense.html?26" },
       { name: "Sorry To Burst Your Bubble: The Long Tail Keyword Myth",
         url: "http://clicteq.com/the-long-tail-keyword-myth-a-data-driven-argument/" },
+      { name: "Traffic Is Fake, Audience Numbers Are Garbage, And Nobody Knows How Many People See Anything",
+        url: "https://www.techdirt.com/articles/20160915/18183535533/traffic-is-fake-audience-numbers-are-garbage-nobody-knows-how-many-people-see-anything.shtml" },
     ],
     urbanism: [
       { name: "SOS Brutalism",
@@ -3651,10 +3744,16 @@ writing their own paychecks.",
         url: "http://gizmodo.com/how-palantir-is-taking-over-new-york-city-1786738085" },
       { name: "Place and Non-Place",
         url: "http://www.newworldeconomics.com/archives/2009/101109.html" },
+      { name: "Cities for healthier lives",
+        url: "https://pursuit.unimelb.edu.au/articles/cities-for-healthier-lives" },
+      { name: "The Hitchhiker's Guide to New York City Tech",
+        url: "http://startupguide.nyc/" },
     ],
     transportation: [
       { name: "The Third Transportation Revolution",
         url: "https://medium.com/@johnzimmer/the-third-transportation-revolution-27860f05fa91#.7zpbiq3lr" },
+      { name: "Why We Should Adopt Driverless Cars That Kill People",
+        url: "https://medium.com/@lux_capital/why-we-should-adopt-driverless-cars-that-kill-people-9284f325ced0#.f12co59x1" },
     ],
     housing: [
       { name: "People are ditching their apartments to live the 'van life'",
@@ -3727,6 +3826,10 @@ writing their own paychecks.",
         url: "https://eager.io/blog/stock-quotes-through-history/?" },
       { name: "Vagina 101: Can you pass the test?",
         url: "https://www.theguardian.com/lifeandstyle/ng-interactive/2016/sep/23/vagina-anatomy-quiz-dispatches" },
+      { name: "DISPATCHES FROM THE RAP WARS",
+        url: "http://www.chicagomag.com/Chicago-Magazine/October-2016/Chicago-Gangs/" },
+      { name: "USPS Discrimination Against Atheism? Study by the makers of Atheist Shoes",
+        url: "https://www.atheistberlin.com/study" },
     ],
     bots: [
       { name: "Chat Bots Aren’t a Fad. They’re a Revolution.",
@@ -3845,6 +3948,8 @@ writing their own paychecks.",
         url: "https://theneurosphere.com/2016/09/17/the-basic-neurobiology-behind-the-visual-illusion-that-is-here-to-break-the-internet/" },
       { name: "Do our brains have extraordinary untapped powers?",
         url: "https://www.theguardian.com/education/2016/sep/24/do-our-brains-have-extraordinary-untapped-powers" },
+      { name: "Peter Walter discovered a molecule that makes mice smarter. Can it heal a human brain?",
+        url: "https://www.statnews.com/2016/09/28/memory-isrib-peter-walter/" },
     ],
     nootropics: [
       { name: "Nootropics",
@@ -3855,10 +3960,14 @@ writing their own paychecks.",
         url: "http://fusion.net/story/185398/how-bolivia-became-a-drug-war-success-story-after-ousting-uncle-sam/" },
       { name: "High Hitler: how Nazi drug abuse steered the course of history",
         url: "https://www.theguardian.com/books/2016/sep/25/blitzed-norman-ohler-adolf-hitler-nazi-drug-abuse-interview" },
+      { name: "Dose of Reality: The Effect of State Marijuana Legalizations",
+        url: "http://www.cato.org/publications/policy-analysis/dose-reality-effect-state-marijuana-legalizations" },
     ],
     diet: [
       { name: "The fat-fueled brain: unnatural or advantageous?",
         url: "http://blogs.scientificamerican.com/mind-guest-blog/the-fat-fueled-brain-unnatural-or-advantageous/" },
+      { name: "What 2000 calories look like",
+        url: "http://www.nytimes.com/interactive/2014/12/22/upshot/what-2000-calories-looks-like.html?contentCollection=smarter-living" },
     ],
     food: [
       { name: "The History of Beer Yeast",
@@ -3875,6 +3984,8 @@ writing their own paychecks.",
         url: "https://www.technologyreview.com/s/602464/this-technology-is-about-to-revolutionize-beer-making/" },
       { name: "Technology Is Eating Up Restaurants",
         url: "https://www.technologyreview.com/s/602501/technology-is-eating-up-restaurants/" },
+      { name: "Special Sauce for Measuring Food Trends: The Fried Calamari Index",
+        url: "http://www.nytimes.com/2014/08/12/upshot/special-sauce-for-measuring-food-trends-the-fried-calamari-index.html" },
     ],
     design: [
       { name: "The Colors Used by the Ten Most Popular Sites",
@@ -3906,6 +4017,10 @@ writing their own paychecks.",
         url: "http://saasbook.blogspot.com.ar/2016/09/flipped-classroom-no-thanks-id-rather.html" },
       { name: "MIT Challenge",
         url: "https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/" },
+      { name: "Two Years as a High School Mentor",
+        url: "http://nullprogram.com/blog/2016/09/02/" },
+      { name: "Education is China’s secret weapon for tech dominance",
+        url: "http://www.content-loop.com/education-is-chinas-secret-weapon-for-tech-dominance/" },
     ],
     search: [
       { name: "DuckDuckGo",
@@ -3968,6 +4083,7 @@ http://blogs.microsoft.com/next/2016/09/13/microsoft-researchers-achieve-speech-
   + [Ask HN: What's the best way to learn about the blockchain?](https://news.ycombinator.com/item?id=12571287)
   + [Ask HN: What do you wish someone would build?](https://news.ycombinator.com/item?id=12567645)
   + [Ask HN: If you were paid to learn, 8 hours a day, what would be your routine?](https://news.ycombinator.com/item?id=12558502)
+  + [Ask HN: When are you considered a “senior” programmer?](https://news.ycombinator.com/item?id=12603303)
 
 Ask HN: How do I start being a consultant?
 tptacek 1521 days ago | parent | favorite | on: Ask HN: How do I start being a consultant?
@@ -4582,6 +4698,11 @@ http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
 + [ Alooma Live - Kafka Real-Time Visualization ](https://www.alooma.com/blog/kafka-realtime-visualization)
 + [ A Deep Dive into SYSTRAN’s Neural Machine Translation (NMT) Technology ](http://kv-emptypages.blogspot.com.ar/2016/09/a-deep-dive-into-systrans-neural.html)
 + [ Defeating Image Obfuscation with Deep Learning ](https://arxiv.org/pdf/1609.00408v2.pdf)
++ [ Introducing Tensorflow Ruby API ](https://medium.com/@Arafat./introducing-tensorflow-ruby-api-e77a477ff16e#.cckzpnwfr)
++ [ TensorFlow for R ](https://github.com/rstudio/tensorflow)
++ [ Image Compression with Neural Networks ](https://research.googleblog.com/2016/09/image-compression-with-neural-networks.html)
++ [ How to Build Your Own Deep Learning Box ](http://www.kdnuggets.com/2016/06/build-deep-learning-box.html)
++ [ Spark for Scale: Machine Learning for Big Data ](http://www.kdnuggets.com/2016/09/spark-scale-machine-learning-big-data.html)
 
 + [ How to Become a Data Scientist – Part 1 ](http://www.kdnuggets.com/2016/08/become-data-scientist-part-1.html)
 + [ The top 10 algorithms (and methods) used by Data Scientists ](http://www.kdnuggets.com/2016/09/poll-algorithms-used-data-scientists.html)
@@ -4592,6 +4713,8 @@ http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
 + [ 7 Steps to Mastering Machine Learning With Python ](http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html)
 + [ 21 Must-Know Data Science Interview Questions and Answers ](http://www.kdnuggets.com/2016/02/21-data-science-interview-questions-answers.html)
 + [ How to Become a (Type A) Data Scientist ](http://www.kdnuggets.com/2016/08/become-type-a-data-scientist.html)
++ [ If you want to learn Data Science, start with one of these programming classes ](https://medium.freecodecamp.com/if-you-want-to-learn-data-science-start-with-one-of-these-programming-classes-fb694ffe780c#.7x4oxdov7)
+
 
 + [ Resources for Learning AI ](https://medium.com/open-intelligence/recommended-resources-for-learning-ai-3ab4023cfa85#.t9ekvo44s)
 + [ How to Get a Job in Deep Learning ](http://blog.deepgram.com/how-to-get-a-job-in-deep-learning/)
