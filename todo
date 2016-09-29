@@ -2448,6 +2448,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://www.eff.org/deeplinks/2016/09/five-eff-tools-help-you-protect-yourself-online" },
       { name: "AP: Across US, police officers abuse confidential databases",
         url: "http://bigstory.ap.org/699236946e3140659fff8a2362e16f43" },
+      { name: "BREAKING THE BLACK BOX - Episode 1: What Facebook Knows About You",
+        url: "https://www.propublica.org/article/breaking-the-black-box-what-facebook-knows-about-you" },
     ],
     freespeech: [
       { name: "web2web",
@@ -4059,6 +4061,8 @@ writing their own paychecks.",
     fauna: [
       { name: "Horses can use symbols to talk to us",
         url: "http://www.sciencemag.org/news/2016/09/horses-can-use-symbols-talk-us" },
+      { name: "The Quadrupedal Conjecture",
+        url: "https://keplerlounge.com/2016/09/15/the-quadrupedal-conjecture/" },
     ],
   }
 
@@ -4703,6 +4707,8 @@ http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
 + [ Image Compression with Neural Networks ](https://research.googleblog.com/2016/09/image-compression-with-neural-networks.html)
 + [ How to Build Your Own Deep Learning Box ](http://www.kdnuggets.com/2016/06/build-deep-learning-box.html)
 + [ Spark for Scale: Machine Learning for Big Data ](http://www.kdnuggets.com/2016/09/spark-scale-machine-learning-big-data.html)
++ [ Machine Learning pitfalls and how to avoid them ](https://blog.junipersecurity.net/machine-learning-pitfalls-and-how-to-avoid-them/)
+
 
 + [ How to Become a Data Scientist – Part 1 ](http://www.kdnuggets.com/2016/08/become-data-scientist-part-1.html)
 + [ The top 10 algorithms (and methods) used by Data Scientists ](http://www.kdnuggets.com/2016/09/poll-algorithms-used-data-scientists.html)
