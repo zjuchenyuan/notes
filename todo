@@ -1540,6 +1540,10 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://blog.phusion.nl/2016/09/27/resolving-resource-bottlenecks/" },
       { name: "Callbacks vs. Coroutines",
         url: "https://medium.com/@tjholowaychuk/callbacks-vs-coroutines-174f1fe66127#.yp4rq6z3w" },
+      { name: "Data denormalization is broken",
+        url: "https://medium.com/@lironshapira/data-denormalization-is-broken-7b697352f405#.juehufwxl" },
+      { name: "Microsoft REST API Guidelines",
+        url: "https://github.com/Microsoft/api-guidelines" },
     ],
     mobile: [
       { name: "Realm Mobile Platform and Database",
