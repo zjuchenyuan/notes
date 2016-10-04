@@ -1343,6 +1343,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://hackernoon.com/a-deep-dive-into-angular2-part-1-application-refs-b15d62a86246#.m4izst20g" },
           { name: "How does Angular2 work? Part 2 — bootstrapModule()",
             url: "https://hackernoon.com/how-does-angular2-work-part-2-boostrapmodule-117deef25e62#.y9bydseke" },
+          { name: "Angular 2 vs React: The Ultimate Dance Off",
+            url: "https://medium.com/javascript-scene/angular-2-vs-react-the-ultimate-dance-off-60e7dfbc379c#.bzfjnm8f5" },
       ]},
       { name: "Node",
         resources: [
@@ -1361,6 +1363,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://apostrophecms.org/?utm_source=nodeweekly&utm_medium=email" },
           { name: "INTEGRATING PASSPORTJS WITH KOA",
             url: "http://ghost-dozoisch.rhcloud.com/integrating-passportjs-with-koa/" },
+          { name: "Debugging Node.js with Chrome DevTools",
+            url: "https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27#.mtl2qmxe9" },
       ]},
       { name: "Webpack",
         resources: [
@@ -3171,6 +3175,8 @@ writing their own paychecks.",
         url: "http://themacro.com/articles/2016/09/common-misconceptions-about-applying-to-yc/" },
       { name: "From Zero to a Million: How to craft a great pitch without spending time on it",
         url: "https://blog.markgrowth.com/from-zero-to-a-million-how-to-craft-a-great-pitch-without-spending-time-on-it-2039b12fb6cb#.dfictpze1" },
+      { name: "Your Startup's Three Horizons",
+        url: "http://tomtunguz.com/mckinseys-3-horizons/" },
     ],
     growth: [
       { name: "Growth Hacker is the new VP Marketing",
@@ -3214,6 +3220,8 @@ writing their own paychecks.",
     product: [
       { name: "Open Innovation Toolkit by Mozilla",
         url: "https://toolkit.mozilla.org/" },
+      { name: "On Writing Product Specs",
+        url: "https://goberoi.com/on-writing-product-specs-5ca697b992fd#.6qk8qnv50" },
     ]
     sci: [
       { name: "A Unified Theory of Random",
@@ -4146,6 +4154,8 @@ writing their own paychecks.",
         url: "https://www.palemoon.org/" },
       { name: "Things you probably didn’t know you could do with Chrome’s Developer Console",
         url: "https://medium.freecodecamp.com/10-tips-to-maximize-your-javascript-debugging-experience-b69a75859329#.cv9neeequ" },
+      { name: "7 Google Chrome Alternatives That Will Make You More Productive",
+        url: "https://medium.com/product-hunt/7-google-chrome-alternatives-that-will-make-you-more-productive-9f3c75c66e7d#.uj83fwlu8" },
     ],
     flora: [
       { name: "The Forgotten Life of Plants",
