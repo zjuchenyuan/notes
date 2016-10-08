@@ -2884,6 +2884,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "Photopea",
         desc: "Advanced online image editor with Adobe Photshop UI",
         url: "https://www.photopea.com/" },
+      { name: "Godot: Making shaders more accesible",
+        url: "https://godotengine.org/article/making-shaders-more-accessible" }
     ],
     charts: [
       { name: "Canvas Gauges",
