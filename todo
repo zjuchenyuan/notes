@@ -1530,6 +1530,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             desc: "Simple Regex Language",
             url: "https://simple-regex.com/" },
       ]},
+      { name: "Prolog",
+        resources: [
+          { name: "A Gentle Introduction to Prolog",
+            url: "https://bernardopires.com/2013/10/try-logic-programming-a-gentle-introduction-to-prolog/" },
+        ]
+      },
       { name: "Dart",
         resources: [
           { name: "Bootstrap into Dart",
@@ -1737,6 +1743,10 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-- 2011/Syllabus/" },
       { name: "",
         url: "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/calendar/" }
+      { name: "MIT Artificial Intelligence Lecture Videos",
+        url: "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/" },
+      { name: "Stanford CS221: Artificial Intelligence",
+        url: "https://web.stanford.edu/class/cs221/" },
     ],
     explanations: [
       { name: 'Neural Networks Demystified',
@@ -1957,8 +1967,10 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "http://www.ilikebigbits.com/blog/2014/4/21/the-myth-of-ram-part-i" },
       { name: "The Future of Conversational UI Belongs to Hybrid Interfaces",
         url: "https://medium.com/the-layer/the-future-of-conversational-ui-belongs-to-hybrid-interfaces-8a228de0bdb5#.a57z7qz7l" },
-      { name: "Latency Numbers Every Programmer Should Know",
+      { name: "Jeff Dean's latency numbers plotted over time",
         url: "https://people.eecs.berkeley.edu/~rcs/research/interactive_latency.html" },
+      { name: "Latency Numbers Every Programmer Should Know",
+        url: "https://gist.github.com/hellerbarde/2843375" },
       { name: "Wavelets 4 Dummies: Signal Processing, Fourier Transforms and Heisenberg",
         url: "https://georgemdallas.wordpress.com/2014/05/14/wavelets-4-dummies-signal-processing-fourier-transforms-and-heisenberg/" },
       { name: "Calm Technology",
@@ -3009,6 +3021,8 @@ Read more at http://tutorials.pluralsight.com/front-end-javascript/building-a-mu
         url: "https://blog.parsec.tv/description-of-parsec-technology-b2738dcc3842#.n5nnuqesk" },
       { name: "Randomly generated dungeons",
         url: "http://www.rosipov.com/blog/randomly-generated-dungeons/" },
+      { name: "HTML Kong",
+        url: "https://www.xn--8ws00zhy3a.com/blog/2016/07/html-kong" },
     ],
     gametheory: [
       { name: "The Making of Lemmings",
@@ -3394,6 +3408,8 @@ writing their own paychecks.",
         url: "http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html" },
       { name: "UNIX as IDE",
         url: "https://sanctum.geek.nz/arabesque/series/unix-as-ide/" },
+      { name: "Understanding /proc",
+        url: "https://fredrb.github.io/2016/10/01/Understanding-proc/" },
     ],
     oss: [
       { name: "Netling",
@@ -3926,6 +3942,10 @@ writing their own paychecks.",
       { name: "Awesome Interactive Journalism",
         desc: "A list of awesome interactive journalism projects.",
         url: "https://github.com/wbkd/awesome-interactive-journalism" },
+    ],
+    mapping: [
+      { name: "Google Cartographer",
+        url: "https://opensource.googleblog.com/2016/10/introducing-cartographer.html" },
     ],
     design: [
       { name: "IBM Design Language",
