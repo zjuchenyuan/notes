@@ -1477,7 +1477,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "SQL",
         roadmap: [
           { name: "A begginers guide to thinking in SQL",
-            url: "http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/"}
+            url: "http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/" },
+          { name: "SQL Style Guide",
+            url: "http://www.sqlstyle.guide/" },
         ]},
       { name: "Crystal (Fast as C, Slick as Ruby)" },
       { name: "Docker",
@@ -1599,6 +1601,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://hughewilliams.com/2012/10/01/five-myths-about-hash-tables/" },
       { name: "The Law of Demeter and Immutability",
         url: "http://enterprisecraftsmanship.com/2016/09/29/law-of-demeter-and-immutability/" },
+      { name: "Tree Traversal Space Requirements",
+        url: "https://eugene-eeo.github.io/blog/tree-traversal-storage.html" },
     ],
     mobile: [
       { name: "Realm Mobile Platform and Database",
@@ -1747,6 +1751,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/" },
       { name: "Stanford CS221: Artificial Intelligence",
         url: "https://web.stanford.edu/class/cs221/" },
+      { name: "Algorithms, Etc. by Jeff Erickson",
+        url: "http://jeffe.cs.illinois.edu/teaching/algorithms/" },
     ],
     explanations: [
       { name: 'Neural Networks Demystified',
@@ -3599,6 +3605,8 @@ writing their own paychecks.",
         url: "http://degoes.net/articles/amoralism-101" },
       { name: "The Genious of Learning",
         url: "http://nautil.us/issue/40/learning/the-genius-of-learning-rp" },
+      { name: "The importance of science fiction to entrepreneurship",
+        url: "https://techcrunch.com/2016/10/08/the-importance-of-science-fiction-to-entrepreneurship/" },
     ],
     thoughtcs: [
       { name: "Why I Live in IRC",
@@ -3676,6 +3684,8 @@ writing their own paychecks.",
         url: "http://danluu.com/open-social-networks/" },
       { name: "Should Math be a Prerequisite for Programming?",
         url: "https://www.linux.com/blog/should-math-be-prerequisite-programming" },
+      { name: "What are the best-kept secrets of great programmers?",
+        url: "http://brianknapp.me/best-kept-secrets-of-great-programmers/" },
     ],
     behaviour: [
       { name: "A philosopher’s 350-year-old trick to get people to change their minds is now backed up by psychologists",
@@ -3694,6 +3704,10 @@ writing their own paychecks.",
         url: "https://www.getflow.com/blog/deep-focus-organizational-culture" },
       { name: "The Important Habit of Just Starting",
         url: "http://lifehacker.com/the-important-habit-of-just-starting-1771016698" },
+    ],
+    futurism: [
+      { name: "When her best friend died, she rebuilt him using artificial intelligence",
+        url: "http://www.theverge.com/a/luka-artificial-intelligence-memorial-roman-mazurenko-bot" },
     ],
     scandal: [
       { name: "Revealed: How one Amazon Kindle scam made millions of dollars",
@@ -3857,6 +3871,8 @@ writing their own paychecks.",
         url: "https://conorpp.com/2016/09/23/designing-and-producing-2fa-tokens-to-sell-on-amazon/" },
       { name: "Introduction to Modern Hardware Prototyping",
         url: "http://obogason.com/modern_hardware_prototyping/" },
+      { name: "From 0 to Raspberry Pi Linux in 45 Minutes",
+        url: "http://ellcc.org/blog/?p=26628" },
     ],
     blockchain: [
       { name: "DNSChain",
@@ -4053,6 +4069,8 @@ writing their own paychecks.",
         url: "https://aeon.co/essays/you-don-t-have-to-be-stupid-to-work-here-but-it-helps" },
       { name: "Developer Interviews are Broken, and You Can't Fix It",
         url: "http://www.gayle.com/blog/2015/6/10/developer-interviews-are-broken-and-you-cant-fix-it" },
+      { name: "Developer hiring and the market for lemons",
+        url: "http://danluu.com/hiring-lemons/" },
     ],
     jobs: [
       { name: "How not to bomb your offer negotiation",
@@ -4182,6 +4200,8 @@ writing their own paychecks.",
         url: "http://www.nytimes.com/2014/08/12/upshot/special-sauce-for-measuring-food-trends-the-fried-calamari-index.html" },
       { name: "SuperSize - The Dizzying Grandeur of 21st-Century Agriculture",
         url: "http://www.nytimes.com/interactive/2016/10/09/magazine/big-food-photo-essay.html" },
+      { name: "Liquid assets: how the business of bottled water went mad",
+        url: "https://www.theguardian.com/business/2016/oct/06/liquid-assets-how--business-bottled-water-went-mad" },
     ],
     design: [
       { name: "The Colors Used by the Ten Most Popular Sites",
@@ -4294,6 +4314,7 @@ http://blogs.microsoft.com/next/2016/09/13/microsoft-researchers-achieve-speech-
   + [Ask HN: When are you considered a “senior” programmer?](https://news.ycombinator.com/item?id=12603303)
   + [Ask HN: What is your favorite Google chrome extension?](https://news.ycombinator.com/item?id=12610879)
   + [](https://github.com/cvondrick/videogan)
+  + [Ask HN: Those making over $1K/month on side projects, what did you make?](https://news.ycombinator.com/item?id=12670731)
 
 Ask HN: How do I start being a consultant?
 tptacek 1521 days ago | parent | favorite | on: Ask HN: How do I start being a consultant?
