@@ -736,6 +736,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "Flashlight",
             desc: "Lightweight Python library for analyzing and solving quadrotor (drone) control problems. ",
             url: "https://mikeroberts3000.github.io/flashlight/" },
+          { name: "binarytree",
+            desc: "Python Library for Learning Binary Trees",
+            url: "https://github.com/joowani/binarytree" },
         ],
         frameworks: [
           { name: "Flask",
@@ -852,6 +855,14 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://hackernoon.com/lesser-known-git-commands-151a1918a60#.gce3mxwon" },
           { name: "Purposes, Concepts, Misfits, and a Redesign of Git",
             url: "http://neverworkintheory.org/2016/09/30/rethinking-git.html" },
+          { name: "Git-Repo The ultimate utility for managing services",
+            url: "http://i.got.nothing.to/code/on/git-repo:_the_utility_for_services/" },
+      ]},
+      { name: "Markdown",
+        resources: [
+          { name: "Typora",
+            desc: "Cross platform real time markdown editor",
+            url: "https://www.typora.io/" },
       ]},
       { name: "Haskell",
         resources: [
@@ -1060,6 +1071,11 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "ElixirConf 2015 - Keynote: Elixir Should Take Over the World by Jessica Kerr",
             url: "https://www.youtube.com/watch?v=X25xOhntr6s" },
       ]},
+      { name: "Julia",
+        resources: [
+          { name: "The Julia Programming Language for Number Crunching",
+            url: "https://medium.com/@jshysing/the-julia-programming-language-for-number-crunching-87faad52ce08#.flo0m87sz" },
+      ]},
       { name: "F#",
         resources: [
           { name: "Fable",
@@ -1074,11 +1090,14 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: 'om',
             url: 'https://github.com/omcljs/om' },
           { name: 'Reagent',
-            url: 'https://github.com/reagent-project/reagent' }
+            url: 'https://github.com/reagent-project/reagent' },
         ],
         resources: [
           { name: "Haskell vs Clojure",
             url: "https://gist.github.com/honza/5897359" },
+          { name: "Nightlight",
+            desc: "An embedded editor for Clojure that sits in your project",
+            url: "https://github.com/oakes/Nightlight" },
         ]
       },
       { name: "ClojureScript",
@@ -1442,6 +1461,11 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://typelevel.org/blog/2016/08/21/hkts-moving-forward.html" }
           }
         ]},
+      { name: "P",
+        resources: [
+          { name: "The P programming language",
+            url: "https://github.com/p-org/P" },
+      ]},
       { name: "PHP",
         resources: [
           { name: "PHP The Wrong Way",
@@ -1629,6 +1653,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "http://nedbatchelder.com//blog/201609/computing_primes_with_css.html" },
       { name: "CSS - Level 4 Selectors",
         url: "http://css4.rocks/" },
+      { name: "How to make tabs using only CSS",
+        url: "https://silvestarbistrovic.from.hr/en/articles/how-to-make-tabs-using-only-css/" },
     ],
     codeReading: [
       { name: 'Coffeescript', author: 'Jeremy Ashkenas'},
@@ -2548,6 +2574,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://www.propublica.org/article/breaking-the-black-box-what-facebook-knows-about-you" },
       { name: "To the Government, Your Latest Facebook Rant Is Raw Intel",
         url: "https://www.aclu.org/blog/free-future/government-your-latest-facebook-rant-raw-intel" },
+      { name: "Unblinking Eyes: The State of Communications Surveillance in Latin America",
+        url: "https://www.eff.org/deeplinks/2016/10/unblinking-eyes-latinamerica-surveillance" },
     ],
     freespeech: [
       { name: "web2web",
@@ -3029,6 +3057,8 @@ Read more at http://tutorials.pluralsight.com/front-end-javascript/building-a-mu
         url: "http://www.rosipov.com/blog/randomly-generated-dungeons/" },
       { name: "HTML Kong",
         url: "https://www.xn--8ws00zhy3a.com/blog/2016/07/html-kong" },
+      { name: "Algorithms for making more interesting mazes",
+        url: "http://www.gamasutra.com/blogs/HermanTulleken/20161005/282629/Algorithms_for_making_more_interesting_mazes.php" },
     ],
     gametheory: [
       { name: "The Making of Lemmings",
@@ -3136,6 +3166,8 @@ writing their own paychecks.",
         url: "https://readthink.com/100-leadership-entrepreneurship-quotes-e2164dd42f77#.u7mek3uj1" },
       { name: "Case Study: How I landed 25 customer development interviews in 2 Weeks",
         url: "https://blog.nugget.one/2016/09/21/case-study-how-i-got-25-customer-development-interviews-in-2-weeks/" },
+      { name: "Dear Unit Economics, I hate you",
+        url: "https://hackernoon.com/dear-unit-economics-i-hate-you-7c28b9aef08d#.rb85limei" },
     ],
     mgmt: [
       { name: "Zen of Python Applied to Management",
@@ -3205,6 +3237,8 @@ writing their own paychecks.",
       { name: "How to Win on 'Shark Tank'",
         desc: "What all 495 pitches say about wowing investors.",
         url: "https://www.entrepreneur.com/article/282607" },
+      { name: "What I’ve learned from seeing 20k company pitches",
+        url: "http://blog.elizabethyin.com/post/151582614970/what-ive-learned-from-seeing-20k-company-pitches" },
     ],
     origins: [
       { name: "Larry Ellison's Oracle Started As a CIA Project",
@@ -3323,6 +3357,8 @@ writing their own paychecks.",
         url: "https://www.quantamagazine.org/20150702-paradoxical-crystal-baffles-physicists/" },
       { name: "Physicists Create World’s First Time Crystal",
         url: "https://www.technologyreview.com/s/602541/physicists-create-worlds-first-time-crystal/" },
+      { name: "A Natural Law for Rotating Galaxies… What Does This Mean for Dark Matter?",
+        url: "http://www.physicscentral.com/buzz/blog/index.cfm?postid=5308541299875990673" },
     ],
     space: [
       { name: "Off-the-Shelf Lens Assists Dark Matter Find",
@@ -3516,6 +3552,9 @@ writing their own paychecks.",
       { name: "mastodon",
         desc: "A GNU Social-compatible microblogging server",
         url: "https://github.com/Gargron/mastodon" },
+      { name: "Ace",
+        desc: "Embeddable code editor written in JavaScript. Primary editor for Cloud9.",
+        url: "https://ace.c9.io" },
     ],
     thought: [
       { name: "Happiest at Work",
@@ -3607,6 +3646,8 @@ writing their own paychecks.",
         url: "http://nautil.us/issue/40/learning/the-genius-of-learning-rp" },
       { name: "The importance of science fiction to entrepreneurship",
         url: "https://techcrunch.com/2016/10/08/the-importance-of-science-fiction-to-entrepreneurship/" },
+      { name: "Elite Opinion vs the Wisdom of Crowds: The Intelligentsia’s Tendency to Get Things Wrong",
+        url: "http://quillette.com/2016/10/09/elite-opinion-vs-the-wisdom-of-crowds-the-intelligentsias-tendency-to-get-things-wrong/" },
     ],
     thoughtcs: [
       { name: "Why I Live in IRC",
@@ -3686,6 +3727,8 @@ writing their own paychecks.",
         url: "https://www.linux.com/blog/should-math-be-prerequisite-programming" },
       { name: "What are the best-kept secrets of great programmers?",
         url: "http://brianknapp.me/best-kept-secrets-of-great-programmers/" },
+      { name: "The path of software development craftsmanship",
+        url: "https://rainsoft.io/the-path-of-software-development-craftsmanship/" },
     ],
     behaviour: [
       { name: "A philosopher’s 350-year-old trick to get people to change their minds is now backed up by psychologists",
@@ -3873,6 +3916,8 @@ writing their own paychecks.",
         url: "http://obogason.com/modern_hardware_prototyping/" },
       { name: "From 0 to Raspberry Pi Linux in 45 Minutes",
         url: "http://ellcc.org/blog/?p=26628" },
+      { name: "How I built a keyboard by hand",
+        url: "https://jacklew.is/keyboard/" },
     ],
     blockchain: [
       { name: "DNSChain",
@@ -3913,6 +3958,12 @@ writing their own paychecks.",
         url: "http://clicteq.com/the-long-tail-keyword-myth-a-data-driven-argument/" },
       { name: "Traffic Is Fake, Audience Numbers Are Garbage, And Nobody Knows How Many People See Anything",
         url: "https://www.techdirt.com/articles/20160915/18183535533/traffic-is-fake-audience-numbers-are-garbage-nobody-knows-how-many-people-see-anything.shtml" },
+    ],
+    arq: [
+      { name: "kitoko studio fills tiny 8 sqm parisian apartment with hidden amenities",
+        url: "http://www.designboom.com/architecture/kitoko-studio-8-sqm-tiny-apartment-paris-10-28-2014/" },
+      { name: "How Midcentury Modern Became The Pumpkin Spice Latte Of Interior Design",
+        url: "https://www.fastcodesign.com/3064284/mid-century-modern-is-the-pumpkin-spice-latte-of-interior-design" },
     ],
     urbanism: [
       { name: "SOS Brutalism",
@@ -3988,6 +4039,9 @@ writing their own paychecks.",
         url: "https://femmebot.github.io/google-type/" },
       { name: "Google Noto Fonts",
         url: "https://www.google.com/get/noto/" },
+      { name: "Glean",
+        desc: "A tiny bitmap font for programming",
+        url: "https://github.com/benwr/glean" },
     ],
     marketing: [
       { name: "How Google Analytics Ruined marketing",
@@ -4030,6 +4084,8 @@ writing their own paychecks.",
         url: "http://www.chicagomag.com/Chicago-Magazine/October-2016/Chicago-Gangs/" },
       { name: "USPS Discrimination Against Atheism? Study by the makers of Atheist Shoes",
         url: "https://www.atheistberlin.com/study" },
+      { name: "Falsehoods programmers believe about time",
+        url: "http://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time" },
     ],
     bots: [
       { name: "Chat Bots Aren’t a Fad. They’re a Revolution.",
@@ -4940,6 +4996,8 @@ http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
 + [ Graph-powered Machine Learning at Google ](https://research.googleblog.com/2016/10/graph-powered-machine-learning-at-google.html)
 + [ Why does deep and cheap learning work so well? ](https://blog.acolyer.org/2016/10/05/why-does-deep-and-cheap-learning-work-so-well/)
 + [ Machine Learning for RC cars ](https://github.com/kendricktan/suiron/)
++ [ Deepgram: New Tech Lets Journalists Find Damning Soundbites ](http://blog.deepgram.com/new-tech-lets-journalists-find-damning-soundbites/)
+
 
 + [ How to Become a Data Scientist – Part 1 ](http://www.kdnuggets.com/2016/08/become-data-scientist-part-1.html)
 + [ The top 10 algorithms (and methods) used by Data Scientists ](http://www.kdnuggets.com/2016/09/poll-algorithms-used-data-scientists.html)
