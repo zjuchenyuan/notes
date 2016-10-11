@@ -364,6 +364,10 @@
     + http://candybank.com Candy Chrome Extension
     + [shaarli - The personal, minimalist, super-fast, database free, bookmarking service. Self-hosted Delicious.](https://github.com/shaarli/Shaarli)
     + https://raindrop.io/
+    
+    + https://www.tagspaces.org/
+    TagSpaces is an open source personal data manager. 
+    It helps you organize and browse your files on every platform.
 
   + Packages
     + unfluff
@@ -659,6 +663,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: 'http://hyperpolyglot.org/' },
       { name: "Python":
         resources: [
+          { name: "Python Cheatsheets",
+            url: "https://www.pythonsheets.com/" },
           { name: 'Learn Python',
             url': 'http://www.learnpython.org/' },
           { name: 'Introduction to the Python Interpreter',
@@ -1046,6 +1052,11 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://github.com/aoh/owl-lisp" },
           }
       ]},
+      { name: "LLVM",
+        resources: [
+          { name: "The LLVM+SDCC toolchain",
+            url: "http://www.colecovision.eu/llvm+sdcc/" },
+      ]},
       { name: "Erlang",
         resources: [
           { name: 'Learn You Some Erlang'
@@ -1366,6 +1377,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://product.reverb.com/react-on-rails-9936283aea07#.xqauptldu" },
           { name: "React Virtualized",
             url: "https://github.com/bvaughn/react-virtualized" },
+          { name: "React Reactions",
+            url: "https://casesandberg.github.io/react-reactions/" },
       ]},
       { name: "Angular",
         resources: [
@@ -1531,6 +1544,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://www.netlify.com/blog/2016/09/15/serverless-jam---a-serverless-framework-tutorial/" },
           { name: "Serverless Architectures",
             url: "http://martinfowler.com/articles/serverless.html" },
+          { name: "Going Serverless: Migrating an Express Application to Amazon API Gateway and AWS Lambda",
+            url: "https://aws.amazon.com/blogs/compute/going-serverless-migrating-an-express-application-to-amazon-api-gateway-and-aws-lambda/" },
       ]},
       { name: "ASM",
         resources: [
@@ -1627,6 +1642,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "http://enterprisecraftsmanship.com/2016/09/29/law-of-demeter-and-immutability/" },
       { name: "Tree Traversal Space Requirements",
         url: "https://eugene-eeo.github.io/blog/tree-traversal-storage.html" },
+      { name: "Exploring CLI best practices",
+        url: "http://eng.localytics.com/exploring-cli-best-practices/" },
     ],
     mobile: [
       { name: "Realm Mobile Platform and Database",
@@ -1779,6 +1796,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://web.stanford.edu/class/cs221/" },
       { name: "Algorithms, Etc. by Jeff Erickson",
         url: "http://jeffe.cs.illinois.edu/teaching/algorithms/" },
+      { name: "CMU: Statistical Machine Learning",
+        url: "http://www.stat.cmu.edu/~larry/=sml/" },
     ],
     explanations: [
       { name: 'Neural Networks Demystified',
@@ -2520,6 +2539,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://idea.popcount.org/2016-09-20-strange-loop---ip-spoofing/" },
       { name: "‘Security Fatigue’ Can Cause Computer Users to Feel Hopeless and Act Recklessly, New Study Suggests",
         url: "https://www.nist.gov/news-events/news/2016/10/security-fatigue-can-cause-computer-users-feel-hopeless-and-act-recklessly" },
+      { name: "Say Cheese: a snapshot of the massive DDoS attacks coming from IoT cameras",
+        url: "https://blog.cloudflare.com/say-cheese-a-snapshot-of-the-massive-ddos-attacks-coming-from-iot-cameras/" },
     ],
     crypto: [
       { name: "Python 3: An Intro to Encryption",
@@ -2532,6 +2553,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "http://milagro.incubator.apache.org/" },
       { name: "Linux Crypto",
         url: "https://sanctum.geek.nz/arabesque/series/linux-crypto/" },
+      { name: "Honey Encryption",
+        url: "https://en.wikipedia.org/wiki/Honey_Encryption" },
     ],
     privacy: [
       { name: "The GNU Privacy handbook",
@@ -2819,7 +2842,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { title: 'The Foundr Podcast' },
       { title: 'The 20 Minute VC' },
       { title: "Recode Code Conference 2016",
-        url: "https://www.producthunt.com/e/recode-replay?utm_source=Product+Hunt&utm_campaign=0cc2b7c81a-Hello_from_Product_Hunt6_5_2016&utm_medium=email&utm_term=0_2cd7d34185-0cc2b7c81a-122785925" }
+        url: "https://www.producthunt.com/e/recode-replay?utm_source=Product+Hunt&utm_campaign=0cc2b7c81a-Hello_from_Product_Hunt6_5_2016&utm_medium=email&utm_term=0_2cd7d34185-0cc2b7c81a-122785925" },
+      { title: "How I Built This" },
+        
     ],
     styleGuide: [
       { title: 'Angular styleguide by @todmotto',
@@ -3267,6 +3292,8 @@ writing their own paychecks.",
         url: "https://blog.markgrowth.com/from-zero-to-a-million-how-to-craft-a-great-pitch-without-spending-time-on-it-2039b12fb6cb#.dfictpze1" },
       { name: "Your Startup's Three Horizons",
         url: "http://tomtunguz.com/mckinseys-3-horizons/" },
+      { name: "Fuck You Startup World",
+        url: "https://medium.com/@shemag8/fuck-you-startup-world-ab6cc72fad0e#.lzssixgx1" },
     ],
     growth: [
       { name: "Growth Hacker is the new VP Marketing",
@@ -3438,6 +3465,9 @@ writing their own paychecks.",
         url: "http://andrewchen.co/new-data-shows-why-losing-80-of-your-mobile-users-is-normal-and-that-the-best-apps-do-much-better/" },
       { name: "Next generation tools for data science",
         url: "http://www.unofficialgoogledatascience.com/2016/08/next-generation-tools-for-data-science.html" },
+      { name: "Cluvio",
+        desc: "With Cluvio you can run SQL queries in the browser against your database and visualize the results as beautiful dashboards.",
+        url: "https://www.cluvio.com/" },
     ],
     linux: [
       { name: "Advancing in the Bash Shell",
@@ -3650,6 +3680,10 @@ writing their own paychecks.",
         url: "https://techcrunch.com/2016/10/08/the-importance-of-science-fiction-to-entrepreneurship/" },
       { name: "Elite Opinion vs the Wisdom of Crowds: The Intelligentsia’s Tendency to Get Things Wrong",
         url: "http://quillette.com/2016/10/09/elite-opinion-vs-the-wisdom-of-crowds-the-intelligentsias-tendency-to-get-things-wrong/" },
+      { name: "Can Transcendence Be Taught?",
+        url: "http://www.chronicle.com/article/Can-Transcendence-Be-Taught-/237994" },
+      { name: "DWARF FORTRESS DEFIES MATERIALISM",
+        url: "https://truthonly.com/ru/article/read/247/editorial/dwarf-fortress-defies-materialism.html" },
     ],
     thoughtcs: [
       { name: "Why I Live in IRC",
@@ -3731,6 +3765,8 @@ writing their own paychecks.",
         url: "http://brianknapp.me/best-kept-secrets-of-great-programmers/" },
       { name: "The path of software development craftsmanship",
         url: "https://rainsoft.io/the-path-of-software-development-craftsmanship/" },
+      { name: "Invented here syndrome",
+        url: "https://mortoray.com/2015/02/25/invented-here-syndrome/" },
     ],
     behaviour: [
       { name: "A philosopher’s 350-year-old trick to get people to change their minds is now backed up by psychologists",
@@ -3749,6 +3785,8 @@ writing their own paychecks.",
         url: "https://www.getflow.com/blog/deep-focus-organizational-culture" },
       { name: "The Important Habit of Just Starting",
         url: "http://lifehacker.com/the-important-habit-of-just-starting-1771016698" },
+      { name: "The Myers-Briggs Personality Test Is Pretty Much Meaningless",
+        url: "http://www.smithsonianmag.com/smart-news/the-myers-briggs-personality-test-is-pretty-much-meaningless-9359770/?no-ist" },
     ],
     futurism: [
       { name: "When her best friend died, she rebuilt him using artificial intelligence",
@@ -3868,6 +3906,8 @@ writing their own paychecks.",
         url: "https://www.citusdata.com/blog/2016/10/03/designing-your-saas-database-for-high-scalability/" },
       { name: A Natural Language Query Engine without Machine Learning"",
         url: "http://blog.ayoungprogrammer.com/2016/10/natural-lang-query-engine.html/" },
+      { name: "A Comparison of Time Series Databases and Netsil’s Use of Druid",
+        url: "https://blog.netsil.com/a-comparison-of-time-series-databases-and-netsils-use-of-druid-db805d471206#.q4odj0d86" },
     ],
     distributed: [
       { name: "Matrix",
@@ -3880,6 +3920,8 @@ writing their own paychecks.",
         url: "https://writings.quilt.org/2014/05/12/distributed-systems-and-the-end-of-the-api/" },
       { name: "Microsoft: Cloud Design Patterns",
         url: "https://msdn.microsoft.com/en-us/library/dn600223.aspx##" },
+      { name: "The Open Guide to Amazon Web Services",
+        url: "https://github.com/open-guides/og-aws" },
     ],
     testing: [
       { name: "Why Most Unit Testing is Waste",
@@ -3966,10 +4008,12 @@ writing their own paychecks.",
         url: "http://www.designboom.com/architecture/kitoko-studio-8-sqm-tiny-apartment-paris-10-28-2014/" },
       { name: "How Midcentury Modern Became The Pumpkin Spice Latte Of Interior Design",
         url: "https://www.fastcodesign.com/3064284/mid-century-modern-is-the-pumpkin-spice-latte-of-interior-design" },
-    ],
-    urbanism: [
       { name: "SOS Brutalism",
         url: "http://www.sosbrutalism.org/cms/15802395" },
+      { name: "Brutalism is Back",
+        url: "http://www.nytimes.com/2016/10/06/t-magazine/design/brutalist-architecture-revival.html" },
+    ],
+    urbanism: [
       { name: "The case for wooden skyscrapers",
         url: "http://www.economist.com/news/science-and-technology/21706492-case-wooden-skyscrapers-not-barking-top-tree" },
       { name: "Andreesen Horowitz on Point",
@@ -3988,6 +4032,8 @@ writing their own paychecks.",
         url: "http://startupguide.nyc/" },
       { name: "When Paris Closed A Major Road To Cars, Half Its Traffic Just Disappeared",
         url: "https://www.fastcoexist.com/3064157/when-paris-closed-a-major-road-to-cars-half-its-traffic-just-disappeared" },
+      { name: "The True Cost of Driving",
+        url: "https://www.theatlantic.com/business/archive/2015/10/driving-true-costs/412237/?single_page=true" },
     ],
     transportation: [
       { name: "The Third Transportation Revolution",
@@ -4131,6 +4177,10 @@ writing their own paychecks.",
         url: "http://danluu.com/hiring-lemons/" },
       { name: "What kind of jobs do the software engineers who earn $500K a year do?",
         url: "http://www.aminariana.com/essays/million-dollar-handcuffs" },
+      { name: "Work can wait pledge",
+        url: "https://basecamp.com/3/work-can-wait/pledge" },
+      { name: "All you ever wanted to know about all-hands (but were afraid to ask)",
+        url: "https://medium.com/@gokulrajaram/all-you-ever-wanted-to-know-about-all-hands-but-were-afraid-to-ask-b13f7b97f2d9#.izuy88pag" },
     ],
     jobs: [
       { name: "How not to bomb your offer negotiation",
@@ -4200,6 +4250,8 @@ writing their own paychecks.",
         url: "https://brd.bsvgateway.org/disease/" },
       { name: "Human age limit claim sparks debate",
         url: "http://www.nature.com/news/human-age-limit-claim-sparks-debate-1.20750" },
+      { name: "The problem with p-values",
+        url: "https://aeon.co/essays/it-s-time-for-science-to-abandon-the-term-statistically-significant" },
     ],
     brain: [
       { name: "Addicted to Anticipation",
@@ -4712,6 +4764,8 @@ Skate 40%
   https://blog.scrapinghub.com/2016/09/08/how-to-deploy-custom-docker-images-for-your-web-crawlers/
   https://github.com/benawad/food_network_wrapper
 
+  + [ Data Mining Hacker News: Front vs Back ](https://lettier.github.io/posts/2016-10-10-data-mining-hacker-news-front-vs-back.html)
+
 === S::Inspiration / Design Refs ==============
 + https://zeit.co/
 + http://www.thenordicweb.com/blog/finland-the-early-stage-nation-in-need-of-late-stage-money
@@ -5001,7 +5055,7 @@ http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
 + [ Why does deep and cheap learning work so well? ](https://blog.acolyer.org/2016/10/05/why-does-deep-and-cheap-learning-work-so-well/)
 + [ Machine Learning for RC cars ](https://github.com/kendricktan/suiron/)
 + [ Deepgram: New Tech Lets Journalists Find Damning Soundbites ](http://blog.deepgram.com/new-tech-lets-journalists-find-damning-soundbites/)
-
++ [ Using Keras and Deep Deterministic Policy Gradient to play TORCS ](https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html)
 
 + [ How to Become a Data Scientist – Part 1 ](http://www.kdnuggets.com/2016/08/become-data-scientist-part-1.html)
 + [ The top 10 algorithms (and methods) used by Data Scientists ](http://www.kdnuggets.com/2016/09/poll-algorithms-used-data-scientists.html)
@@ -5071,6 +5125,7 @@ Here's a tentative plan-
 1. Do fully AndrewNg's course from Coursera
 2. Do a course called AnalyticsEdge by MIT folks from edx.org. I can't recommend this course highly enough. It's a gem. You will learn practical stuff like RoC curves, and what not. Note that for a few things you will need to google and read on your own as the course might just give you an overview.
 3. Keep the book "Elements of Statistical Learning" by Trevor Hastie handy. You will need to refer this book a lot.
+
 4. There is also a course that Professor Hastie runs but I don't know the link for it. I highly recommend it as it gives a very good grounding on things like GBM, which are used a lot in practical scenarios.
 5. Pick up twitter/enron emails/product reviews datasets and do sentiment analysis on it.
 6. Pick up a lot of documents on some topic and make a program for automatically producing a summary of those documents - first read some papers on it.
