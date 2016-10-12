@@ -745,6 +745,10 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
           { name: "binarytree",
             desc: "Python Library for Learning Binary Trees",
             url: "https://github.com/joowani/binarytree" },
+          { name: "Inside the Python VM Book",
+            url: "https://leanpub.com/insidethepythonvirtualmachine" },
+          { name: "pandasql: Make python speak SQL",
+            url: "http://blog.yhat.com/posts/pandasql-intro.html" },
         ],
         frameworks: [
           { name: "Flask",
@@ -1644,6 +1648,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://eugene-eeo.github.io/blog/tree-traversal-storage.html" },
       { name: "Exploring CLI best practices",
         url: "http://eng.localytics.com/exploring-cli-best-practices/" },
+      { name: "Steps to building authentication & authorization for RESTful APIs",
+        url: "https://www.moesif.com/blog/technical/restful-apis/Authorization-on-RESTful-APIs/" },
     ],
     mobile: [
       { name: "Realm Mobile Platform and Database",
@@ -2416,6 +2422,10 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "DevOps from Scratch, Part 2: Amazon & Terraform",
         url: "https://www.kevinlondon.com/2016/09/20/devops-from-scratch-pt-2.html" },
     ],
+    war: [
+      { name: "The Rise of Hypersonic Weapons",
+        url: "https://www.thecipherbrief.com/article/rise-hypersonic-weapons-1095" },
+    ],
     netsec: [
       { name: "15 Vulnerable Sites To (Legally) Practice Your Hacking Skills",
         url: "https://www.checkmarx.com/2015/04/16/15-vulnerable-sites-to-legally-practice-your-hacking-skills/" },
@@ -2541,6 +2551,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://www.nist.gov/news-events/news/2016/10/security-fatigue-can-cause-computer-users-feel-hopeless-and-act-recklessly" },
       { name: "Say Cheese: a snapshot of the massive DDoS attacks coming from IoT cameras",
         url: "https://blog.cloudflare.com/say-cheese-a-snapshot-of-the-massive-ddos-attacks-coming-from-iot-cameras/" },
+      { name: "What are malicious USB keys and how to create a realistic one?",
+        url: "https://www.elie.net/blog/security/what-are-malicious-usb-keys-and-how-to-create-a-realistic-one" },
+      { name: "How I exploited a loophole in a system",
+        url: "https://medium.com/@xittycat/how-i-exploited-a-loophole-in-a-system-baea0937360b#.rzho8lyo1" },
+      { name: "Empty DDoS Threats: Meet the Armada Collective",
+        url: "https://blog.cloudflare.com/empty-ddos-threats-meet-the-armada-collective/" },
     ],
     crypto: [
       { name: "Python 3: An Intro to Encryption",
@@ -2555,6 +2571,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://sanctum.geek.nz/arabesque/series/linux-crypto/" },
       { name: "Honey Encryption",
         url: "https://en.wikipedia.org/wiki/Honey_Encryption" },
+      { name: "TLS Nonce-nse",
+        url: "https://blog.cloudflare.com/tls-nonce-nse/" },
     ],
     privacy: [
       { name: "The GNU Privacy handbook",
@@ -2599,6 +2617,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://www.aclu.org/blog/free-future/government-your-latest-facebook-rant-raw-intel" },
       { name: "Unblinking Eyes: The State of Communications Surveillance in Latin America",
         url: "https://www.eff.org/deeplinks/2016/10/unblinking-eyes-latinamerica-surveillance" },
+      { name: "Your Social Media Fingerprint",
+        url: "https://robinlinus.github.io/socialmedia-leak/" },
     ],
     freespeech: [
       { name: "web2web",
@@ -2957,6 +2977,10 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://www.photopea.com/" },
       { name: "Godot: Making shaders more accesible",
         url: "https://godotengine.org/article/making-shaders-more-accessible" }
+    ],
+    vr: [
+      { name: "From web dev to VR: how to get started with VR development",
+        url: "https://levels.io/from-web-dev-to-vr-dev/" },
     ],
     charts: [
       { name: "Canvas Gauges",
@@ -3333,6 +3357,8 @@ writing their own paychecks.",
         url: "https://writing.kemitchell.com/2016/09/21/MIT-License-Line-by-Line.html" },
       { name: "Patent troll tales #01: Lee Cheng, Newegg",
         url: "https://blog.unpatent.co/patent-troll-tales-1-lee-cheng-newegg-5188505a5f2f#.quvol2uqk" },
+      { name: "Facebook React,js License",
+        url: "http://www.elcaminolegal.com/single-post/2016/10/04/Facebook-Reactjs-License" },
     ],
     product: [
       { name: "Open Innovation Toolkit by Mozilla",
@@ -3360,7 +3386,13 @@ writing their own paychecks.",
       { name: "Goodbye World: We’ve Passed the Carbon Tipping Point For Good",
         url: "http://motherboard.vice.com/read/goodbye-world-weve-passed-the-carbon-tipping-point-for-good" },
     ],
+    papers: [
+      { name: "Scanning Ultrasound (SUS) Causes No Changes to Neuronal Excitability and Prevents Age-Related Reductions in Hippocampal CA1 Dendritic Structure in Wild-Type Mice",
+        url: "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0164278" },
+    ],
     physics: [
+      { name: "So You Want To Learn Physics...",
+        url: "http://www.susanjfowler.com/blog/2016/8/13/so-you-want-to-learn-physics" },
       { name: "A Universe Made of Tiny Random Chunks",
         url: "http://nautil.us/issue/2/uncertainty/a-universe-made-of-tiny-random-chunks" },
       { name: "The Strange Second Life of String Theory",
@@ -3439,6 +3471,9 @@ writing their own paychecks.",
       { name: "AudioKit",
         desc: "Build audio into your iOS, tvOS, and OSX apps today!",
         url: "http://audiokit.io/" },
+      { name: "meSing.js",
+        desc: "JavaScript singing synthesis library that uses the Web Audio API's DSP capabilities in conjunction with the meSpeak.js speech synthesis library to provide a vocal synthesizer for the web",
+        url: "https://github.com/usdivad/mesing" },
     ],
     photo: [
       { name: "Tips From a Pro: An Introduction to Microscopic Photography",
@@ -3587,6 +3622,9 @@ writing their own paychecks.",
       { name: "Ace",
         desc: "Embeddable code editor written in JavaScript. Primary editor for Cloud9.",
         url: "https://ace.c9.io" },
+      { name: "Tesseract.js",
+        desc: "Pure Javascript OCR for 62 Languages",
+        url: "https://github.com/naptha/tesseract.js" },
     ],
     thought: [
       { name: "Happiest at Work",
@@ -3684,6 +3722,8 @@ writing their own paychecks.",
         url: "http://www.chronicle.com/article/Can-Transcendence-Be-Taught-/237994" },
       { name: "DWARF FORTRESS DEFIES MATERIALISM",
         url: "https://truthonly.com/ru/article/read/247/editorial/dwarf-fortress-defies-materialism.html" },
+      { name: "Most of the time innovators don't move fast and break things",
+        url: "https://aeon.co/essays/most-of-the-time-innovators-don-t-move-fast-and-break-things" },
     ],
     thoughtcs: [
       { name: "Why I Live in IRC",
@@ -3908,6 +3948,13 @@ writing their own paychecks.",
         url: "http://blog.ayoungprogrammer.com/2016/10/natural-lang-query-engine.html/" },
       { name: "A Comparison of Time Series Databases and Netsil’s Use of Druid",
         url: "https://blog.netsil.com/a-comparison-of-time-series-databases-and-netsils-use-of-druid-db805d471206#.q4odj0d86" },
+      { name: "A practical relational query compiler in 500 lines of code",
+        url: "http://scattered-thoughts.net/blog/2016/10/11/a-practical-relational-query-compiler-in-500-lines/" },
+      { name: "SummitDB",
+        desc: "In-memory NoSQL database with ACID transactions, Raft consensus, and Redis API",
+        url: "https://github.com/tidwall/summitdb" },
+      { name: "How Twitch uses PostgreSQL",
+        url: "https://blog.twitch.tv/how-twitch-uses-postgresql-c34aa9e56f58#.i9d2dmf53" },
     ],
     distributed: [
       { name: "Matrix",
@@ -4034,6 +4081,10 @@ writing their own paychecks.",
         url: "https://www.fastcoexist.com/3064157/when-paris-closed-a-major-road-to-cars-half-its-traffic-just-disappeared" },
       { name: "The True Cost of Driving",
         url: "https://www.theatlantic.com/business/archive/2015/10/driving-true-costs/412237/?single_page=true" },
+      { name: "The Surprising Backbone of the Internet of Things",
+        url: "https://backchannel.com/the-surprising-backbone-of-the-internet-of-things-4330301084b0#.m18doplk8" },
+      { name: "The remarkable thing that happens to poor kids when you help their parents with rent",
+        url: "https://www.washingtonpost.com/news/wonk/wp/2016/10/12/the-remarkable-thing-that-happens-to-poor-kids-when-you-help-their-parents-with-rent/" },
     ],
     transportation: [
       { name: "The Third Transportation Revolution",
@@ -4181,6 +4232,8 @@ writing their own paychecks.",
         url: "https://basecamp.com/3/work-can-wait/pledge" },
       { name: "All you ever wanted to know about all-hands (but were afraid to ask)",
         url: "https://medium.com/@gokulrajaram/all-you-ever-wanted-to-know-about-all-hands-but-were-afraid-to-ask-b13f7b97f2d9#.izuy88pag" },
+      { name: "Ultimate List of 90+ Tools for Managing a Remote Team",
+        url: "https://inside.6q.io/tools-for-managing-remote-team/"},
     ],
     jobs: [
       { name: "How not to bomb your offer negotiation",
@@ -4216,6 +4269,10 @@ writing their own paychecks.",
         url: "http://www.downes.ca/post/38526" },
       { name: "How to write a proposal and get what you want",
         url: "https://www.process.st/how-to-write-a-proposal/" },
+    ],
+    world: [
+      { name: "World Population Growth",
+        url: "https://ourworldindata.org/world-population-growth/" },
     ],
     health: [
       { name: "Fasting triggers stem cell regeneration of damaged, old immune system",
@@ -4268,6 +4325,8 @@ writing their own paychecks.",
         url: "https://www.theguardian.com/education/2016/sep/24/do-our-brains-have-extraordinary-untapped-powers" },
       { name: "Peter Walter discovered a molecule that makes mice smarter. Can it heal a human brain?",
         url: "https://www.statnews.com/2016/09/28/memory-isrib-peter-walter/" },
+      { name: "Scientists accidentally stumble on possible way (ultrasound) to slow brain's ageing process",
+        url: "http://www.abc.net.au/news/2016-10-12/scientists-may-have-worked-out-how-to-keep-brains-young/7924796" },
     ],
     nootropics: [
       { name: "Nootropics",
@@ -4427,6 +4486,7 @@ http://blogs.microsoft.com/next/2016/09/13/microsoft-researchers-achieve-speech-
   + [Ask HN: What is your favorite Google chrome extension?](https://news.ycombinator.com/item?id=12610879)
   + [](https://github.com/cvondrick/videogan)
   + [Ask HN: Those making over $1K/month on side projects, what did you make?](https://news.ycombinator.com/item?id=12670731)
+  + [ Virtualize OS X on Linux ](https://news.ycombinator.com/item?id=12689600)
 
 Ask HN: How do I start being a consultant?
 tptacek 1521 days ago | parent | favorite | on: Ask HN: How do I start being a consultant?
@@ -5067,7 +5127,7 @@ http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
 + [ 21 Must-Know Data Science Interview Questions and Answers ](http://www.kdnuggets.com/2016/02/21-data-science-interview-questions-answers.html)
 + [ How to Become a (Type A) Data Scientist ](http://www.kdnuggets.com/2016/08/become-type-a-data-scientist.html)
 + [ If you want to learn Data Science, start with one of these programming classes ](https://medium.freecodecamp.com/if-you-want-to-learn-data-science-start-with-one-of-these-programming-classes-fb694ffe780c#.7x4oxdov7)
-
++ [ Deep Learning Benchmarks ](http://add-for.com/deep-learning-benchmarks/)
 
 + [ Resources for Learning AI ](https://medium.com/open-intelligence/recommended-resources-for-learning-ai-3ab4023cfa85#.t9ekvo44s)
 + [ How to Get a Job in Deep Learning ](http://blog.deepgram.com/how-to-get-a-job-in-deep-learning/)
