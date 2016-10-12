@@ -2557,6 +2557,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://medium.com/@xittycat/how-i-exploited-a-loophole-in-a-system-baea0937360b#.rzho8lyo1" },
       { name: "Empty DDoS Threats: Meet the Armada Collective",
         url: "https://blog.cloudflare.com/empty-ddos-threats-meet-the-armada-collective/" },
+      { name: "Why you should disable autofill",
+        url: "https://medium.com/@stabbles/why-you-should-disable-autofill-bf2e15c65b5c#.26rlacosj" },
     ],
     crypto: [
       { name: "Python 3: An Intro to Encryption",
@@ -2946,6 +2948,10 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
     algos: [
       { name: "The 280-Year-Old Algorithm Inside Google Trips",
         url: "https://research.googleblog.com/2016/09/the-280-year-old-algorithm-inside.html" },
+    ],
+    nlp: [
+      { name: "How to find information that is not there (using a semantic reasoner)",
+        url: "https://blog.mindmaps.io/how-to-find-information-that-is-not-there-de0d66360179#.cre12ygjp" },
     ],
     graphics: [
       { name: "WHAT EVERY CODER SHOULD KNOW ABOUT GAMMA",
@@ -3389,6 +3395,8 @@ writing their own paychecks.",
     papers: [
       { name: "Scanning Ultrasound (SUS) Causes No Changes to Neuronal Excitability and Prevents Age-Related Reductions in Hippocampal CA1 Dendritic Structure in Wild-Type Mice",
         url: "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0164278" },
+      { name: "Hybrid computing using a neural network with dynamic external memory",
+        url: "http://www.nature.com/nature/journal/vaop/ncurrent/full/nature20101.html" },
     ],
     physics: [
       { name: "So You Want To Learn Physics...",
@@ -4009,6 +4017,12 @@ writing their own paychecks.",
         url: "http://ellcc.org/blog/?p=26628" },
       { name: "How I built a keyboard by hand",
         url: "https://jacklew.is/keyboard/" },
+    ],
+    diy: [
+      { name: "George Nelson Case Study Inspired DIY Bed",
+        url: "http://mid-century-modern.net/george-nelson-case-study-inspired-diy-bed/" },
+      { name: "How to Build a Pipe Bed Frame",
+        url: "http://www.simplifiedbuilding.com/blog/how-to-build-a-pipe-bed-frame/" },
     ],
     blockchain: [
       { name: "DNSChain",
