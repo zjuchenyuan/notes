@@ -1270,6 +1270,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "http://jlongster.com/Implementing-Stepping-Debugger-JavaScript" },
           { name: "A Javascript journey with only six characters",
             url: "http://jazcash.com/a-javascript-journey-with-only-six-characters/" },
+          { name: "JavaScript Fatigue Fatigue",
+            url: "https://medium.freecodecamp.com/javascript-fatigue-fatigue-66ffb619f6ce#.ee1d47aq0" },
         ],
         transpiledSurrogates: [
           { name: "Amber (Smalltalk)" },
@@ -1383,6 +1385,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://github.com/bvaughn/react-virtualized" },
           { name: "React Reactions",
             url: "https://casesandberg.github.io/react-reactions/" },
+          { name: "Styled Components",
+            desc: "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress",
+            url: "https://github.com/styled-components/styled-components" },
       ]},
       { name: "Angular",
         resources: [
@@ -1486,7 +1491,13 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
       { name: "PHP",
         resources: [
           { name: "PHP The Wrong Way",
-            url: "http://www.phpthewrongway.com/" }
+            url: "http://www.phpthewrongway.com/" },
+          { name: "PHP 7 deployment at Dailymotion",
+            url: "http://engineering.dailymotion.com/php-7-deployment-at-dailymotion/" },
+          { name: "Taking PHP Seriously - Slack",
+            url: "https://slack.engineering/taking-php-seriously-cf7a60065329#.x546h3po2" },
+          { name: "Ewww, You Use PHP?",
+            url: "https://blog.mailchimp.com/ewww-you-use-php/" },
       ]},
       { name: "Kotlin",
         resources: [
@@ -2559,6 +2570,12 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://blog.cloudflare.com/empty-ddos-threats-meet-the-armada-collective/" },
       { name: "Why you should disable autofill",
         url: "https://medium.com/@stabbles/why-you-should-disable-autofill-bf2e15c65b5c#.26rlacosj" },
+      { name: "Former NSA staffer demonstrates Mac malware that can tap into live webcam and mic feeds",
+        url: "https://9to5mac.com/2016/10/06/mac-malware-webcam-microphone/" },
+      { name: "Great Crypto Failures – When Malware Goes Wrong",
+        url: "http://blog.checkpoint.com/2016/10/06/great-crypto-failures-when-malware-goes-wrong/" },
+      { name: "Pork Explosion Unleashed",
+        url: "http://bbqand0days.com/Pork-Explosion-Unleashed/" },
     ],
     crypto: [
       { name: "Python 3: An Intro to Encryption",
@@ -2621,6 +2638,10 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://www.eff.org/deeplinks/2016/10/unblinking-eyes-latinamerica-surveillance" },
       { name: "Your Social Media Fingerprint",
         url: "https://robinlinus.github.io/socialmedia-leak/" },
+      { name: "If you want to know why privacy matters, the play’s the thing",
+        url: "https://points.datasociety.net/if-you-want-to-know-why-privacy-matters-the-plays-the-thing-1be6ef8fef39#.lzgoit1nw" },
+      { name: "The Man Who Stood Up To Facebook",
+        url: "http://www.npr.org/sections/alltechconsidered/2016/10/13/497820170/the-man-who-stood-up-to-facebook" },
     ],
     freespeech: [
       { name: "web2web",
@@ -3245,6 +3266,8 @@ writing their own paychecks.",
         url: "http://www.theatlantic.com/business/archive/2016/09/the-next-industrial-revolution/498779/?single_page=true" },
       { name: "Why Capitalism Creates Pointless Jobs",
         url: "http://evonomics.com/why-capitalism-creates-pointless-jobs-david-graeber/" },
+      { name: "The 4 big ethical questions of the Fourth Industrial Revolution",
+        url: "https://medium.com/world-economic-forum/the-4-big-ethical-questions-of-the-fourth-industrial-revolution-d3fd280ec2a0#.2ohlaiu3j" },
     ],
     finance: [
       { name: "Invisible Super Intelligence for The Stock Market",
@@ -3294,6 +3317,8 @@ writing their own paychecks.",
         url: "https://www.entrepreneur.com/article/282607" },
       { name: "What I’ve learned from seeing 20k company pitches",
         url: "http://blog.elizabethyin.com/post/151582614970/what-ive-learned-from-seeing-20k-company-pitches" },
+      { name: "Measuring how bad Twitter is..",
+        url: "http://brontecapital.blogspot.com.ar/2016/10/measuring-how-bad-twitter-is.html" },
     ],
     origins: [
       { name: "Larry Ellison's Oracle Started As a CIA Project",
@@ -3734,6 +3759,8 @@ writing their own paychecks.",
         url: "https://truthonly.com/ru/article/read/247/editorial/dwarf-fortress-defies-materialism.html" },
       { name: "Most of the time innovators don't move fast and break things",
         url: "https://aeon.co/essays/most-of-the-time-innovators-don-t-move-fast-and-break-things" },
+      { name: "Electric Brains and Other Menaces",
+        url: "http://online.sfsu.edu/rone/Buddhism/VenHua/electricbrains.html" },
     ],
     thoughtcs: [
       { name: "Why I Live in IRC",
@@ -3965,6 +3992,9 @@ writing their own paychecks.",
         url: "https://github.com/tidwall/summitdb" },
       { name: "How Twitch uses PostgreSQL",
         url: "https://blog.twitch.tv/how-twitch-uses-postgresql-c34aa9e56f58#.i9d2dmf53" },
+      { name: "Outpan",
+        desc: "A database of Everything in the form of key -> attribute -> value",
+        url: "https://www.outpan.com/" },
     ],
     distributed: [
       { name: "Matrix",
@@ -4019,6 +4049,8 @@ writing their own paychecks.",
         url: "http://ellcc.org/blog/?p=26628" },
       { name: "How I built a keyboard by hand",
         url: "https://jacklew.is/keyboard/" },
+      { name: "BECOME VERY UNPOPULAR VERY FAST WITH THIS DIY EMP GENERATOR",
+        url: "http://hackaday.com/2016/10/12/become-very-unpopular-very-fast-with-this-diy-emp-generator/" },
     ],
     diy: [
       { name: "George Nelson Case Study Inspired DIY Bed",
@@ -5132,6 +5164,8 @@ http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-8/
 + [ Machine Learning for RC cars ](https://github.com/kendricktan/suiron/)
 + [ Deepgram: New Tech Lets Journalists Find Damning Soundbites ](http://blog.deepgram.com/new-tech-lets-journalists-find-damning-soundbites/)
 + [ Using Keras and Deep Deterministic Policy Gradient to play TORCS ](https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html)
++ [ Differentiable Neural Computers ](https://deepmind.com/blog/differentiable-neural-computers/)
+
 
 + [ How to Become a Data Scientist – Part 1 ](http://www.kdnuggets.com/2016/08/become-data-scientist-part-1.html)
 + [ The top 10 algorithms (and methods) used by Data Scientists ](http://www.kdnuggets.com/2016/09/poll-algorithms-used-data-scientists.html)
