@@ -30,6 +30,8 @@
 + [ Docker Not Ready for Prime Time August 27, 2016 ](http://blog.goodstuff.im/docker_not_prime_time)
 + [ Why Kubernetes is winning the container war ](http://www.infoworld.com/article/3118345/cloud-computing/why-kubernetes-is-winning-the-container-war.html)
 + [ Don't use “docker” in GitHub repo names or as Twitter handles  ](https://www.andreas-jung.com/contents/dont-use-docker-in-github-repo-names-or-as-twitter-handle)
++ [ Docker in Production: An History of Failure ](https://thehftguy.wordpress.com/2016/11/01/docker-in-production-an-history-of-failure/)
++ [ Docker in Production: A retort ](http://patrobinson.github.io/2016/11/05/docker-in-production/)
 
 # Youtube De-Monetization
 + https://medium.com/internet-creators-guild/youtube-de-monetization-explained-44464f902a22#.ihomio26z
@@ -66,6 +68,9 @@
 
 # Amazon Prices
 + [ Amazon Says It Puts Customers First. But Its Pricing Algorithm Doesn’t. ](https://www.propublica.org/article/amazon-says-it-puts-customers-first-but-its-pricing-algorithm-doesnt)
++ [ GCE vs AWS in 2016: Why you should NEVER use Amazon! ](https://thehftguy.wordpress.com/2016/06/15/gce-vs-aws-in-2016-why-you-should-never-use-amazon/)
++ [ A typical cost comparison between GCE and AWS ](https://thehftguy.wordpress.com/2016/06/22/a-simple-cost-comparison-between-gce-and-aws/)
++ [ Google Cloud is 50% cheaper than Amazon ](https://thehftguy.wordpress.com/2016/11/18/google-cloud-is-50-cheaper-than-aws/)
 
 # The Decline of Stack Overflow
 + [ The decline of Stack Overflow ](https://hackernoon.com/the-decline-of-stack-overflow-7cb69faa575d#.oviomniop)
@@ -89,3 +94,6 @@
 
 # iOS
 + [ Why I Hate iOS as a developer ](https://medium.com/@Pier/why-i-hate-ios-as-a-developer-459c182e8a72#.otcoa3t23)
+
+
+http://10clouds.com/blog/whats-agile-development/
