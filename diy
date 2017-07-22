@@ -1,4 +1,10 @@
 diy = {
+  toolbox: [
+    { name: "You Won't Believe What's Inside This Box!!",
+      desc: "The Common Man's Woodworking toolkit",
+      channel: "Wranglestar"
+      url: "https://www.youtube.com/watch?v=ILWgML9hFqg" },
+  ]
   angleGrinder: [
   ],
   beltSander: [
@@ -12,26 +18,41 @@ diy = {
       channel: "Matthias Wandel"
       url: "https://www.youtube.com/watch?v=ptXZRrb8gjw" },
     { name: "Homemade 2x72 Inch Belt Grinder",
-      desc: "Rick Rabjohn",
+      channel: "Rick Rabjohn",
       url: "https://www.youtube.com/watch?v=LZdG8TMm9AI" },
     { name: "DIY - Mini Belt Sander",
-      desc: "sbinf74",
+      channel: "sbinf74",
       url: "https://www.youtube.com/watch?v=UlKEGlMt6ZQ" },
     { name: "mini szlifierka taśmowa samoróbka /homemade mini belt sander (with angle grinder)",
-      desc: "geniusz K",
+      channel: "geniusz K",
       url: "https://www.youtube.com/watch?v=TuQDad2iEII" },
     { name: "Best Extreme Homemade BeltSander You've seen (Anglegrinder hack)",
-      desc: "Jörgen Börg",
+      channel: "Jörgen Börg",
       url: "https://www.youtube.com/watch?v=kl02Ia4YbQA" },
-    { name: "6x48 belt sander build,
-      desc: "Mathhias Wandel",
-      url: "https://www.youtube.com/watch?v=4tdSaE663AU" },
     { name: "TUTORIAL MINI BELT GRINDER DIY MINI LEVIGATRICE A NASTRO",
-      desc: "Luca Zito Maker",
+      channel: "Luca Zito Maker",
       url: "https://www.youtube.com/watch?v=FuWb0C4W8co" },
     { name: "Homemade 2x72 Inch Belt Grinder",
-      desc: "Rick Rabjohn",
+      channel: "Rick Rabjohn",
       url: "https://www.youtube.com/watch?v=LZdG8TMm9AI" },
+    { name: "6x48 belt sander build,
+      channel: "Mathhias Wandel",
+      url: "https://www.youtube.com/watch?v=4tdSaE663AU" },
+    { name: "Belt sander build continued",
+      channel: "Matthias Wandel",
+      url: "https://www.youtube.com/watch?v=Bns7m6MJFf4" },
+    { name: "Belt sander adjustments",
+      channel: "Matthias Wandel",
+      url: "https://www.youtube.com/watch?v=q9vU71cJoaU" },
+    { name: "Edge Belt Sander",
+      channel: "Matthias Wandel",
+      url: "https://www.youtube.com/watch?v=E7MIY00Jvwk" },
+    { name: "Making a Homemade Belt Sander",
+      channel: "Gökmen ALTUNTAŞ",
+      url: "https://www.youtube.com/watch?v=sFEHNxirqOs" },
+    { name: "How to Make a Belt Sander at Home",
+      channel: "Mr. NK",
+      url: "https://www.youtube.com/watch?v=d-LEC3nmLHs" },
   ],
   workbench: [
     { name: "How To Build A Portable Workbench Out Of 2x4 and Plywood - That Folds Up",
@@ -46,6 +67,43 @@ diy = {
     { name: "Building 4 in 1 Workshop (Homemade table saw, router table, disc sander, jigsaw table)",
       channel: "Gökmen ALTUNTAŞ",
       url: "https://www.youtube.com/watch?v=ZGTIxb5esAQ" },
+    { name: "HD Workbench - How To Build It - DIY Customized",
+      url: "https://www.youtube.com/watch?v=2oJFNM7WFuU" },
+    { name: "How to Build a Workbench for Your Garage | Craftsman",
+      url: "https://www.youtube.com/watch?v=cOc5vb3bKGY" },
+    { name: "My Next Project: Workbench",
+      url: "https://www.youtube.com/watch?v=EnXr2v-iWW4" },
+    { name: "Build a Workbench - Build it with Bosch",
+      url: "https://www.youtube.com/watch?v=ZXEvRoW8lY8" },
+    { name: "How To Build a Simple Cheap Work Bench",
+      url: "https://www.youtube.com/watch?v=xtrW3vUK39A" },
+    { name: "DIY - 8' Workbench for Sheath/Holster Making - (Part 1) - Building the Base Workbench",
+      channel: "CKK Industries",
+      url: "https://www.youtube.com/watch?v=CKgnMagLxnY" },
+    { name: "DIY Simple Workbench - Woodworking Bench",
+      channel: "DIY Pete",
+      url: "https://www.youtube.com/watch?v=fAZ9ZQm7Ndo" },
+    { name: "Building a Heavy Duty Workbench",
+      channel: "omegageek64",
+      url: "https://www.youtube.com/watch?v=XK4u-zTqUmU" },
+    { name: "DIY BUDGET FRIENDLY WORKBENCH",
+      channel: "Mr. Fix It",
+      url: "https://www.youtube.com/watch?v=eiT9wmb_wK4" },
+    { name: "Build a Sturdy Woodworking Workbench",
+      channel: "parillaworks",
+      url: "https://www.youtube.com/watch?v=NCUd1WM43Hg" },
+    { name: "Solid Workbench - Cheap and Easy to Build",
+      channel: "Pask Makes",
+      url: "https://www.youtube.com/watch?v=ybWrsqUA0HA&t=4s" },
+    { name: "Laura´s Mini Tabletop Workbench",
+      channel: "Laura Kampf",
+      url: "https://www.youtube.com/watch?v=zjqWvpdNbms" },
+    { name: "Homemade Table Saw, Jigsaw, Router Workstation Modular | How to Make",
+      channel: "DIY Creators",
+      url: "https://www.youtube.com/watch?v=aTFwqJKxQpw" },
+    { name: "affordable quality workbench!",
+      channel: "Shop built",
+      url: "https://www.youtube.com/watch?v=D9yuHeKnhWs" },
   ],
   drillPress: [
     { name: "How to Make a Drill Press Machine at Home with 12v DC motor",
@@ -66,6 +124,12 @@ diy = {
     { name: "#16 Homemade steel DRILL PRESS stand (diy)",
       desc: "Made in Poland",
       url: "https://www.youtube.com/watch?v=E2APn7dPBbo" },
+    { name: "Rotary drill press, horizontal vertical",
+      desc: "Wood Working DIY Official",
+      url: "https://www.youtube.com/watch?v=BOp6Lp-0GVo" },
+    { name: "Making a horizontal/vertical mini drill press",
+      desc: "Jack Houweling",
+      url: "https://www.youtube.com/watch?v=kr5q2l_QIS0" },
   ],
   bandSaw: [
     { name: "Making a Homemade Bandsaw (drill powered)",
@@ -81,5 +145,226 @@ diy = {
     { name: "Homemade Table Saw (drill powered)",
       desc: "Gökmen ALTUNTAŞ",
       url: "https://www.youtube.com/watch?v=F-KNWvVdqms" },
+    { name: "Build A Table Saw in 10 Minutes",
+      desc: "izzy swan",
+      url: "https://www.youtube.com/watch?v=NhORUN6oCUc" },
+  ],
+  jointer: [
+    { name: "Simple Jig! Homemade DIY Jointer",
+      desc: "Super easy, With a router",
+      channel: "izzy swan",
+      url: "https://www.youtube.com/watch?v=3f_8NF74DyI" },
+  ]
+  lathe: [
+    { name: "How to make a mini lathe in 10 minutes",
+      channel: "izzy swan"
+      url: "https://www.youtube.com/watch?v=zwE_2Owp3fA" },
+  ],
+  plane: [
+    { name: "making chisel plane",
+      desc: "Young Je",
+      url: "https://www.youtube.com/watch?v=ADLj4EeSo44" },
+  ],
+  poorman: [
+    { name: "Paul Sellers | Poor Man's Hand Router",
+      channel: "Paul Sellers",
+      url: "https://www.youtube.com/watch?v=B_2a_FwjAgk" },
+  ],
+  clamps: [
+    { name: "DIY Wood Bar Claps For under $5.00",
+      channel: "Jareth Crowell",
+      url: "https://www.youtube.com/watch?v=jlrkzXQVpus" },
+    { name: "The simplest bar clamps you can make",
+      channel: "Sergio Acuña Padin",
+      url: "https://www.youtube.com/watch?v=-mAKlqpbGG0" },
+    { name: "How to make a cheap moxon vice",
+      channel: "Sergio Acuña Padin",
+      url: "https://www.youtube.com/watch?v=2xa5bZ_Ek5M" },
+    { name: "How to Make an Edge Clamp for Woodworking - JUST WOOD and two screws",
+      channel: "Howdini",
+      url: "https://www.youtube.com/watch?v=rZXIgwF_XkU" },
+    { name: "Simple! Homemade (Wood) Bar Clamps! No Hardware Needed!",
+      channel: "izzy swan",
+      url: "https://www.youtube.com/watch?v=wr6MkXy1nos" },
+    { name: "Make It - Wooden Screw Clamps",
+      channel: "Dustin Penner",
+      url: "https://www.youtube.com/watch?v=-OeWto4U_7o" },
+    { name: "Woodworking - How to Make High Quality Parallel Clamps - for Cheap & Easy Method (Wood and 2 screws)",
+      channel: "The Apprentice and The Journeyman",
+      url: "de" },
+    { name: "Shopmade Bar/Pipe clamp - Saying: Threads in Wood will not hold?",
+      channel: "Bellevue Woodshop",
+      url: "https://www.youtube.com/watch?v=qLacO-qGx4U" },
+    { name: "DIY Bench Clamp",
+      channel: "Shadetree Woodworking (Dean)",
+      url: "https://www.youtube.com/watch?v=af0jQ6O0Djs" },
+    { name: "How to make edge clamps for 40 cents",
+      channel: "izzy swan",
+      url: "https://www.youtube.com/watch?v=Gme8sNpMNRw" },
+    { name: "How to make 2 dollar clamps",
+      channel: "izzy swan",
+      url: "https://www.youtube.com/watch?v=TJuScskgLdo" },
+    { name: "Easy to Make - Wood Side Clamps",
+      channel: "izzy swan",
+      url: "https://www.youtube.com/watch?v=9cidMlGOfMo" },
+  ],
+  vise: [
+    { name: "$16 Twin Screw Vise - 261",
+      desc: "Jay Bates",
+      url: "https://www.youtube.com/watch?v=TeprY3nwH9w" },
+    { name: "Homemade Tail Vice",
+      desc: "With a criquet",
+      channel: "Pask Makes"
+      url: "https://www.youtube.com/watch?v=9mgrh8rankk" },
+  ],
+  dust: [
+    { name: "Building the two-bucket cyclone",
+      channel: "Matthias Wandel",
+      url: "https://www.youtube.com/watch?v=z-xhYnWDCd0" },
+    { name: "A different approach to dust collection",
+      channel: "Matthias Wandel",
+      url: "https://www.youtube.com/watch?v=lkTVwE_8oHM" },
+  ]
+  woodenThreads: [
+    { name: "Making Wooden Threads - Homemade Tap and Screw Box",
+      channel: "Pask Makes",
+      url: "https://www.youtube.com/watch?v=mTnVDl6Y6u4" },
+  ],
+  hacks: [
+    { name: "4 Amazing Homemade Tools - Using a Drill",
+      url: "https://www.youtube.com/watch?v=tDu5AvcyW-Q" },
+    { name: "Angle Grinder Hack 1: Dust Blower",
+      channel: "Make It Extreme",
+      url: "https://www.youtube.com/watch?v=uCHAnKRrFVI" },
+    { name: "Angle Grinder Hack 2: Belt Sander",
+      channel: "Make It Extreme",
+      url: "https://www.youtube.com/watch?v=_2jcpNFffsE" },
+    { name: "Angle Grinder Hack 3: Grass Trimmer",
+      channel: "Make It Extreme",
+      url: "https://www.youtube.com/watch?v=a07-jMyJknI" },
+    { name: "Angle Grinder Hack 4: Chain Saw",
+      channel: "Make It Extreme",
+      url: "https://www.youtube.com/watch?v=Y6lz7Svut7g" },
+    { name: "Angle Grinder Hack 5: Tricycle",
+      channel: "Make It Extreme",
+      url: "https://www.youtube.com/watch?v=J1pbAn0_iRo" },
+    { name: "Angle Grinder Hack 6: Shredder",
+      channel: "Make It Extreme",
+      url: "https://www.youtube.com/watch?v=CUQZcrd-ln0" },
+    { name: "3 ?? angle grinder hacks daily use in life",
+      desc: "Circular Saw, Powerful Drill, Table Saw",
+      channel: "How to Make",
+      url: "https://www.youtube.com/watch?v=QEAQ91CcKZ4" },
+    { name: "Cheap DIY oscillating spindle sander for drill press",
+      channel: "Koss",
+      url: "https://www.youtube.com/watch?v=Mo8dB9iI8I0" },
+    { name: "6 Awesome Life Hacks for Drill Machine",
+      channel: "WEAREX",
+      url: "https://www.youtube.com/watch?v=-6gY6pBB6hw" },
+    { name: "Biscuit Joiner From a Grinder",
+      url: "http://www.instructables.com/id/Biscuit-Joiner-From-a-Grinder/" },
+    { name: "Angle Grinder Attachments You Gotta Have",
+      channel: "Some Assembly Required",
+      url: "https://www.youtube.com/watch?v=75XZvuOgwtQ" },
+  ],
+  sensors: [
+    { name: "Sensor Digital De Temperatura Ds18b20 Ideal Arduino Pic Avr",
+      desc: "69.90",
+      url: "http://articulo.mercadolibre.com.ar/MLA-621167957-sensor-digital-de-temperatura-ds18b20-ideal-arduino-pic-avr-_JM" },
+    { name: "Dht11 Sensor De Temperatura Y Humedad Dht 11 Arduino Ptec",
+      desc: "39.99",
+      url: "http://articulo.mercadolibre.com.ar/MLA-618147702-dht11-sensor-de-temperatura-y-humedad-dht-11-arduino-ptec-_JM" },
+    { name: "Sensor Humedad Relativa Y Temperatura Dht22 Arduino",
+      desc: "114",
+      url: "http://articulo.mercadolibre.com.ar/MLA-626694262-sensor-humedad-relativa-y-temperatura-dht22-arduino-_JM" },
+    { name: "Sensor Humedad Y Temperatura Am2320 I2c Arduino Raspberry Pi",
+      desc: "189.90",
+      url: "http://articulo.mercadolibre.com.ar/MLA-608648959-sensor-humedad-y-temperatura-am2320-i2c-arduino-raspberry-pi-_JM" },
+    { name: "Sensor Digital Temperatura Ds18b20 Cable Sumergible Nubbeo",
+      desc: "79.90",
+      url: "http://articulo.mercadolibre.com.ar/MLA-612937216-sensor-digital-temperatura-ds18b20-cable-sumergible-nubbeo-_JM" },
+    { name: "Modulo Sensor De Humedad De Suelo Tierra Arduino Higrometro",
+      desc: "56.99",
+      url: "http://articulo.mercadolibre.com.ar/MLA-642454518-modulo-sensor-de-humedad-de-suelo-tierra-arduino-higrometro-_JM" },
+    { name: "Sensor De Luz Ambiental Breakout Temt6000 Arduino",
+      desc: "145",
+      url: "http://articulo.mercadolibre.com.ar/MLA-621253303-sensor-de-luz-ambiental-breakout-temt6000-arduino-_JM" },
+    { name: "Modulo Sensor Presion Atmosferica Temperatura Bmp180 Arduino",
+      desc: "65",
+      url: "http://articulo.mercadolibre.com.ar/MLA-620321731-modulo-sensor-presion-atmosferica-temperatura-bmp180-arduino-_JM" },
+    { name: "Modulo Detector Sensor Gas Humo Monoxido Mq2 Mq-2 Arduino",
+      desc: "74.99",
+      url: "http://articulo.mercadolibre.com.ar/MLA-634758274-modulo-detector-sensor-gas-humo-monoxido-mq2-mq-2-arduino-_JM" },
+    { name: "Three Dollar EC - PPM Meter [Arduino]",
+      url: "https://hackaday.io/project/7008-fly-wars-a-hackers-solution-to-world-hunger/log/24646-three-dollar-ec-ppm-meter-arduino" },
+  ],
+  raspberry: [
+    { name: "Raspberry Py Vivarium Controller",
+      desc: "Build Your Own Raspberry Pi Vivarium Controller with FREE how to guide & FREE software",
+      url: "http://www.raspiviv.com/" },
+    { name: "Raspberry Weather",
+      desc: "Put your Raspberry Pi to good use, build your own weather station!",
+      url: "https://www.raspberryweather.com/" },
+    { name: "yieldbuddy",
+      desc: "An open source automation system for indoor/outdoor hydroponics using Raspberry Py and Arduino",
+      url: "http://yieldbuddy.com/" },
   ]
 }
+
+The Common Man's Woodworking toolkit
+
++ IRWIN Combination Square, Metal-Body, 12"
+  12.99
+  https://www.amazon.com/IRWIN-Combination-Square-Metal-Body-1794469/dp/B005XUHIBG/ref=pd_cp_60_3?_encoding=UTF8&pd_rd_i=B005XUHIBG&pd_rd_r=4CYBYFZ9SGB1RBVER0FT&pd_rd_w=MxFSW&pd_rd_wg=Geuan&psc=1&refRID=4CYBYFZ9SGB1RBVER0FT
++ Stanley 12-404 No. 4 Adjustable Bench Plane with 2-Inch Cutter
+  22.78
+  https://www.amazon.com/Stanley-12-404-Adjustable-2-Inch-Cutter/dp/B000FK3WI2/ref=sr_1_1?s=hi&ie=UTF8&qid=1495173854&sr=1-1&keywords=stanley+4+wood+plane
++ Stanley 15-104 Fatmax Coping Saw
+  4.76
+  https://www.amazon.com/Stanley-15-104-Fatmax-Coping-Saw/dp/B000BOADDO/ref=sr_1_1?s=hi&ie=UTF8&qid=1495174410&sr=1-1&keywords=stanley+fatmax+coping+saw
++ Stanley 33-158 5m/16 x 3/4-Inch PowerLock Tape Rule
+  11.20
+  https://www.amazon.com/Stanley-33-158-4-Inch-PowerLock-Tape/dp/B00002X2GG/ref=sr_1_7?s=hi&ie=UTF8&qid=1495174505&sr=1-7&keywords=stanley+measuring+tape
++ Faithfull Carpenters Brace 250Mm Manual Drill
+  42.20
+  https://www.amazon.com/gp/product/B000X2CMUG?ie=UTF8&tag=wranglerstar-21-20&camp=1789&linkCode=xm2&creativeASIN=B000X2CMUG
++ IRWIN Tools Marples Woodworking Chisel Set, 4-Piece (1885164)
+  34.87
+  https://www.amazon.com/Tools-Marples-Woodworking-4-Piece-1885164/dp/B000RFX032/ref=sr_1_1?s=hi&ie=UTF8&qid=1495174804&sr=1-1&keywords=irwin%2Bmarples%2Bset&th=1
++ Crown 4-1/2-inch Beechwood Mallet
+  29.99
+  https://www.amazon.com/Crown-4-1-2-inch-Beechwood-Mallet/dp/B002S0OIW6/ref=pd_sim_469_4?_encoding=UTF8&pd_rd_i=B002S0OIW6&pd_rd_r=H65SYBD7Q21CW68G01TE&pd_rd_w=V942r&pd_rd_wg=uJEKj&psc=1&refRID=H65SYBD7Q21CW68G01TE
++ Norton 614636855653 IB8 1-by-2-by-8-Inch Fine/Coarse India Combination Oilstone, Red
+  20.97
+  https://www.amazon.com/Norton-614636855653-8-Inch-Combination-Oilstone/dp/B000XK5ZDY/ref=sr_1_1?ie=UTF8&qid=1495169173&sr=8-1&keywords=norton+india+stone
++ Gyokucho Ryoba 9-1/2" Double Edge Razor Saw for Hardwoods from Japan Woodworker
+  27.30
+  https://www.amazon.com/Ryoba-Double-Razor-Hardwoods-Woodworker/dp/B00BSQU9UQ/ref=sr_1_10?s=hi&ie=UTF8&qid=1495174746&sr=1-10&keywords=irwin+marples
++ Gyokucho 372 Razor Saw Dotsuki Takebiki Saw
+  42.00
+  https://www.amazon.com/Gyokucho-372-Razor-Dotsuki-Takebiki/dp/B006JW19U8/ref=sr_1_2?ie=UTF8&qid=1495175623&sr=8-2&keywords=gyokucho
++ Eagle America 415-9307 Dovetail Marker
+  12.73
+  https://www.amazon.com/Eagle-America-415-9307-Dovetail-Marker/dp/B00G3A2NM4/ref=pd_sim_469_4?_encoding=UTF8&pd_rd_i=B00G3A2NM4&pd_rd_r=H5Q3FXKM491ZC7HS5NA1&pd_rd_w=w27Je&pd_rd_wg=ktJ0n&psc=1&refRID=H5Q3FXKM491ZC7HS5NA1
++ Japanese Wood Block Plane KANNA 40mm Carenter's Tool Double Edge Senkichi
+  10.20
+  https://www.amazon.com/Japanese-Block-Carenters-Double-Senkichi/dp/B0026FBGR8/ref=pd_sim_469_5?_encoding=UTF8&pd_rd_i=B0026FBGR8&pd_rd_r=H5Q3FXKM491ZC7HS5NA1&pd_rd_w=w27Je&pd_rd_wg=ktJ0n&psc=1&refRID=H5Q3FXKM491ZC7HS5NA1
++ IRWIN Woodworker's Vise, 6 1/2", 226361
+  19.98
+  https://www.amazon.com/Irwin-Tools-226361-IRWIN-Woodworkers/dp/B0001LQY4E/ref=pd_sim_469_5?_encoding=UTF8&pd_rd_i=B0001LQY4E&pd_rd_r=H65SYBD7Q21CW68G01TE&pd_rd_w=V942r&pd_rd_wg=uJEKj&psc=1&refRID=H65SYBD7Q21CW68G01TE
++ Stanley Hand Tools 10-049 Locking Blade Pocket Knife (2 Pack !!)
+  16.49
+  https://www.amazon.com/Stanley-10-049-Pocket-Knife-Rotating/dp/B00002X201/ref=pd_sim_469_8?_encoding=UTF8&pd_rd_i=B00002X201&pd_rd_r=H5Q3FXKM491ZC7HS5NA1&pd_rd_w=w27Je&pd_rd_wg=ktJ0n&psc=1&refRID=H5Q3FXKM491ZC7HS5NA1
+
+Shop's Hardware:
++ Taladro (agujereador)
++ Taladro (atornillador)
++ Caladora
+. Taladro de banco
+. Sierra circular
+. Amoladora
+. Lijadora
+. Router
+
+. Prensa
+. Cepillo electrico
