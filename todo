@@ -2072,6 +2072,9 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
             url: "https://medium.com/@krzysztof.wende/elmchemy-write-type-safe-elixir-code-with-elms-syntax-part-1-introduction-8968b76d721d" },
           { name: "How Discord Scaled Elixir to 5,000,000 Concurrent Users",
             url: "https://blog.discordapp.com/scaling-elixir-f9b8e1e7c29b" },
+          { name: "elixir-tab",
+            desc: "Little bit of Elixir in every new tab",
+            url: "https://github.com/efexen/elixir-tab" },
       ]},
       { name: "Julia",
         resources: [
@@ -5279,6 +5282,8 @@ Branch Prediction with Neural Networks: Hidden layers and Recurrent Connections
         url: "https://settle.network/posts/intro/?b=3" },
       { name: "A hacker stole $31M of Ether — how it happened, and what it means for Ethereum",
         url: "https://medium.freecodecamp.org/a-hacker-stole-31m-of-ether-how-it-happened-and-what-it-means-for-ethereum-9e5dc29e33ce" },
+      { name: "Ethereum from scratch - Part 1: Ping",
+        url: "https://ocalog.com/post/10/" },
     ],
     privacy: [
       { name: "The GNU Privacy handbook",
